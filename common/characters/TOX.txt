@@ -1,0 +1,21 @@
+characters = {
+	TOX_Nexdore = {
+		name = "Nexdore"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TOX_Nexdore
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+	TOX_Neco_Touhou = {
+		name = "Neco Touhou"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TOX_Neco_Touhou
+			}
+		}
+	}
+}

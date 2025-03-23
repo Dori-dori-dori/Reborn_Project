@@ -1,0 +1,91 @@
+﻿l_russian:
+ 
+
+###ЭКНА
+
+
+ NYA_Great_Army: "Великая армия"
+ NYA_Great_Army_desc: "Армия великой ЭКНА готова к любому вызову и способна противостоять с любым противником."
+ NYA_Crushed_Goverment: "Уничтоженное государство"
+ NYA_Crushed_Goverment_desc: "Мы всё потеряли..."
+ NYA_Crushed_Army: "Уничтоженная армия"
+ NYA_Recreation_the_Goverment: "Перестановка в правительстве"
+ NYA_Reforming_Army: "Реформа армии"
+ NYA_Forged_New_Army: "Перекованная армия"
+ NYA_Forged_New_Army_desc: "Выкованная кровью и потом новая армия готова к мести и великому суду над всеми расистами."
+ NYA_Revived_Economy: "Возрожденная экономика"
+ NYA_Revived_Economy_desc: "Экономика нашей родины вновь на высоте, благодаря умелым лапкам."
+ NYA_Pay_For_Rebuilding: "Плата за перестройку"
+ NYA_Pay_For_Rebuilding_desc: "Человек, продавший экономику."
+ NYA_Burenya_Church: "Церковь Буренья"
+ NYA_Burenya_Church_desc: "Господи, благослави святую буреньяшку и её святую душу не запятнанную, да светится имя её всюду и везде, пусть уверуют в тебя, богоподобную, все ироды и иуды, что стремятся уничтожить наше государство великое, Аминь."
+ NYA_Mobilizing_Army: "Мобилизация войск"
+ NYA_Power_Armor: "Силовая броня"
+ NYA_Power_Armor_desc: "Не допускайте потерю дорогостоящего обмундирования, иначе тебе придется трудится 510 лет"
+ NYA_Search_And_Destroy: "Найти и уничтожить"
+ NYA_Search_And_Destroy_desc: "Система поиска иноагентов активирована."
+ NYA_Clearing_a_Country: "Чистка"
+ NYA_New_Weapon_Design: "Новый дизайн оружия"
+ NYA_Slaves: "Наличие рабов"
+ NYA_Slaves_desc: "Не спрашивайте, почему они без обуви работают, иначе они будут жалобно просить новые туфли"
+ NYA_Chemical_Weapons: "Химическое оружие"
+ NYA_Obey_Burenya: "Подчинитесь буреньяшке"
+ NYA_Researching_Process: "Идёт исследование"
+ NYA_Researching_Process_desc: "Вам не остановить мою глупенькость"
+ NYA_New_Era_Equipment: "Вооружение нового века"
+ NYA_New_Era_Equipment_1: "Вооружение нового века"
+ NYA_New_Era_Equipment_2: "Вооружение нового века"
+ NYA_New_Era_Science: "Наука нового века"
+
+
+###СССГ
+
+
+ SSG_VPO: "ВПК «Пролетарий»"
+ SSG_proletarian_army_arsenal_organization: "Компания «Чешуя Пети»"
+ SSG_hersones_arsenal_organization: "Арсенал Херсонеса"
+ SSG_power_poroh_artillery_organization: "Артилерии «Сила Пороха»"
+ SSG_sea_power_of_proletary_organization: "Флот «Морские Медведи»"
+ SSG_astral_organization: "Бронетехника «Астрал»"
+ SSG_stalitend_arms: "Региональный завод Сталитенда"
+ SSG_tank_war_korps: "Танковый военный корпус"
+ SSG_military_arms_proletary: "Снаряжение дяди Пролетария"
+ SSG_New_Step: "Новое время"
+ SSG_Witchers_Problem: "Проблема с Ведьмаками"
+ SSG_Witchers_Problem_desc: "Было довольно глупым решением присоединять их к СССГ, не удостоверившись в лояльности населения. Теперь вся страна усеяна гражданами из Ведьмачьего Королевства, которые не могут смирится с тем, что их страна так легко пала. Среди них, есть также и довольно радикальные лица, которые прибегают к террору населения, дабы обрести независимость, но этот путь лишь заставляет остальных жителей СССГ чувствовать ненависть к ним."
+ SSG_Non_Loyality_People: "Непослушные граждане"
+ SSG_Non_Loyality_People_desc: "Из-за нашей политики умиротворения в отношении к Ведьмакам, остальные гильдии сильно гневаются по этому поводу, считая, что мы с ними слишком мягки."
+ SSG_Instability_Country: "Нестабильное государство"
+ SSG_Instability_Country_desc: "Наша страна близка к распаду! Надо срочно что-нибудь предпринять и сохранить её!"
+ 
+
+
+###ОКСИД
+
+
+ OKS_kumar_electronic_organization: "IQOS"
+ OKS_kumar_guns_organization: "Оружейный концерн «Косячок»"
+ OKS_kumar_fleet_organization: "Флот накрытия"
+ OKS_kumar_light_tanks_organization: "Танки «Отходняк»"
+ OKS_kumar_medium_tanks_organization: "Тракторный завод «Лео-герыч»"
+ OKS_kumar_heavy_tanks_organization: "Танковый завод «Вена»"
+ OKS_kumar_artillery_organization: "Артиллерия им.Канье Уэээ"
+ OKS_kumar_light_planes_organization: "К.У.М.А.Р"
+ OKS_kumar_medium_planes_organization: "ОСК «Су-Семь»"
+ OKS_kumar_escort_ships_organization: "Флот прозрения"
+ OKS_Raskumar: "Раскумарное общество"
+ OKS_Raskumar_desc: "Жители Оксида слишком сильно пристрастились к наркотическим веществам и остальным психотропным вещам, которые «Возносят их к божеству». Как бы это абсурдно не звучало, но многие верят в это и активно возносят свой разум в Вальхаллу"
+ OKS_Moon_Light: "Лунный свет"
+ OKS_Moon_Light_desc: "Лунная призма, дай мне сил!"
+
+
+###Чайники
+
+
+ TEA_Biznes_Rastyot: "Бизнес растёт"
+
+
+###Агенты
+
+
+ NIG_Best_Agency: "Лучшее агентство"

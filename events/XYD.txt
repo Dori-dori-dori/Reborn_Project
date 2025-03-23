@@ -1,0 +1,37 @@
+add_namespace = XYD
+country_event = {
+	id = xyd.1
+	title = xyd.1.t
+	desc = xyd.1.d
+	picture = GFX_report_event_finnish_soldiers_snow
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = xyd.1.a
+		retire_country_leader = yes
+		set_politics = {
+            ruling_party = neutrality
+        }
+        add_country_leader_role = {
+            character = XYD_Kuwet
+            country_leader = { 
+                ideology = monarchy
+            }
+            promote_leader = yes
+        }
+		NYA ={
+			puppet = XYD
+			transfer_state = 184
+			add_state_core = 184
+		}
+	}
+	option = {
+		name = xyd.1.b
+		NYA={
+			create_wargoal = {
+				target = XYD
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+}

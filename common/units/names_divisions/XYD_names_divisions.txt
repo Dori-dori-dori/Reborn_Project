@@ -1,0 +1,22 @@
+XYD_INF_01 = {
+	name = "Division"
+
+	for_countries = { XYD }
+
+	can_use = {
+		always = yes
+	}
+
+	division_types = { "infantry" }
+	
+	fallback_name = "Xydownik Divisiya"
+
+	ordered = {
+		1 = { "Krasocnaya Divisiya"}
+		2 = { "Tokapaint Divisiya"}
+		3 = { "Krasivaya Divisiya"}
+		4 = { "Xydownikovaya Divisiya"}
+		5 = { "Metallnaya Divisiya"}
+		6 = { "Phoenixnaya Divisiya"}
+	}
+}

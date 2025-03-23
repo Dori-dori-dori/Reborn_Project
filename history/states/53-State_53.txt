@@ -1,0 +1,27 @@
+state={
+	id=53
+	name="STATE_53"
+
+	history={
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			anti_air_building = 3
+			4121 = { naval_base = 5 }
+		}
+
+	}
+
+	provinces={
+		291 579 725 737 980 1118 1218 1286 1406 1769 2021 2055 2124 2187 2311 2400 2420 2829 2957 3518 3799 3833 4108 4116 4121 4125 4134 4141 4167 4218 4240 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

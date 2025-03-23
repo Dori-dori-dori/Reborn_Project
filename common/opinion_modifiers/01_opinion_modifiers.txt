@@ -1,0 +1,11 @@
+opinion_modifiers = {
+	SSG_union = {
+		value = 30
+	}
+	SSG_rejected_union = {
+		value = -30
+	}
+	NYA_return_four_reich = {
+		value = -70
+	}
+}

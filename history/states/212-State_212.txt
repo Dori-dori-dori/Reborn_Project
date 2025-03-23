@@ -1,0 +1,28 @@
+state={
+	id=212
+	name="STATE_212"
+	
+	history={
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 4
+			anti_air_building = 1
+			dockyard = 1
+			1190 = { naval_base = 4 }
+			1304 = { naval_base = 6 }
+		}
+	}
+	resources = {
+		oil = 15
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		13 18 99 281 459 624 702 723 808 898 922 946 992 996 1180 1186 1190 1289 1304 1641 1654 1923 2113 2161 2591 2671 2674 2706 2780 2955 3255 3282 3466 3478 3684 3708 3815 5187 5188 5194 5205 5208 5212 5218 5222 5223 5225 5226 5227 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

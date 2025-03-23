@@ -1,0 +1,29 @@
+state={
+	id=121
+	name="STATE_121"
+
+	history={
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			anti_air_building = 1
+			3658 = { naval_base = 8 }
+		}
+
+	}
+
+	provinces={
+		261 394 1041 1607 1940 3004 3023 3030 3128 3513 3658 5224 5229 
+	}
+	resources = {
+		oil = 45
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

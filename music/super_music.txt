@@ -1,0 +1,44 @@
+music_station = "superevents"
+
+music = {
+	song = "The Man Who Sold The World"
+	chance = {
+		factor = 0	
+	}
+}
+music = {
+	song = "Limbus Company - Compass"
+	chance = {
+		factor = 0	
+	}
+}
+music = {
+	song = "Song of the Free Arabian Legion"
+	chance = {
+		factor = 0	
+	}
+}
+music = {
+	song = "Richard Sanderson - Reality"
+	chance = {
+		factor = 0	
+	}
+}
+music = {
+	song = "Armageddon"
+	chance = {
+		factor = 0	
+	}
+}
+music = {
+	song = "Soldat"
+	chance = {
+		factor = 0	
+	}
+}
+music = {
+	song = "Blood On The Cobblestones"
+	chance = {
+		factor = 0	
+	}
+}

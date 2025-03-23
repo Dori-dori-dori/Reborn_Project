@@ -1,0 +1,118 @@
+characters = {
+	SSG_Feeble = {
+		name = "Feeble"
+		portraits = {
+			army = {
+				large = GFX_portrait_SSG_Feeble
+			}
+			civilian = {
+				large = GFX_portrait_SSG_Feeble
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {
+				social_revolutionary
+				guardian_of_order
+			}
+			desc = SSG_leader_desc
+		} 
+	}
+	SSG_Akura = {
+		name = "Akura"
+		portraits = {
+			army = {
+				large = GFX_portrait_SSG_Akura
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SSG_Mesh = {
+		name = "Mesh"
+		portraits = {
+			army = {
+				large = GFX_portrait_SSG_Mesh
+			}
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SSG_Falzuri = {
+		name = "Falzuri"
+		portraits = {
+			army = {
+				large = GFX_portrait_SSG_Falzuri
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	SSG_Haip = {
+		name = "Haip"
+		portraits = {
+			army = {
+				large = GFX_portrait_SSG_Haip
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SSG_Natostor = {
+		name = "Natostor"
+		portraits = {
+			army = {
+				large = GFX_portrait_SSG_Natostor
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SSG_Spitfaer = {
+		name = "Spitfaer"
+		portraits = {
+			army = {
+				large = GFX_portrait_SSG_Spitfaer
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

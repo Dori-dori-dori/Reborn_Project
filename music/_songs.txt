@@ -1,0 +1,56 @@
+music_station = "RebornBlues"
+
+music = {
+	song = "maintheme"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "ghostdivision"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "greatwar"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "nightwitches"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "panzerbattalion"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "panzerkampf"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "primovictoria"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "resistandbite"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "theattackofthedeadmen"
+	chance = {
+		factor = 0.1	
+	}
+}

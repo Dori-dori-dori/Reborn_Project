@@ -1,0 +1,23 @@
+state={
+	id=199
+	name="STATE_199"
+	
+	history={
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 1
+			anti_air_building = 4 
+		}
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		57 75 126 277 319 367 435 489 625 637 912 1296 1346 1409 1508 1579 1711 1838 2923 2970 3521 3550 3826 5094 5111 5113 5116 5135 5141 5152 5156 5165 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

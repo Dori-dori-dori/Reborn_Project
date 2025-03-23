@@ -1,0 +1,39 @@
+TEA_INF_01 = {
+	name = "Mini"
+
+	for_countries = { TEA }
+
+	can_use = {
+		always = yes
+	}
+
+	division_types = {"infantry"}
+	
+	fallback_name = "Tea Cups"
+
+	ordered = {
+		1 = { "Ahmad-Tea Cup"}
+		2 = { "Richard Cup"}
+		3 = { "Aztea Cup"}
+		4 = { "Cupper Cup"}
+		5 = { "Green Tea Cup"}		
+	}
+}
+
+TEA_INF_02 = {
+	name = "Infantry"
+
+	for_countries = { TEA }
+
+	can_use = {
+		always = yes
+	}
+
+	division_types = {"infantry"}
+	
+	fallback_name = "Tea Glass"
+
+	ordered = {
+		1 = { "Kipyatok Cup" }		
+    }
+}

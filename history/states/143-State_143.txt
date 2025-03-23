@@ -1,0 +1,27 @@
+state={
+	id=143
+	name="STATE_143"
+	
+	history={
+		owner = NIG
+		add_core_of = NIG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			anti_air_building = 3
+
+		}
+	}
+	resources = {
+		steel = 50
+		aluminium = 34
+	}
+	buildings_max_level_factor=1.000
+    
+	provinces={
+		24 193 211 457 461 520 556 707 743 938 1166 1556 1566 1575 1730 1846 1904 2168 2464 2661 2789 2815 3137 3156 3451 3469 4755 4760 4782 4798 4801 4824 4832 4835 4845 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

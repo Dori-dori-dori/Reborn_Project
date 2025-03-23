@@ -1,0 +1,6 @@
+OKS_civil_war_prepare = {
+	icon = generic_research
+	visible = {
+		tag = OKS
+	}
+}

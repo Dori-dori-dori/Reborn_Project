@@ -1,0 +1,517 @@
+special_projects = {
+	new_factory_construction = {
+		icon = GFX_decision_category_gre_paying_ifc_debt
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+				has_country_flag = nya_research
+			}
+		}
+
+		visible = {
+			has_completed_focus = NYA_New_Weapon
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+
+		days_remove = 120
+
+		complete_effect = {
+			add_timed_idea = {
+				idea = NYA_Researching_Process
+				days = 120
+			}
+			set_country_flag = nya_research
+		}
+
+		remove_effect = {
+			country_event = ekna.5
+		}
+	}
+}
+special_projects = {
+	new_weapon_design = {
+		icon = GFX_decision_category_gre_paying_ifc_debt
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+				has_country_flag = nya_research
+			}
+		}
+
+		visible = {
+			has_completed_focus = NYA_New_Weapon
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+
+		days_remove = 120
+
+		complete_effect = {
+			add_timed_idea = {
+				idea = NYA_Researching_Process
+				days = 120
+			}
+			set_country_flag = nya_research
+		}
+
+		remove_effect = {
+			country_event = ekna.6
+		}
+	}
+}
+special_projects = {
+	improve_tanks = {
+		icon = GFX_decision_category_gre_paying_ifc_debt
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+				has_country_flag = nya_research
+			}
+			has_idea = NYA_New_Era_Equipment
+		}
+
+		visible = {
+			has_completed_focus = NYA_New_Weapon
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+
+		days_remove = 120
+
+		complete_effect = {
+			add_timed_idea = {
+				idea = NYA_Researching_Process
+				days = 120
+			}
+			set_country_flag = nya_research
+		}
+
+		remove_effect = {
+			country_event = ekna.7
+		}
+	}
+}
+special_projects = {
+	planes_upgrade = {
+		icon = GFX_decision_category_gre_paying_ifc_debt
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+				has_country_flag = nya_research
+			}
+			has_idea = NYA_New_Era_Equipment_1
+		}
+
+		visible = {
+			has_completed_focus = NYA_New_Weapon
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+
+		days_remove = 120
+
+		complete_effect = {
+			add_timed_idea = {
+				idea = NYA_Researching_Process
+				days = 120
+			}
+			set_country_flag = nya_research
+		}
+
+		remove_effect = {
+			country_event = ekna.8
+		}
+	}
+}
+special_projects = {
+	harder_better_faster_stronger = {
+		icon = GFX_decision_category_gre_paying_ifc_debt
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+				has_country_flag = nya_research
+			}
+			has_idea = NYA_New_Era_Equipment_2
+		}
+
+		visible = {
+			has_completed_focus = NYA_New_Weapon
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+
+		days_remove = 120
+
+		complete_effect = {
+			add_timed_idea = {
+				idea = NYA_Researching_Process
+				days = 120
+			}
+			set_country_flag = nya_research
+		}
+
+		remove_effect = {
+			country_event = ekna.9
+		}
+	}
+}
+operations = {
+	xyd_new_leader = {
+		icon = GFX_surrender_tiny_flag
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			XYD = {
+				is_puppet_of = NYA
+			}
+			has_completed_focus = NYA_Start_of_an_Empire
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			XYD = {
+				add_country_leader_role = {
+					character = XYD_Kuwet
+					country_leader = { 
+						ideology = monarchy
+					}
+					promote_leader = yes
+				}
+				set_politics = {
+					ruling_party = neutrality
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.65
+				}
+			}
+		}
+	}
+	oks_new_goverment = {
+		icon = GFX_surrender_tiny_flag
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			OKS = {
+				else = {
+					exists = no
+				}
+				or = {
+					is_puppet_of = NYA
+					exists = no
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = NYA_One_Way_One_Race_One_Fuhrer
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			release_autonomy = {
+				target = OKS
+				autonomy_state = autonomy_personal_union
+			}
+			OKS = {
+				set_politics = {
+					ruling_party = despotism
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.65
+				}
+				add_country_leader_role = {
+					character = OKS_Neco_Kumar
+					country_leader = {
+						ideology = esoteric_nazism
+					}
+					promote_leader = yes 
+				}
+				set_cosmetic_tag = OKS_blacksun
+				
+			}
+		}
+	}
+	kfc_new_goverment = {
+		icon = GFX_surrender_tiny_flag
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			KFC = {
+				else = {
+					exists = no
+				}
+				or = {
+					is_puppet_of = NYA
+					exists = no
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = NYA_One_Way_One_Race_One_Fuhrer
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			release_autonomy = {
+				target = KFC
+				autonomy_state = autonomy_personal_union
+			}
+			KFC = {
+				set_politics = {
+					ruling_party = despotism
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.65
+				}
+				add_country_leader_role = {
+					character = KFC_Neco_Techno
+					country_leader = {
+						ideology = esoteric_nazism
+					}
+					promote_leader = yes 
+				}
+				set_cosmetic_tag = KFC_blacksun
+			}
+		}
+	}
+	nig_new_goverment = {
+		icon = GFX_surrender_tiny_flag
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			NIG = {
+				else = {
+					exists = no
+				}
+				or = {
+					is_puppet_of = NYA
+					exists = no
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = NYA_One_Way_One_Race_One_Fuhrer
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			release_autonomy = {
+				target = NIG
+				autonomy_state = autonomy_personal_union
+			}
+			NIG = {
+				set_politics = {
+					ruling_party = despotism
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.65
+				}
+				add_country_leader_role = {
+					character = NIG_Neco_Watson
+					country_leader = {
+						ideology = esoteric_nazism
+					}
+					promote_leader = yes 
+				}
+				set_cosmetic_tag = NIG_blacksun
+			}
+		}
+	}
+	tox_new_goverment = {
+		icon = GFX_surrender_tiny_flag
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			TOX = {
+				else = {
+					exists = no
+				}
+				or = {
+					is_puppet_of = NYA
+					exists = no
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = NYA_One_Way_One_Race_One_Fuhrer
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			release_autonomy = {
+				target = TOX
+				autonomy_state = autonomy_personal_union
+			}
+			TOX = {
+				set_politics = {
+					ruling_party = despotism
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.65
+				}
+				add_country_leader_role = {
+					character = TOX_Neco_Touhou
+					country_leader = {
+						ideology = esoteric_nazism
+					}
+					promote_leader = yes 
+				}
+				set_cosmetic_tag = TOX_blacksun
+			}
+		}
+	}
+	tea_new_goverment = {
+		icon = GFX_surrender_tiny_flag
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			TEA = {
+				else = {
+					exists = no
+				}
+				or = {
+					is_puppet_of = NYA
+					exists = no
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = NYA_One_Way_One_Race_One_Fuhrer
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			release_autonomy = {
+				target = TEA
+				autonomy_state = autonomy_personal_union
+			}
+			TEA = {
+				set_politics = {
+					ruling_party = despotism
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.65
+				}
+				add_country_leader_role = {
+					character = TEA_Neco_Pilker
+					country_leader = {
+						ideology = esoteric_nazism
+					}
+					promote_leader = yes 
+				}
+				set_cosmetic_tag = TEA_blacksun
+			}
+		}
+	}
+	kfc_intergate_goverment = {
+		icon = GFX_surrender_tiny_flag
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			KFC = {
+				is_puppet_of = NYA
+			}
+		}
+
+		visible = {
+			has_completed_focus = NYA_One_Way_One_Race_One_Fuhrer
+		}
+
+		fire_only_once = yes
+
+		cost = 250
+
+		complete_effect = {
+			KFC = {
+				every_core_state = {
+				   add_core_of = NYA
+				}
+				transfer_navy = {
+					target = NYA
+				}
+				transfer_units_fraction = {
+					target = NYA
+				}
+			}
+			annex_country = {
+				target = KFC
+			}
+		}
+	}
+}

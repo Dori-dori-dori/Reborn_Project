@@ -1,0 +1,50 @@
+leader_traits = {
+	guardian_of_order = {
+		random = no
+		political_power_factor = 0.25
+		stability_factor = 0.10
+		targeted_modifier = {
+			tag = NYA
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.10
+		}
+	}
+	majima_follower = {
+		random = no
+		production_speed_arms_factory_factor = 0.10
+		despotism_drift = 0.1
+		war_support_factor = 0.10
+	}
+	military_saint = {
+		random = 0
+		stability_weekly = 0.01
+		weekly_casualties_war_support = 0.05
+		army_org_factor = 0.1
+	}
+	diamond_dog = {
+		random = 0
+		army_attack_factor = 0.15
+		army_org_regain = 0.1
+	}
+	last_man = {
+		random = 0
+		weekly_manpower = 500
+		political_power_gain = 0.2
+	}
+	free_mind = {
+		random = 0
+		political_power_gain = 0.20
+		trade_opinion_factor = 0.5
+	}
+	closed_mind = {
+		random = 0
+		political_power_factor = 0.05
+		war_stability_factor = 0.4
+		war_support_factor = 0.1
+	}
+	mad_mind = {
+		random = 0
+		war_support_factor = 0.2
+		army_attack_factor = 0.1
+	}
+}

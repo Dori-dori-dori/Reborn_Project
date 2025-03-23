@@ -1,0 +1,29 @@
+state={
+	id=195
+	name="STATE_195"
+
+	history={
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			anti_air_building = 4 
+			dockyard = 1
+		}
+
+	}
+	resources = {
+		rubber = 40
+	}
+
+	provinces={
+		226 339 342 736 966 1085 1134 1443 1485 1821 1958 2131 2140 2270 2502 2858 2917 3425 3627 3785 5049 5074 5106 5121 5140 5164 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

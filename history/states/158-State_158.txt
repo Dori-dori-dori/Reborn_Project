@@ -1,0 +1,24 @@
+state={
+	id=158
+	name="STATE_158"
+	
+	history={
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			anti_air_building = 2
+		
+		}
+	
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		5 243 599 619 777 1197 1241 1768 2052 2100 2114 2292 3035 3145 3375 3600 4826 4839 4862 4864 4899 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

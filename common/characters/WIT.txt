@@ -1,0 +1,112 @@
+characters = {
+	WIT_Time_Goverment = {
+		name = "Time Parlament"
+		portraits = {
+			civilian = {
+				large = GFX_timeparliament
+			}
+		}
+		country_leader = {
+			ideology = moderatism
+			traits = {
+			}
+		} 
+	}
+	WIT_Spirt = {
+		name = "Spirt"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_WIT_Spirt
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	WIT_Fable = {
+		name = "Fable"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_WIT_fable
+			}
+		}
+	}
+	WIT_Women = {
+		name = "Mistress «Revolver» Anastasia Acelot"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_WIT_Mistress_Revolver_Acelot_Anastasia
+			}
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	WIT_Diporaz = {
+		name = "Diporaz"
+		portraits = {
+			army = {
+				large = GFX_portrait_WIT_Diporaz
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 4
+			traits = {
+				operative_demolition_expert
+			}
+		}
+	}
+	WIT_Dovnoblan = {
+		name = "Dovnoblan"
+		portraits = {
+			army = {
+				large = GFX_portrait_WIT_Dovnoblan
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+			traits = {
+				aggressive_assaulter
+			}
+		}
+	}
+	WIT_Timmal = {
+		name = "Timmal"
+		portraits = {
+			army = {
+				large = GFX_portrait_WIT_Timmal
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	WIT_Neco_Witcher = {
+		name = "Neco Witcher"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_WIT_Neco_Witcher
+			}
+		}
+	}
+}

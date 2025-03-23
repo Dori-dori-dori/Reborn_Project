@@ -1,0 +1,40 @@
+characters = {
+	TEA_ChzaGeek = {
+		name = "ChzaGeek"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TEA_ChzaGeek
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {
+				SWE_minister_of_trade
+			}
+			desc = SSG_leader_desc
+		} 
+	}
+	TEA_Pelmesh = {
+		name = "Pelmen"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TEA_pelmen
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {
+				liberal_democratic_paragon
+				SWE_minister_of_trade
+			}
+		}
+	}
+	TEA_Neco_Pilker = {
+		name = "Neco Pilker"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TEA_Neco_Pilker
+			}
+		}
+	}
+}

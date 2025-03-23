@@ -1,0 +1,185 @@
+music = {
+	name = "maintheme"
+	file = "maintheme.ogg"
+	volume = 1
+}
+music = {
+	name = "ghostdivision"
+	file = "ghostdivision.ogg"
+	volume = 1
+}
+music = {
+	name = "greatwar"
+	file = "greatwar.ogg"
+	volume = 1
+}
+music = {
+	name = "nightwitches"
+	file = "nightwitches.ogg"
+	volume = 1
+}
+music = {
+	name = "panzerbattalion"
+	file = "panzerbattalion.ogg"
+	volume = 1
+}
+music = {
+	name = "panzerkampf"
+	file = "panzerkampf.ogg"
+	volume = 1
+}
+music = {
+	name = "primovictoria"
+	file = "primovictoria.ogg"
+	volume = 1
+}
+music = {
+	name = "resistandbite"
+	file = "resistandbite.ogg"
+	volume = 1
+}
+music = {
+	name = "theattackofthedeadmen"
+	file = "theattackofthedeadmen.ogg"
+	volume = 1
+}
+music = {
+	name = "Breackcore"
+	file = "Breackcore.ogg"
+	volume = 1
+}
+music = {
+	name = "Brent_Faiyaz_type_beat"
+	file = "Brent_Faiyaz_type_beat.ogg"
+	volume = 1
+}
+music = {
+	name = "Brokey"
+	file = "Brokey.ogg"
+	volume = 1
+}
+music = {
+	name = "demo"
+	file = "demo.ogg"
+	volume = 1
+}
+music = {
+	name = "Dreamcloud"
+	file = "Dreamcloud.ogg"
+	volume = 1
+}
+music = {
+	name = "Fayaaaaa"
+	file = "Fayaaaaa.ogg"
+	volume = 1
+}
+music = {
+	name = "Greed"
+	file = "Greed.ogg"
+	volume = 1
+}
+music = {
+	name = "Honolulu"
+	file = "Honolulu.ogg"
+	volume = 1
+}
+music = {
+	name = "I_Cant_Wait"
+	file = "I_Cant_Wait.ogg"
+	volume = 1
+}
+music = {
+	name = "Last_Wish"
+	file = "Last_Wish.ogg"
+	volume = 1
+}
+music = {
+	name = "Lies"
+	file = "Lies.ogg"
+	volume = 1
+}
+music = {
+	name = "Light_Temple"
+	file = "Light_Temple.ogg"
+	volume = 1
+}
+music = {
+	name = "Love_Potion"
+	file = "Love_Potion.ogg"
+	volume = 1
+}
+music = {
+	name = "n3w_jazzik"
+	file = "n3w_jazzik.ogg"
+	volume = 1
+}
+music = {
+	name = "Nightwave"
+	file = "Nightwave.ogg"
+	volume = 1
+}
+music = {
+	name = "NVM"
+	file = "NVM.ogg"
+	volume = 1
+}
+music = {
+	name = "Passion_slave"
+	file = "Passion_slave.ogg"
+	volume = 1
+}
+music = {
+	name = "Promises"
+	file = "Promises.ogg"
+	volume = 1
+}
+music = {
+	name = "Pure_Light_Temple"
+	file = "Pure_Light_Temple.ogg"
+	volume = 1
+}
+music = {
+	name = "Soulful"
+	file = "Soulful.ogg"
+	volume = 1
+}
+music = {
+	name = "Wondering_in_the_sky"
+	file = "Wondering_in_the_sky.ogg"
+	volume = 1
+}
+music = {
+	name = "The Man Who Sold The World"
+	file = "The_Man_Who_Sold_The_World.ogg"
+	volume = 1
+}
+music = {
+	name = "Limbus Company - Compass"
+	file = "Limbus Company - Compass.ogg"
+	volume = 1
+}
+music = {
+	name = "Song of the Free Arabian Legion"
+	file = "Song of the Free Arabian Legion.ogg"
+	volume = 1
+}
+music = {
+	name = "Richard Sanderson - Reality"
+	file = "Richard Sanderson - Reality.ogg"
+	volume = 1
+}
+music = {
+	name = "Armageddon"
+	file = "Armageddon.ogg"
+	volume = 1
+}
+music = {
+	name = "Soldat"
+	file = "Soldat.ogg"
+	volume = 1
+}
+music = {
+	name = "Blood On The Cobblestones"
+	file = "Blood On The Cobblestones.ogg"
+	volume = 1
+}

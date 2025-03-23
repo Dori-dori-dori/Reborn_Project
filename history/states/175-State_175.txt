@@ -1,0 +1,27 @@
+state={
+	id=175
+	name="STATE_175"
+	
+	history={
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 4
+			anti_air_building = 4 
+		}
+	}
+	resources = {
+		steel = 50
+		chromium = 34
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		425 508 712 816 931 1088 1312 1403 1518 1527 1533 1578 1609 1678 1760 1949 2106 2121 2237 2306 2336 2931 3040 3065 3179 3663 3773 4961 4976 4986 5000 5011 5041 5053 5059 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

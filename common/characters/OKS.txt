@@ -1,0 +1,120 @@
+characters = {
+	OKS_Frimmur = {
+		name = "Frimmur"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_OKS_Frimmur
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {
+				great_war_hero
+			}
+		} 
+	}
+	OKS_Raul_Prime = {
+		name = "Jojo Division"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_OKS_Jojo_Division
+			}
+		}
+		country_leader = {
+			ideology = moderatism
+			traits = {
+				stalin_father_of_nations
+		    }
+	    }
+    }
+	OKS_Anastasia_Revolver_Ocelot = {
+		name = "Mistress_Revolver_Acelot_Anastasia"
+		portraits = {
+			army = {
+				large = GFX_portrait_OKS_Mistress_Revolver_Acelot_Anastasia
+			}
+		}
+		corps_commander = {
+			traits = { 
+			    media_personality
+			    harsh_leader commando
+		    }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+	    }
+    }
+
+	OKS_totally_bread = {
+		name = "Bread"
+		portraits = {
+			army = {
+				large = GFX_portrait_OKS_Totally_Bread
+			}
+		}
+		field_marshal = {
+			traits = { 
+				brilliant_strategist 
+				politically_connected war_hero 
+				logistics_wizard 
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	
+
+
+	OKS_Mamont = {
+		name = "Mamont"
+		portraits = {
+			army = {
+				large = GFX_portrait_OKS_Mamont
+			}
+		}
+		corps_commander = {
+			traits = { 
+				trait_reckless 
+				offensive_doctrine 
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	OKS_Mihairu = {
+		name = "Mihairu"
+		portraits = {
+			army = {
+				large = GFX_portrait_OKS_Mihairu
+			}
+		}
+		corps_commander = {
+			traits = { 
+				aggressive_assaulter 
+				offensive_doctrine 
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	OKS_Neco_Kumar = {
+		name = "Neco Kumar"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_OKS_Neco_Kumar
+			}
+		}
+	}
+}

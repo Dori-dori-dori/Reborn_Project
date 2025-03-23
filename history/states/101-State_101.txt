@@ -1,0 +1,28 @@
+state={
+	id=101
+	name="STATE_101"
+	
+	history={
+		owner = SSG
+		add_core_of = SSG
+		add_core_of = TOH
+		add_claim_by = WAR
+		add_claim_by = WIT
+		add_claim_by = PRO
+		add_claim_by = TOH
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 3
+			anti_air_building = 4
+			air_base = 3
+		}
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		51 128 177 1063 1489 1548 1573 1727 1880 1968 2222 2422 2459 2565 2764 2791 3050 3148 3213 3325 3430 3638 3878 4414 4415 4418 4425 4428 4450 4468 4480 4508 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

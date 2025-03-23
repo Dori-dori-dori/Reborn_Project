@@ -1,0 +1,31 @@
+state={
+	id=114
+	name="STATE_114"
+	
+	history={
+		owner = SSG
+		add_core_of = SSG
+		add_claim_by = WAR
+		add_claim_by = WIT
+		add_claim_by = PRO
+		add_claim_by = TOH
+		victory_points = { 1463 10 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 3
+			anti_air_building = 5
+		}
+	}
+	resources = {
+		oil = 57
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		297 348 477 514 958 971 976 1014 1074 1220 1283 1411 1451 1463 1666 1801 1819 2064 2105 2208 2331 2578 2929 2935 3060 3180 3189 3202 3285 3520 3530 3532 3540 3613 3628 3690 3752 3793 3843 4470 4492 4505 4535 4536 4540 4542 4554 4564 4577 4583 4587 4593 4603 4604 4612 4629 4643 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

@@ -1,0 +1,27 @@
+state={
+	id=24
+	name="STATE_24"
+
+	history={
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			885 = { naval_base = 5 }
+			4006 = { naval_base = 8 }
+		}
+
+	}
+
+	provinces={
+		293 885 1583 2472 2708 3288 3806 4006 4010 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

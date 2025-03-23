@@ -1,0 +1,26 @@
+state={
+	id=169
+	name="STATE_169"
+	
+	history={
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			anti_air_building = 5 
+		}
+	}
+	resources = {
+		steel = 55
+		aluminium = 34
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		162 583 651 1098 1101 1177 1469 1492 2406 2413 2707 3348 3789 4880 4905 4927 4937 4943 4987 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

@@ -1,0 +1,29 @@
+state={
+	id=104
+	name="STATE_104"
+
+	history={
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			anti_air_building = 2
+		}
+
+	}
+	resources = {
+		aluminium = 30
+		steel = 34
+	}
+
+	provinces={
+		284 584 636 795 840 879 896 905 947 1213 1473 1921 2024 2155 2204 2227 2302 2500 2770 2794 2906 3116 3441 3534 3579 3719 3822 4401 4402 4408 4440 4485 4491 4497 4537 4538 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

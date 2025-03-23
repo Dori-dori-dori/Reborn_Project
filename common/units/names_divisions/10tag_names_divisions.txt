@@ -1,0 +1,22 @@
+10tag_ING_01 = {
+	name = "Infantry"
+
+	for_countries = { 10tag }
+
+	can_use_always = yes
+
+	division_types = {"infantry"}
+	
+	fallback_name = "%dya Divisiya"
+
+	ordered = {
+		1 = { "%ya Divisiya" }
+		2 = { "%ya Divisiya" }
+		3 = { "%ya Divisiya" }
+		4 = { "%ya Divisiya" }
+		5 = { "%ya Divisiya" }
+		6 = { "%ya Divisiya" }
+		7 = { "%ya Divisiya" }
+		8 = { "%ya Divisiya" }
+	}
+}

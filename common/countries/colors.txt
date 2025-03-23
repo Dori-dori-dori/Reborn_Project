@@ -1,0 +1,85 @@
+#reload countrycolors
+ADF = {
+	color = rgb { 50 18 122 }
+	color_ui = rgb { 50 18 122 }
+}
+BOL = {
+	color = rgb { 172 183 142 }
+	color_ui = rgb { 172 183 142 }
+}
+BUL = {
+	color = rgb { 32 21 94 }
+	color_ui = rgb { 32 21 94 }
+}
+CHE = {
+	color = rgb { 255 240 245 }
+	color_ui = rgb { 255 240 245 }
+}
+FUT = {
+	color = rgb { 28 107 114 }
+	color_ui = rgb { 28 107 114 }
+}
+IDK = {
+	color = rgb { 59 131 189 }
+	color_ui = rgb { 59 131 189 }
+}
+KFC = {
+	color = rgb { 250 210 1 }
+	color_ui = rgb { 250 210 1 }
+}
+MET = {
+	color = rgb { 216 191 216 }
+	color_ui = rgb { 216 191 216 }
+}
+NIG = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+NYA = {
+	color = rgb { 139 0 0 }
+	color_ui = rgb { 139 0 0 }
+}
+OKS = {
+	color = rgb { 130 137 143 }
+	color_ui = rgb { 130 137 143 }
+}
+SSG = {
+	color = rgb { 78 84 82 }
+	color_ui = rgb { 78 84 82 }
+}
+TEA = {
+	color = rgb { 0 165 80 }
+	color_ui = rgb { 0 165 80 }
+}
+TOX = {
+	color = rgb { 255 36 0 }
+	color_ui = rgb { 255 36 0 }
+}
+XYD = {
+	color = rgb { 157 177 204 }
+	color_ui = rgb { 157 177 204 }
+}
+LOB = {
+	color = rgb { 255 255 163 }
+	color_ui = rgb { 255 255 163 }
+}
+PRO = {
+	color = rgb { 18 10 143 }
+	color_ui = rgb { 18 10 143 }
+}
+TOH = {
+	color = rgb { 199 21 133 }
+	color_ui = rgb { 199 21 133 }
+}
+WAR = {
+	color = rgb { 96 5 6 }
+	color_ui = rgb { 96 5 6 }
+}
+WIT = {
+	color = rgb { 15 79 15 }
+	color_ui = rgb { 15 79 15 }
+}
+MGS = {
+	color = rgb { 123 104 238 }
+	color_ui = rgb { 123 104 238 }
+}

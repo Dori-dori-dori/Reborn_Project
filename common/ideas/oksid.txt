@@ -1,0 +1,45 @@
+ideas = {
+	country = {
+		OKS_Raskumar = {
+			picture = raskumar
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_weekly = -0.03
+				war_support_weekly = -0.03
+				monthly_population = -0.2
+				recruitable_population_factor = -0.2
+			}
+		}
+	}
+	country = {
+		OKS_Moon_Light = {
+			picture = moon_light
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				army_org_factor = 0.1
+				army_org_regain = 0.05
+			}
+		}
+	}
+	industrial_concern = {
+		OKS_kumar_electronic_organization = {
+			allowed = {
+				tag = OKS
+			}
+			picture = kumar_electronic_organization
+			research_bonus = {
+				electronics = 0.15
+				encryption_tech = 0.1
+			}
+			traits = {
+				electronics_concern
+			}
+		}
+	}
+}

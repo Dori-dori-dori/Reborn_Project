@@ -1,0 +1,128 @@
+music_station = "RaulFM"
+
+music = {
+	song = "Breackcore"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Brent_Faiyaz_type_beat"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Brokey"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "demo"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Dreamcloud"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Fayaaaaa"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Greed"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Honolulu"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "I_Cant_Wait"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Last_Wish"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Lies"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Light_Temple"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Love_Potion"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "n3w_jazzik"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Nightwave"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "NVM"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Passion_slave"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Promises"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Pure_Light_Temple"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Soulful"
+	chance = {
+		factor = 0.1	
+	}
+}
+music = {
+	song = "Wondering_in_the_sky"
+	chance = {
+		factor = 0.1	
+	}
+}

@@ -1,0 +1,15 @@
+ideas = {
+	country = {
+		CHE_For_The_Motherland = {
+			picture = s
+			available = {
+				has_war_with = OKS
+				}
+			targeted_modifier = {
+				tag = OKS
+				attack_bonus_against = 0.2
+				defense_bonus_against = 0.2
+			}
+		}
+	}
+}

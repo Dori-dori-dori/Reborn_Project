@@ -1,0 +1,23 @@
+state={
+	id=163
+	name="STATE_163"
+	
+	history={
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
+			anti_air_building = 3
+		}
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		62 210 377 1376 1393 1613 1799 1927 2065 2196 2552 2916 2920 3205 3457 3462 3817 3818 4872 4887 4902 4912 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

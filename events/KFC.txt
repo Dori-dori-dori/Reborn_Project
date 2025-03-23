@@ -1,0 +1,59 @@
+add_namespace = KFC
+country_event = {
+	id = KFC.1
+	title = KFC.1.t
+	desc = KFC.1.d
+	picture = GFX_report_event_SOV_mongolia_cavalry
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		add_opinion_modifier = {
+			target = KFC
+			modifier = POL_treaty_with_lithuania
+		}
+		name = KFC.1.a
+		NYA ={
+			puppet = KFC
+		}
+	}
+	option = {
+		name = KFC.1.b
+		NYA={
+			create_wargoal = {
+				target = KFC
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+}
+country_event = {
+	id = KFC.2
+	title = KFC.2.t
+	desc = KFC.2.d
+	picture = GFX_report_event_SOV_mongolia_cavalry
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = KFC.2.a
+		125 = {
+			transfer_state_to = WIT
+		}
+		133 = {
+			transfer_state_to = WIT
+		}
+	}
+	option = {
+		name = KFC.2.b
+		every_other_country = {
+			limit = {
+				any_owned_state = {
+					is_core_of = SSG
+				}
+			}
+			create_wargoal = {
+				target = PREV
+				type = annex_everything
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+state={
+	id=32
+	name="STATE_32"
+
+	history={
+		owner = ADF
+		add_core_of = ADF
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 2
+			anti_air_building = 3
+		}
+
+	}
+	resources = {
+		chromium = 16
+		tungsten = 24
+	}
+
+	provinces={
+		345 606 1512 1584 3404 3596 4069 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

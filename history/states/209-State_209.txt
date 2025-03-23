@@ -1,0 +1,29 @@
+state={
+	id=209
+	name="STATE_209"
+	
+	history={
+		owner = NYA
+		add_core_of = NYA
+		victory_points = { 2822 30 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			anti_air_building = 2
+			air_base = 2
+			dockyard = 1
+			1963 = { naval_base = 4 }
+		}
+	}
+	resources = {
+		steel = 13
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		56 97 116 411 1226 1330 1433 1784 1839 1963 2142 2596 2656 2719 2822 2993 3308 3405 5173 5174 5183 5185 5189 5192 5201 5202 5213 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

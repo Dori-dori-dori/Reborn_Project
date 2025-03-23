@@ -1,0 +1,23 @@
+state={
+	id=125
+	name="STATE_125"
+	
+	history={
+		owner = KFC
+		add_core_of = SSG
+		victory_points = { 2278 5 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			anti_air_building = 2
+		}
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		66 192 538 943 949 1671 1762 2013 2278 2383 2399 2463 2971 3133 3245 3667 3731 4592 4609 4622 4628 4646 4648 4669 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

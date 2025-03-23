@@ -1,0 +1,74 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = { 
+					FROM = { 
+						tag = NYA 
+					}
+					has_completed_focus = NYA_Start_of_an_Empire
+					ROOT = { 
+						tag = XYD 
+					}
+				}
+				NYA = {
+					transfer_state = 184
+					add_state_core = 184
+					set_autonomy = {
+						target = XYD
+						autonomy_state = autonomy_personal_union
+					}
+				}
+				XYD = {
+					transfer_state = 179
+				}
+			}
+		}
+	}
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = { 
+					FROM = { 
+						tag = TOX
+					}
+					ROOT = { 
+						tag = OKS 
+					}
+				}
+				OKS = {
+					set_autonomy = {
+						target = TOX
+						autonomy_state = autonomy_personal_union
+					}
+					release = BUL
+					release = NIG
+				}
+			}
+		}
+	}
+	on_capitulation = {
+		effect = {
+			if = {
+                limit = {
+                    FROM = {
+                        all_controlled_state = {
+							is_core_of = SSG
+						}
+                    }
+                    ROOT = {
+                        tag = SSG
+                    }
+                }
+
+                every_state = {
+                    limit = { 
+                      is_owned_by = SSG
+                      is_controlled_by = FROM
+                    }
+                    transfer_state_to = FROM
+                }
+            }
+		}
+	}
+}

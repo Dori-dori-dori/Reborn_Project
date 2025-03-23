@@ -1,0 +1,30 @@
+state={
+	id=170
+	name="STATE_170"
+
+	history={
+		owner = KFC
+		add_core_of = KFC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			anti_air_building = 3
+			3516 = { naval_base = 7 }
+		}
+
+	}
+	resources = {
+		steel = 25
+	}
+
+	provinces={
+		386 742 862 1961 2963 3253 3516 3631 3723 3736 3846 4968 4988 4992 5005 5025 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

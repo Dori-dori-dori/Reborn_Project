@@ -1,0 +1,27 @@
+state={
+	id=160
+	name="STATE_160"
+	
+	history={
+		owner = NIG
+		add_core_of = NIG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+			anti_air_building = 2
+		}
+	}
+	resources = {
+		steel = 30
+		chromium = 15
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		184 820 894 1103 1248 1493 2023 2104 2499 2515 2559 2688 2709 3281 3290 3365 3879 4820 4852 4863 4877 4918 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

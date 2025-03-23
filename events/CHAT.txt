@@ -1,0 +1,12 @@
+add_namespace = CHAT
+
+country_event = {
+	id = chat.1
+	desc = chat.1.d
+	title = chat.1.t
+	is_triggered_only = yes
+	option = {
+ 	    name = chat.1.a
+ 	    add_ideas = CHE_For_The_Motherland
+	}
+}

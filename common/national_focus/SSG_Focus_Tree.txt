@@ -1,0 +1,1746 @@
+focus_tree = {
+	id = SSG_Focus_Tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SSG
+		}
+	}
+	default = no
+	focus = {
+		id = SSG_Droblenie
+		icon = GFX_goal_droblenie
+		cost = 5.00
+		x = 8
+		y = 0
+		mutually_exclusive = {
+			focus = SSG_Unity
+		}
+		available = {
+			tag = SSG
+		}
+		bypass_if_unavailable = yes
+		completion_reward = {
+			hidden_effect = {
+				news_event = news.2
+				play_song = "Limbus Company - Compass"
+				remove_ideas = SSG_Witchers_Problem
+				release = WAR
+			    release = PRO
+			    release = TOH
+			    release = WIT
+			    declare_war_on = {
+				    target = WAR
+				    type = annex_everything
+		        }
+			    declare_war_on = {
+				    target = PRO
+				    type = annex_everything
+		    	}
+			    declare_war_on = {
+				    target = TOH
+				    type = annex_everything
+			    }
+			    declare_war_on = {
+				    target = WIT
+				    type = annex_everything
+			    }
+				WIT = {
+					declare_war_on = {
+						target = WAR
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = PRO
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = TOH
+						type = annex_everything
+					}
+					set_country_flag = SSG_civil_war
+				}
+				WAR = {
+					declare_war_on = {
+						target = PRO
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = TOH
+						type = annex_everything
+					}
+					set_country_flag = SSG_civil_war
+				}
+				PRO = {
+					declare_war_on = {
+						target = TOH
+						type = annex_everything
+					}
+					set_country_flag = SSG_civil_war
+				}
+				TOH = {
+					add_opinion_modifier = {
+						target = TOX
+						modifier = ETH_closer_cooperation
+					}
+					set_country_flag = SSG_civil_war
+				}
+				country_event = ssg.1	
+			}
+			custom_effect_tooltip = SSG_start_civil_war
+			set_country_flag = SSG_civil_war
+			OKS = {
+				country_event = oksid.1
+			}
+		}
+
+	}
+	focus = {
+		id = SSG_Fix_Economy
+		icon = GFX_focus_NORDIC_com_capstone_civilian
+		cost = 10.00
+		x = 58
+		y = 0
+		available = {
+			if = {
+				limit = { original_tag = SSG }
+				has_completed_focus = SSG_Unity
+			}
+			if = {
+				limit = { original_tag = WIT }
+				has_completed_focus = SSG_Witchers
+			}
+			has_war = no
+		}
+		completion_reward = {
+			custom_effect_tooltip = SSG_economy_fixing
+			add_to_variable = { SSG_production_speed_industrial_complex_factor = 0.05 }
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+			}
+		}
+	}
+	focus = {
+		id = SSG_Nefors
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Droblenie
+		available = {
+			has_war = no
+			is_ai = no
+		}
+		prerequisite = {
+			focus = SSG_Droblenie
+		}
+		mutually_exclusive = {
+			focus = SSG_Hersones_Wall
+			focus = SSG_Witchers
+		}
+		x = -4
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Witchers
+		icon = GFX_goal_witchers
+		cost = 1.00
+		relative_position_id = SSG_Droblenie
+		available = {
+			WIT = {
+				has_war = no
+			}
+			tag = WIT
+		}
+		prerequisite = {
+			focus = SSG_Droblenie
+		}
+		mutually_exclusive = {
+			focus = SSG_Hersones_Wall
+			focus = SSG_Nefors
+		}
+		completion_reward = {
+			add_dynamic_modifier = {
+				modifier = SSG_Destroyed_Economy
+			}
+			clr_country_flag = SSG_civil_war
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Alcohol_Way
+		icon = GFX_goal_alcohol_way
+		cost = 10.00
+		relative_position_id = SSG_Witchers
+		allow_branch = {
+			tag = WIT
+		}
+		prerequisite = {
+			focus = SSG_Witchers
+		}
+		mutually_exclusive = {
+			focus = SSG_Fable_Way
+		}
+		completion_reward = {
+			add_country_leader_role = {
+				character = WIT_Spirt
+				country_leader = {
+					ideology = marxism
+					traits = { the_gentleman_president }
+				}
+				promote_leader = yes 
+			}
+			set_politics = {
+				ruling_party = communism
+			}
+		}
+		x = -8
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Alcohol_Ruina
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_Way
+		prerequisite = {
+			focus = SSG_Alcohol_Way
+		}
+		mutually_exclusive = {
+			focus = SSG_Alcohol_Shiz
+		}
+		completion_reward = {
+			hidden_effect = {
+				add_stability = -1
+				add_war_support = -1
+			}
+			custom_effect_tooltip = ssg_alcohol_spirt
+		}
+		x = -2
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Alcohol_Shiz
+		icon = GFX_goal_alcohol_shiz
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_Way
+		prerequisite = {
+			focus = SSG_Alcohol_Way
+		}
+		mutually_exclusive = {
+			focus = SSG_Alcohol_Ruina
+		}
+		completion_reward = {
+			capital_scope = {
+				add_building_construction = {
+					type = nuclear_facility
+					instant_build = yes
+					province = 2172
+					level = 1
+				}
+			}
+			add_breakthrough_points = {
+				specialization = specialization_nuclear
+				value = 2
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Alcohol_Yugoslavia_Reference
+		icon = GFX_goal_alcohol_yugoslavia_reference
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_Shiz
+		prerequisite = {
+			focus = SSG_Alcohol_Shiz
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Alcohol_Friendship_Ebalo
+		icon = GFX_goal_alcohol_friendship_ebalo
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_Yugoslavia_Reference
+		prerequisite = {
+			focus = SSG_Alcohol_Yugoslavia_Reference
+		}
+		completion_reward = {
+			every_country = {
+				add_opinion_modifier = {
+					target = THIS
+					modifier = unholy_alliance_opinion
+				}
+			}
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Alcohol_Create_Alliance
+		icon = GFX_goal_alcohol_create_alliance
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_Yugoslavia_Reference
+		prerequisite = {
+			focus = SSG_Alcohol_Yugoslavia_Reference
+		}
+		completion_reward = {
+			create_faction = alcohol_union
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Alcohol_New_Step
+		icon = GFX_goal_alcohol_new_step
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_Yugoslavia_Reference
+		prerequisite = {
+			focus = SSG_Alcohol_Yugoslavia_Reference
+		}
+		prerequisite = {
+			focus = SSG_Alcohol_Create_Alliance
+		}
+		prerequisite = {
+			focus = SSG_Alcohol_Friendship_Ebalo
+		}
+		completion_reward = {
+			set_country_flag = ssg_alcohol_union
+			custom_effect_tooltip = ssg_alcohol_union_decisions
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Alcohol_Burenya
+		icon = GFX_goal_alcohol_burenya
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_New_Step
+		prerequisite = {
+			focus = SSG_Alcohol_New_Step
+		}
+		completion_reward = {
+			NYA = {
+				country_event = ssg.4
+			}
+		}
+		x = -3
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Alcohol_Swamps
+		icon = GFX_goal_alcohol_swamps
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_New_Step
+		prerequisite = {
+			focus = SSG_Alcohol_New_Step
+		}
+		completion_reward = {
+			BOL = {
+				country_event = ssg.4
+			}
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Hersones_Wall
+		icon = GFX_goal_hersones_wall
+		cost = 10.00
+		relative_position_id = SSG_Droblenie
+		available = {
+			has_war = no
+			is_ai = no
+		}
+		prerequisite = {
+			focus = SSG_Droblenie
+		}
+		mutually_exclusive = {
+			focus = SSG_Witchers
+			focus = SSG_Nefors
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Alcohol_IDNK
+		icon = GFX_goal_alcohol_IDNK
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_New_Step
+		prerequisite = {
+			focus = SSG_Alcohol_New_Step
+		}
+		completion_reward = {
+			IDK = {
+				country_event = ssg.4
+			}
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Alcohol_IDNK_Active-on
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_IDNK
+		prerequisite = {
+			focus = SSG_Alcohol_IDNK
+		}
+		completion_reward = {
+			IDK = {
+				every_core_state = {
+					add_core_of = FROM
+				}
+			}
+			country_event = ssg.5
+		}
+		x = 0
+		y = 1
+		bypass = {
+			or = {
+				has_non_aggression_pact_with = WIT
+				is_in_faction_with = WIT
+			}
+		}
+
+	}
+	focus = {
+		id = SSG_Fable_Way
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Witchers
+		allow_branch = {
+			tag = WIT
+		}
+		prerequisite = {
+			focus = SSG_Witchers
+		}
+		mutually_exclusive = {
+			focus = SSG_Alcohol_Way
+			focus = SSG_Women_Way
+		}
+		completion_reward = {
+			add_country_leader_role = {
+				character = WIT_Fable
+				country_leader = {
+					ideology = military_junta
+					traits = { the_gentleman_president }
+				}
+				promote_leader = yes 
+			}
+			set_politics = {
+				ruling_party = despotism
+			}
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Fable_Agency_Games
+		icon = GFX_goal_fable_agency_games
+		cost = 10.00
+		relative_position_id = SSG_Fable_Way
+		prerequisite = {
+			focus = SSG_Fable_Way
+		}
+		x = -3
+		y = 1
+		completion_reward = {
+			create_intelligence_agency = yes
+		}
+	}
+	focus = {
+		id = SSG_Fable_Clone_Factory
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Fable_Way
+		prerequisite = {
+			focus = SSG_Fable_Way
+		}
+		x = -1
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Fable_Troll_Factory
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Fable_Way
+		prerequisite = {
+			focus = SSG_Fable_Way
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Fable_Preparations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Fable_Troll_Factory
+		prerequisite = {
+			focus = SSG_Fable_Troll_Factory
+		}
+		prerequisite = {
+			focus = SSG_Fable_Clone_Factory
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Fable_AntiKumars
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Fable_Preparations
+		prerequisite = {
+			focus = SSG_Fable_Preparations
+		}
+		x = -2
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Fable_Opium_Army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Fable_Preparations
+		prerequisite = {
+			focus = SSG_Fable_Preparations
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Fable_Copium_Diplomacy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Fable_Preparations
+		prerequisite = {
+			focus = SSG_Fable_Preparations
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Fable_Kill_Kumar
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Fable_Opium_Army
+		prerequisite = {
+			focus = SSG_Fable_AntiKumars
+			focus = SSG_Fable_Opium_Army
+			focus = SSG_Fable_Copium_Diplomacy
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Fable_Propagandons
+		icon = GFX_goal_fable_propagandons
+		cost = 10.00
+		relative_position_id = SSG_Fable_Way
+		prerequisite = {
+			focus = SSG_Fable_Way
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Fable_No_Food
+		icon = GFX_goal_fable_no_food
+		cost = 10.00
+		relative_position_id = SSG_Fable_Way
+		prerequisite = {
+			focus = SSG_Fable_Way
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Fable_All_For_Army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Fable_No_Food
+		prerequisite = {
+			focus = SSG_Fable_No_Food
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Fable_Terror
+		icon = GFX_goal_fable_terror
+		cost = 10.00
+		relative_position_id = SSG_Fable_Way
+		prerequisite = {
+			focus = SSG_Fable_Way
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Fable_Mind_Police
+		icon = GFX_goal_fable_mind_police
+		cost = 10.00
+		relative_position_id = SSG_Fable_Terror
+		prerequisite = {
+			focus = SSG_Fable_Terror
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Fable_Fascismo
+		icon = GFX_goal_fable_fascismo
+		cost = 10.00
+		relative_position_id = SSG_Fable_Way
+		prerequisite = {
+			focus = SSG_Fable_Way
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Fable_Size_Not_Matter
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Fable_Fascismo
+		prerequisite = {
+			focus = SSG_Fable_Fascismo
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Fable_Floppa
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Fable_Size_Not_Matter
+		prerequisite = {
+			focus = SSG_Fable_Size_Not_Matter
+		}
+		prerequisite = {
+			focus = SSG_Fable_All_For_Army
+		}
+		x = -2
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Women_Way
+		icon = GFX_goal_women_way
+		cost = 10.00
+		relative_position_id = SSG_Witchers
+		allow_branch = {
+			tag = WIT
+		}
+		prerequisite = {
+			focus = SSG_Witchers
+		}
+		mutually_exclusive = {
+			focus = SSG_Fable_Way
+		}
+		completion_reward = {
+			add_country_leader_role = {
+				character = WIT_Women
+				country_leader = {
+					ideology = nazism
+					traits = { the_gentleman_president }
+				}
+				promote_leader = yes 
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+			country_event = ssg.6
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Women_Continue
+		icon = GFX_goal_women_continue
+		cost = 10.00
+		relative_position_id = SSG_Women_Way
+		prerequisite = {
+			focus = SSG_Women_Way
+		}
+		mutually_exclusive = {
+			focus = SSG_Women_Slashers
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Women_Democraty_Facade
+		icon = GFX_goal_women_democraty_facade
+		cost = 10.00
+		relative_position_id = SSG_Women_Continue
+		prerequisite = {
+			focus = SSG_Women_Continue
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.15
+			}
+		}
+		x = -2
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Women_Kill_Spermobak
+		icon = GFX_goal_women_kill_spermobak
+		cost = 10.00
+		relative_position_id = SSG_Women_Continue
+		prerequisite = {
+			focus = SSG_Women_Continue
+		}
+		x = -3
+		y = 2
+		completion_reward = {
+			every_core_state = {
+				add_manpower = -14088
+			}
+			country_event = ssg.7
+		}
+	}
+	focus = {
+		id = SSG_Women_Make_Facility
+		icon = GFX_focus_generic_modernize_industry
+		cost = 10.00
+		relative_position_id = SSG_Women_Continue
+		prerequisite = {
+			focus = SSG_Women_Continue
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Women_Zdrada
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Women_Make_Facility
+		prerequisite = {
+			focus = SSG_Women_Democraty_Facade
+			focus = SSG_Women_Make_Facility
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Women_Hunt_Down_The_Fable
+		icon = GFX_goal_women_hunt_down_the_fable
+		cost = 10.00
+		relative_position_id = SSG_Women_Continue
+		prerequisite = {
+			focus = SSG_Women_Continue
+		}
+		completion_reward = {
+			retire_character = SSG_Feeble
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Women_Oksid_Friends
+		icon = GFX_goal_women_oksid_friends
+		cost = 10.00
+		relative_position_id = SSG_Women_Continue
+		prerequisite = {
+			focus = SSG_Women_Continue
+		}
+		completion_reward = {
+			OKS = {
+				
+			}
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Women_Peremoga
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Women_Hunt_Down_The_Fable
+		prerequisite = {
+			focus = SSG_Women_Hunt_Down_The_Fable
+			focus = SSG_Women_Oksid_Friends
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Women_Onlywitch
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Women_Hunt_Down_The_Fable
+		prerequisite = {
+			focus = SSG_Women_Hunt_Down_The_Fable
+			focus = SSG_Women_Make_Facility
+		}
+		x = -1
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Women_Slashers
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Women_Way
+		prerequisite = {
+			focus = SSG_Women_Way
+		}
+		mutually_exclusive = {
+			focus = SSG_Women_Continue
+		}
+		completion_reward = {
+			recruit_character = MGS_Pequodd
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Women_Slashers_Pequod
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Women_Slashers
+		prerequisite = {
+			focus = SSG_Women_Slashers
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Women_Sex_Equality
+		icon = GFX_goal_women_sex_equality
+		cost = 10.00
+		relative_position_id = SSG_Women_Continue
+		prerequisite = {
+			focus = SSG_Women_Continue
+		}
+		x = 5
+		y = 2
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SSG_Migrant_Gates
+		icon = GFX_focus_NORDIC_com_capstone_army
+		cost = 10.00
+		relative_position_id = SSG_Fix_Economy
+		prerequisite = {
+			focus = SSG_Fix_Economy
+		}
+		completion_reward = {
+			custom_effect_tooltip = SSG_economy_fixing
+			add_to_variable = { SSG_consumer_goods_expected_value = 0.15 }
+			add_to_variable = { SSG_production_speed_industrial_complex_factor = 0.05 }
+			add_to_variable = { SSG_production_speed_buildings_factor = 0.05 }
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Fix_Railways
+		icon = GFX_focus_NORDIC_com_selector_civilian
+		cost = 10.00
+		relative_position_id = SSG_Fix_Economy
+		prerequisite = {
+			focus = SSG_Fix_Economy
+		}
+		completion_reward = {
+			custom_effect_tooltip = SSG_economy_fixing
+			add_to_variable = { SSG_production_speed_buildings_factor = 0.05 }
+		}
+		x = -3
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Save_Factories
+		icon = GFX_focus_NORDIC_com_civilian
+		cost = 10.00
+		relative_position_id = SSG_Fix_Economy
+		prerequisite = {
+			focus = SSG_Fix_Economy
+		}
+		completion_reward = {
+			custom_effect_tooltip = SSG_economy_fixing
+			add_to_variable = { SSG_consumer_goods_expected_value = 0.2 }
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+			}
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Find_Comrades
+		icon = GFX_focus_NORDIC_com_institution_2
+		cost = 10.00
+		relative_position_id = SSG_Save_Factories
+		prerequisite = {
+			focus = SSG_Migrant_Gates
+		}
+		prerequisite = {
+			focus = SSG_Save_Factories
+		}
+		bypass = {
+			original_tag = SSG
+		}
+		completion_reward = {
+			recruit_character = SSG_Akura
+			recruit_character = SSG_Falzuri
+			recruit_character = SSG_Haip
+			recruit_character = SSG_Mesh
+			recruit_character = SSG_Spitfaer
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = SSG_New_Trucks
+		icon = GFX_focus_NORDIC_com_materiel
+		cost = 10.00
+		relative_position_id = SSG_Fix_Economy
+		prerequisite = {
+			focus = SSG_Fix_Economy
+		}
+		completion_reward = {
+			custom_effect_tooltip = SSG_economy_fixing
+			add_to_variable = { SSG_production_speed_arms_factory_factor = 0.1 }
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 1500
+			}
+			add_equipment_bonus = {
+				bonus = { 
+					motorized_equipment = {
+						maximum_speed = 0.15
+					} 
+				}
+			}
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Teach_From_Others
+		icon = GFX_focus_NORDIC_com_selector_material
+		cost = 10.00
+		relative_position_id = SSG_Fix_Economy
+		prerequisite = {
+			focus = SSG_Fix_Economy
+		}
+		completion_reward = {
+			steal_random_tech_bonus = {
+				target = NYA
+				uses = 1
+				instant = yes
+				folder = armour_folder
+				category = armor
+				bonus = 0.5
+			}
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Sell_The_World
+		icon = GFX_goal_the_man_who_sold_the_world
+		cost = 10.00
+		relative_position_id = SSG_Fix_Economy
+		available = {
+			if = {
+				limit = { original_tag = SSG }
+				has_completed_focus = SSG_Save_our_Money
+			}
+			if = {
+				limit = { original_tag = WIT }
+				SSG = {
+					exists = no
+				}
+			}
+		}
+		prerequisite = {
+			focus = SSG_Fix_Economy
+		}
+		completion_reward = {
+			custom_effect_tooltip = SSG_access_mio
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Find_Resources
+		icon = GFX_goal_find_resources
+		cost = 10.00
+		relative_position_id = SSG_Sell_The_World
+		prerequisite = {
+			focus = SSG_Sell_The_World
+		}
+		x = -2
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Synthetic_Wonder
+		icon = GFX_goal_synthetic_wonder
+		cost = 10.00
+		relative_position_id = SSG_Find_Resources
+		prerequisite = {
+			focus = SSG_Find_Resources
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_New_Science
+		icon = GFX_focus_NORDIC_com_selector_research
+		cost = 10.00
+		relative_position_id = SSG_Sell_The_World
+		prerequisite = {
+			focus = SSG_Sell_The_World
+		}
+		x = 1
+		y = 1
+		completion_reward = {
+			custom_effect_tooltip = ssg_hiring_new_scientist
+			hidden_effect = {
+				add_ideas = SSG_The_New_Science	
+			}
+		}
+	}
+	focus = {
+		id = SSG_Hire_Scientists
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		relative_position_id = SSG_New_Science
+		prerequisite = {
+			focus = SSG_New_Science
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Mass_Production
+		icon = GFX_focus_NORDIC_com_form_alliance
+		cost = 10.00
+		relative_position_id = SSG_Sell_The_World
+		prerequisite = {
+			focus = SSG_Sell_The_World
+		}
+		completion_reward = {
+			add_ideas = SSG_Production_Mastery
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Focus_Weapon
+		icon = GFX_goal_focus_weapon
+		cost = 10.00
+		relative_position_id = SSG_Mass_Production
+		prerequisite = {
+			focus = SSG_Mass_Production
+		}
+		mutually_exclusive = {
+			focus = SSG_Focus_Industry
+		}
+		completion_reward = {
+			add_ideas = SSG_Production_Mastery_Weapons
+		}
+		x = -2
+		y = 2
+
+	}
+	focus = {
+		id = SSG_New_Weapon_Design
+		icon = GFX_goal_new_weapon_design
+		cost = 10.00
+		relative_position_id = SSG_Focus_Weapon
+		prerequisite = {
+			focus = SSG_Focus_Weapon
+		}
+		completion_reward = {
+			add_ideas = SSG_Production_Mastery_Weapons_Upgrade
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Alcohol_Ruina_Explode
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_Ruina
+		prerequisite = {
+			focus = SSG_Alcohol_Ruina
+		}
+		completion_reward = {
+			hidden_effect = {
+				release = SSG
+			    release = PRO
+			    release = TOH
+			    release = WAR
+			}
+			custom_effect_tooltip = SSG_Spirt_ruins
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Alcohol_ADIF_HIT
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_New_Step
+		prerequisite = {
+			focus = SSG_Alcohol_New_Step
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = ADF
+				type = annex_everything
+			}
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Alcohol_Take_Dynasty
+		icon = GFX_goal_alcohol_take_dynasty
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_Burenya
+		prerequisite = {
+			focus = SSG_Alcohol_Burenya
+		}
+		x = 0
+		y = 1
+		completion_reward = {
+			KFC = {
+				country_event = ssg.2
+			}
+		}
+
+	}
+	focus = {
+		id = SSG_Alcohol_Core_Dynasty
+		icon = GFX_goal_alcohol_core_dynasty
+		relative_position_id = SSG_Alcohol_Take_Dynasty
+		cost = 10.00
+		prerequisite = {
+			focus = SSG_Alcohol_Take_Dynasty
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = KFC
+				type = take_core_state
+			}
+		}
+		x = 0
+		y = 1
+		bypass_if_unavailable = yes
+		bypass = {
+			125 = {
+				state_is_fully_controlled_by_ROOT_or_subject = yes
+			}
+			133 = {
+				state_is_fully_controlled_by_ROOT_or_subject = yes
+			}
+		}
+
+	}
+	focus = {
+		id = SSG_Alcohol_Create_Union
+		icon = GFX_goal_alcohol_create_union
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_IDNK_Active-on
+		prerequisite = {
+			focus = SSG_Alcohol_Core_Dynasty
+		}
+		prerequisite = {
+			focus = SSG_Alcohol_IDNK_Active-on
+		}
+		completion_reward = {
+			
+		}
+		x = -3
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Alcohol_Shady_Is_Back
+		icon = GFX_goal_alcohol_create_union
+		cost = 1.00
+		relative_position_id = SSG_Alcohol_Create_Union
+		prerequisite = {
+			focus = SSG_Alcohol_Create_Union
+		}
+		completion_reward = {
+			recruit_character = WIT_Dovnoblan
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Alcohol_Back_Again
+		icon = GFX_goal_alcohol_create_union
+		cost = 1.00
+		relative_position_id = SSG_Alcohol_Create_Union
+		prerequisite = {
+			focus = SSG_Alcohol_Create_Union
+		}
+		completion_reward = {
+			recruit_character = WIT_Diporaz
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Alcohol_Total_War
+		icon = GFX_goal_alcohol_total_war
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_Create_Union
+		prerequisite = {
+			focus = SSG_Alcohol_Create_Union
+		}
+		completion_reward = {
+			if = {
+                every_other_country = {
+                    limit = {
+                        NOT = {
+                            is_in_faction_with = ROOT
+                            has_guaranteed = ROOT
+                            is_guaranteed_by = ROOT
+                            has_non_aggression_pact_with = ROOT
+                            has_war_with = ROOT
+                        }
+                    }
+                    ROOT = {
+                        declare_war_on = {
+                            type = annex_everything
+                            target = PREV
+                        }
+                    }
+                }
+            }
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Alcohol_Core_ADIF
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Alcohol_ADIF_HIT
+		prerequisite = {
+			focus = SSG_Alcohol_ADIF_HIT
+		}
+		completion_reward = {
+			ADF = {
+				every_core_state = {
+					add_core_of = FROM
+				}
+			}
+			country_event = ssg.5
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Women_Construct_Utopia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Women_Onlywitch
+		prerequisite = {
+			focus = SSG_Women_Zdrada
+		}
+		prerequisite = {
+			focus = SSG_Women_Peremoga
+		}
+		prerequisite = {
+			focus = SSG_Women_Onlywitch
+		}
+		x = 0
+		y = 2
+	}
+	focus = {
+		id = SSG_Women_Final_Countdown
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Women_Construct_Utopia
+		prerequisite = {
+			focus = SSG_Women_Construct_Utopia
+		}
+		x = 0
+		y = 1
+	}
+	focus = {
+		id = SSG_Oil_Force
+		icon = GFX_goal_oil_force
+		cost = 10.00
+		relative_position_id = SSG_Synthetic_Wonder
+		prerequisite = {
+			focus = SSG_Synthetic_Wonder
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Focus_Industry
+		icon = GFX_goal_focus_industry
+		cost = 10.00
+		relative_position_id = SSG_Mass_Production
+		prerequisite = {
+			focus = SSG_Mass_Production
+		}
+		mutually_exclusive = {
+			focus = SSG_Focus_Weapon
+		}
+		completion_reward = {
+			add_ideas = SSG_Production_Mastery_Industry
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = SSG_More_Civilian_Factory
+		icon = GFX_goal_more_civilian_factory
+		cost = 10.00
+		relative_position_id = SSG_Focus_Industry
+		prerequisite = {
+			focus = SSG_Focus_Industry
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+			}
+		}
+		x = 0
+		y = 1
+
+
+	}
+	focus = {
+		id = SSG_Unity
+		icon = GFX_goal_ssg_unity
+		cost = 10.00
+		allow_branch = {
+			NOT = {
+				tag = WIT
+			}
+		}
+		mutually_exclusive = {
+			focus = SSG_Droblenie
+		}
+		completion_reward = {
+			
+		}
+		x = 42
+		y = 0
+
+	}
+	focus = {
+		id = SSG_Kill_Opponents
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Unity
+		prerequisite = {
+			focus = SSG_Unity
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Save_our_Money
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Unity
+		prerequisite = {
+			focus = SSG_Unity
+		}
+		x = 5
+		y = 1
+	}
+	focus = {
+		id = SSG_Unify_Party
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Unity
+		prerequisite = {
+			focus = SSG_Unity
+		}
+		x = -1
+		y = 1
+		completion_reward = {
+			add_ideas = SSG_Union_Forever
+		}
+
+	}
+	focus = {
+		id = SSG_Never_Again
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Unify_Party
+		prerequisite = {
+			focus = SSG_Unify_Party
+		}
+		prerequisite = {
+			focus = SSG_Kill_Opponents
+		}
+		x = 1.5
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Soviet_Monarchism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Kill_Opponents
+		prerequisite = {
+			focus = SSG_Unify_Party
+		}
+		prerequisite = {
+			focus = SSG_Kill_Opponents
+		}
+		mutually_exclusive = {
+			focus = SSG_Never_Again
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Autocraty_Way
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Never_Again
+		prerequisite = {
+			focus = SSG_Never_Again
+		}
+		mutually_exclusive = {
+			focus = SSG_Democratic_Way
+		}
+		x = -3
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Democratic_Way
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Never_Again
+		prerequisite = {
+			focus = SSG_Never_Again
+		}
+		mutually_exclusive = {
+			focus = SSG_Autocraty_Way
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Return_Intelektuals
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Democratic_Way
+		prerequisite = {
+			focus = SSG_Democratic_Way
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Burn_Bridges
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Autocraty_Way
+		prerequisite = {
+			focus = SSG_Autocraty_Way
+		}
+		x = -2
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Proletarian_Revolution
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Soviet_Monarchism
+		prerequisite = {
+			focus = SSG_Soviet_Monarchism
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Strong_Army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Never_Again
+		prerequisite = {
+			focus = SSG_Autocraty_Way
+			focus = SSG_Democratic_Way
+		}
+		x = -2
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Take_Neighbors
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Never_Again
+		prerequisite = {
+			focus = SSG_Autocraty_Way
+			focus = SSG_Democratic_Way
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Strong_Science
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Never_Again
+		prerequisite = {
+			focus = SSG_Autocraty_Way
+			focus = SSG_Democratic_Way
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = SSG_Take_Second_Continent
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Take_Neighbors
+		prerequisite = {
+			focus = SSG_Strong_Army
+		}
+		prerequisite = {
+			focus = SSG_Take_Neighbors
+		}
+		prerequisite = {
+			focus = SSG_Strong_Science
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = SSG_Fortify_Borders
+		icon = GFX_surrender_tiny_flag
+		cost = 10.00
+		relative_position_id = SSG_Take_Second_Continent
+		prerequisite = {
+			focus = SSG_Take_Second_Continent
+		}
+		available = {
+			KFC = {
+				exists = no
+				or = {
+					is_puppet = yes
+				}
+			}
+		}
+		x = -1
+		y = 1
+	}
+	focus = {
+		id = SSG_Supply_Lines
+		icon = GFX_surrender_tiny_flag
+		cost = 10.00
+		relative_position_id = SSG_Take_Second_Continent
+		prerequisite = {
+			focus = SSG_Take_Second_Continent
+		}
+		available = {
+			KFC = {
+				exists = no
+				or = {
+					is_puppet = yes
+				}
+			}
+		}
+		x = 1
+		y = 1
+	}
+	focus = {
+		id = SSG_Last_Enemy
+		icon = GFX_surrender_tiny_flag
+		cost = 10.00
+		relative_position_id = SSG_Take_Second_Continent
+		prerequisite = {
+			focus = SSG_Take_Second_Continent
+		}
+		available = {
+			KFC = {
+				exists = no
+				or = {
+					is_puppet = yes
+				}
+			}
+		}
+		x = 0
+		y = 3
+	}
+	focus = {
+		id = SSG_Danger_Kumar
+		icon = GFX_surrender_tiny_flag
+		cost = 10.00
+		relative_position_id = SSG_Last_Enemy
+		prerequisite = {
+			focus = SSG_Last_Enemy
+		}
+		available = {
+			KFC = {
+				exists = no
+				or = {
+					is_puppet = yes
+				}
+			}
+		}
+		mutually_exclusive = {
+			focus = SSG_Friendly_Kumar
+		}
+		x = 1
+		y = 1
+	}
+	focus = {
+		id = SSG_Friendly_Kumar
+		icon = GFX_surrender_tiny_flag
+		cost = 10.00
+		relative_position_id = SSG_Last_Enemy
+		prerequisite = {
+			focus = SSG_Last_Enemy
+		}
+		available = {
+			KFC = {
+				exists = no
+				or = {
+					is_puppet = yes
+				}
+			}
+		}
+		mutually_exclusive = {
+			focus = SSG_Danger_Kumar
+		}
+		x = -1
+		y = 1
+	}
+	continuous_focus_position = {
+		x = 1500
+		y = 2000
+	}
+}

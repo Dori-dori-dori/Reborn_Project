@@ -1,0 +1,133 @@
+division_template = {
+	name = "Division"
+	division_names_group = KFC_INF_01
+	regiments = {
+		infantry = {x=0	y=0}
+		infantry = {x=0	y=1}
+		infantry = {x=0	y=2}
+		infantry = {x=1	y=0}
+		infantry = {x=1	y=1}
+		infantry = {x=1	y=2}
+		infantry = {x=0 y=3}
+		artillery = {x=3 y=0}
+		artillery = {x=3 y=1}
+	}
+	support = {
+		engineer = {x=0 y=0}
+	}
+}
+
+division_template = {
+	name = "Mini-Division"
+	division_names_group = KFC_INF_02
+	regiments = {
+		infantry = {x=0	y=0}
+		infantry = {x=0	y=1}
+		infantry = {x=0	y=2}
+		infantry = {x=1	y=0}
+		infantry = {x=1	y=1}
+		infantry = {x=1	y=2}
+	}
+	support = {
+		engineer = {x=0 y=0}
+	}
+}
+
+units = {
+	division = {
+		location = 4993
+		division_template = "Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		location = 3085
+		division_template = "Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		location = 3524
+		division_template = "Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		location = 6
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = 3115
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = 3447
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = 3186
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = 2458
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = 3544
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = 2278
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = 4694
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = 4713
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	
+}
+
+instant_effect = {
+		add_equipment_production = {
+			equipment = { 
+				type = infantry_equipment
+				creator = KFC
+			}
+			requested_factories = 1
+			progress = 0 #выбери сам
+	}
+}

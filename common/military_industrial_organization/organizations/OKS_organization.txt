@@ -1,0 +1,68 @@
+OKS_kumar_guns_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_kumar_guns
+	allowed = {	
+		tag = OKS
+	}
+}
+OKS_kumar_fleet_organization = {
+	include = generic_battle_line_ship_organization
+	icon = GFX_idea_kumar_fleet_company
+	allowed = {
+		tag = OKS
+	}
+}
+OKS_kumar_light_tanks_organization = {
+	include = generic_mobile_tank_organization
+	icon = GFX_idea_kumar_light_tanks
+	allowed = {
+		tag = OKS
+	}
+}
+OKS_kumar_medium_tanks_organization = {
+	include = generic_medium_tank_organization
+	icon = GFX_idea_kumar_medium_tanks
+	allowed = {
+		tag = OKS
+	}
+}
+OKS_kumar_heavy_tanks_organization = {
+	include = generic_heavy_tank_organization
+	icon = GFX_idea_kumar_heavy_tanks
+	allowed = {
+		tag = OKS
+	}
+}
+OKS_kumar_artillery_organization = {
+	include = generic_artillery_organization
+	icon = GFX_idea_kumar_artillery_company
+	allowed = {
+		tag = OKS
+	}
+}
+OKS_kumar_light_planes_organization = {
+	include = generic_light_aircraft_organization
+	icon = GFX_idea_kumar_light_planes
+	allowed = {
+		tag = OKS
+	}
+	initial_trait = {
+		equipment_bonus = {
+			air_defence = 0.2
+		}
+	}
+}
+OKS_kumar_medium_planes_organization = {
+	include = generic_medium_aircraft_organization
+	icon = GFX_idea_kumar_light_planes
+	allowed = {
+		tag = OKS
+	}
+}
+OKS_kumar_escort_ships_organization = {
+	include = generic_escort_ship_organization
+	icon = GFX_idea_kumar_excort_fleets
+	allowed = {
+		tag = OKS
+	}
+}

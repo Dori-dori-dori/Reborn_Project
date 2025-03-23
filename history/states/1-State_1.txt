@@ -1,0 +1,30 @@
+state={
+	id=1
+	name="STATE_1"
+    
+	history={
+		owner = IDK
+		add_core_of = IDK
+		victory_points = { 566 15 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			anti_air_building = 2
+			972 = { naval_base = 5 }
+			1033 = { naval_base = 6 }
+		}
+	}
+	buildings_max_level_factor=1.000
+
+	resources = {
+		oil = 15
+	}
+	
+	provinces={
+		292 566 791 930 972 1033 1094 1225 1326 1431 1817 2122 2146 2374 2465 2484 3095 3770 3887 3889 3890 3891 3893 3894 3897 3901 3905 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

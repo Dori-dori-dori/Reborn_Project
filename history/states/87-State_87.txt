@@ -1,0 +1,30 @@
+state={
+	id=87
+	name="STATE_87"
+
+	history={
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2 
+			dockyard = 1
+			anti_air_building = 3
+		}
+
+	}
+	resources = {
+		oil = 40
+    }
+
+
+	provinces={
+		398 444 631 652 780 1465 2018 2084 2087 2572 2579 2757 2799 3020 3108 3113 3252 3369 3373 4341 4357 4364 4396 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

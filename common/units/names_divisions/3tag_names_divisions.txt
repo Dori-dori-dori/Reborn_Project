@@ -1,0 +1,43 @@
+3tag_ING_01 = {
+	name = "Division"
+
+	for_countries = { 2tag }
+
+	can_use_always = yes
+
+	division_types = {"infantry"}
+	
+	fallback_name = "%dya Artileriya"
+
+	ordered = {
+		1 = { "%ya Artileriya"}
+		2 = { "%ya Artileriya"}
+		3 = { "%ya Artileriya"}
+		4 = { "%ya Artileriya"}
+		5 = { "%ya Artileriya"}		
+}
+}
+
+3tag_INF_01 = {
+	name = "Mini-Division"
+
+	for_countries = { 2tag }
+
+	can_use_always = yes
+
+	division_types = {"infantry"}
+	
+	fallback_name = "%dya Divisiya"
+
+	ordered = {
+		1 = { "%ya Mini-Divisiya"}
+		2 = { "%ya Mini-Divisiya"}
+		3 = { "%ya Mini-Divisiya"}
+		4 = { "%ya Mini-Divisiya"}
+		5 = { "%ya Mini-Divisiya"}
+		6 = { "%ya Mini-Divisiya"}	
+		7 = { "%ya Mini-Divisiya"}
+		8 = { "%ya Mini-Divisiya"}
+		9 = { "%ya Mini-Divisiya"}			
+}
+}

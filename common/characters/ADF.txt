@@ -1,0 +1,44 @@
+characters = {
+	ADF_Jc_Rus_Democratic = {
+		name = "JC Rus"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ADF_Jc_Rus_Democratic
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {
+				free_mind
+			}
+		} 
+	}
+	ADF_Jc_Rus_Fascism = {
+		name = "JC Rus"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ADF_Jc_Rus_Fascism
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {
+				closed_mind
+			}
+		} 
+	}
+	ADF_Jc_Rus_Despotism = {
+		name = "JC Rus"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ADF_Jc_Rus_Despotism
+			}
+		}
+		country_leader = {
+			ideology = theocracy
+			traits = {
+				mad_mind
+			}
+		} 
+	}
+}

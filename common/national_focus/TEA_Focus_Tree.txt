@@ -1,0 +1,42 @@
+focus_tree = {
+	id = TEA_Focus_Tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TEA
+		}
+	}
+	default = no
+    focus = {
+		id = TEA_Tea
+		icon = GFX_TEA_Tea
+		cost = 10.00
+		x = 2
+		y = 0
+	}
+	focus = {
+		id = TEA_Chay
+		icon = GFX_TEA_Chay
+		cost = 10.00
+		x = 4
+		y = 0
+		completion_reward = { }
+	}
+	focus = {
+		id = TEA_Chayok
+		icon = GFX_TEA_Chayok
+		cost = x
+		x = 6
+		y = 0
+		completion_reward = { }
+	}
+	focus = {
+		id = TEA_Chifir
+		icon = GFX_TEA_Chifir
+		cost = x
+		x = 8
+		y = 0
+		completion_reward = { }
+	}
+}

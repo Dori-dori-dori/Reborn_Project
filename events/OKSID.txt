@@ -1,0 +1,16 @@
+add_namespace = OKSID
+country_event = {
+	id = oksid.1
+	title = oksid.1.t
+	desc = oksid.1.d
+	is_triggered_only = yes
+	option = {
+		name = oksid.1.a
+		OKS = {
+			retire_character = OKS_Anastasia_Revolver_Ocelot
+		}
+		WIT = {
+			recruit_character = WIT_Women
+		}
+	}
+}

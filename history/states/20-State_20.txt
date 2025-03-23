@@ -1,0 +1,28 @@
+state={
+	id=20
+	name="STATE_20"
+
+	history={
+		owner = SSG
+		add_core_of = SSG
+		add_core_of = PRO
+		add_claim_by = WAR
+		add_claim_by = WIT
+		add_claim_by = PRO
+		add_claim_by = TOH
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			anti_air_building = 2
+			3695 = { naval_base = 6 }
+		}
+	}
+	buildings_max_level_factor=1.000
+	
+	provinces={
+		478 549 1114 1251 2440 3695 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

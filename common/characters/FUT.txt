@@ -1,0 +1,164 @@
+characters = {
+	FUT_Fanta_and_Cola = {
+		name = "Fanta and Cola"
+		portraits = {
+			army = {
+				large = GFX_portrait_FUT_Fanta_and_Cola
+			}
+		}
+		corps_commander = {
+			traits = { 
+			    media_personality
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+	    }
+    }
+	FUT_Fantar = {
+		name = "Fantar"
+		portraits = {
+			army = {
+				large = GFX_portrait_FUT_Fantar
+			}
+		}
+		corps_commander = {
+			traits = { 
+			    media_personality
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+	    }
+    }
+	FUT_Fantario = {
+		name = "Fantario"
+		portraits = {
+			army = {
+				large = GFX_portrait_FUT_Fantario
+			}
+		}
+		corps_commander = {
+			traits = { 
+			    media_personality
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+	    }
+    }
+	FUT_Fanter = {
+		name = "Fanter"
+		portraits = {
+			army = {
+				large = GFX_portrait_FUT_Fanter
+			}
+		}
+		corps_commander = {
+			traits = { 
+			    media_personality
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+	    }
+    }
+	FUT_Fantik = {
+		name = "Fantik"
+		portraits = {
+			army = {
+				large = GFX_portrait_FUT_Fantik
+			}
+		}
+		corps_commander = {
+			traits = { 
+			    media_personality
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+	    }
+    }
+	FUT_Fucker = {
+		name = "Fucker"
+		portraits = {
+			army = {
+				large = GFX_portrait_FUT_Fucker
+			}
+		}
+		corps_commander = {
+			traits = { 
+			    media_personality
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+	    }
+    }
+	FUT_Funter = {
+		name = "Funter"
+		portraits = {
+			army = {
+				large = GFX_portrait_FUT_Funter
+			}
+		}
+		corps_commander = {
+			traits = { 
+			    media_personality
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+	    }
+    }
+	FUT_Funtik = {
+		name = "Funtik"
+		portraits = {
+			army = {
+				large = GFX_portrait_FUT_Funtik
+			}
+		}
+		corps_commander = {
+			traits = { 
+			    media_personality
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+	    }
+    }
+	FUT_Guardians = {
+		name = "Guardians"
+		portraits = {
+			army = {
+				large = GFX_portrait_FUT_Guardians
+			}
+		}
+		corps_commander = {
+			traits = { 
+			    media_personality
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+	    }
+    }
+}

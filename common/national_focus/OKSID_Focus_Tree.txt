@@ -1,0 +1,3665 @@
+focus_tree = {
+	id = OKSID_Focus_Tree
+	continuous_focus_position = { x = 150 y = 5210 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OKS
+		}
+	}
+	#Добровольческие бригады
+	focus = {
+		id = OKS_Volunteer_Brigades
+		icon = GFX_goal_unknown
+		x = 5
+		y = 16
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Strange_War_Methods  }
+	}
+
+	#Везде агенты Оксида
+	focus = {
+		id = OKS_Oksid_Agents_Everywhere
+		icon = GFX_goal_unknown
+		x = 3
+		y = 18
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Improving_the_CCU  }
+	}
+
+	#Чёрных в дело
+	focus = {
+		id = OKS_Blacks_In
+		icon = GFX_goal_unknown
+		x = 4
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Improving_the_CCU  }
+	}
+
+	#Улучшение ЦКУ
+	focus = {
+		id = OKS_Upgrade_the_CCU
+		icon = GFX_goal_unknown
+		x = 2
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Improving_the_CCU  }
+	}
+
+	#Создание ЦКУ
+	focus = {
+		id = OKS_Improving_the_CCU
+		icon = GFX_goal_unknown
+		x = 3
+		y = 16
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Strange_War_Methods  }
+	}
+
+	#Странные методы войны
+	focus = {
+		id = OKS_Strange_War_Methods
+		icon = GFX_goal_unknown
+		x = 5
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Presidential_Election  }
+	}
+
+	#Легионы Жожика
+	focus = {
+		id = OKS_Jojik_Legions
+		icon = GFX_focus_BUL_the_third_bulgarian_empire
+		x = 22
+		y = 19
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Jojik_Give_Us_Lands }
+	}
+
+	#Укрепить границу с металлистами
+	focus = {
+		id = OKS_Reinforce_the_Border_with_the_Metalworkers
+		icon = GFX_focus_chi_legislative_yuan
+		x = 24
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Enemies_all_Around_Us  }
+	}
+
+	#Уставший правитель
+	focus = {
+		id = OKS_Tired_Ruler
+		icon = GFX_goal_unknown
+		x = 26
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Истинное наследие Жожика
+	focus = {
+		id = OKS_Jojiks_Real_Legacy
+		icon = GFX_focus_mex_jefe_maximo
+		x = 31
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Restoring_Admin_Church  }
+		mutually_exclusive = { focus = OKS_Only_Jojik }
+	}
+
+	#Временная замена
+	focus = {
+		id = OKS_Temporary_Replacement
+		icon = GFX_goal_unknown
+		x = 26
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Tired_Ruler  }
+	}
+
+	#Может и не временный
+	focus = {
+		id = OKS_Maybe_not_Temperary
+		icon = GFX_focus_generic_little_entente
+		x = 7
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Temporary_Replacement  }
+		mutually_exclusive = { focus = OKS_Who_Will_Fill_In  } mutually_exclusive = { focus = OKS_Jojik_Legacy  }
+	}
+
+	#Наследие Жожика
+	focus = {
+		id = OKS_Jojik_Legacy
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		x = 26
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Temporary_Replacement  }
+		mutually_exclusive = { focus = OKS_Maybe_not_Temperary  } mutually_exclusive = { focus = OKS_Who_Will_Fill_In  }
+	}
+
+	#Старая гвардия
+	focus = {
+		id = OKS_Old_Guard
+		icon = GFX_focus_BUL_the_return_of_ferdinand
+		x = 26
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Jojik_Legacy  }
+	}
+
+	#Поднять схроны с оружием
+	focus = {
+		id = OKS_Pull_Up_the_Weapons_Caches
+		icon = GFX_focus_BUL_support_macedonian_organizations
+		x = 24
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Jojik_Legacy  }
+	}
+
+	#Заручиться помощью металлистов
+	focus = {
+		id = OKS_Enlist_Help_of_Metalworkers
+		icon = GFX_focus_prc_infiltration
+		x = 28
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = OKS_Jojik_Legacy  }
+	}
+
+	#Заручиться помощью АДИФ
+	focus = {
+		id = OKS_Enlist_Help_of_ADIF
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 28
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Jojik_Legacy  }
+	}
+
+	#Начать подготовку людей
+	focus = {
+		id = OKS_Start_Preparing_People
+		icon = GFX_focus_mex_caudillo_private_armies
+		x = 26
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Old_Guard  }
+	}
+
+	#Техника нам в помощь
+	focus = {
+		id = OKS_Technology_To_Help_Us
+		icon = GFX_focus_generic_tank_production
+		x = 24
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Pull_Up_the_Weapons_Caches  }
+	}
+
+	#Интервенция металистов
+	focus = {
+		id = OKS_Intervention_by_Metalworkers
+		icon = GFX_goal_unknown
+		x = 30
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Enlist_Help_of_Metalworkers  }
+	}
+
+	#Глаза боятся.....
+	focus = {
+		id = OKS_Eyes_Afraid
+		icon = GFX_focus_eng_crush_the_dream
+		x = 26
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Start_Preparing_People  }
+	}
+
+	#А руки дрочат
+	focus = {
+		id = OKS_Hands_Jerking_Off
+		icon = GFX_focus_generic_air_defense
+		x = 26
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Eyes_Afraid  }
+	}
+
+	#Восстановить церковь Админа
+	focus = {
+		id = OKS_Restoring_Admin_Church
+		icon = GFX_focus_eng_organise_the_blackshirts
+		x = 26
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Hands_Jerking_Off  }
+	}
+
+	#Восстановление после войны
+	focus = {
+		id = OKS_Post-war_Recovery
+		icon = GFX_goal_unknown
+		x = 26
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Restoring_Admin_Church  }
+	}
+
+	#Новая армия
+	focus = {
+		id = OKS_New_Army
+		icon = GFX_goal_unknown
+		x = 28
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Post-war_Recovery  }
+	}
+
+	#Правь морями и воздухом
+	focus = {
+		id = OKS_Rule_Sky_and_Sea
+		icon = GFX_goal_unknown
+		x = 28
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = OKS_New_Army  }
+	}
+
+	#Возвращение народа
+	focus = {
+		id = OKS_Peoples_Return
+		icon = GFX_goal_unknown
+		x = 26
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Post-war_Recovery  }
+	}
+
+	#Утечка мозгов
+	focus = {
+		id = OKS_Brain_Drain
+		icon = GFX_focus_AST_never_gallipoli
+		x = 26
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Peoples_Return  }
+	}
+
+	#Пекодская авантюра
+	focus = {
+		id = OKS_Pequod_Adventure
+		icon = GFX_goal_unknown
+		x = 22
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Post-war_Recovery  }
+	}
+
+	#Устранить предателя
+	focus = {
+		id = OKS_Terminate_Traitor
+		icon = GFX_focus_hun_assassinate_horthy
+		x = 24
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Post-war_Recovery  }
+		mutually_exclusive = { focus = OKS_Pequod_Adventure  }
+	}
+
+	#В тихом омуте черти водятся
+	focus = {
+		id = OKS_Terminate_Traitor
+		icon = GFX_goal_unknown
+		x = 39
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Terminate_Traitor }
+	}
+
+	#На руинах старого
+	focus = {
+		id = OKS_In_the_Ruins_of_the_Old
+		icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
+		x = 30
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Terminate_Traitor }
+	}
+
+	#Олдов домой
+	focus = {
+		id = OKS_Olds_to_Home
+		icon = GFX_focus_BUL_restore_the_bulgarian_patriarchate
+		x = 29
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Terminate_Traitor }
+	}
+
+	#Новому режиму новых людей
+	focus = {
+		id = OKS_New_Regime_of_New_People
+		icon = GFX_focus_BUL_cooperate_with_the_zveno
+		x = 31
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Terminate_Traitor }
+		mutually_exclusive = { focus = OKS_Olds_to_Home  }
+	}
+
+	#Старый друг лучше новых двух
+	focus = {
+		id = OKS_Old_Friend_is_Better_Two_New
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 34
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_I_Just_Wish_I_Hadnt_Lost  }
+	}
+
+	#Море не преграда
+	focus = {
+		id = OKS_The_Sea_is_No_Barrier
+		icon = GFX_goal_unknown
+		x = 37
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Terminate_Traitor }
+	}
+
+	#Чем больше, тем лучше
+	focus = {
+		id = OKS_The_Bigger_the_Better
+		icon = GFX_focus_generic_tank_production
+		x = 36
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_I_Just_Wish_I_Hadnt_Lost  }
+		mutually_exclusive = { focus = OKS_Old_Friend_is_Better_Two_New  }
+	}
+
+	#Только не потерять бы
+	focus = {
+		id = OKS_I_Just_Wish_I_Hadnt_Lost
+		icon = GFX_focus_chi_whampoa_military_academy
+		x = 35
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Terminate_Traitor }
+	}
+
+	#В обход чата
+	focus = {
+		id = OKS_Bypassing_The_Chat
+		icon = GFX_goal_unknown
+		x = 34
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Old_Friend_is_Better_Two_New  }
+	}
+
+	#Родная земля
+	focus = {
+		id = OKS_Motherland
+		icon = GFX_focus_BUL_found_the_brannik
+		x = 33
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Propaganda_Throughout }
+	}
+
+	#В тылу врага
+	focus = {
+		id = OKS_Propaganda_Throughout
+		icon = GFX_focus_BUL_support_macedonian_organizations
+		x = 35
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Propaganda_Throughout }
+		mutually_exclusive = { focus = OKS_Motherland  }
+	}
+
+	#Неужто это возможно?
+	focus = {
+		id = OKS_Is_It_Possible
+		icon = GFX_focus_generic_socialist_science
+		x = 36
+		y = 19
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Neurotechnology  }
+	}
+
+	#А что если?
+	focus = {
+		id = OKS_What_If
+		icon = GFX_focus_focus_fra_maquis
+		x = 32
+		y = 16
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Terminate_Traitor }
+	}
+
+	#Пропаганда на всю
+	focus = {
+		id = OKS_Propaganda_Throughout
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		x = 33
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Terminate_Traitor }
+	}
+
+	#В далеке есть земля
+	focus = {
+		id = OKS_Theres_a_Land_Far_Away
+		icon = GFX_goal_unknown
+		x = 37
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Propaganda_Throughout }
+		mutually_exclusive = { focus = OKS_Motherland  } mutually_exclusive = { focus = OKS_Propaganda_Throughout  }
+	}
+
+	#Укрепляем народ
+	focus = {
+		id = OKS_Strengthening_the_Nation
+		icon = GFX_focus_chi_proclaim_rival_government
+		x = 30
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_What_If  }
+	}
+
+	#Новые-старые территории
+	focus = {
+		id = OKS_New_Old_Territory
+		icon = GFX_focus_eng_special_air_service
+		x = 32
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_What_If  }
+	}
+
+	#Новые головы в дело
+	focus = {
+		id = OKS_New_Heads_In_Business
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 31
+		y = 18
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_What_If  }
+	}
+
+	#Элита армии
+	focus = {
+		id = OKS_Elite_Army
+		icon = GFX_focus_ger_oppose_hitler
+		x = 34
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_What_If  }
+	}
+
+	#Малая победоносная
+	focus = {
+		id = OKS_Small_Victory
+		icon = GFX_focus_generic_combined_arms
+		x = 36
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_What_If  }
+	}
+
+	#Нейротехнология
+	focus = {
+		id = OKS_Neurotechnology
+		icon = GFX_focus_generic_army_tanks2
+		x = 36
+		y = 18
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Small_Victory  }
+	}
+
+	#Жожик возвращается
+	focus = {
+		id = OKS_Jojik_Return
+		icon = GFX_focus_BUL_power_to_the_tsar
+		x = 36
+		y = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Is_It_Possible  }
+	}
+
+	#Нейрогенералы?
+	focus = {
+		id = OKS_Neirogenerals
+		icon = GFX_goal_unknown
+		x = 38
+		y = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Is_It_Possible  }
+	}
+
+	#Готовимся к мести
+	focus = {
+		id = OKS_Preparing_To_Revenge
+		icon = GFX_focus_BUL_guardians_of_the_balkans
+		x = 32
+		y = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_New_Old_Territory } 
+		prerequisite = {
+			focus = OKS_New_Core
+		}
+	}
+
+	#Ведьмаки тоже администы
+	focus = {
+		id = OKS_Witches_Are_Admins
+		icon = GFX_focus_generic_support_the_left_right
+		x = 30
+		y = 21
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Preparing_To_Revenge  }
+	}
+
+	#Новый костяк
+	focus = {
+		id = OKS_New_Core
+		icon = GFX_focus_BUL_supremacy_on_the_bosporus
+		x = 34
+		y = 19
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Elite_Army  }
+	}
+
+	#За дедов и свой род
+	focus = {
+		id = OKS_New_Core
+		icon = GFX_focus_generic_royal_wedding
+		x = 30
+		y = 19
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Strengthening_the_Nation  }
+	}
+
+	#Союзники врагов
+	focus = {
+		id = OKS_Enemy_Ally
+		icon = GFX_focus_generic_monarchy_2
+		x = 34
+		y = 21
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Preparing_To_Revenge  }
+	}
+
+	#Мы не забыли обиды
+	focus = {
+		id = OKS_We_Havent_Forgotten_the_Grudges
+		icon = GFX_focus_GRE_following_in_the_footsteps_of_giants
+		x = 32
+		y = 21
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Preparing_To_Revenge  }
+	}
+
+	#Одним ударом
+	focus = {
+		id = OKS_One_Punch
+		icon = GFX_focus_eng_global_defense
+		x = 32
+		y = 22
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_We_Havent_Forgotten_the_Grudges  }
+	}
+
+	#ЗА АДМИНА!
+	focus = {
+		id = OKS_For_Admin
+		icon = GFX_focus_eng_chiefs_of_staff_committee
+		x = 32
+		y = 23
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_One_Punch  }
+	}
+
+	#Администов возглавит админ
+	focus = {
+		id = OKS_The_Admin_Rule_Admins
+		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
+		x = 32
+		y = 24
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_For_Admin  }
+	}
+
+	#Банкрота в админы
+	focus = {
+		id = OKS_Bankrot_To_Admin
+		icon = GFX_focus_BUL_the_third_bulgarian_empire
+		x = 31
+		y = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_Admin_Rule_Admins  }
+	}
+
+	#Админа суда
+	focus = {
+		id = OKS_The_Court_Admin
+		icon = GFX_focus_BUL_the_fatherland_front
+		x = 33
+		y = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_Admin_Rule_Admins  }
+		mutually_exclusive = { focus = OKS_Bankrot_To_Admin  }
+	}
+
+	#С чего начать?
+	focus = {
+		id = OKS_Where_To_Start?
+		icon = GFX_focus_chi_army_reform
+		x = 21
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Only_Jojik  }
+	}
+
+	#Только Жожик
+	focus = {
+		id = OKS_Only_Jojik
+		icon = GFX_focus_attack_germany
+		x = 21
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Restoring_Admin_Church  }
+		mutually_exclusive = { focus = OKS_Terminate_Traitor }
+	}
+
+	#Госпожу домой
+	focus = {
+		id = OKS_Mistress_at_Home
+		icon = GFX_focus_focus_fra_fascist_threat
+		x = 26
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Brain_Drain  }
+	}
+
+	#Конница имени Жожика
+	focus = {
+		id = OKS_The_Jojik_Cavalry
+		icon = GFX_goal_unknown
+		x = 18
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Where_To_Start?  }
+	}
+
+	#Мотопехота Жожика
+	focus = {
+		id = OKS_Jojiks_Motorized_Infantry
+		icon = GFX_goal_unknown
+		x = 20
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Where_To_Start?  }
+		mutually_exclusive = { focus = OKS_The_Jojik_Cavalry  }
+	}
+
+	#Враги вокруг нас
+	focus = {
+		id = OKS_Enemies_all_Around_Us
+		icon = GFX_focus_generic_air_defense
+		x = 23
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Where_To_Start?  }
+	}
+
+	#Гиена готовится к атаке
+	focus = {
+		id = OKS_Hyena_is_Preparing_to_Attack
+		icon = GFX_focus_generic_aluminum
+		x = 23
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Enemies_all_Around_Us  }
+	}
+
+	#Тихоня Булджатя
+	focus = {
+		id = OKS_Quiet_Buldzhat
+		icon = GFX_focus_generic_support_the_left_right
+		x = 22
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Enemies_all_Around_Us  }
+	}
+
+	#Жожград
+	focus = {
+		id = OKS_Jojgrad
+		icon = GFX_focus_eng_special_air_service
+		x = 21
+		y = 16
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Where_To_Start?  }
+	}
+
+	#Танки для Жожика
+	focus = {
+		id = OKS_Tanks_For_Jojik
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 19
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+		focus = OKS_The_Jojik_Cavalry  
+		focus = OKS_Jojiks_Motorized_Infantry  }
+	}
+
+	#Жожрианства
+	focus = {
+		id = OKS_Jojriancy
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 21
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Jojgrad  }
+	}
+
+	#Землю дал нам Жожик
+	focus = {
+		id = OKS_Jojik_Give_Us_Lands
+		icon = GFX_focus_focus_fra_ratify_stresa
+		x = 21
+		y = 18
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Jojriancy  }
+	}
+
+	#Победа в небесах
+	focus = {
+		id = OKS_Victory_in_the_Sky
+		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
+		x = 20
+		y = 19
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Jojik_Give_Us_Lands  }
+	}
+
+	#Традиции администов
+	focus = {
+		id = OKS_Admins_Traditions
+		icon = GFX_focus_chi_army_reform
+		x = 38
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Terminate_Traitor }
+	}
+
+	#Кусочек континента
+	focus = {
+		id = OKS_Slice_of_the_Continent
+		icon = GFX_goal_unknown
+		x = 23
+		y = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Across_the_Seas_Across_the_Waves  }
+	}
+
+	#Священная земля
+	focus = {
+		id = OKS_Holy_Land
+		icon = GFX_goal_unknown
+		x = 18
+		y = 19
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Jojik_Give_Us_Lands  }
+	}
+
+	#Молимся Жожику
+	focus = {
+		id = OKS_Pray_Jojik
+		icon = GFX_focus_chi_army_reform
+		x = 19
+		y = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Jojik_Give_Us_Lands  }
+	}
+
+	#По морям, по волнам
+	focus = {
+		id = OKS_Across_the_Seas_Across_the_Waves
+		icon = GFX_focus_generic_africa_naval
+		x = 24
+		y = 19
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Jojik_Give_Us_Lands  }
+	}
+
+	#Была ваше, стала наша
+	focus = {
+		id = OKS_It_Was_Yours_Now_Its_Ours
+		icon = GFX_focus_eng_global_defense
+		x = 23
+		y = 21
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Slice_of_the_Continent  }
+	}
+
+	#Эскадра Жожика
+	focus = {
+		id = OKS_Jojiks_Squadron
+		icon = GFX_focus_BUL_support_macedonian_organizations
+		x = 25
+		y = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Across_the_Seas_Across_the_Waves  }
+	}
+
+	#Страх и ужас
+	focus = {
+		id = OKS_Fear_And_Dread
+		icon = GFX_focus_fra_milice
+		x = 21
+		y = 22
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Jojik_Give_Us_Lands  }
+	}
+
+	#Великие реформы
+	focus = {
+		id = OKS_Great_Reforms
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Maybe_not_Temperary  }
+	}
+
+	#Тохоёбская угроза
+	focus = {
+		id = OKS_Touhou_Threat
+		icon = GFX_focus_attack_britain
+		x = 7
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Great_Reforms  }
+	}
+
+	#Новый Оксид
+	focus = {
+		id = OKS_New_Oksid
+		icon = GFX_goal_unknown
+		x = 3
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Great_Reforms  }
+	}
+
+	#Новые кумарики
+	focus = {
+		id = OKS_New_Kumariki
+		icon = GFX_focus_ger_accept_british_naval_dominance
+		x = 11
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Great_Reforms  }
+	}
+
+	#Лига Реборна
+	focus = {
+		id = OKS_Reborn_League
+		icon = GFX_goal_unknown
+		x = 5
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Touhou_Threat  }
+	}
+
+	#Тохоёбские провокации
+	focus = {
+		id = OKS_Touhou_Provocations
+		icon = GFX_goal_unknown
+		x = 6
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Touhou_Threat  }
+	}
+
+	#Агентура
+	focus = {
+		id = OKS_Agency
+		icon = GFX_goal_unknown
+		x = 9
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Touhou_Threat  }
+	}
+
+	#Количеством берём
+	focus = {
+		id = OKS_We_Take_Quantity
+		icon = GFX_goal_unknown
+		x = 8
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Touhou_Threat  }
+	}
+
+	#Всё в производство
+	focus = {
+		id = OKS_All_In_Production
+		icon = GFX_goal_unknown
+		x = 2
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_New_Oksid  }
+	}
+
+	#Больше винтовок Богу винтовок!
+	focus = {
+		id = OKS_More_Rifles_To_the_God_of_Rifles
+		icon = GFX_focus_AST_rats_tobruk
+		x = 4
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_New_Oksid  }
+	}
+
+	#Меняем офицерский корпус
+	focus = {
+		id = OKS_Changing_the_Officer_Corps
+		icon = GFX_goal_unknown
+		x = 11
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_New_Kumariki  }
+	}
+
+	#Итог
+	focus = {
+		id = OKS_Total
+		icon = GFX_goal_unknown
+		x = 7
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_All_In_Production  } prerequisite = { focus = OKS_More_Rifles_To_the_God_of_Rifles  } prerequisite = { focus = OKS_Reborn_League  } prerequisite = { focus = OKS_Touhou_Provocations  } prerequisite = { focus = OKS_We_Take_Quantity  } prerequisite = { focus = OKS_Agency  } prerequisite = { focus = OKS_Changing_the_Officer_Corps  }
+	}
+
+	#4 Рим
+	focus = {
+		id = OKS_Fourth_Rome
+		icon = GFX_goal_unknown
+		x = 15
+		y = 21
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_Northern_Junkie_Has_Come_Out_of_Hibernation  }
+	}
+
+	#Рождение Феникса
+	focus = {
+		id = OKS_Phoenix_Born
+		icon = GFX_goal_unknown
+		x = 10
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Total  }
+	}
+
+	#О горе!
+	focus = {
+		id = OKS_Oh_My_Gosh
+		icon = GFX_goal_unknown
+		x = 0
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Total  }
+	}
+
+	#Оксид единый и не делимый
+	focus = {
+		id = OKS_Oksid_is_One_And_Indivisible
+		icon = GFX_goal_unknown
+		x = 13
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Phoenix_Born  }
+	}
+
+	#Наш капитал всё, остальное ничего
+	focus = {
+		id = OKS_Our_Capital_is_Everything_the_Rest_is_Nothing
+		icon = GFX_goal_unknown
+		x = 7
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Phoenix_Born  }
+		mutually_exclusive = { focus = OKS_Oksid_is_One_And_Indivisible  }
+	}
+
+	#Запад точит ножи
+	focus = {
+		id = OKS_The_West_is_Sharperning_Knives
+		icon = GFX_goal_unknown
+		x = 16
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Oksid_is_One_And_Indivisible  }
+	}
+
+	#Восстановить казачество
+	focus = {
+		id = OKS_Restore_Cossacks
+		icon = GFX_goal_unknown
+		x = 15
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_West_is_Sharperning_Knives  }
+	}
+
+	#Воссоздать черносотенцев
+	focus = {
+		id = OKS_Reconstitute_the_Black_Hundreds
+		icon = GFX_goal_unknown
+		x = 16
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_West_is_Sharperning_Knives  }
+	}
+
+	#Новый офицерский корпус
+	focus = {
+		id = OKS_New_Officer_Corps
+		icon = GFX_goal_unknown
+		x = 17
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_West_is_Sharperning_Knives  }
+	}
+
+	#Королевская свадьба
+	focus = {
+		id = OKS_Royal_Wedding
+		icon = GFX_goal_unknown
+		x = 13
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Oksid_is_One_And_Indivisible  }
+	}
+
+	#За братьев кумаров
+	focus = {
+		id = OKS_For_Kumarov_Brothers
+		icon = GFX_goal_unknown
+		x = 13
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Royal_Wedding  }
+	}
+
+	#Воссоздаём Гиперборею
+	focus = {
+		id = OKS_Rebuilding_Hyperborea
+		icon = GFX_goal_unknown
+		x = 11
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Oksid_is_One_And_Indivisible  }
+	}
+
+	#Восстановить церковь
+	focus = {
+		id = OKS_Restore_the_Church
+		icon = GFX_goal_unknown
+		x = 13
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_For_Kumarov_Brothers  }
+	}
+
+	#Тохоёбский вопрос
+	focus = {
+		id = OKS_The_Tohoeb_Question
+		icon = GFX_goal_unknown
+		x = 13
+		y = 16
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Restore_the_Church  }
+	}
+
+	#Зовём на помощь
+	focus = {
+		id = OKS_Call_Help
+		icon = GFX_goal_unknown
+		x = 12
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_Tohoeb_Question  }
+	}
+
+	#Северный наркоша вышел из спячки
+	focus = {
+		id = OKS_The_Northern_Junkie_Has_Come_Out_of_Hibernation
+		icon = GFX_goal_unknown
+		x = 13
+		y = 19
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_Tohoeb_Question  }
+	}
+
+	#Императорская гвардия
+	focus = {
+		id = OKS_Imperial_Guard
+		icon = GFX_goal_unknown
+		x = 11
+		y = 21
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_Northern_Junkie_Has_Come_Out_of_Hibernation  }
+	}
+
+	#За нашей крепкой спиной
+	focus = {
+		id = OKS_Behind_Our_Strong_Back
+		icon = GFX_goal_unknown
+		x = 15
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_For_Kumarov_Brothers  }
+	}
+
+	#АДИФ-кумарство
+	focus = {
+		id = OKS_ADIF_Kumarstvo
+		icon = GFX_goal_unknown
+		x = 15
+		y = 16
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Behind_Our_Strong_Back  }
+	}
+
+	#Черно-кумары
+	focus = {
+		id = OKS_Black-kumar
+		icon = GFX_goal_unknown
+		x = 14
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Behind_Our_Strong_Back  }
+	}
+
+	#ЭКНО-кумары
+	focus = {
+		id = OKS_EKNO-Kumar
+		icon = GFX_goal_unknown
+		x = 16
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Behind_Our_Strong_Back  }
+	}
+
+	#ВЕЛИКОЕ КУМАРНОЕ ОБЪЕДИНЕНИЕ
+	focus = {
+		id = OKS_The_Great_Kumar_Union
+		icon = GFX_goal_unknown
+		x = 15
+		y = 18
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Black-kumar  } prerequisite = { focus = OKS_ADIF_Kumarstvo  } prerequisite = { focus = OKS_EKNO-Kumar  }
+	}
+
+	#Плацдарм для наступление
+	focus = {
+		id = OKS_Springboard_For_an_Offensive
+		icon = GFX_goal_unknown
+		x = 11
+		y = 18
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_Tohoeb_Question  }
+	}
+
+	#Жожика домой
+	focus = {
+		id = OKS_Jojik_to_Home
+		icon = GFX_goal_unknown
+		x = 13
+		y = 21
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_Northern_Junkie_Has_Come_Out_of_Hibernation  }
+	}
+
+	#Соединённые Штаты Оксиды
+	focus = {
+		id = OKS_United_States_of_Oksid
+		icon = GFX_goal_unknown
+		x = 5
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Our_Capital_is_Everything_the_Rest_is_Nothing  }
+	}
+
+	#Новая конституция
+	focus = {
+		id = OKS_New_Constitution
+		icon = GFX_goal_unknown
+		x = 7
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Our_Capital_is_Everything_the_Rest_is_Nothing  }
+	}
+
+	#Власть президенту
+	focus = {
+		id = OKS_President_Power
+		icon = GFX_goal_unknown
+		x = 9
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Our_Capital_is_Everything_the_Rest_is_Nothing  }
+	}
+
+	#Выборы в президенты
+	focus = {
+		id = OKS_Presidential_Election
+		icon = GFX_goal_unknown
+		x = 7
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_United_States_of_Oksid  } prerequisite = { focus = OKS_New_Constitution  } prerequisite = { focus = OKS_President_Power  }
+	}
+
+	#Генералы ихтамнеты
+	focus = {
+		id = OKS_Generals_Wheretheynot
+		icon = GFX_goal_unknown
+		x = 5
+		y = 18
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Volunteer_Brigades }
+	}
+
+	#Колоборанты наши друзья
+	focus = {
+		id = OKS_Coloborants_are_Our_Friends
+		icon = GFX_goal_unknown
+		x = 4
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Strange_War_Methods  }
+	}
+
+	#Наши винтовки в чужих руках
+	focus = {
+		id = OKS_Our_Rifles_In_the_Wrong_Hands
+		icon = GFX_goal_unknown
+		x = 2
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Strange_War_Methods  }
+	}
+
+	#ССГэшная проблема
+	focus = {
+		id = OKS_SSGish_Problem
+		icon = GFX_goal_unknown
+		x = 6
+		y = 19
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Threat_to_Democracy  }
+	}
+
+	#Южные варвары
+	focus = {
+		id = OKS_South_Barbarians
+		icon = GFX_goal_unknown
+		x = 8
+		y = 19
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Threat_to_Democracy  }
+	}
+
+	#Деньги покупают все
+	focus = {
+		id = OKS_Money_Buys_Everything
+		icon = GFX_goal_unknown
+		x = 9
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Presidential_Election  }
+	}
+
+	#ООН булджатного образца
+	focus = {
+		id = OKS_UN_Buldzhat_Sample
+		icon = GFX_goal_unknown
+		x = 7
+		y = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Threat_to_Democracy  }
+	}
+
+	#Второй питер
+	focus = {
+		id = OKS_Second_Peter
+		icon = GFX_goal_unknown
+		x = 11
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Money_Buys_Everything  }
+	}
+
+	#Торгуем за территории Металистов
+	focus = {
+		id = OKS_Trading_for_Metalists_Territory
+		icon = GFX_goal_unknown
+		x = 10
+		y = 16
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Money_Buys_Everything  }
+	}
+
+	#Цена КРИНЖ-НСФВ-Мемы
+	focus = {
+		id = OKS_Cringe-NSFW-Memes_Price
+		icon = GFX_goal_unknown
+		x = 9
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Money_Buys_Everything  }
+	}
+
+	#Проникаем в Чат
+	focus = {
+		id = OKS_Infiltrating_Chat
+		icon = GFX_goal_unknown
+		x = 7
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Presidential_Election  }
+	}
+
+	#Котёл всех наций
+	focus = {
+		id = OKS_Cauldron_of_All_Nations
+		icon = GFX_goal_unknown
+		x = 7
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Infiltrating_Chat  }
+	}
+
+	#Оксидная мечта
+	focus = {
+		id = OKS_Oksid_Dream
+		icon = GFX_goal_unknown
+		x = 7
+		y = 16
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Cauldron_of_All_Nations  }
+	}
+
+	#Организация Булдыжного Межконтинентальной обороны
+	focus = {
+		id = OKS_The_Buldyzhny_Inter-Confederate_Defense_ Organization
+		icon = GFX_goal_unknown
+		x = 7
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Oksid_Dream  }
+	}
+
+	#Угроза демократие
+	focus = {
+		id = OKS_Threat_to_Democracy
+		icon = GFX_goal_unknown
+		x = 7
+		y = 18
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_Buldyzhny_Inter-Confederate_Defense_ Organization  }
+	}
+
+	#Новый мировой порядок
+	focus = {
+		id = OKS_New_World_Order
+		icon = GFX_goal_unknown
+		x = 7
+		y = 21
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_UN_Buldzhat_Sample  }
+	}
+
+	#Срочная замена
+	focus = {
+		id = OKS_Urgent_Replacement
+		icon = GFX_goal_unknown
+		x = 0
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Oh_My_Gosh  }
+	}
+
+	#Антикризисные реформы
+	focus = {
+		id = OKS_Anticrisis_Reform
+		icon = GFX_goal_unknown
+		x = 3
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Urgent_Replacement  }
+	}
+
+	#Военные проблемы
+	focus = {
+		id = OKS_Military_Problems
+		icon = GFX_goal_unknown
+		x = 2
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Anticrisis_Reform  }
+	}
+
+	#Экономический упадок
+	focus = {
+		id = OKS_Economic_Decline
+		icon = GFX_goal_unknown
+		x = 4
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Anticrisis_Reform  }
+	}
+
+	#Политический упадок
+	focus = {
+		id = OKS_Political_Decline
+		icon = GFX_goal_unknown
+		x = 3
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Anticrisis_Reform  }
+	}
+
+	#Враг не пройдет
+	focus = {
+		id = OKS_The_Enemy_Will_Not_Pass
+		icon = GFX_goal_unknown
+		x = 0
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Urgent_Replacement  }
+	}
+
+	#Зов о помощи
+	focus = {
+		id = OKS_Call_Help
+		icon = GFX_goal_unknown
+		x = 0
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_Enemy_Will_Not_Pass  }
+	}
+
+	#Ополчения спасения
+	focus = {
+		id = OKS_Salvation_Militias
+		icon = GFX_goal_unknown
+		x = 1
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Call_Help  }
+	}
+
+	#Перемирие
+	focus = {
+		id = OKS_Truce
+		icon = GFX_goal_unknown
+		x = 0
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Call_Help  }
+	}
+
+	#Подстреленны, но не мертвы
+	focus = {
+		id = OKS_Shot_But_Not_Dead
+		icon = GFX_goal_unknown
+		x = 0
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Truce  }
+	}
+
+	#Болото не помеха
+	focus = {
+		id = OKS_Swamp_is_Not_an_Obstacle
+		icon = GFX_goal_unknown
+		x = 20
+		y = 23
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Fear_And_Dread  }
+	}
+
+	#Поход в горы
+	focus = {
+		id = OKS_Mountain_Hiking
+		icon = GFX_goal_unknown
+		x = 19
+		y = 24
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = OKS_Fear_And_Dread  }
+	}
+
+	#Горы не помеха
+	focus = {
+		id = OKS_Mountains_are_No_Obstacle
+		icon = GFX_goal_unknown
+		x = 17
+		y = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Mountain_Hiking  }
+	}
+
+	#Ебанём Чат, согласны Чат?
+	focus = {
+		id = OKS_Lets_Fuck_Chat_Shall_we_Chat
+		icon = GFX_goal_unknown
+		x = 23
+		y = 24
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Fear_And_Dread  }
+	}
+
+	#Металл покроется корозией
+	focus = {
+		id = OKS_The_Metal_will_Corrode
+		icon = GFX_goal_unknown
+		x = 19
+		y = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Mountain_Hiking  }
+	}
+
+	#Ультиматум агентам
+	focus = {
+		id = OKS_Ultimatum_to_Agents
+		icon = GFX_goal_unknown
+		x = 17
+		y = 23
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Fear_And_Dread  }
+	}
+
+	#На восток
+	focus = {
+		id = OKS_To_the_East
+		icon = GFX_goal_unknown
+		x = 22
+		y = 23
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Fear_And_Dread  }
+	}
+
+	#Еретики еще живы
+	focus = {
+		id = OKS_eretikieshchezhivy
+		icon = GFX_goal_unknown
+		x = 21
+		y = 28
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Triumph_of_Jojiks_Will }
+	}
+
+	#Юг наш
+	focus = {
+		id = OKS_South_is_Ours
+		icon = GFX_goal_unknown
+		x = 21
+		y = 25
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Fear_And_Dread  }
+	}
+
+	#Триумф воли жожика
+	focus = {
+		id = OKS_Triumph_of_Jojiks_Will
+		icon = GFX_goal_unknown
+		x = 21
+		y = 27
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_To_the_East  } prerequisite = { focus = OKS_South_is_Ours  } prerequisite = { focus = OKS_Swamp_is_Not_an_Obstacle  } prerequisite = { focus = OKS_Lets_Fuck_Chat_Shall_we_Chat  } prerequisite = { focus = OKS_Ultimatum_to_Agents  } prerequisite = { focus = OKS_The_Metal_will_Corrode  }
+	}
+
+	#Еду за солярой
+	focus = {
+		id = OKS_Im_Going_For_a_Solarium
+		icon = GFX_goal_unknown
+		x = 102
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Rifle_In_Hand_And_Go  }
+	}
+
+	#БТРы спасут людей
+	focus = {
+		id = OKS_APCs_Save_Lives
+		icon = GFX_goal_unknown
+		x = 101
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Im_Going_For_a_Solarium  }
+	}
+
+	#Улучшить адмиралтейство
+	focus = {
+		id = OKS_Improve_Admiralty
+		icon = GFX_goal_unknown
+		x = 83
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Protecting_the_North } prerequisite = { focus = OKS_The West_Obeys_Us } prerequisite = { focus = OKS_Eastern_Shield  }
+	}
+
+	#Запад нам подчиняется
+	focus = {
+		id = OKS_The West_Obeys_Us
+		icon = GFX_goal_unknown
+		x = 85
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Our_Fleet }
+	}
+
+	#Школы морской войны
+	focus = {
+		id = OKS_Naval_Warfare_School
+		icon = GFX_goal_unknown
+		x = 83
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Improve_Admiralty  }
+	}
+
+	#Цирк уезжает и клоуны тоже
+	focus = {
+		id = OKS_The_Circus_is_Leaving_And_the_Clowns_are_Leaving_Too
+		icon = GFX_goal_unknown
+		x = 23
+		y = 30
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Heretics_Still_Alive }
+	}
+
+	#Создать Аутэр-Хэвен
+	focus = {
+		id = OKS_Create_Outer_Heaven
+		icon = GFX_goal_unknown
+		x = 47
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gay_Triumph }
+	}
+
+	#Натуралов на мыло
+	focus = {
+		id = OKS_Straights_To_Soap
+		icon = GFX_goal_unknown
+		x = 46
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gay_Triumph }
+	}
+
+	#Починаємо дерусифікацію
+	focus = {
+		id = OKS_Starting_De-Russification
+		icon = GFX_goal_unknown
+		x = 55
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Victory  }
+	}
+
+	#Предложение защиты неко аркам
+	focus = {
+		id = OKS_Neko-Ark_Defense_Proposal
+		icon = GFX_goal_unknown
+		x = 20
+		y = 29
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Heretics_Still_Alive }
+	}
+
+	#АДИФ це Оксид
+	focus = {
+		id = OKS_ADIF_Is_Oksid
+		icon = GFX_goal_unknown
+		x = 22
+		y = 29
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Heretics_Still_Alive }
+	}
+
+	#Крылатых на мыло
+	focus = {
+		id = OKS_Winged_to_Soap
+		icon = GFX_goal_unknown
+		x = 19
+		y = 30
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Heretics_Still_Alive }
+	}
+
+	#Художка закрывается
+	focus = {
+		id = OKS_Art_House_is_Closing
+		icon = GFX_goal_unknown
+		x = 18
+		y = 31
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Heretics_Still_Alive }
+	}
+
+	#Падет серый медведь
+	focus = {
+		id = OKS_The_Gray_Bear_will_Fall
+		icon = GFX_goal_unknown
+		x = 24
+		y = 31
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Heretics_Still_Alive }
+	}
+
+	#ГОООООООООООЛ
+	focus = {
+		id = OKS_GOOOOAL
+		icon = GFX_goal_unknown
+		x = 21
+		y = 32
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Heretics_Still_Alive }
+	}
+
+	#Кто будет заменять?
+	focus = {
+		id = OKS_Who_Will_Fill_In
+		icon = GFX_goal_unknown
+		x = 53
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Temporary_Replacement  }
+		mutually_exclusive = { focus = OKS_Jojik_Legacy  } mutually_exclusive = { focus = OKS_Maybe_not_Temperary  }
+	}
+
+	#Два пути
+	focus = {
+		id = OKS_Two_Ways
+		icon = GFX_goal_unknown
+		x = 53
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Who_Will_Fill_In  }
+	}
+
+	#Пекод дроченый
+	focus = {
+		id = OKS_Pequod_Jerked
+		icon = GFX_goal_unknown
+		x = 51
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Two_Ways  }
+		mutually_exclusive = { focus = OKS_Mistress_Sharpened  }
+	}
+
+	#Госпожа точеная
+	focus = {
+		id = OKS_Mistress_Sharpened
+		icon = GFX_goal_unknown
+		x = 55
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Two_Ways  }
+		mutually_exclusive = { focus = OKS_Pequod_Jerked  }
+	}
+
+	#Гейский триумф
+	focus = {
+		id = OKS_Gay_Triumph
+		icon = GFX_goal_unknown
+		x = 46
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Pequod_Jerked  }
+	}
+
+	#Гендерные квоты в армий
+	focus = {
+		id = OKS_Gender_Quotas_In_the_Military
+		icon = GFX_goal_unknown
+		x = 43
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gay_Triumph }
+	}
+
+	#Отряды Гачимучи
+	focus = {
+		id = OKS_Gachimuchis_Troops
+		icon = GFX_goal_unknown
+		x = 43
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gender_Quotas_In_the_Military  }
+	}
+
+	#Вон женщины!
+	focus = {
+		id = OKS_Womans_Out
+		icon = GFX_goal_unknown
+		x = 42
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gender_Quotas_In_the_Military  }
+	}
+
+	#О ужас... это же злодей Бо Син!
+	focus = {
+		id = OKS_Oh_My_Gosh_Its_the_Villain_Bo_Sin
+		icon = GFX_goal_unknown
+		x = 44
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gender_Quotas_In_the_Military  }
+	}
+
+	#ЛГБТ СЕКС ИНСТУРКТОРЫ ИЗ НАТО
+	focus = {
+		id = OKS_LGBT_SEX_INSTURCTORS_FROM_NATO
+		icon = GFX_goal_unknown
+		x = 45
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gay_Triumph }
+	}
+
+	#Гей-союз
+	focus = {
+		id = OKS_Gay_Union
+		icon = GFX_goal_unknown
+		x = 49
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gay_Triumph }
+	}
+
+	#А я люблю военных, красивых здоровенных
+	focus = {
+		id = OKS_I_Like_Military_The_Big_Handsome_Ones
+		icon = GFX_goal_unknown
+		x = 50
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gay_Union  }
+	}
+
+	#Морячок вот такой мужичок
+	focus = {
+		id = OKS_Sailors_This_Little_Man
+		icon = GFX_goal_unknown
+		x = 48
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gay_Union  }
+	}
+
+	#Концлагеря для натуралов
+	focus = {
+		id = OKS_Concentration_Camps_For_Straights
+		icon = GFX_goal_unknown
+		x = 44
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Straights_To_Soap  }
+	}
+
+	#Формируем ГКВД
+	focus = {
+		id = OKS_Forming_the_GCVD
+		icon = GFX_goal_unknown
+		x = 48
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Straights_To_Soap  }
+	}
+
+	#Гейский интернационал
+	focus = {
+		id = OKS_Gay-International
+		icon = GFX_goal_unknown
+		x = 46
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Straights_To_Soap  }
+	}
+
+	#Друзья наши меньшие
+	focus = {
+		id = OKS_Our_Lesser_Friends
+		icon = GFX_goal_unknown
+		x = 45
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gay-International  }
+	}
+
+	#Подражать фембойские недовольства
+	focus = {
+		id = OKS_Mimic_Femboy_Grievances
+		icon = GFX_goal_unknown
+		x = 47
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gay-International  }
+	}
+
+	#Подговорить ящеролюбов
+	focus = {
+		id = OKS_Corrupt_the_Lizardmens
+		icon = GFX_goal_unknown
+		x = 48
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gay-International  }
+	}
+
+	#Болото близко как не как
+	focus = {
+		id = OKS_The_Swamp_is_as_Close_as_it_Gets
+		icon = GFX_goal_unknown
+		x = 44
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gay-International  }
+	}
+
+	#Месть натуралам
+	focus = {
+		id = OKS_Straights_Revenge
+		icon = GFX_goal_unknown
+		x = 46
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gay-International  }
+	}
+
+	#Объявить Пекода Биг Боссом
+	focus = {
+		id = OKS_Declare_Pequod_the_Big_Boss
+		icon = GFX_goal_unknown
+		x = 46
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Straights_Revenge  }
+	}
+
+	#Кринж наш родной
+	focus = {
+		id = OKS_Cringe_is_Our_Home
+		icon = GFX_goal_unknown
+		x = 47
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Declare_Pequod_the_Big_Boss  }
+	}
+
+	#Устранить фашистов Неко-Арка
+	focus = {
+		id = OKS_Eliminate_the_Neko-Ark_Fascists
+		icon = GFX_goal_unknown
+		x = 45
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Declare_Pequod_the_Big_Boss  }
+	}
+
+	#Свет Чату
+	focus = {
+		id = OKS_Light_Chat
+		icon = GFX_goal_unknown
+		x = 44
+		y = 16
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Declare_Pequod_the_Big_Boss  }
+	}
+
+	#Северная угроза
+	focus = {
+		id = OKS_North_Threat
+		icon = GFX_goal_unknown
+		x = 48
+		y = 16
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Declare_Pequod_the_Big_Boss  }
+	}
+
+	#ГЕЙДАААААААААААААА!
+	focus = {
+		id = OKS_GAYDAAA
+		icon = GFX_goal_unknown
+		x = 46
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Declare_Pequod_the_Big_Boss  }
+	}
+
+	#Добровольчі бригади
+	focus = {
+		id = OKS_Volunteer_Brigades
+		icon = GFX_goal_unknown
+		x = 57
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Discontent_In_the_Southeast  }
+	}
+
+	#Перемога
+	focus = {
+		id = OKS_Victory
+		icon = GFX_goal_unknown
+		x = 55
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Mistress_Sharpened  }
+	}
+
+	#Невдоволення на півдні сході
+	focus = {
+		id = OKS_Discontent_In_the_Southeast
+		icon = GFX_goal_unknown
+		x = 58
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Starting_De-Russification  }
+	}
+
+	#Екстрені заходи
+	focus = {
+		id = OKS_Emergency_Measures
+		icon = GFX_goal_unknown
+		x = 61
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Discontent_In_the_Southeast  }
+	}
+
+	#Виробництво на півдні Сходу
+	focus = {
+		id = OKS_Production_In_the_South-East
+		icon = GFX_goal_unknown
+		x = 59
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Discontent_In_the_Southeast  }
+	}
+
+	#Розпочати АТО
+	focus = {
+		id = OKS_Launch_the_ATO
+		icon = GFX_goal_unknown
+		x = 58
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Discontent_In_the_Southeast  }
+	}
+
+	#Реорганізація армії
+	focus = {
+		id = OKS_Army_Reorganization
+		icon = GFX_goal_unknown
+		x = 58
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Launch_the_ATO  }
+	}
+
+	#Нові герої
+	focus = {
+		id = OKS_New_Hero
+		icon = GFX_goal_unknown
+		x = 55
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Starting_De-Russification  }
+	}
+
+	#Згадати минуле
+	focus = {
+		id = OKS_Remember_the_Past
+		icon = GFX_goal_unknown
+		x = 55
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_New_Hero  }
+	}
+
+	#Гетьман всього оксиду
+	focus = {
+		id = OKS_Hetman_of_All_Oksid
+		icon = GFX_goal_unknown
+		x = 54
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_htonashivorogi  }
+	}
+
+	#Відновити козацтво
+	focus = {
+		id = OKS_Restore_Cossacks
+		icon = GFX_goal_unknown
+		x = 54
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Remember_the_Past  }
+	}
+
+	#Викопати чорне море
+	focus = {
+		id = OKS_Black_Sea_Excavations
+		icon = GFX_goal_unknown
+		x = 52
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Remember_the_Past  }
+	}
+
+	#Хто наші вороги?
+	focus = {
+		id = OKS_Who_are_Our_Enemies
+		icon = GFX_goal_unknown
+		x = 55
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Remember_the_Past  }
+	}
+
+	#Наші старі території
+	focus = {
+		id = OKS_Our_Old_Territories
+		icon = GFX_goal_unknown
+		x = 53
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Remember_the_Past  }
+	}
+
+	#Оголосити про створення Оксидного українського рейху
+	focus = {
+		id = OKS_Announce_the_Creation_of_the_Oksid_Ukrainian_Reich
+		icon = GFX_goal_unknown
+		x = 56
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_htonashivorogi  }
+	}
+
+	#Сформуватися 1-окрема штурмова бригада
+	focus = {
+		id = OKS_Form_the_1st_Separate_Assault_Brigade
+		icon = GFX_goal_unknown
+		x = 53
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Reconstructing_Troops  }
+	}
+
+	#Реконструкіця військ
+	focus = {
+		id = OKS_Reconstructing_Troops
+		icon = GFX_goal_unknown
+		x = 53
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Starting_De-Russification  }
+	}
+
+	#Ускорить мобилизацию
+	focus = {
+		id = OKS_Speed_Up_Mobilization
+		icon = GFX_goal_unknown
+		x = 92
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Army_Exercise  }
+		mutually_exclusive = { focus = OKS_Tighten_Up_Training  }
+	}
+
+	#Быстрая застройка
+	focus = {
+		id = OKS_Fast_Development
+		icon = GFX_goal_unknown
+		x = 91
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Economic_Mobilization  }
+	}
+
+	#Региональная защита
+	focus = {
+		id = OKS_Regional_Defense
+		icon = GFX_goal_unknown
+		x = 67
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Regional_Development_Project  }
+	}
+
+	#Простое деревенское
+	focus = {
+		id = OKS_Simple_Rustic
+		icon = GFX_goal_unknown
+		x = 66
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Regional_Defense  } prerequisite = { focus = OKS_Benefits_For_Out-of-towners  }
+	}
+
+	#Сердце компаний
+	focus = {
+		id = OKS_Heart_of_the_Companies
+		icon = GFX_goal_unknown
+		x = 72
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Cash_Center  }
+	}
+
+	#Захист українського населення у чачі
+	focus = {
+		id = OKS_Protecting_the_Ukrainian_Population_In_Chat
+		icon = GFX_goal_unknown
+		x = 55
+		y = 14
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Hetman_of_All_Oksid  } prerequisite = { focus = OKS_Announce_the_Creation_of_the_Oksid_Ukrainian_Reich  }
+	}
+
+	#Снупмобілі
+	focus = {
+		id = OKS_Snoopmobiles
+		icon = GFX_goal_unknown
+		x = 56
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_New_Hero  }
+	}
+
+	#Західні острови
+	focus = {
+		id = OKS_Western_Islands
+		icon = GFX_goal_unknown
+		x = 55
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Protecting_the_Ukrainian_Population_In_Chat  }
+	}
+
+	#Сіра загроза
+	focus = {
+		id = OKS_Gray_Threat
+		icon = GFX_goal_unknown
+		x = 53
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Protecting_the_Ukrainian_Population_In_Chat  }
+	}
+
+	#Металеві карпати
+	focus = {
+		id = OKS_Metal_Carpathians
+		icon = GFX_goal_unknown
+		x = 57
+		y = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Protecting_the_Ukrainian_Population_In_Chat  }
+	}
+
+	#Потужна перемога
+	focus = {
+		id = OKS_Powerful_Victory
+		icon = GFX_goal_unknown
+		x = 55
+		y = 17
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Western_Islands  } prerequisite = { focus = OKS_Metal_Carpathians  } prerequisite = { focus = OKS_Gray_Threat  }
+	}
+
+	#Відьмачі друзі
+	focus = {
+		id = OKS_Witches_Friends
+		icon = GFX_goal_unknown
+		x = 51
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Remember_the_Past  }
+	}
+
+	#Звільнити відьмаків
+	focus = {
+		id = OKS_Free_the_Witches
+		icon = GFX_goal_unknown
+		x = 51
+		y = 16
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Gray_Threat  } prerequisite = { focus = OKS_Witches_Friends  }
+	}
+
+	#Наркотическая проблема
+	focus = {
+		id = OKS_Drug_Problem
+		icon = GFX_goal_unknown
+		x = 62
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Great_Stagnation  }
+	}
+
+	#Великий застой
+	focus = {
+		id = OKS_Great_Stagnation
+		icon = GFX_goal_unknown
+		x = 70
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Рыночек порешает
+	focus = {
+		id = OKS_Market_will_Decide
+		icon = GFX_goal_unknown
+		x = 61
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Drug_Problem  }
+	}
+
+	#Пропаганда здорового и не очень образа жизни
+	focus = {
+		id = OKS_Promotion_of_Healthy_And_Not-so-healthy_Lifestyles
+		icon = GFX_goal_unknown
+		x = 63
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Drug_Problem  } prerequisite = { focus = OKS_Meme_Potential }
+	}
+
+	#Меняем состав
+	focus = {
+		id = OKS_Changing_the_Lineup
+		icon = GFX_goal_unknown
+		x = 62
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Drug_Problem  }
+	}
+
+	#Мемный потанциал
+	focus = {
+		id = OKS_Meme_Potential
+		icon = GFX_goal_unknown
+		x = 64
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Great_Stagnation  }
+	}
+
+	#Лицо мемакурни
+	focus = {
+		id = OKS_The_Face_of_Memacurnia
+		icon = GFX_goal_unknown
+		x = 64
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Meme_Potential }
+	}
+
+	#Система закрепов
+	focus = {
+		id = OKS_Clamping_System
+		icon = GFX_goal_unknown
+		x = 65
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Meme_Potential }
+	}
+
+	#Равномерное развитие
+	focus = {
+		id = OKS_Even_Development
+		icon = GFX_goal_unknown
+		x = 68
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Great_Stagnation  }
+	}
+
+	#Денежный центр
+	focus = {
+		id = OKS_Cash_Center
+		icon = GFX_goal_unknown
+		x = 72
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Great_Stagnation  }
+		mutually_exclusive = { focus = OKS_Even_Development  }
+	}
+
+	#Соеднить города
+	focus = {
+		id = OKS_Connecting_Cities
+		icon = GFX_goal_unknown
+		x = 64
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Even_Development  }
+	}
+
+	#Заделать дыры в дорогах
+	focus = {
+		id = OKS_Fix_the_Holes_In_The_Roads
+		icon = GFX_goal_unknown
+		x = 68
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Even_Development  }
+	}
+
+	#Нехватка ресурсов
+	focus = {
+		id = OKS_Lack_of_Resources
+		icon = GFX_goal_unknown
+		x = 66
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Even_Development  }
+	}
+
+	#Проект развития регионов
+	focus = {
+		id = OKS_Regional_Development_Project
+		icon = GFX_goal_unknown
+		x = 66
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Connecting_Cities  } prerequisite = { focus = OKS_Lack_of_Resources  } prerequisite = { focus = OKS_Fix_the_Holes_In_The_Roads  }
+	}
+
+	#Льготы для замкадышей
+	focus = {
+		id = OKS_Benefits_For_Out-of-towners
+		icon = GFX_goal_unknown
+		x = 65
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Regional_Development_Project  }
+	}
+
+	#Завоз иностранных специалистов
+	focus = {
+		id = OKS_Importation_of_Foreign_Specialists
+		icon = GFX_goal_unknown
+		x = 74
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Cash_Center  }
+	}
+
+	#Мечта студентов
+	focus = {
+		id = OKS_Students_Dream
+		icon = GFX_goal_unknown
+		x = 76
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Cash_Center  }
+	}
+
+	#Кормилица Оксида
+	focus = {
+		id = OKS_Oksids_Nurse
+		icon = GFX_goal_unknown
+		x = 74
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Students_Dream  } prerequisite = { focus = OKS_Importation_of_Foreign_Specialists  } prerequisite = { focus = OKS_Heart_of_the_Companies  }
+	}
+
+	#Дальше нас земли нет
+	focus = {
+		id = OKS_Theres_No_Land_Beyond_Us
+		icon = GFX_goal_unknown
+		x = 73
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = OKS_Oksids_Nurse  }
+	}
+
+	#Не Оксид
+	focus = {
+		id = OKS_No_Oksids
+		icon = GFX_goal_unknown
+		x = 75
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Oksids_Nurse  }
+	}
+
+	#Границ не знаем
+	focus = {
+		id = OKS_We_Dont_Know_the_Borders
+		icon = GFX_goal_unknown
+		x = 74
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_No_Oksids  } prerequisite = { focus = OKS_Theres_No_Land_Beyond_Us  }
+	}
+
+	#Светлые головы
+	focus = {
+		id = OKS_Bright_Heads
+		icon = GFX_goal_unknown
+		x = 70
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_We_Dont_Know_the_Borders  } prerequisite = { focus = OKS_Simple_Rustic  }
+	}
+
+	#Ядерная промышленность
+	focus = {
+		id = OKS_Nuclear_Industry
+		icon = GFX_goal_unknown
+		x = 70
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Bright_Heads  }
+	}
+
+	#Гравитация не помеха
+	focus = {
+		id = OKS_Gravity_Doesnt_Interfere
+		icon = GFX_goal_unknown
+		x = 70
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Nuclear_Industry  }
+	}
+
+	#Мелкие преимущества
+	focus = {
+		id = OKS_Minor_Benefits
+		icon = GFX_goal_unknown
+		x = 74
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Great_Stagnation  }
+	}
+
+	#Деньги текут в Притон
+	focus = {
+		id = OKS_Moneys_Flowing_Into_the_Brothel
+		icon = GFX_goal_unknown
+		x = 76
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Minor_Benefits  }
+	}
+
+	#Белое золото
+	focus = {
+		id = OKS_White_Gold
+		icon = GFX_goal_unknown
+		x = 76
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Moneys_Flowing_Into_the_Brothel  }
+	}
+
+	#Транболон колю в очко
+	focus = {
+		id = OKS_Tranbolone_In_Ass
+		icon = GFX_goal_unknown
+		x = 74
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Minor_Benefits  }
+	}
+
+	#Заказы со всего Булджатя
+	focus = {
+		id = OKS_Orders_From_All_Over_Buldzhat
+		icon = GFX_goal_unknown
+		x = 78
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Minor_Benefits  }
+	}
+
+	#Ресурсы на вывоз
+	focus = {
+		id = OKS_Removal_Resources
+		icon = GFX_goal_unknown
+		x = 78
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Orders_From_All_Over_Buldzhat  }
+	}
+
+	#Затянуть пояса
+	focus = {
+		id = OKS_Tighten_the_Belts
+		icon = GFX_goal_unknown
+		x = 87
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = OKS_Economic_Mobilization  }
+	}
+
+	#Терпеть карлики
+	focus = {
+		id = OKS_Tolerate_Midgets
+		icon = GFX_goal_unknown
+		x = 92
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Through_Fire_And_Water  } prerequisite = { focus = OKS_Fresh_Heads  }
+		mutually_exclusive = { focus = OKS_Fortune_Loves_the_Brave  }
+	}
+
+	#Одна армия, один народ
+	focus = {
+		id = OKS_One_Army_One_People
+		icon = GFX_goal_unknown
+		x = 93
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Tolerate_Midgets  } prerequisite = { focus = OKS_Fortune_Loves_the_Brave  }
+	}
+
+	#Винтовку в руки и погнал
+	focus = {
+		id = OKS_Rifle_In_Hand_And_Go
+		icon = GFX_goal_unknown
+		x = 100
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Army_Exercise  }
+	}
+
+	#Это никуда не годится!
+	focus = {
+		id = OKS_Thats_No_Good
+		icon = GFX_goal_unknown
+		x = 93
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Армейские учения
+	focus = {
+		id = OKS_Army_Exercise
+		icon = GFX_goal_unknown
+		x = 93
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Thats_No_Good  }
+	}
+
+	#Мобилизация  экономики
+	focus = {
+		id = OKS_Economic_Mobilization
+		icon = GFX_goal_unknown
+		x = 89
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Army_Exercise  }
+	}
+
+	#Северная надежда
+	focus = {
+		id = OKS_Northern_Hope
+		icon = GFX_goal_unknown
+		x = 89
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Economic_Mobilization  }
+	}
+
+	#Ужесточить подготовку
+	focus = {
+		id = OKS_Tighten_Up_Training
+		icon = GFX_goal_unknown
+		x = 94
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Army_Exercise  }
+		mutually_exclusive = { focus = OKS_Speed_Up_Mobilization  }
+	}
+
+	#Военная полиция
+	focus = {
+		id = OKS_Military_Police
+		icon = GFX_goal_unknown
+		x = 95
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Tighten_Up_Training  }
+	}
+
+	#Костяк армии
+	focus = {
+		id = OKS_Backbone_of_the_Army
+		icon = GFX_goal_unknown
+		x = 93
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Tighten_Up_Training  } prerequisite = { focus = OKS_Speed_Up_Mobilization  }
+	}
+
+	#Прошедшие через огонь и воду
+	focus = {
+		id = OKS_Through_Fire_And_Water
+		icon = GFX_goal_unknown
+		x = 94
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Backbone_of_the_Army  }
+		mutually_exclusive = { focus = OKS_Fresh_Heads  }
+	}
+
+	#Свежие головы
+	focus = {
+		id = OKS_Fresh_Heads
+		icon = GFX_goal_unknown
+		x = 92
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Backbone_of_the_Army  }
+		mutually_exclusive = { focus = OKS_Through_Fire_And_Water  }
+	}
+
+	#Удача смелых любит
+	focus = {
+		id = OKS_Fortune_Loves_the_Brave
+		icon = GFX_goal_unknown
+		x = 94
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Through_Fire_And_Water  } prerequisite = { focus = OKS_Fresh_Heads  }
+		mutually_exclusive = { focus = OKS_Tolerate_Midgets  }
+	}
+
+	#Секретное оружие
+	focus = {
+		id = OKS_Secret_Weapon
+		icon = GFX_goal_unknown
+		x = 93
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_One_Army_One_People  }
+	}
+
+	#Танковые войска
+	focus = {
+		id = OKS_Tank_Troops
+		icon = GFX_goal_unknown
+		x = 98
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Rifle_In_Hand_And_Go  }
+	}
+
+	#Тяжи продавят нам дорогу
+	focus = {
+		id = OKS_The_Weights_Will_Push_Us_Through
+		icon = GFX_goal_unknown
+		x = 97
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Tank_Troops  }
+	}
+
+	#Преимущество лёгкости
+	focus = {
+		id = OKS_Advantage_of_Lightness
+		icon = GFX_goal_unknown
+		x = 99
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Tank_Troops  }
+		mutually_exclusive = { focus = OKS_The_Weights_Will_Push_Us_Through  }
+	}
+
+	#Бронемашины
+	focus = {
+		id = OKS_Armored_Cars
+		icon = GFX_goal_unknown
+		x = 103
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Im_Going_For_a_Solarium  }
+		mutually_exclusive = { focus = OKS_APCs_Save_Lives  }
+	}
+
+	#Горные войска
+	focus = {
+		id = OKS_Mountain_Troops
+		icon = GFX_goal_unknown
+		x = 100
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Rifle_In_Hand_And_Go  }
+	}
+
+	#Чудо оружие
+	focus = {
+		id = OKS_Miracle_Weapon
+		icon = GFX_goal_unknown
+		x = 100
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Mountain_Troops  }
+	}
+
+	#Наша флотилия
+	focus = {
+		id = OKS_Our_Fleet
+		icon = GFX_goal_unknown
+		x = 83
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Thats_No_Good  }
+	}
+
+	#Защита севера
+	focus = {
+		id = OKS_Protecting_the_North
+		icon = GFX_goal_unknown
+		x = 81
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Our_Fleet }
+	}
+
+	#Восточный щит
+	focus = {
+		id = OKS_Eastern_Shield
+		icon = GFX_goal_unknown
+		x = 83
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Our_Fleet }
+	}
+
+	#Линейная тактиа
+	focus = {
+		id = OKS_Linear_Tactics
+		icon = GFX_goal_unknown
+		x = 82
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Naval_Warfare_School  }
+		mutually_exclusive = { focus = OKS_Death_By_Thousand_Cuts  }
+	}
+
+	#Смерть от тысячи порезов
+	focus = {
+		id = OKS_Death_By_Thousand_Cuts
+		icon = GFX_goal_unknown
+		x = 84
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Naval_Warfare_School  }
+		mutually_exclusive = { focus = OKS_Linear_Tactics  }
+	}
+
+	#Покупка флота
+	focus = {
+		id = OKS_Fleet_Purchase
+		icon = GFX_goal_unknown
+		x = 83
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Linear_Tactics  } prerequisite = { focus = OKS_Death_By_Thousand_Cuts  }
+	}
+
+	#А мы потянем это?
+	focus = {
+		id = OKS_Are_We_Gonna_Pull_This_Off
+		icon = GFX_goal_unknown
+		x = 81
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Linear_Tactics  }
+	}
+
+	#Снизить нагрузку
+	focus = {
+		id = OKS_Reduce_Load
+		icon = GFX_goal_unknown
+		x = 85
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Death_By_Thousand_Cuts  }
+	}
+
+	#Рык разрывающий слух
+	focus = {
+		id = OKS_An_Ear-splitting_Growl
+		icon = GFX_goal_unknown
+		x = 81
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Are_We_Gonna_Pull_This_Off  }
+	}
+
+	#Меньше чем пуля
+	focus = {
+		id = OKS_Smaller_Than_Bullet
+		icon = GFX_goal_unknown
+		x = 85
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Reduce_Load  }
+	}
+
+	#Океан подчиниться нам!
+	focus = {
+		id = OKS_The_Ocean_Will_Obey_Us
+		icon = GFX_goal_unknown
+		x = 83
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Smaller_Than_Bullet  } prerequisite = { focus = OKS_An_Ear-splitting_Growl  }
+	}
+
+	#Первым делом
+	focus = {
+		id = OKS_The_First_Thing
+		icon = GFX_goal_unknown
+		x = 107
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Thats_No_Good  }
+	}
+
+	#Институты небес
+	focus = {
+		id = OKS_Institutions_of_Heaven
+		icon = GFX_goal_unknown
+		x = 106
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_First_Thing  }
+	}
+
+	#Ммнистерство авиации
+	focus = {
+		id = OKS_Ministry_of_Aviation
+		icon = GFX_goal_unknown
+		x = 108
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_The_First_Thing  }
+	}
+
+	#Гордость авиации
+	focus = {
+		id = OKS_Aviation_Pride
+		icon = GFX_goal_unknown
+		x = 107
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Institutions_of_Heaven  } prerequisite = { focus = OKS_Ministry_of_Aviation  }
+	}
+
+	#Самолётная промышленость
+	focus = {
+		id = OKS_Airplane_Industry
+		icon = GFX_goal_unknown
+		x = 106
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Aviation_Pride  }
+	}
+
+	#Верталётики
+	focus = {
+		id = OKS_Choppers
+		icon = GFX_goal_unknown
+		x = 108
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Aviation_Pride  }
+	}
+
+	#Реактивные двигатели
+	focus = {
+		id = OKS_Jet_Engines
+		icon = GFX_goal_unknown
+		x = 107
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = OKS_Airplane_Industry  } prerequisite = { focus = OKS_Choppers  }
+	}
+
+}

@@ -1,0 +1,24 @@
+characters = {
+	KFC_Tijomant = {
+		name = "Tijomant"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KFC_Tijomant
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {
+				guardian_of_order
+			}
+		} 
+	}
+	KFC_Neco_Techno = {
+		name = "Techno-Neco"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KFC_Neco_Techno
+			}
+		}
+	}
+}

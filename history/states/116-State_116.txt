@@ -1,0 +1,30 @@
+state={
+	id=116
+	name="STATE_116"
+
+	history={
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+			anti_air_building = 2
+
+		}
+
+	}
+	resources = {
+		steel = 45
+	}
+
+	provinces={
+		365 499 709 864 985 1589 1687 1929 2195 2232 2446 2488 2494 2701 2705 2821 2842 2854 3049 3188 3221 3270 3546 3574 3741 3831 4519 4532 4555 4557 4576 4585 4605 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

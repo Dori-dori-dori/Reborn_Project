@@ -1,0 +1,32 @@
+state={
+	id=57
+	name="STATE_57"
+
+	history={
+		owner = SSG
+		add_core_of = SSG
+		add_core_of = WIT
+		add_claim_by = WAR
+		add_claim_by = WIT
+		add_claim_by = PRO
+		add_claim_by = TOH
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			anti_air_building = 2
+			1853 = { naval_base = 6 }
+		}
+
+	}
+
+	provinces={
+		262 576 1853 1964 3578 3669 4139 4166 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

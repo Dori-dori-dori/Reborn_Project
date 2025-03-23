@@ -1,0 +1,27 @@
+state={
+	id=145
+	name="STATE_145"
+
+	history={
+		owner = KFC
+		add_core_of = KFC
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 3
+			anti_air_building = 3
+
+		}
+
+	}
+
+
+	provinces={
+		364 695 965 1026 1141 1421 1484 1832 2324 2504 2606 2946 3075 3392 3514 3522 3718 4754 4785 4805 4817 4829 4846 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

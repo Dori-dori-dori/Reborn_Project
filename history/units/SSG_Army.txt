@@ -1,0 +1,196 @@
+division_template = {
+	name = "Infantry"
+	division_names_group = SSG_INF_01
+	regiments = {
+		infantry = {x=0	y=0}
+		infantry = {x=0	y=1}
+		infantry = {x=0	y=2}
+		infantry = {x=1	y=0}
+		infantry = {x=1	y=1}
+		infantry = {x=1	y=2}
+	}
+	support = {
+		engineer = {x=0 y=0}
+		artillery = {x=0 y=1}
+	}
+}
+division_template = {
+	name = "Militia"
+	division_names_group = SSG_INF_01
+	regiments = {
+		infantry = {x=0	y=0}
+		infantry = {x=0	y=1}
+		infantry = {x=1	y=0}
+		infantry = {x=1	y=1}
+	}
+	support = {
+		artillery = {x=0 y=1}
+	}
+}
+
+units = {
+	division = {
+		location = 4608
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		location = 4675
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		location = 2172
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		location = 1463
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 3399
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 85
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 3152
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 3509
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 2054
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 4169
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 2599
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 585
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 1721
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 758
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 2054
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 4369
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 2582
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 2172
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 3152
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 3509
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 413
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 4255
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 765
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 533
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 4205
+		division_template = "Infantry"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	
+}
+instant_effect = {
+		add_equipment_production = {
+			equipment = { 
+				type = infantry_equipment
+				creator = SSG
+			}
+			requested_factories = 1
+			progress = 0 #выбери сам
+	}
+}

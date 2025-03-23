@@ -1,0 +1,38 @@
+state={
+	id=41
+	name="STATE_41"
+
+	history={
+		owner = SSG
+		add_core_of = SSG
+		add_claim_by = WAR
+		add_claim_by = WIT
+		add_claim_by = PRO
+		add_claim_by = TOH
+		victory_points = { 758 10 }
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 5
+			anti_air_building = 5
+			2117 = { naval_base = 4 }
+		}
+
+	}
+	resources = {
+		steel = 79
+		aluminium = 50
+		chromium = 70
+	}
+
+	provinces={
+		39 49 260 357 369 467 536 564 580 608 645 698 758 854 974 991 1025 1070 1119 1498 1555 1630 1736 1781 1813 1918 1998 2082 2089 2107 2117 2235 2326 2339 2524 2665 2796 3037 3260 3276 3355 3413 3492 3551 3672 3704 3765 3796 3977 3985 4028 4029 4032 4036 4042 4044 4049 4055 4057 4061 4064 4083 4090 4101 4106 4112 4131 4145 4150 4159 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

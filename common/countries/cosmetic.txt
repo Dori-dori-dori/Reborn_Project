@@ -1,0 +1,28 @@
+NYA_blacksun = {
+    color = rgb { 75 0 130 }
+    color_ui = rgb { 75 0 130 }
+}
+NYA_enclave = {
+    color = rgb { 230 230 250 }
+    color_ui = rgb { 230 230 250 }
+}
+KFC_blacksun = {
+    color = rgb { 75 0 130 }
+    color_ui = rgb { 75 0 130 }
+}
+TEA_blacksun = {
+    color = rgb { 75 0 130 }
+    color_ui = rgb { 75 0 130 }
+}
+OKS_blacksun = {
+    color = rgb { 75 0 130 }
+    color_ui = rgb { 75 0 130 }
+}
+TOX_blacksun = {
+    color = rgb { 75 0 130 }
+    color_ui = rgb { 75 0 130 }
+}
+NIG_blacksun = {
+    color = rgb { 75 0 130 }
+    color_ui = rgb { 75 0 130 }
+}

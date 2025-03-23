@@ -1,0 +1,90 @@
+fascism_on_the_rise = {
+	declare_war_BUL = {
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			date = 1940.1.1
+		}
+
+		visible = {
+			tag = TOX
+		}
+		complete_effect = {
+			declare_war_on = {
+				target = BUL
+				type = annex_everything
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				date = 1940.2.2
+			}
+		}
+	}
+	declare_war_NIG = {
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			date = 1942.1.1
+		}
+
+		visible = {
+			tag = TOX
+		}
+
+		complete_effect = {
+			declare_war_on = {
+				target = NIG
+				type = annex_everything
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				date = 1942.2.2
+			}
+		}
+	}
+	declare_war_OKS = {
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			date = 1943.1.1
+		}
+
+		visible = {
+			tag = TOX
+		}
+		
+		complete_effect = {
+			declare_war_on = {
+				target = OKS
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				date = 1943.2.2
+			}
+		}
+	}
+}

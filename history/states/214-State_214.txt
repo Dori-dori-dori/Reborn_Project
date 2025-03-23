@@ -1,0 +1,27 @@
+state={
+	id=214
+	name="STATE_214"
+	
+	history={
+		owner=TEA
+		add_core_of = TEA
+		buildings = {
+			infrastructure=2
+			arms_factory=2
+			industrial_complex=2
+			dockyard=1
+			1994 = { naval_base = 10 }
+		}
+	}
+
+	resources = {
+		steel = 32
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		174 504 1994 2622 2728 4591 4597 4606
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

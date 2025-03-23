@@ -1,0 +1,30 @@
+state={
+	id=79
+	name="STATE_79"
+	
+	history={
+		owner = SSG
+		add_core_of = SSG
+		add_core_of = TOH
+		add_claim_by = WAR
+		add_claim_by = WIT
+		add_claim_by = PRO
+		add_claim_by = TOH
+		victory_points = { 4392 10 }
+		victory_points = { 4369 15 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 3
+			anti_air_building = 5
+		}
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		282 402 462 548 1035 1280 1318 1378 1648 2074 2076 2338 2368 2408 2452 2541 3042 3279 3343 3511 3740 3778 4321 4331 4347 4365 4369 4392 4393 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

@@ -1,0 +1,33 @@
+state={
+	id=185
+	name="STATE_185"
+
+	history={
+		owner = KFC
+		add_core_of = KFC
+		victory_points = { 3085 10 }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 4
+			anti_air_building = 5
+			dockyard = 1
+			air_base = 3
+			1083 = { naval_base = 5 }
+		}
+
+	}
+	resources = {
+		aluminium = 30
+	}
+
+
+	provinces={
+		224 359 534 713 984 1083 1398 1509 1782 2090 2199 2283 2304 2315 2346 2969 3078 3085 3105 3301 3393 3445 3497 3564 3800 4996 5009 5029 5035 5057 5076 5080 5087 5096 5100 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

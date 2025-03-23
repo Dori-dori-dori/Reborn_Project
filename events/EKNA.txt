@@ -1,0 +1,220 @@
+add_namespace = EKNA
+country_event = {
+	id = ekna.1
+	title = ekna.1.t
+	desc = ekna.1.d
+	picture = GFX_report_event_german_reichstag_gathering
+	is_triggered_only = yes
+	option = {
+		name = ekna.1.a
+		set_politics = {
+			ruling_party = despotism
+			}
+		}
+	}
+country_event = {
+	id = ekna.2
+	title = ekna.2.t
+	desc = ekna.2.d
+	picture = GFX_country_event_new_weapon_ekna
+	is_triggered_only = yes
+	option = {
+		name = ekna.2.a
+		capital_scope = {
+			add_building_construction = {
+				type = land_facility
+				instant_build = yes
+				province = 2822
+				level = 1
+			}
+		}
+		add_breakthrough_points = {
+			specialization = specialization_land
+			
+			value = 2
+		}
+	}
+}
+country_event = {
+	id = ekna.3
+	title = ekna.3.t
+	desc = ekna.3.d
+	picture = GFX_report_event_generic_mussolini
+	is_triggered_only = yes
+	option = {
+		name = ekna.3.a
+		KFC = {
+			retire_character = KFC_Tijomant
+		}
+	}
+}
+country_event = {
+	id = ekna.4
+	title = ekna.4.t
+	desc = ekna.4.d
+	picture = GFX_report_event_generic_mussolini
+	is_triggered_only = yes
+	option = {
+		name = ekna.4.a
+		add_country_leader_role = {
+			character = Parlament
+			country_leader = { 
+				ideology = fascism_ideology
+			}
+			promote_leader = yes
+		}
+	}
+}
+country_event = {
+	id = ekna.5
+	title = ekna.5.t
+	desc = ekna.5.d
+	picture = GFX_country_event_new_weapon_ekna
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ekna.5.a	
+		add_to_variable = { NYA_des_industrial_capacity_factory = 0.3 }
+		add_to_variable = { NYA_des_production_speed_buildings_factor = 0.35 }
+		custom_effect_tooltip = NYA_update_modificator
+	}
+}
+country_event = {
+	id = ekna.6
+	title = ekna.6.t
+	desc = ekna.6.d
+	picture = GFX_country_event_new_weapon_ekna
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ekna.6.a
+		add_to_variable = { NYA_des_research_speed_factor = 0.1 }
+		add_to_variable = { NYA_des_nuclear_production_factor = 0.5 }
+		add_ideas = NYA_New_Era_Equipment	
+	}
+}
+country_event = {
+	id = ekna.7
+	title = ekna.7.t
+	desc = ekna.7.d
+	picture = GFX_country_event_new_weapon_ekna
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ekna.7.a
+		add_to_variable = { NYA_des_army_armor_attack_factor = 0.15 }
+		add_to_variable = { NYA_des_army_armor_defence_factor = 0.15 }
+		swap_ideas = {
+			remove_idea = NYA_New_Era_Equipment
+			add_idea = NYA_New_Era_Equipment_1
+		}
+	}
+}
+country_event = {
+	id = ekna.8
+	title = ekna.8.t
+	desc = ekna.8.d
+	picture = GFX_country_event_new_weapon_ekna
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ekna.8.a	
+		swap_ideas = {
+			remove_idea = NYA_New_Era_Equipment_1
+			add_idea = NYA_New_Era_Equipment_2
+		}
+	}
+}
+country_event = {
+	id = ekna.9
+	title = ekna.9.t
+	desc = ekna.9.d
+	picture = GFX_country_event_new_weapon_ekna
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ekna.9.a
+		set_technology = {
+			main_battle_tank_chassis = 1
+		}
+		add_ideas = NYA_New_Era_Science
+		add_to_variable = { NYA_des_production_speed_buildings_factor = 0.05 }
+		add_to_variable = { NYA_des_political_power_factor = 0.50 }
+		add_to_variable = { NYA_des_army_org_regain = 0.25 }
+		add_to_variable = { NYA_des_industrial_capacity_factory = 0.05 }
+		add_to_variable = { NYA_des_justify_war_goal_time = -1 }
+		add_to_variable = { NYA_des_army_attack_against_major_factor = 0.20 }
+		add_to_variable = { NYA_des_research_speed_factor = 0.15 }
+		add_to_variable = { NYA_des_army_armor_attack_factor = 0.05 }
+		add_to_variable = { NYA_des_army_armor_defence_factor = 0.05 }
+	}
+}
+country_event = {
+	id = ekna.10
+	title = ekna.10.t
+	desc = ekna.10.d
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+        name = ekna.10.a
+        retire_country_leader = yes
+        retire_character = Parlament
+        set_politics = {
+            ruling_party = neutrality
+        }
+        add_country_leader_role = {
+            character = NYA_Azazel
+            country_leader = { 
+                ideology = monarchy
+            }
+            promote_leader = yes
+        }
+    }
+	option = {
+		name = ekna.10.b
+		NIG = { 
+			puppet = NYA
+			set_autonomy = {
+				target = NYA
+				autonomy_state = autonomy_personal_union
+			}
+		}
+		hidden_effect = {
+			play_song = "The Man Who Sold The World"
+		}
+	}
+}
+country_event = {
+	id = ekna.11
+	title = ekna.11.t
+	desc = ekna.11.d
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+        name = ekna.11.a
+    }
+}
+country_event = {
+	id = ekna.12
+	title = ekna.12.t
+	desc = ekna.12.d
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+        name = ekna.12.a
+    }
+}
+country_event = {
+	id = ekna.13
+	title = ekna.13.t
+	desc = ekna.13.d
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+        name = ekna.13.a
+    }
+}

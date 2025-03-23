@@ -1,0 +1,17 @@
+characters = {
+	MGS_Pequodd = {
+		name = "Pequodd"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KFC_Tijomant
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = {
+				diamond_dog
+				last_man
+			}
+		} 
+	}
+}

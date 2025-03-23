@@ -1,0 +1,308 @@
+spriteTypes = {
+
+
+    #Оксид
+
+
+	spriteType = {
+		name = "GFX_portrait_OKS_Mistress_Revolver_Acelot_Anastasia"
+		texturefile = "gfx/leaders/OKS/Portrait_OKS_Mistress_Revolver_Acelot_Anastasia.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_OKS_Mihairu"
+		texturefile = "gfx/leaders/OKS/portrait_OKS_mihairu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_OKS_Frimmur"
+		texturefile = "gfx/leaders/OKS/Portrait_OKS_Frimmur.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_OKS_Totally_Bread"
+		texturefile = "gfx/leaders/OKS/Portrait_OKS_Totally_Bread.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_OKS_Mamont"
+	    textureFile = "gfx/leaders/OKS/Portrait_OKS_Mamont.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_OKS_Jojo_Division"
+		texturefile = "gfx/leaders/OKS/Portrait_OKS_Raul_Prime.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_OKS_Neco_Kumar"
+		texturefile = "gfx/leaders/OKS/Portrait_OKS_neco_kumar.dds"
+	}
+
+
+	#Funterio
+
+
+	spriteType = {
+		name = "GFX_portrait_FUT_Fantar"
+		texturefile = "gfx/leaders/FUT/portrait_FUT_Fantar.dds"
+	}
+	spritetype = {
+		name = "GFX_portrait_FUT_Fantario"
+		texturefile = "gfx/leaders/FUT/portrait_FUT_Fantario.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FUT_Fanter"
+		texturefile = "gfx/leaders/FUT/portrait_FUT_Fanter.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FUT_Fantik"
+		texturefile = "gfx/leaders/FUT/portrait_FUT_Fantik.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FUT_Fucker"
+		texturefile = "gfx/leaders/FUT/portrait_FUT_Fucker.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FUT_Funter"
+		texturefile = "gfx/leaders/FUT/portrait_FUT_Funter.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FUT_Funtik"
+		texturefile = "gfx/leaders/FUT/portrait_FUT_Funtik.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_FUT_Guardians"
+		texturefile = "gfx/leaders/FUT/portrait_FUT_Guardians.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FUT_Fanta_and_Cola"
+		texturefile = "gfx/leaders/FUT/portrait_FUT_Fanta_and_Cola.dds"
+	}
+
+
+	#ЭКНА
+
+
+	spriteType = {
+		name = "GFX_portrait_NYA_Noximillian_Nox"
+		textureFile = "gfx/leaders/NYA/portrait_NYA_noximilian_nox.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_NYA_Majima"
+		textureFile = "gfx/leaders/NYA/portrait_NYA_noximilian_majima.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_NYA_Gradus"
+		textureFile = "gfx/leaders/NYA/portrait_NYA_gradus.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_NYA_Komod"
+		textureFile = "gfx/leaders/NYA/portrait_NYA_komod.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_NYA_Doom_Slayer"
+		textureFile = "gfx/leaders/NYA/portrait_NYA_doom_slayer.dds"
+	}
+	spriteType = {
+		name = "GFX_timeparliament"
+		textureFile = "gfx/leaders/NYA/timeparliament.tga"
+	}
+	spriteType = {
+		name = "GFX_portrait_NYA_Supremeee"
+		textureFile = "gfx/leaders/NYA/portrait_NYA_supremeee.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_NYA_Celestin"
+		textureFile = "gfx/leaders/NYA/portrait_NYA_celestin.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_NYA_Azazel"
+		textureFile = "gfx/leaders/NYA/portrait_NYA_azazel.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_NYA_Potato"
+		textureFile = "gfx/leaders/NYA/portrait_NYA_potato.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_NYA_Barmen_Engineer"
+		textureFile = "gfx/leaders/NYA/portrait_NYA_barmen_engineer.dds"
+	}
+
+
+	#Агенты
+
+
+	spriteType = {
+		name = "GFX_portrait_NIG_Amelia_Watson"
+		textureFile = "gfx/leaders/NIG/portrait_NIG_amelia_watson.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_NIG_Neco_Watson"
+		textureFile = "gfx/leaders/NIG/portrait_NIG_neco_watson.dds"
+	}
+
+	#ADIF
+
+	spriteType = {
+		name = "GFX_portrait_ADF_Jc_Rus_Democratic"
+		textureFile = "gfx/leaders/ADF/portrait_ADF_jc_rus_democratic.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ADF_Jc_Rus_Despotism"
+		textureFile = "gfx/leaders/ADF/portrait_ADF_jc_rus_despotism.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ADF_Jc_Rus_Fascism"
+		textureFile = "gfx/leaders/ADF/portrait_ADF_jc_rus_fascism.dds"
+	}
+
+
+	#Булджающие
+
+
+	spriteType = {
+		name = "GFX_Minor"
+		textureFile = x
+	}
+
+
+	#Болотники
+
+
+	spriteType = {
+		name = "GFX_Minor"
+		textureFile = x
+	}
+
+
+	#Чат
+
+
+	spriteType = {
+		name = "GFX_Minor"
+		textureFile = x
+	}
+
+	#IDNK
+
+	spriteType = {
+		name = "GFX_Minor"
+		textureFile = x
+	}
+
+	#Крылатая Династия
+
+	spriteType = {
+		name = "GFX_portrait_KFC_Tijomant"
+		textureFile = "gfx/leaders/KFC/portrait_KFC_tijomant.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KFC_Neco_Techno"
+		textureFile = "gfx/leaders/KFC/portrait_KFC_neco_techno.dds"
+	}
+
+	#Металлисты
+
+	spriteType = {
+		name = "GFX_Minor"
+		textureFile = x
+	}
+
+	#SSG
+
+	spriteType = {
+		name = "GFX_portrait_SSG_Feeble"
+		textureFile = "gfx/leaders/SSG/portrait_SSG_feeble.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SSG_Akura"
+		textureFile = "gfx/leaders/SSG/portrait_SSG_akura.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SSG_Falzuri"
+		textureFile = "gfx/leaders/SSG/portrait_SSG_falzuri.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SSG_Haip"
+		textureFile = "gfx/leaders/SSG/portrait_SSG_haip.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SSG_Mesh"
+		textureFile = "gfx/leaders/SSG/portrait_SSG_mesh.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SSG_Natostor"
+		textureFile = "gfx/leaders/SSG/portrait_SSG_natostor.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SSG_Spitfaer"
+		textureFile = "gfx/leaders/SSG/portrait_SSG_spitfaer.dds"
+	}
+
+	#Няшки-Чай
+
+	spriteType = {
+		name = "GFX_portrait_TEA_ChzaGeek"
+		textureFile = "gfx/leaders/TEA/portrait_TEA_chzaGeek.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TEA_Pelmen"
+		textureFile = "gfx/leaders/TEA/portrait_TEA_pelmen.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TEA_Neco_Pilker"
+		textureFile = "gfx/leaders/TEA/portrait_TEA_neco_pilker.dds"
+	}
+
+	#Toho
+
+	spriteType = {
+		name = "GFX_portrait_TOX_Nexdore"
+		textureFile = "gfx/leaders/TOX/portrait_TOX_nexdore.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TOX_Neco_Touhou"
+		textureFile = "gfx/leaders/TOX/portrait_TOX_neco_touhou.dds"
+	}
+
+	#Художка
+
+	spriteType = {
+		name = "GFX_Minor"
+		textureFile = x
+	}
+	spriteType = {
+		name = "GFX_portrait_XYD_Kuwet"
+		textureFile = "gfx/leaders/XYD/portrait_XYD_kuwet.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_XYD_Kirbugo"
+		textureFile = "gfx/leaders/XYD/portrait_XYD_kirbugo.dds"
+	}
+
+    #Ведьмаки
+
+	spriteType = {
+		name = "GFX_portrait_WIT_Mistress_Revolver_Acelot_Anastasia"
+		texturefile = "gfx/leaders/WIT/Portrait_WIT_Mistress_Revolver_Acelot_Anastasia.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_WIT_Fable"
+		texturefile = "gfx/leaders/WIT/portrait_WIT_fable.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_WIT_Spirt"
+		texturefile = "gfx/leaders/WIT/portrait_WIT_spirt.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_WIT_Diporaz"
+		textureFile = "gfx/leaders/WIT/portrait_WIT_diporaz.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_WIT_Dovnoblan"
+		textureFile = "gfx/leaders/WIT/portrait_WIT_dovnoblan.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_WIT_Timmal"
+		textureFile = "gfx/leaders/WIT/portrait_WIT_timmal.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_WIT_Neco_Witcher"
+		textureFile = "gfx/leaders/WIT/portrait_WIT_neco_witcher.dds"
+	}
+}

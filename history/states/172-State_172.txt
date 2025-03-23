@@ -1,0 +1,27 @@
+state={
+	id=172
+	name="STATE_172"
+
+	history={
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 0
+			anti_air_building = 0
+			synthetic_refinery = 0
+		}
+
+	}
+
+	provinces={
+		206 304 516 717 838 1097 1401 2183 2337 2667 2849 3353 3400 3436 3539 3554 3605 3659 3737 4914 4947 4969 4991 4999 5017 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

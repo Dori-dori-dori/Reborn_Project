@@ -1,0 +1,413 @@
+SpriteTypes = {	
+
+
+	###ЭКНА
+
+
+	spriteType = {
+		name = "GFX_goal_choose_your_destiny"
+		textureFile = "gfx/interface/goals/NYA/goal_choose_your_destiny.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_artillery"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_artillery.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_battleship"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_battleship.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_communist"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_communist.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_crown"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_crown.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_dagger"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_dagger.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_education"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_education.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_heavytank"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_heavytank.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_paper"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_paper.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_production"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_production.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_rising"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_rising.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_sacrifice"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_sacrifice.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_like_good_old_days"
+		texturefile = "gfx/interface/goals/NYA/goal_like_good_old_days.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_use_bones"
+		texturefile = "gfx/interface/goals/NYA/goal_use_bones.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_use_negromonica"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_use_negromonica.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_remember_majima"
+		texturefile = "gfx/interface/goals/NYA/goal_remember_majima.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_find_new_fuhrer"
+		texturefile = "gfx/interface/goals/NYA/goal_find_new_fuhrer.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_dreams_come_true"
+		texturefile = "gfx/interface/goals/NYA/goal_dreams_come_true.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_one_way_one_race_one_fuhrer"
+		texturefile = "gfx/interface/goals/NYA/goal_one_way_one_race_one_fuhrer.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_control_minds"
+		texturefile = "gfx/interface/goals/NYA/goal_control_minds.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_square"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_square.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_artillery"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_artillery.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_battleship"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_battleship.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_construction"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_construction.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_blacksun_new_weapon"
+		texturefile = "gfx/interface/goals/NYA/goal_blacksun_new_weapon.tga"
+	}
+	SpriteType = {
+		name = "GFX_black_sun_purple_fire"
+		texturefile = "gfx/interface/goals/NYA/black_sun_purple_fire.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_total_victory"
+		texturefile = "gfx/interface/goals/NYA/goal_total_victory.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_try_take_painters"
+		texturefile = "gfx/interface/goals/NYA/goal_try_take_painters.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_amelias_head"
+		texturefile = "gfx/interface/goals/NYA/goal_amelias_head.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_build_church"
+		texturefile = "gfx/interface/goals/NYA/goal_build_church.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_operation_patriot"
+		texturefile = "gfx/interface/goals/NYA/goal_operation_patriot.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_black_iron_reich"
+		texturefile = "gfx/interface/goals/NYA/goal_black_iron_reich.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_clear_from_criminal_scum"
+		texturefile = "gfx/interface/goals/NYA/goal_clear_from_criminal_scum.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_glory_to_enclave"
+		texturefile = "gfx/interface/goals/NYA/goal_glory_to_enclave.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_new_hope"
+		texturefile = "gfx/interface/goals/NYA/goal_new_hope.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_pay_to_victims"
+		texturefile = "gfx/interface/goals/NYA/goal_pay_to_victims.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_the_man_who_sold_the_world"
+		textureFile = "gfx/interface/goals/SSG/goal_the_man_who_sold_the_world.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_make_ekna_great_again"
+		textureFile = "gfx/interface/goals/NYA/goal_make_ekna_great_again.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_check_goverment_again"
+		textureFile = "gfx/interface/goals/NYA/goal_check_goverment_again.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_eknakraft"
+		textureFile = "gfx/interface/goals/NYA/goal_eknakraft.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_nuclear_power_for_future"
+		textureFile = "gfx/interface/goals/NYA/goal_nuclear_power_for_future.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_dont_forget"
+		textureFile = "gfx/interface/goals/NYA/goal_dont_forget.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_mobilize_army"
+		textureFile = "gfx/interface/goals/NYA/goal_mobilize_army.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_return_old_guard"
+		textureFile = "gfx/interface/goals/NYA/goal_return_old_guard.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_find_enemy_enclave"
+		textureFile = "gfx/interface/goals/NYA/goal_find_enemy_enclave.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_call_from_hell"
+		textureFile = "gfx/interface/goals/NYA/goal_call_from_hell.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_last_step"
+		textureFile = "gfx/interface/goals/NYA/goal_last_step.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_revenge_for_lose"
+		textureFile = "gfx/interface/goals/NYA/goal_revenge_for_lose.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_slaves_boykissers"
+		textureFile = "gfx/interface/goals/NYA/goal_slaves_boykissers.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_fix_holes_in_security"
+		textureFile = "gfx/interface/goals/NYA/goal_fix_holes_in_security.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_stabilize_the_goverment"
+		textureFile = "gfx/interface/goals/NYA/goal_stabilize_the_goverment.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_burn_birds"
+		textureFile = "gfx/interface/goals/NYA/goal_burn_birds.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_cut_wings"
+		textureFile = "gfx/interface/goals/NYA/goal_cut_wings.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_bring_tij_to_judge"
+		textureFile = "gfx/interface/goals/NYA/goal_bring_tij_to_judge.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_mercenaries_outer_heaven_company"
+		textureFile = "gfx/interface/goals/NYA/goal_mercenaries_outer_heaven_company.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_sneak_from_gods"
+		textureFile = "gfx/interface/goals/NYA/goal_sneak_from_gods.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_clumsy_is_good_boy"
+		textureFile = "gfx/interface/goals/NYA/goal_clumsy_is_good_boy.tga"
+	}
+
+	
+###ССГ###
+
+
+	spriteType = {
+		name = "GFX_goal_witchers"
+		textureFile = "gfx/interface/goals/SSG/goal_witchers.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_way"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_way.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_shiz"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_shiz.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_hersones_wall"
+		textureFile = "gfx/interface/goals/SSG/goal_hersones_wall.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_burenya"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_burenya.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_core_dynasty"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_core_dynasty.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_create_alliance"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_create_alliance.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_create_union"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_create_union.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_friendship_ebalo"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_friendship_ebalo.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_IDNK"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_IDNK.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_swamps"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_swamps.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_take_dynasty"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_take_dynasty.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_total_war"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_total_war.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_yugoslavia_reference"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_yugoslavia_reference.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_alcohol_new_step"
+		textureFile = "gfx/interface/goals/SSG/goal_alcohol_new_step.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_fable_agency_games"
+		textureFile = "gfx/interface/goals/SSG/goal_fable_agency_games.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_fable_fascismo"
+		textureFile = "gfx/interface/goals/SSG/goal_fable_fascismo.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_fable_mind_police"
+		textureFile = "gfx/interface/goals/SSG/goal_fable_mind_police.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_fable_no_food"
+		textureFile = "gfx/interface/goals/SSG/goal_fable_no_food.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_fable_propagandons"
+		textureFile = "gfx/interface/goals/SSG/goal_fable_propagandons.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_fable_terror"
+		textureFile = "gfx/interface/goals/SSG/goal_fable_terror.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_women_way"
+		textureFile = "gfx/interface/goals/SSG/goal_women_way.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_women_continue"
+		textureFile = "gfx/interface/goals/SSG/goal_women_continue.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_women_kill_spermobak"
+		textureFile = "gfx/interface/goals/SSG/goal_women_kill_spermobak.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_women_democraty_facade"
+		textureFile = "gfx/interface/goals/SSG/goal_women_democraty_facade.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_women_hunt_down_the_fable"
+		textureFile = "gfx/interface/goals/SSG/goal_women_hunt_down_the_fable.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_women_sex_equality"
+		textureFile = "gfx/interface/goals/SSG/goal_women_sex_equality.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_women_oksid_friends"
+		textureFile = "gfx/interface/goals/SSG/goal_women_oksid_friends.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_find_resources"
+		textureFile = "gfx/interface/goals/SSG/goal_find_resources.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_industry"
+		textureFile = "gfx/interface/goals/SSG/goal_focus_industry.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_weapon"
+		textureFile = "gfx/interface/goals/SSG/goal_focus_weapon.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_more_civilian_factory"
+		textureFile = "gfx/interface/goals/SSG/goal_more_civilian_factory.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_new_weapon_design"
+		textureFile = "gfx/interface/goals/SSG/goal_new_weapon_design.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_oil_force"
+		textureFile = "gfx/interface/goals/SSG/goal_oil_force.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_synthetic_wonder"
+		textureFile = "gfx/interface/goals/SSG/goal_synthetic_wonder.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_ssg_unity"
+		textureFile = "gfx/interface/goals/SSG/goal_ssg_unity.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_droblenie"
+		textureFile = "gfx/interface/goals/SSG/goal_droblenie.tga"
+	}
+	
+
+	###Чайные Няшки
+
+
+	spriteType = {
+		name = "GFX_TEA_Tea"
+		textureFile = "gfx/interface/goals/TEA/focus_JAP_tea_time_with_the_douseikai.dds"
+	}
+	spriteType = {
+		name = "GFX_TEA_Chay"
+		textureFile = "gfx/interface/goals/TEA/generic_tea.png"
+	}
+	spriteType = {
+		name = "GFX_TEA_Chayok"
+		textureFile = "gfx/interface/goals/TEA/NCG_CRP_EXP_Tea_Chairs.dds"
+	}
+	spriteType = {
+		name = "GFX_TEA_Chifir"
+		textureFile = "gfx/interface/goals/TEA/goal_LEP_tea_trade.tga"
+	}
+}

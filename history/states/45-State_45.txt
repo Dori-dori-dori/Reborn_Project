@@ -1,0 +1,31 @@
+state={
+	id=45
+	name="STATE_45"
+	
+	history={
+		owner = SSG
+		add_core_of = SSG
+		add_core_of = WAR
+		add_claim_by = WAR
+		add_claim_by = WIT
+		add_claim_by = PRO
+		add_claim_by = TOH
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			anti_air_building = 4
+		}
+	}
+	resources = {
+		steel = 35
+		aluminium = 15
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		176 330 445 486 641 659 910 1046 1105 1305 2050 2093 2218 2272 2344 2682 2776 2874 3007 4102 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

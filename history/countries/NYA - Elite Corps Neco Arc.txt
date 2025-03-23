@@ -1,0 +1,91 @@
+capital = 209
+set_convoys = 0
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.9
+set_oob = NYA_Army
+add_manpower = 10000000
+add_breakthrough_points = {
+	specialization = specialization_land
+	value = 2
+}
+
+add_ideas = {
+	NYA_Great_Army
+	partial_economic_mobilisation
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+	gw_artillery = 1
+	synth_oil_experiments = 1
+	gwtank = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	basic_heavy_tank_chassis = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	basic_machine_tools = 1
+	iw_small_airframe = 1
+	iw_medium_airframe = 1
+	bba_early_transport_plane = 1
+	aa_lmg = 1
+	engines_1 = 1
+	electronic_mechanical_engineering = 1
+	mobile_warfare = 1
+	basic_battery = 1
+	basic_torpedo = 1
+	mtg_transport = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2022.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 65
+	communism = 10
+	democratic = 0
+	neutrality = 15
+	despotism = 10
+}
+
+recruit_character = NYA_Noximillian_Nox
+recruit_character = NYA_Majima
+recruit_character = NYA_Supremeee
+recruit_character = NYA_Gradus
+recruit_character = NYA_Komodus
+recruit_character = NYA_Azazel
+recruit_character = NYA_Celestin
+recruit_character = NYA_Doom_Slayer
+recruit_character = Parlament
+set_variable = { NYA_army_armor_speed_factor = -0.4 }
+set_variable = { NYA_army_attack_factor = -0.4 }
+set_variable = { NYA_army_artillery_attack_factor = -0.4 }
+set_variable = { NYA_army_armor_attack_factor = -0.4 }
+set_variable = { NYA_training_time_army_factor = -0.4 }
+set_variable = { NYA_army_defence_factor = -0.4 }
+set_variable = { NYA_army_org_factor = -0.4 }
+add_dynamic_modifier = { modifier = NYA_forge_new_army }
+set_variable = { NYA_des_production_speed_buildings_factor = 0 }
+set_variable = { NYA_des_political_power_factor = 0 }
+set_variable = { NYA_des_army_org_regain = 0 }
+set_variable = { NYA_des_industrial_capacity_factory = 0 }
+set_variable = { NYA_des_justify_war_goal_time = 0 }
+set_variable = { NYA_des_army_attack_against_major_factor = 0 }
+set_variable = { NYA_des_research_speed_factor = 0 }
+set_variable = { NYA_des_nuclear_production_factor = 0 }
+set_variable = { NYA_des_army_armor_attack_factor = 0 }
+set_variable = { NYA_des_army_armor_defence_factor = 0 }
+add_dynamic_modifier = { modifier = NYA_Nova_Ekna_Empire }

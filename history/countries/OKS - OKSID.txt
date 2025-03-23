@@ -1,0 +1,39 @@
+capital = 58
+set_convoys = 200
+set_research_slots = 3
+set_stability = 0.3
+set_war_support = 0.7
+set_oob = OKS_Army
+
+add_ideas = {
+	OKS_Moon_Light
+	OKS_Raskumar
+}
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2022.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 25
+	communism = 10
+	democratic = 5
+	neutrality = 35
+	despotism = 25
+}
+
+recruit_character = OKS_Frimmur
+recruit_character = OKS_Raul_Prime
+recruit_character = OKS_Mamont
+recruit_character = OKS_Anastasia_Revolver_Ocelot
+recruit_character = OKS_totally_bread
+recruit_character = OKS_Mihairu
+recruit_character = OKS_Neco_Kumar

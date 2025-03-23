@@ -1,0 +1,22 @@
+state={
+	id=38
+	name="STATE_38"
+	
+	history={
+		owner = IDK
+		add_core_of = IDK
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			anti_air_building = 2
+		}
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		447 573 682 1015 1016 1523 1860 2192 2431 2663 3993 4011 4023 4027 4046 4058 4059 4091 4096 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

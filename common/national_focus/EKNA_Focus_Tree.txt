@@ -1,0 +1,2387 @@
+focus_tree = {
+	id = EKNA_Focus_Tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NYA
+		}
+	}
+	default = no
+	focus = {
+		id = NYA_Choose_Your_Destiny
+		icon = GFX_goal_choose_your_destiny
+		cost = 14.40
+		x = 9
+		y = 0
+		select_effect = {
+            log = "[GetDateText]: [Root.GetName]: Select Focus NYA_Choose_Your_Destiny"
+            country_event = { id = ekna.11 days = 95 }
+        }
+		completion_reward = {
+			hidden_effect = {
+				news_event = news.5
+				retire_country_leader = yes
+				remove_ideas = NYA_Great_Army
+				add_ideas = NYA_Crushed_Army
+				add_ideas = NYA_Crushed_Goverment
+				goto_province = 2822
+				launch_nuke = {
+					state = 209
+					province = 2822
+				}
+				country_event = ekna.4
+			}
+			add_stability = -0.5
+			add_war_support = -0.5
+			custom_effect_tooltip = Majima_killed
+		}
+	}
+	focus = {
+		id = NYA_Rebuild_Country
+		icon = GFX_goal_black_iron_reich
+		cost = 10.00
+		available = {
+			has_completed_focus = NYA_Choose_Your_Destiny
+			has_stability = 0.5
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+			}
+		}
+		x = 23
+		y = 0
+
+	}
+	focus = {
+		id = NYA_Check_Our_Army
+		icon = GFX_focus_GRE_reviving_the_spartan_warrior_spirit
+		cost = 5.00
+		x = 37
+		y = 0
+		available = {
+			has_completed_focus = NYA_Choose_Your_Destiny
+			has_war_support = 0.5
+		}
+		completion_reward = {
+			add_dynamic_modifier = {
+				modifier = NYA_forge_new_army
+			}
+			add_timed_idea = {
+				idea = NYA_Reforming_Army
+				days = 120
+			}
+		}
+	}
+	focus = {
+		id = NYA_Remember_Majima
+		icon = GFX_goal_remember_majima
+		cost = 5.00
+		relative_position_id = NYA_Choose_Your_Destiny
+		prerequisite = {
+			focus = NYA_Choose_Your_Destiny
+		}
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Find_New_Fuhrer
+		icon = GFX_goal_find_new_fuhrer
+		cost = 5.00
+		relative_position_id = NYA_Remember_Majima
+		prerequisite = {
+			focus = NYA_Remember_Majima
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Liberal_Shit
+		icon = GFX_focus_ARG_defense_and_democracy
+		cost = 5.00
+		relative_position_id = NYA_Find_New_Fuhrer
+		allow_branch = {
+			NOT = {
+				has_completed_focus = NYA_Like_Good_Old_Days
+			}	
+		}
+		prerequisite = {
+			focus = NYA_Find_New_Fuhrer
+		}
+		mutually_exclusive = {
+			focus = NYA_Like_Good_Old_Days
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.20
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+			hidden_effect = {
+				recruit_character = NYA_Gradus
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_historical_focus_on = yes
+			}
+		}
+		x = -5
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Komod_Leader
+		icon = GFX_goal_unknown
+		cost = 4.00
+		relative_position_id = NYA_Liberal_Shit
+		prerequisite = {
+			focus = NYA_Liberal_Shit
+		}
+		mutually_exclusive = {
+			focus = NYA_Gradus_Leader
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Gradus_Leader
+		icon = GFX_goal_unknown
+		cost = 4.00
+		relative_position_id = NYA_Liberal_Shit
+		prerequisite = {
+			focus = NYA_Liberal_Shit
+		}
+		mutually_exclusive = {
+			focus = NYA_Komod_Leader
+		}
+		completion_reward = {
+			set_politics = {
+				ruling_party = neutrality
+			}
+			add_country_leader_role = {
+				character = NYA_Gradus
+				country_leader = {
+					ideology = oligarchism
+					traits = { the_gentleman_president }
+				}
+				promote_leader = yes 
+			}
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Like_Good_Old_Days
+		icon = GFX_goal_like_good_old_days
+		cost = 5.00
+		relative_position_id = NYA_Find_New_Fuhrer
+		allow_branch = {
+			NOT = {
+				has_completed_focus = NYA_Liberal_Shit
+			}
+		}
+		prerequisite = {
+			focus = NYA_Find_New_Fuhrer
+		}
+		mutually_exclusive = {
+			focus = NYA_Liberal_Shit
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.3
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			base = 1
+			modifier = {
+				
+			}
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Sneak_From_Gods
+		icon = GFX_goal_sneak_from_gods
+		cost = 4.00
+		relative_position_id = NYA_Like_Good_Old_Days
+		prerequisite = {
+			focus = NYA_Like_Good_Old_Days
+		}
+		completion_reward = {
+			add_nuclear_bombs = 1
+			goto_province = 4623
+			launch_nuke = {
+				use_nuke = yes
+				state = 6
+				province = 4623
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+
+	focus = {
+		id = NYA_Try_Take_Painters
+		icon = GFX_goal_try_take_painters
+		cost = 3.00
+		relative_position_id = NYA_Like_Good_Old_Days
+		prerequisite = {
+			focus = NYA_Like_Good_Old_Days
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = XYD
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				date = 1937.1.1
+				has_completed_focus = NYA_Like_Good_Old_Days
+			}
+		}
+		x = 2
+		y = 1
+        
+    }
+
+	focus = {
+		id = NYA_No_More
+		icon = GFX_focus_generic_total_war
+		cost = 4.00
+		relative_position_id = NYA_Sneak_From_Gods
+		prerequisite = {
+			focus = NYA_Sneak_From_Gods
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = NYA_Clearing_a_Country
+				days = 200
+			}
+			remove_ideas = NYA_Crushed_Goverment
+			remove_ideas = NYA_Crushed_Army
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Cut_Arms
+		icon = GFX_focus_generic_full_employment
+		cost = 3.00
+		relative_position_id = NYA_No_More
+		prerequisite = {
+			focus = NYA_No_More
+		}
+		completion_reward = {
+			add_stability = -0.2
+			add_war_support = 0.15
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Fix_Holes_in_Security
+		icon = GFX_goal_fix_holes_in_security
+		cost = 3.00
+		relative_position_id = NYA_Cut_Arms
+		prerequisite = {
+			focus = NYA_Cut_Arms
+		}
+		completion_reward = {
+			create_intelligence_agency = yes
+			add_stability = 0.1
+		}
+		x = 0
+		y = 1
+
+	}focus = {
+		id = NYA_Stabilize_the_Goverment
+		icon = GFX_goal_stabilize_the_goverment
+		cost = 3.00
+		relative_position_id = NYA_No_More
+		prerequisite = {
+			focus = NYA_No_More
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Build_Church
+		icon = GFX_goal_build_church
+		cost = 3.00
+		relative_position_id = NYA_No_More
+		prerequisite = {
+			focus = NYA_No_More
+		}
+		completion_reward = {
+			add_ideas = NYA_Burenya_Church
+			hidden_effect = {
+				news_event = news.1
+			}
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = NYA_New_Ways
+		icon = GFX_focus_generic_railroad
+		cost = 4.00
+		relative_position_id = NYA_Rebuild_Country
+		prerequisite = {
+			focus = NYA_Rebuild_Country
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = infrastructure
+						level = 4
+						instant_build = yes
+				}
+			}			
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Slaves_Boykissers
+		icon = GFX_goal_slaves_boykissers
+		cost = 4.00
+		relative_position_id = NYA_New_Ways
+		prerequisite = {
+			focus = NYA_New_Ways
+		}
+		completion_reward = {
+			add_ideas = NYA_Slaves
+		}
+		x = -2
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Collect_Metall_From_Ruins
+		icon = GFX_focus_generic_torpedo_production
+		cost = 4.00
+		relative_position_id = NYA_New_Ways
+		prerequisite = {
+			focus = NYA_New_Ways
+		}
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 10
+				state = 203
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Collect_Resources
+		icon = GFX_focus_generic_public_works
+		cost = 4.00
+		relative_position_id = NYA_Rebuild_Country
+		prerequisite = {
+			focus = NYA_Rebuild_Country
+		}
+		completion_reward = {
+			add_resource = {
+				type = chromium
+				amount = 12
+				state = 213
+			}
+			add_resource = {
+				type = aluminium
+				amount = 8
+				state = 213
+			}
+			add_resource = {
+				type = rubber
+				amount = 2
+				state = 213
+			}
+			add_resource = {
+				type = tungsten
+				amount = 6
+				state = 213
+			}
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Ready_For_Fight
+		icon = GFX_focus_generic_modernize_industry
+		cost = 4.00
+		relative_position_id = NYA_Collect_Resources
+		prerequisite = {
+			focus = NYA_Collect_Resources
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 4
+				}
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Money_From_Heaven
+		icon = GFX_focus_CHL_devalue_the_peso_export
+		cost = 4.00
+		relative_position_id = NYA_Collect_Resources
+		prerequisite = {
+			focus = NYA_Collect_Resources
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = NYA_Pay_For_Rebuilding
+				days = 365
+			}
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Dreams_Come_True
+		icon = GFX_goal_dreams_come_true
+		cost = 5.00
+		relative_position_id = NYA_Collect_Metall_From_Ruins
+		prerequisite = {
+			focus = NYA_Slaves_Boykissers
+		}
+		prerequisite = {
+			focus = NYA_Collect_Metall_From_Ruins
+		}
+		prerequisite = {
+			focus = NYA_Ready_For_Fight
+		}
+		prerequisite = {
+			focus = NYA_Money_From_Heaven
+		}
+		available = {
+			NOT = {
+				has_idea = NYA_Pay_For_Rebuilding
+			}
+		}
+		completion_reward = {
+			add_political_power = 200
+			add_ideas = NYA_Revived_Economy
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Build_Our_Future
+		icon = GFX_focus_generic_low_cost_housing
+		cost = 4.00
+		relative_position_id = NYA_No_More
+		prerequisite = {
+			focus = NYA_No_More
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+				}
+			}
+			add_timed_idea = {
+				idea = NYA_Recreation_the_Goverment
+				days = 200
+			}
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = NYA_New_Hope
+		icon = GFX_goal_new_hope
+		cost = 10.00
+		relative_position_id = NYA_Stagnation
+		prerequisite = {
+			focus = NYA_Stagnation
+		}
+		x = -10
+		y = 2
+
+	}
+	focus = {
+		id = NYA_Clear_From_Criminal_Scum
+		icon = GFX_goal_clear_from_criminal_scum
+		cost = 10.00
+		relative_position_id = NYA_Build_Our_Future
+		prerequisite = {
+			focus = NYA_Build_Our_Future
+		}
+		mutually_exclusive = {
+			focus = NYA_Second_Try
+		}
+		available = {
+			NOT = {
+				country_exists = XYD
+			}
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = NYA_Dont_Forget
+		icon = GFX_goal_dont_forget
+		cost = 6.50
+		relative_position_id = NYA_Clear_From_Criminal_Scum
+		prerequisite = {
+			focus = NYA_Clear_From_Criminal_Scum
+		}
+		completion_reward = {
+			add_stability = 0.15
+		}
+		x = 2
+		y = 1
+	}
+	focus = {
+		id = NYA_Mobilize_Army
+		icon = GFX_goal_mobilize_army
+		cost = 6.50
+		relative_position_id = NYA_Clear_From_Criminal_Scum
+		prerequisite = {
+			focus = NYA_Clear_From_Criminal_Scum
+		}
+		completion_reward = {
+			add_ideas = NYA_Mobilizing_Army
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = NYA_EKNAKRAFT
+		icon = GFX_goal_eknakraft
+		cost = 6.50
+		relative_position_id = NYA_Clear_From_Criminal_Scum
+		prerequisite = {
+			focus = NYA_Clear_From_Criminal_Scum
+		}
+		completion_reward = {
+			add_political_power = 200
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Remember_Victims
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_New_Hope
+		prerequisite = {
+			focus = NYA_New_Hope
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Pay_to_Victims
+		icon = GFX_goal_pay_to_victims
+		cost = 10.00
+		relative_position_id = NYA_Remember_Victims
+		prerequisite = {
+			focus = NYA_Remember_Victims
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Follow_Chechen
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Pay_to_Victims
+		prerequisite = {
+			focus = NYA_Pay_to_Victims
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Construct_Mosque
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Follow_Chechen
+		prerequisite = {
+			focus = NYA_Follow_Chechen
+		}
+		x = -3
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Forge_New_Goverment
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Follow_Chechen
+		prerequisite = {
+			focus = NYA_Follow_Chechen
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Women_Dresscode
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Forge_New_Goverment
+		prerequisite = {
+			focus = NYA_Forge_New_Goverment
+		}
+		x = -5
+		y = 1
+
+	}
+	focus = {
+		id = NYA_New_Books
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Forge_New_Goverment
+		prerequisite = {
+			focus = NYA_Forge_New_Goverment
+		}
+		x = -3
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Stop_Haram_Ideologies
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Forge_New_Goverment
+		prerequisite = {
+			focus = NYA_Forge_New_Goverment
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Delete_Pigs
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Forge_New_Goverment
+		prerequisite = {
+			focus = NYA_Forge_New_Goverment
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Find_Majima_Killer
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Forge_New_Goverment
+		prerequisite = {
+			focus = NYA_Forge_New_Goverment
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = NYA_New_Cult
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Find_Majima_Killer
+		prerequisite = {
+			focus = NYA_Find_Majima_Killer
+		}
+		x = -4
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Dont_Forget_Fuhrer
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Find_Majima_Killer
+		prerequisite = {
+			focus = NYA_Find_Majima_Killer
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = NYA_New_Muslim_Era
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_New_Cult
+		prerequisite = {
+			focus = NYA_New_Cult
+			focus = NYA_Dont_Forget_Fuhrer
+		}
+		mutually_exclusive = {
+			focus = NYA_Enought
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Make_BBQ_From_Birds
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_New_Muslim_Era
+		prerequisite = {
+			focus = NYA_New_Muslim_Era
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Kill_Shaitans
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Make_BBQ_From_Birds
+		prerequisite = {
+			focus = NYA_Make_BBQ_From_Birds
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Remember_About_Tanks
+		icon = GFX_focus_generic_tank_production
+		cost = 4.00
+		relative_position_id = NYA_Check_Our_Army
+		prerequisite = {
+			focus = NYA_Check_Our_Army
+		}
+		completion_reward = {
+			add_to_variable = { NYA_army_armor_speed_factor = 0.05 }
+			add_to_variable = { NYA_army_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_artillery_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_armor_attack_factor = 0.05 }
+			add_to_variable = { NYA_training_time_army_factor = 0.05 }
+			add_to_variable = { NYA_army_defence_factor = 0.05 }
+			add_to_variable = { NYA_army_org_factor = 0.05 }
+			custom_effect_tooltip = NYA_Forge_New_Army
+			add_equipment_to_stockpile = {
+				type = medium_tank_chassis
+				amount = 1000
+			}
+			army_experience = 20
+		}
+		x = -3
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Teach_Childrens_Muslim
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Forge_New_Goverment
+		prerequisite = {
+			focus = NYA_Forge_New_Goverment
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Enought
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Dont_Forget_Fuhrer
+		prerequisite = {
+			focus = NYA_Dont_Forget_Fuhrer
+			focus = NYA_New_Cult
+		}
+		mutually_exclusive = {
+			focus = NYA_New_Muslim_Era
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_New_Equipment
+		icon = GFX_focus_secret_rearmament
+		cost = 4.00
+		relative_position_id = NYA_Check_Our_Army
+		prerequisite = {
+			focus = NYA_Check_Our_Army
+		}
+		completion_reward = {
+			add_to_variable = { NYA_army_armor_speed_factor = 0.05 }
+			add_to_variable = { NYA_army_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_artillery_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_armor_attack_factor = 0.05 }
+			add_to_variable = { NYA_training_time_army_factor = 0.05 }
+			add_to_variable = { NYA_army_defence_factor = 0.05 }
+			add_to_variable = { NYA_army_org_factor = 0.05 }
+			custom_effect_tooltip = NYA_Forge_New_Army
+			add_tech_bonus = {
+				name = infantry_equipment
+				bonus = 1
+				uses = 4
+				category = infantry_weapons
+				category = infantry_tech
+				category = artillery
+			}
+			army_experience = 20
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Destroy_Church
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Follow_Chechen
+		prerequisite = {
+			focus = NYA_Follow_Chechen
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Chase_Christian_Pigs
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Destroy_Church
+		prerequisite = {
+			focus = NYA_Destroy_Church
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Test_Our_Generals
+		icon = GFX_focus_generic_military_mission
+		cost = 4.00
+		relative_position_id = NYA_Check_Our_Army
+		prerequisite = {
+			focus = NYA_Check_Our_Army
+		}
+		completion_reward = {
+			add_to_variable = { NYA_army_armor_speed_factor = 0.05 }
+			add_to_variable = { NYA_army_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_artillery_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_armor_attack_factor = 0.05 }
+			add_to_variable = { NYA_training_time_army_factor = 0.05 }
+			add_to_variable = { NYA_army_defence_factor = 0.05 }
+			add_to_variable = { NYA_army_org_factor = 0.05 }
+			custom_effect_tooltip = NYA_Forge_New_Army
+			add_doctrine_cost_reduction = {
+				cost_reduction = 1
+				name = land_doc_bonus
+				uses = 1
+				category = land_doctrine
+			}
+			army_experience = 20
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_The_New_Orders
+		icon = GFX_focus_generic_full_social_mobilization
+		cost = 4.00
+		relative_position_id = NYA_Check_Our_Army
+		prerequisite = {
+			focus = NYA_Check_Our_Army
+		}
+		completion_reward = {
+			add_to_variable = { NYA_army_armor_speed_factor = 0.05 }
+			add_to_variable = { NYA_army_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_artillery_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_armor_attack_factor = 0.05 }
+			add_to_variable = { NYA_training_time_army_factor = 0.05 }
+			add_to_variable = { NYA_army_defence_factor = 0.05 }
+			add_to_variable = { NYA_army_org_factor = 0.05 }
+			custom_effect_tooltip = NYA_Forge_New_Army
+			army_experience = 20
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Modernize_War_Economy
+		icon = GFX_focus_generic_reorient_production
+		cost = 4.00
+		relative_position_id = NYA_The_New_Orders
+		prerequisite = {
+			focus = NYA_The_New_Orders
+		}
+		completion_reward = {
+			add_to_variable = { NYA_army_armor_speed_factor = 0.05 }
+			add_to_variable = { NYA_army_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_artillery_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_armor_attack_factor = 0.05 }
+			add_to_variable = { NYA_training_time_army_factor = 0.05 }
+			add_to_variable = { NYA_army_defence_factor = 0.05 }
+			add_to_variable = { NYA_army_org_factor = 0.05 }
+			custom_effect_tooltip = NYA_Forge_New_Army
+			if = {
+				limit = {
+					owner = {
+						is_ai = no
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
+									}
+								}
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			else = {
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
+									}
+								}
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			army_experience = 40
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Mercenaries_Outer_Heaven_Company
+		icon = GFX_goal_mercenaries_outer_heaven_company
+		cost = 4.00
+		relative_position_id = NYA_New_Equipment
+		prerequisite = {
+			focus = NYA_New_Equipment
+		}
+		prerequisite = {
+			focus = NYA_Test_Our_Generals
+		}
+		completion_reward = {
+			add_to_variable = { NYA_army_armor_speed_factor = 0.05 }
+			add_to_variable = { NYA_army_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_artillery_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_armor_attack_factor = 0.05 }
+			add_to_variable = { NYA_training_time_army_factor = 0.05 }
+			add_to_variable = { NYA_army_defence_factor = 0.05 }
+			add_to_variable = { NYA_army_org_factor = 0.05 }
+			custom_effect_tooltip = NYA_Forge_New_Army
+			army_experience = 40
+			
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_New_Guns_of_a_Patriots
+		icon = GFX_focus_generic_combined_arms
+		cost = 4.00
+		relative_position_id = NYA_Remember_About_Tanks
+		prerequisite = {
+			focus = NYA_Remember_About_Tanks
+		}
+		completion_reward = {
+			add_to_variable = { NYA_army_armor_speed_factor = 0.05 }
+			add_to_variable = { NYA_army_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_artillery_attack_factor = 0.05 }
+			add_to_variable = { NYA_army_armor_attack_factor = 0.05 }
+			add_to_variable = { NYA_training_time_army_factor = 0.05 }
+			add_to_variable = { NYA_army_defence_factor = 0.05 }
+			add_to_variable = { NYA_army_org_factor = 0.05 }
+			custom_effect_tooltip = NYA_Forge_New_Army
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 2500
+			}
+			army_experience = 40
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Fire_Rises
+		icon = GFX_black_sun_purple_fire
+		cost = 5.00
+		relative_position_id = NYA_Mercenaries_Outer_Heaven_Company
+		available = {
+			NOT = {
+				has_idea = NYA_Reforming_Army
+			}
+		}
+		prerequisite = {
+			focus = NYA_New_Guns_of_a_Patriots
+		}
+		prerequisite = {
+			focus = NYA_Mercenaries_Outer_Heaven_Company
+		}
+		prerequisite = {
+			focus = NYA_Modernize_War_Economy
+		}
+		completion_reward = {
+			add_to_variable = { NYA_army_armor_speed_factor = 0.15 }
+			add_to_variable = { NYA_army_attack_factor = 0.15 }
+			add_to_variable = { NYA_army_artillery_attack_factor = 0.15 }
+			add_to_variable = { NYA_army_armor_attack_factor = 0.15 }
+			add_to_variable = { NYA_training_time_army_factor = 0.15 }
+			add_to_variable = { NYA_army_defence_factor = 0.15 }
+			add_to_variable = { NYA_army_org_factor = 0.15 }
+			custom_effect_tooltip = NYA_Forge_New_Army
+			army_experience = 100
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Stagnation
+		icon = GFX_goal_unknown
+		cost = 4.00
+		relative_position_id = NYA_Komod_Leader
+		prerequisite = {
+			focus = NYA_Komod_Leader
+		}
+		completion_reward = {
+			hidden_effect = {
+				start_civil_war = {
+					ideology = fascism
+				}
+				start_civil_war = {
+					ideology = communism
+				}
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_The_Man_Who_Sold_The_World
+		icon = GFX_goal_the_man_who_sold_the_world
+		cost = 4.00
+		relative_position_id = NYA_Gradus_Leader
+		prerequisite = {
+			focus = NYA_Gradus_Leader
+		}
+		completion_reward = {
+			country_event = ekna.10
+			custom_effect_tooltip = gradus_sold_the_world
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Start_of_an_Empire
+		icon = GFX_focus_SOV_restore_cossack_units
+		cost = 5.00
+		relative_position_id = NYA_The_Man_Who_Sold_The_World
+		prerequisite = {
+			focus = NYA_The_Man_Who_Sold_The_World
+		}
+		available = {
+			has_government = neutrality
+		}
+		x = 0
+		y = 1
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = NYA_Crushed_Goverment
+				add_idea = NYA_Newborn_empire
+			}
+			add_popularity = {
+				ideology = monarchy
+				popularity = 50
+			}
+		}
+	}
+	focus = {
+        id = NYA_Make_good_old_Gaubitz
+        icon = GFX_goal_generic_army_artillery2
+        cost = 4.00
+        relative_position_id = NYA_Start_of_an_Empire
+        prerequisite = {
+            focus = NYA_Start_of_an_Empire
+        }
+        completion_reward = {
+            add_ideas = NYA_Gaubitz_of_Kings
+        }
+        x = -2
+        y = 1
+    }
+	focus ={
+        id = NYA_Create_Kazak_Arc
+        icon = GFX_goal_generic_cavalry
+        cost = 4.00
+        relative_position_id = NYA_Start_of_an_Empire
+        prerequisite = {
+            focus = NYA_Start_of_an_Empire
+        }
+        completion_reward = {
+            add_ideas = NYA_Creation_of_Kazak_Arc
+        }
+        x = 2
+        y = 1
+    }
+	focus = {
+		id = NYA_concuer_XYDOJKU
+		icon = GFX_goal_try_take_painters
+		cost = 10.00
+		relative_position_id = NYA_Start_of_an_Empire
+		prerequisite = {
+			focus = NYA_Start_of_an_Empire
+		}
+		mutually_exclusive = {
+			focus = NYA_make_Dukeland_of_Xudojka
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = XYD
+				type = annex_everything
+			}
+		}
+		x = -1
+		y = 2
+
+	}
+	focus = {
+		id = NYA_Fuck_furry_sluts
+		icon = GFX_focus_POL_plan_west
+		cost = 4.00
+		relative_position_id = NYA_concuer_XYDOJKU
+		prerequisite = {
+			focus = NYA_concuer_XYDOJKU
+			focus = NYA_make_Dukeland_of_Xudojka
+		}
+		mutually_exclusive = {
+			focus = NYA_Winged_Neco
+		}
+		completion_reward = { 
+			create_wargoal = {
+				target = KFC
+				type = annex_everything
+			}
+		}
+		x = 0
+		y = 1
+		
+	}
+	focus = {
+		id = NYA_make_Dukeland_of_Xudojka
+		icon = GFX_focus_POL_belarus_army
+		cost = 4.00
+		relative_position_id = NYA_Start_of_an_Empire
+		prerequisite = {
+			focus = NYA_Start_of_an_Empire
+		}
+		mutually_exclusive = {
+			focus = NYA_concuer_XYDOJKU
+		}
+		completion_reward = {
+			XYD = {
+				country_event = xyd.1
+			}
+		}
+		x = 1
+		y = 2
+	
+	}
+	focus = {
+		id = NYA_Winged_Neco
+		icon = GFX_focus_POL_end_the_regency
+		cost = 4.00
+		relative_position_id = NYA_make_Dukeland_of_Xudojka
+		prerequisite = {
+			focus = NYA_make_Dukeland_of_Xudojka
+			focus = NYA_concuer_XYDOJKU
+		}
+		mutually_exclusive = {
+			focus = NYA_Fuck_furry_sluts
+		}
+		completion_reward = { 
+			KFC = {
+				country_event = KFC.1
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Let_clumsy_to_form_Femboy_Corpuses
+		icon = GFX_goal_clumsy_is_good_boy
+		cost = 4.00
+		relative_position_id = NYA_Blame_OKSID_in_gradus_betrayal
+		prerequisite = {
+			focus = NYA_Winged_Neco
+			focus = NYA_Blame_OKSID_in_gradus_betrayal
+		}
+		x = 3
+		y = 1
+	}
+	focus = {
+		id = NYA_Empire_Still_Standing
+		icon = GFX_focus_SOV_panslavic_nationalism
+		cost = 4.00
+		relative_position_id = NYA_Fuck_furry_sluts
+		prerequisite = {
+			focus = NYA_Winged_Neco
+			focus = NYA_Fuck_furry_sluts
+		}
+		completion_reward = {
+			add_ideas = NYA_Great_Empire
+		}
+		x = 1
+		y = 1
+	}
+	focus = {
+		id = NYA_Coalition_with_Ozvuchkers
+		icon = GFX_focus_POL_beck_ribbentrop
+		cost = 4.00
+		relative_position_id = NYA_Winged_Neco
+		prerequisite = {
+			focus = NYA_Empire_Still_Standing
+		}
+		completion_reward = { 
+			NIG = {
+				country_event = nig.1
+			}
+		}
+		x = -1
+		y = 2
+	
+	}
+	focus = {
+		id = NYA_Blame_OKSID_in_gradus_betrayal
+		icon = GFX_focus_POL_OZON
+		cost = 4.00
+		relative_position_id = NYA_Coalition_with_Ozvuchkers
+		prerequisite = {
+			focus = NYA_Coalition_with_Ozvuchkers
+		}
+		completion_reward = { 
+			add_opinion_modifier = {
+				target = OKS
+				modifier = POL_annexation_refused
+			}
+			add_ideas = NYA_antiOKSIDant
+		}
+		x = 0
+		y = 1
+		
+	}
+	focus = {
+		id = NYA_update_Gaubitz_Manufactory
+		icon = GFX_goal_generic_army_artillery
+		cost = 4.00
+		relative_position_id = NYA_Blame_OKSID_in_gradus_betrayal
+		prerequisite = {
+			focus = NYA_Blame_OKSID_in_gradus_betrayal
+		}		
+		completion_reward = {
+			add_ideas = NYA_New_Artillery_Design
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Make_full_Kazak_cavallery
+		icon = GFX_focus_POL_cossack_king
+		cost = 4.00
+		relative_position_id = NYA_Blame_OKSID_in_gradus_betrayal
+		prerequisite = {
+			focus = NYA_Blame_OKSID_in_gradus_betrayal
+		}
+		completion_reward = {
+			add_ideas = NYA_Kings_Kazak_Korpuses
+		}
+		x = -1
+		y = 1
+		
+	}
+	focus = {
+		id = NYA_start_war_with_OKSID
+		icon = GFX_focus_DEN_expand_haerens_tekniske_korps
+		cost = 4.00
+		relative_position_id = NYA_Blame_OKSID_in_gradus_betrayal
+		prerequisite = {
+			focus = NYA_Blame_OKSID_in_gradus_betrayal
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = OKS
+				type = annex_everything
+			}
+		}
+		x = 0
+		y = 2
+	}
+	focus = {
+		id = NYA_Second_Try
+		icon = GFX_goal_blacksun
+		cost = 10.00
+		relative_position_id = NYA_Build_Our_Future
+		prerequisite = {
+			focus = NYA_Build_Our_Future
+		}
+		mutually_exclusive = {
+			focus = NYA_Clear_From_Criminal_Scum
+		}
+		completion_reward = {
+			country_event = ekna.1
+			hidden_effect = {
+				XYD = {
+					every_core_state = {
+					   add_core_of = NYA
+					}
+				}
+			}
+		}
+		available = {
+			NOT = {
+				country_exists = XYD
+			}
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = NYA_Check_Goverment_Again
+		icon = GFX_goal_check_goverment_again
+		cost = 6.50
+		relative_position_id = NYA_Clear_From_Criminal_Scum
+		prerequisite = {
+			focus = NYA_Clear_From_Criminal_Scum
+		}
+		completion_reward = {
+			add_political_power = 125
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Return_Old_Guard
+		icon = GFX_goal_return_old_guard
+		cost = 6.50
+		relative_position_id = NYA_Mobilize_Army
+		prerequisite = {
+			focus = NYA_Mobilize_Army
+		}
+		completion_reward = {
+			add_ideas = NYA_Power_Armor
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Find_Untermensh
+		icon = GFX_focus_generic_conspiracy
+		cost = 3.00
+		relative_position_id = NYA_Dont_Forget
+		prerequisite = {
+			focus = NYA_Dont_Forget
+			focus = NYA_Check_Goverment_Again
+		}
+		completion_reward = {
+			add_ideas = NYA_Search_And_Destroy
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Make_Ekna_Great_Again
+		icon = GFX_goal_make_ekna_great_again
+		cost = 4.00
+		relative_position_id = NYA_Burn_Birds
+		prerequisite = {
+			focus = NYA_Cut_Wings
+		}
+		prerequisite = {
+			focus = NYA_Bring_Tij_To_Judge
+		}
+		prerequisite = {
+			focus = NYA_Burn_Birds
+		}
+		completion_reward = {
+			hidden_effect = {
+				recruit_character = NYA_Doom_Slayer
+			}
+			KFC = {
+				every_core_state = {
+				   add_core_of = NYA
+				}
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Nuclear_Power_For_Future
+		icon = GFX_goal_nuclear_power_for_future
+		cost = 6.50
+		relative_position_id = NYA_EKNAKRAFT
+		prerequisite = {
+			focus = NYA_EKNAKRAFT
+		}
+		completion_reward = {
+			set_technology = {
+				atomic_research = 1
+				experimental_rockets = 1
+			}
+			add_breakthrough_points = {
+				specialization = specialization_nuclear
+				value = 5
+			}
+			206 = {
+				add_building_construction = {
+					type = nuclear_facility
+					province = 2771
+					level = 1
+				}
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Call_From_Hell
+		icon = GFX_goal_call_from_hell
+		cost = 5.00
+		relative_position_id = NYA_Return_Old_Guard
+		prerequisite = {
+			focus = NYA_Find_Untermensh
+			focus = NYA_Return_Old_Guard
+			focus = NYA_Nuclear_Power_For_Future
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = KFC
+				type = annex_everything
+			}
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Glory_To_Enclave
+		icon = GFX_goal_glory_to_enclave
+		cost = 8.00
+		relative_position_id = NYA_Make_Ekna_Great_Again
+		prerequisite = {
+			focus = NYA_Make_Ekna_Great_Again
+		}
+		completion_reward = {
+			set_politics = {
+				ruling_party = fascism
+			}
+			add_country_leader_role = {
+				character = NYA_Doom_Slayer
+				country_leader = {
+					ideology = gen_nazism
+					traits = { majima_follower dictator }
+				}
+				promote_leader = yes
+			}
+			set_cosmetic_tag = NYA_enclave
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Cut_Wings
+		icon = GFX_goal_cut_wings
+		cost = 3.00
+		relative_position_id = NYA_Call_From_Hell
+		available = {
+			NOT = {
+				country_exists = KFC
+			}
+		}
+		prerequisite = {
+			focus = NYA_Call_From_Hell
+		}
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+				   is_core_of = KFC
+				   NOT = { is_core_of = ROOT }
+				}
+				add_resistance = 10
+				add_compliance = -10
+			}
+			hidden_effect = {
+				country_event = ekna.12
+			}
+		}
+		x = -2
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Burn_Birds
+		icon = GFX_goal_burn_birds
+		cost = 3.00
+		relative_position_id = NYA_Call_From_Hell
+		available = {
+			NOT = {
+				country_exists = KFC
+			}
+		}
+		prerequisite = {
+			focus = NYA_Call_From_Hell
+		}
+		completion_reward = {
+			NYA = {
+				randomize_temp_variable = {
+					var = amount
+					min = -300000
+					max = -100000
+				}
+				round_temp_variable = amount
+				set_variable = { amount_tt_var = amount }
+				random_owned_state = {
+					limit = {
+						is_core_of = KFC
+						NOT = {
+							is_core_of = NYA
+						}
+					}
+					
+					hidden_effect = { add_manpower = var:amount }
+					custom_effect_tooltip = add_amount_manpower_tt
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = KFC
+						NOT = {
+							is_core_of = NYA
+						}
+					}
+					
+					hidden_effect = { add_manpower = var:amount }
+					custom_effect_tooltip = add_amount_manpower_tt
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = KFC
+						NOT = {
+							is_core_of = NYA
+						}
+					}
+					
+					hidden_effect = { add_manpower = var:amount }
+					custom_effect_tooltip = add_amount_manpower_tt
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = KFC
+						NOT = {
+							is_core_of = NYA
+						}
+					}
+					
+					hidden_effect = { add_manpower = var:amount }
+					custom_effect_tooltip = add_amount_manpower_tt
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = KFC
+						NOT = {
+							is_core_of = NYA
+						}
+					}
+					
+					hidden_effect = { add_manpower = var:amount }
+					custom_effect_tooltip = add_amount_manpower_tt
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = KFC
+						NOT = {
+							is_core_of = NYA
+						}
+					}
+					
+					hidden_effect = { add_manpower = var:amount }
+					custom_effect_tooltip = add_amount_manpower_tt
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = KFC
+						NOT = {
+							is_core_of = NYA
+						}
+					}
+					
+					hidden_effect = { add_manpower = var:amount }
+					custom_effect_tooltip = add_amount_manpower_tt
+				}
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Bring_Tij_To_Judge
+		icon = GFX_goal_bring_tij_to_judge
+		cost = 3.00
+		relative_position_id = NYA_Call_From_Hell
+		available = {
+			NOT = {
+				country_exists = KFC
+			}
+		}
+		prerequisite = {
+			focus = NYA_Call_From_Hell
+		}
+		completion_reward = {
+			custom_effect_tooltip = NYA_Tijomant_Judged
+			hidden_effect = {
+				country_event = ekna.3
+				country_event = { id = ekna.12 days = 10 }
+			}
+		}
+		x = 2
+		y = 1
+	}
+	focus = {
+		id = NYA_Find_Enemy_Enclave
+		icon = GFX_goal_find_enemy_enclave
+		cost = 3.00
+		relative_position_id = NYA_Glory_To_Enclave
+		prerequisite = {
+			focus = NYA_Glory_To_Enclave
+		}
+		completion_reward = {
+			retire_character = NYA_Komodus
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Who_Sold_The_World
+		icon = GFX_goal_the_man_who_sold_the_world
+		cost = 3.00
+		relative_position_id = NYA_Glory_To_Enclave
+		prerequisite = {
+			focus = NYA_Glory_To_Enclave
+		}
+		completion_reward = {
+			retire_character = NYA_Gradus
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Operation_Patriot
+		icon = GFX_goal_operation_patriot
+		cost = 5.00
+		relative_position_id = NYA_Glory_To_Enclave
+		prerequisite = {
+			focus = NYA_Who_Sold_The_World
+			focus = NYA_Find_Enemy_Enclave
+		}
+		completion_reward = {
+			every_other_country = {
+				limit = {
+					any_owned_state = {
+						is_core_of = NIG
+					}
+				}
+				NYA = {
+					create_wargoal = {
+						target = PREV
+						type = annex_everything
+					}
+				}
+			}
+		}
+		x = 0
+		y = 2
+	
+	}
+	focus = {
+		id = NYA_Amelias_Head
+		icon = GFX_goal_amelias_head
+		cost = 4.00
+		relative_position_id = NYA_Operation_Patriot
+		available = {
+			NOT = {
+				country_exists = NIG
+			}
+		}
+		prerequisite = {
+			focus = NYA_Operation_Patriot
+		}
+		completion_reward = {
+			NIG = {
+				retire_character = NIG_Amelia
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Last_Step
+		icon = GFX_goal_last_step
+		cost = 5.00
+		relative_position_id = NYA_Amelias_Head
+		prerequisite = {
+			focus = NYA_Amelias_Head
+		}
+		completion_reward = {
+			create_faction = enclave_union
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Revenge_For_Lose
+		icon = GFX_goal_revenge_for_lose
+		cost = 5.00
+		relative_position_id = NYA_Last_Step
+		prerequisite = {
+			focus = NYA_Last_Step
+		}
+		completion_reward = {
+			every_other_country = {
+				limit = {
+					any_owned_state = {
+						is_core_of = SSG
+					}
+				}
+				NYA = {
+					create_wargoal = {
+						target = PREV
+						type = annex_everything
+					}
+				}
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Use_Negromonica
+		icon = GFX_goal_blacksun_use_negromonica
+		cost = 8.00
+		relative_position_id = NYA_Second_Try
+		prerequisite = {
+			focus = NYA_Second_Try	
+		}
+        available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {	
+		id = NYA_Long_Live_Fuhrer
+		icon = GFX_goal_blacksun_rising
+		cost = 8.00
+		relative_position_id = NYA_Use_Negromonica
+		prerequisite = {
+			focus = NYA_Use_Negromonica
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			hidden_effect = {
+				add_stability = 0.25
+				add_war_support = 0.25
+				add_political_power = 200
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.20
+				}
+			}
+			custom_effect_tooltip = NYA_glory_fuhrer
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_To_Hell_And_Back
+		icon = GFX_goal_use_bones
+		cost = 8.00
+		relative_position_id = NYA_Long_Live_Fuhrer
+		prerequisite = {
+			focus = NYA_Long_Live_Fuhrer
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			every_country = {
+				add_opinion_modifier = {
+					target = NYA
+					modifier = NYA_return_four_reich
+				}
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Here_We_Go_Again
+		icon = GFX_goal_blacksun_rising
+		cost = 8.00
+		relative_position_id = NYA_To_Hell_And_Back
+		prerequisite = {
+			focus = NYA_To_Hell_And_Back
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			set_cosmetic_tag = NYA_blacksun
+			custom_effect_tooltip = NYA_our_vision
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_New_Weapon
+		icon = GFX_goal_blacksun_new_weapon
+		cost = 8.00
+		relative_position_id = NYA_To_Hell_And_Back
+		prerequisite = {
+			focus = NYA_To_Hell_And_Back
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = special_projects
+			set_country_flag = nya_nova_roma
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Ressurect_Army
+		icon = GFX_goal_blacksun_heavytank
+		cost = 6.00
+		relative_position_id = NYA_Here_We_Go_Again
+		prerequisite = {
+			focus = NYA_Here_We_Go_Again
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			add_ideas = NYA_Forged_New_Army
+		}
+		x = -3
+		y = 1
+
+	}
+	focus = {
+		id = NYA_New_Factories
+		icon = GFX_goal_blacksun_construction
+		cost = 6.00
+        relative_position_id = NYA_Here_We_Go_Again
+		prerequisite = {
+			focus = NYA_Here_We_Go_Again
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+			}
+			capital_scope = {
+				add_building_construction = {
+					type = land_facility
+					province = 2822
+					level = 1
+				}
+			}
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_From_Science_To_Army
+		icon = GFX_goal_blacksun_education
+		cost = 6.00
+		relative_position_id = NYA_Here_We_Go_Again
+		prerequisite = {
+			focus = NYA_Here_We_Go_Again
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_tech
+				bonus = 1
+				uses = 5
+				category = industry
+				category = armor
+				category = infantry_weapons
+			}
+			add_research_slot = 1
+			add_breakthrough_points = {
+				specialization = all
+				value = 2
+			}
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Greater_Than_Never
+		icon = GFX_goal_blacksun_production
+		cost = 6.00
+		relative_position_id = NYA_Here_We_Go_Again
+		prerequisite = {
+			focus = NYA_Here_We_Go_Again
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			add_country_leader_trait = majima_follower
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_One_Way_One_Race_One_Fuhrer
+		icon = GFX_goal_one_way_one_race_one_fuhrer
+		cost = 8.00
+		relative_position_id = NYA_Here_We_Go_Again
+		prerequisite = {
+			focus = NYA_Here_We_Go_Again
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.15
+			declare_war_on = {
+				target = KFC
+				type = annex_everything
+			}
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = NYA_Make_Them_Suffer
+		icon = GFX_goal_blacksun_sacrifice
+		cost = 6.00
+		relative_position_id = NYA_One_Way_One_Race_One_Fuhrer
+		prerequisite = {
+			focus = NYA_One_Way_One_Race_One_Fuhrer
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			XYD = {
+				every_core_state = {
+					add_core_of = NYA
+				}
+			}
+		}
+		x = -3
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Toxicity_Army
+		icon = GFX_goal_blacksun_artillery
+		cost = 6.00
+		relative_position_id = NYA_One_Way_One_Race_One_Fuhrer
+		prerequisite = {
+			focus = NYA_One_Way_One_Race_One_Fuhrer
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			add_ideas = NYA_Chemical_Weapons
+			add_war_support = 0.15
+			add_stability = -0.05
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Control_Minds
+		icon = GFX_goal_control_minds
+		cost = 6.00
+		relative_position_id = NYA_One_Way_One_Race_One_Fuhrer
+		prerequisite = {
+			focus = NYA_One_Way_One_Race_One_Fuhrer
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			add_ideas = NYA_Obey_Burenya
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Destroy_Opposition
+		icon = GFX_goal_blacksun_square
+		cost = 6.00
+		relative_position_id = NYA_One_Way_One_Race_One_Fuhrer
+		prerequisite = {
+			focus = NYA_One_Way_One_Race_One_Fuhrer
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = despotism
+				popularity = 100
+			}
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Though_The_Sea
+		icon = GFX_goal_blacksun_battleship
+		cost = 5.00
+		relative_position_id = NYA_Control_Minds
+		prerequisite = {
+			focus = NYA_Make_Them_Suffer
+			focus = NYA_Destroy_Opposition
+			focus = NYA_Control_Minds
+			focus = NYA_Toxicity_Army
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			custom_effect_tooltip = NYA_capture_continent
+			hidden_effect = {
+				declare_war_on = {
+					target = SSG
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = IDK
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = WIT
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = ADF
+					type = annex_everything
+				}
+
+			}
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Kill_Our_Enemies
+		icon = GFX_goal_blacksun_dagger
+		cost = 5.00
+		relative_position_id = NYA_Though_The_Sea
+		prerequisite = {
+			focus = NYA_Though_The_Sea
+		}
+		available = {
+			has_government = despotism
+		}
+		completion_reward = {
+			custom_effect_tooltip = NYA_second_continent
+			if = {
+                every_other_country = {
+                    limit = {
+                        NOT = {
+                            is_in_faction_with = ROOT
+                            has_guaranteed = ROOT
+                            is_guaranteed_by = ROOT
+                            has_non_aggression_pact_with = ROOT
+                            has_war_with = ROOT
+                        }
+                    }
+                    ROOT = {
+                        declare_war_on = {
+                            type = annex_everything
+                            target = PREV
+                        }
+                    }
+
+                }
+            }
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Peace
+		icon = GFX_goal_total_victory
+		cost = 5.00
+		relative_position_id = NYA_Kill_Our_Enemies
+		prerequisite = {
+			focus = NYA_Kill_Our_Enemies
+		}
+		available = {
+			has_government = despotism
+			has_war = no
+			OKS = {
+				or = {
+					is_puppet_of = NYA
+					all_core_state = {
+						is_controlled_by = NYA
+					}
+				}
+			}
+			TEA = {
+				or = {
+					is_puppet_of = NYA
+					all_core_state = {
+						is_controlled_by = NYA
+					}
+				}
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = nya_peace_death
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Nationalize_Lands
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_New_Books
+		prerequisite = {
+			focus = NYA_New_Books
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = NYA_Allah_Akbar
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = NYA_Kill_Shaitans
+		prerequisite = {
+			focus = NYA_Kill_Shaitans
+		}
+		x = 0
+		y = 1
+
+	}
+	continuous_focus_position = {
+		x = 3500
+		y = 1000
+	}
+}

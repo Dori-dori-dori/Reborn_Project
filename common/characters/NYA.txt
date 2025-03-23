@@ -1,0 +1,161 @@
+characters = {
+	NYA_Majima = {
+		name = "Majima"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NYA_Majima
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			traits = {
+				dictator
+			}
+		}
+	}
+	NYA_Noximillian_Nox = {
+		name = "Noximillian Nox"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NYA_Noximillian_Nox
+				small = GFX_NYA_Noximillian_Nox
+			}
+			army = {
+				large = GFX_portrait_NYA_Noximillian_Nox
+			}
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 3
+			traits = {
+				fortress_buster
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = Noximillian_Nox_token
+			ledger = army
+			traits = { army_chief_offensive_3 }
+		}
+		country_leader = {
+			ideology = esoteric_nazism
+			traits = {
+				warrior_code
+			}
+		}
+	}
+	NYA_Gradus = {
+		name = "Gradus"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NYA_Gradus
+				small = GFX_NYA_Gradus
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Gradus_token
+			ledger = civilian
+			traits = { SWE_minister_of_trade }
+		}
+	}
+	NYA_Komodus = {
+		name = "Komod"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NYA_Komod
+				small = GFX_NYA_Komod
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = x
+			ledger = civilian
+			traits = { old_figurehead }
+		}
+	}
+	NYA_Doom_Slayer = {
+		name = "Doomer"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NYA_Doom_Slayer
+			}
+		}
+	}
+	Parlament = {
+		name = "Time Parlament"
+		portraits = {
+			civilian = {
+				large = GFX_timeparliament
+			}
+		}
+		country_leader = {
+			ideology = moderatism
+		}
+	}
+	NYA_Supremeee = {
+		name = "Supremeee"
+		portraits = {
+			civilian = {
+				small = GFX_NYA_Supremeee
+			}
+			army = {
+				large = GFX_portrait_NYA_Supremeee
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = Supremeee_token
+			ledger = army
+			traits = { army_artillery_3 }
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	NYA_Celestin = {
+		name = "Celestin"
+		portraits = {
+			civilian = {
+				small = GFX_NYA_Celestin
+			}
+			army = {
+				large = GFX_portrait_NYA_Celestin
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = Celestin_token
+			ledger = army
+			traits = { military_saint }
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	NYA_Azazel = {
+        name = "King Azazel"
+        portraits = {
+            civilian = {
+                large = GFX_portrait_NYA_Azazel
+            }
+        }
+        country_leader = {
+            ideology = monarchy
+            traits = {
+                POL_cossack_king
+            }
+        }
+    }
+}

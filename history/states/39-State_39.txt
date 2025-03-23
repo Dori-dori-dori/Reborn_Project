@@ -1,0 +1,26 @@
+state={
+	id=39
+	name="STATE_39"
+
+	history={
+		owner = IDK
+		add_core_of = IDK
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			anti_air_building = 1
+			3525 = { naval_base = 3 }
+		}
+
+	}
+
+	provinces={
+		334 535 1525 1673 1890 3352 3525 4098 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

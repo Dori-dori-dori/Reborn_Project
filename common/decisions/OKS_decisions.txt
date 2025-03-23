@@ -1,0 +1,24 @@
+debug_decisions = {
+	nuke_test = {
+		visible = {
+			is_debug = yes
+		}
+		complete_effect = {
+			launch_nuke = {
+				state = 6
+				province = 4623
+			}
+		}
+	}
+}
+
+OKS_civil_war_prepare = {
+	prepare_for_massacre = {
+		visible = {
+			tag = OKS
+		}
+		complete_effect = {
+			add_political_power = 50
+		}
+	}
+}

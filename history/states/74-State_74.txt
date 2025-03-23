@@ -1,0 +1,29 @@
+state={
+	id=74
+	name="STATE_74"
+	
+	history={
+		owner = SSG
+		add_core_of = SSG
+		add_claim_by = WAR
+		add_claim_by = WIT
+		add_claim_by = PRO
+		add_claim_by = TOH
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			anti_air_building = 2
+		}
+	}
+	resources = {
+		steel = 100
+	}
+	buildings_max_level_factor=1.000
+
+	provinces={
+		83 858 1390 1434 1661 2096 2909 2951 3111 3847 4263 4287 4299 4322 
+	}
+	manpower=1000000
+	state_category=megalopolis
+}

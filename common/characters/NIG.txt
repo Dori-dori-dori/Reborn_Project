@@ -1,0 +1,23 @@
+characters = {
+	NIG_Amelia = {
+		name = "Amelia Watson"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NIG_Amelia_Watson
+			}
+		}
+		country_leader = {
+			ideology = monarchy
+			traits = {
+			}
+		} 
+	}
+	NIG_Neco_Watson = {
+		name = "Neco Watson"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NIG_Neco_Watson
+			}
+		}
+	}
+}

@@ -1,0 +1,145 @@
+division_template = {
+	name = "Artillery"
+	division_names_group = 3tag_INF_01
+	regiments = {
+		infantry = {x=0	y=1}
+		infantry = {x=0	y=2}
+		infantry = {x=0 y=0}
+		artillery = {x=1 y=0}
+		artillery = {x=1 y=1}
+		artillery = {x=2 y=0}
+		artillery = {x=2 y=1}
+	}
+	support = {
+		engineer = {x=0 y=0}
+	}
+}
+
+division_template = {
+	name = "Mini-Division"
+	division_names_group = 3tag_INF_02
+	regiments = {
+		infantry = {x=0	y=0}
+		infantry = {x=0	y=1}
+		infantry = {x=0	y=2}
+		infantry = {x=1	y=0}
+		infantry = {x=1	y=1}
+		infantry = {x=1	y=2}
+	}
+	support = {
+		engineer = {x=0 y=0}
+	}
+}
+
+units = {
+	division = {
+		location = province
+		division_template = "Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		location = province
+		division_template = "Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		location = province
+		division_template = "Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		location = province
+		division_template = "Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		location = province
+		division_template = "Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		location = province
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = province
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = province
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = province
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = province
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = province
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = province
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = province
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = province
+		division_template = "Mini-Division"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	
+}
+
+instant_effect = {
+		add_equipment_production = {
+			equipment = { 
+				type = infantry_equipment
+				creator = 3tag
+			}
+			requested_factories = 1
+			progress = 0 #выбери сам
+	}
+}

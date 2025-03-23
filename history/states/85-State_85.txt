@@ -1,0 +1,30 @@
+state={
+	id=85
+	name="STATE_85"
+
+	history={
+		owner = SSG
+		add_core_of = SSG
+		add_core_of = TOH
+		add_claim_by = WAR
+		add_claim_by = WIT
+		add_claim_by = PRO
+		add_claim_by = TOH
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			anti_air_building = 2
+		}
+
+	}
+
+	provinces={
+		591 1538 1802 2919 3198 3453 3869 4355 4361 4371 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

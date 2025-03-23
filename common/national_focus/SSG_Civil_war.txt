@@ -1,0 +1,115 @@
+focus_tree = {
+	id = civil_war
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WIT
+		}
+		modifier = {
+			add = 10
+			tag = WAR
+		}
+		modifier = {
+			add = 10
+			tag = PRO
+		}
+		modifier = {
+			add = 10
+			tag = TOH
+		}
+	}
+	default = no
+	focus = {
+		id = civil_war_army
+		icon = GFX_focus_generic_total_war
+		cost = 1
+		x = 2
+		y = 0
+		completion_reward = { 
+			add_command_power = 100
+			capital_scope = {
+				create_unit = {
+					division = "name = \"Revolution Troops\" division_template = \"Militia\" start_experience_factor = 1 start_equipment_factor = 1"
+					allow_spawning_on_enemy_provs = yes
+					owner = ROOT
+					count = 15
+				}
+			}
+		}
+	}
+	focus = {
+		id = civil_war_stockpile_weapons
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		relative_position_id = civil_war_army
+		prerequisite = {
+			focus = civil_war_army
+		}
+		x = 1
+		y = 1
+		completion_reward = { 
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+			}
+		}
+	}
+	focus = {
+		id = civil_war_mobilize
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		relative_position_id = civil_war_army
+		prerequisite = {
+			focus = civil_war_army
+		}
+		x = -1
+		y = 1
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = civil_war_patriots
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		relative_position_id = civil_war_mobilize
+		prerequisite = {
+			focus = civil_war_mobilize
+		}
+		x = 0
+		y = 1
+		completion_reward = { 
+			add_manpower = 100000
+		}
+	}
+	focus = {
+		id = civil_war_final_goal
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		relative_position_id = civil_war_stockpile_weapons
+		prerequisite = {
+			focus = civil_war_stockpile_weapons
+		}
+		prerequisite = {
+			focus = civil_war_patriots
+		}
+		x = -1
+		y = 2
+		completion_reward = { 
+			add_stability = 0.2
+			add_war_support = 0.5
+		}
+	}
+}

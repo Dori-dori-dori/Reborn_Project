@@ -1,0 +1,101 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = CHE
+		default = yes
+		
+		"SSG"={
+			ideology = communism
+			history = "SSG_GATHERING_STORM_DESC"
+			ideas = {
+				SSG_Instability_Country
+				SSG_Non_Loyality_People
+				SSG_Witchers_Problem
+			}
+			focuses = {
+				SSG_Alcohol_Way
+				SSG_Unity
+				SSG_Women_Way
+			}
+		}
+		"NYA"={
+			ideology = fascism
+			history = "NYA_GATHERING_STORM_DESC"
+			focuses = {
+				NYA_Second_Try
+				NYA_Clear_From_Criminal_Scum
+				NYA_New_Hope
+			}
+		}
+		"KFC"={
+			ideology = fascism
+			history = "KFC_GATHERING_STORM_DESC"
+		}
+		"TOX"={
+			ideology = fascism
+			history = "TOX_GATHERING_STORM_DESC"
+		}
+		"NIG"={
+			ideology = fascism
+			history = "NIG_GATHERING_STORM_DESC"
+			ideas = {
+				NIG_Best_Agency
+			}
+		}
+		"OKS"={
+			ideology = neutrality
+			history = "OKS_GATHERING_STORM_DESC"
+			ideas = {
+				OKS_Moon_Light
+				OKS_Raskumar
+			}
+		}
+		"TEA"={
+			ideology = democratic
+			history = "TEA_GATHERING_STORM_DESC"
+		}
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+		"ADF"={
+			minor = yes
+			history = "ADF_GATHERING_STORM_DESC"
+			ideology = fascism
+		}
+		"BOL"={
+			minor = yes
+			ideology = fascism
+
+			history = "BOL_GATHERING_STORM_DESC"
+		}
+		"BUL"={
+			minor = yes
+			ideology = fascism
+
+			history = "BUL_GATHERING_STORM_DESC"
+		}
+		"CHE"={
+			ideology = fascism
+			minor = yes
+			history = "CHE_GATHERING_STORM_DESC"
+		}
+		"FUT"={
+			ideology = fascism
+			minor = yes
+			history = "FUT_GATHERING_STORM_DESC"
+		}
+		"XYD"={
+			ideology = fascism
+			minor = yes
+			history = "XYD_GATHERING_STORM_DESC"
+		}
+		"IDK"={
+			ideology = fascism
+			minor = yes
+			history = "IDK_GATHERING_STORM_DESC"
+		}
+	}
+}

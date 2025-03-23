@@ -1,0 +1,25 @@
+add_namespace = nig
+country_event = {
+	id = nig.1
+	title = nig.1.t
+	desc = nig.1.d
+	picture = GFX_report_event_001
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = nig.1.a
+		create_faction = "Ozvuchkeri"
+		add_to_faction = NYA
+		add_opinion_modifier = {
+			target = NIG
+			modifier = friendly_norwegian_monarchy
+		}
+	}
+	option = {
+		name = nig.1.b
+		add_opinion_modifier = {
+			target =  NYA
+			modifier = unholy_alliance_opinion
+		}
+	}
+}

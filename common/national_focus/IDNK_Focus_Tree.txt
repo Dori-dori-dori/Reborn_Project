@@ -1,0 +1,18 @@
+focus_tree = {
+	id = IDNK_Focus_Tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IDK
+		}
+	}
+	default = no
+    focus = {
+		id = IDK_Test
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 9
+		y = 0
+	}
+}

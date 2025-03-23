@@ -1,0 +1,135 @@
+SSG_proletarian_army_arsenal_organization = {
+	include = generic_tank_organization
+	icon = GFX_idea_proletarian_army
+	allowed = {
+		has_dlc = "Arms Against Tyranny"
+		OR = {
+			original_tag = SSG
+			original_tag = WIT
+		}
+	}
+	available = {
+		owner = {
+			has_completed_focus = SSG_Sell_The_World
+		}
+	}
+	initial_trait = {
+		equipment_bonus = {
+			soft_attack = 0.1
+			defense = 0.05
+			breakthrough = 0.05
+		}
+	}
+}
+SSG_hersones_arsenal_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_hersones_arsenal
+	allowed = {
+		has_dlc = "Arms Against Tyranny"
+		OR = {
+			original_tag = SSG
+			original_tag = WIT
+		}
+	}
+	available = {
+		owner = {
+			has_completed_focus = SSG_Sell_The_World
+		}
+	}
+}
+SSG_power_poroh_artillery_organization = {
+	include = generic_artillery_organization
+	icon = GFX_idea_power_poroh_artillery
+	allowed = {
+		has_dlc = "Arms Against Tyranny"
+		OR = {
+			original_tag = SSG
+			original_tag = WIT
+		}
+	}
+	available = {
+		owner = {
+			has_completed_focus = SSG_Sell_The_World
+		}
+	}
+}
+SSG_sea_power_of_proletary_organization = {
+	include = generic_battle_line_ship_organization
+	icon = GFX_idea_sea_proletarian
+	allowed = {
+		has_dlc = "Arms Against Tyranny"
+		OR = {
+			original_tag = SSG
+			original_tag = WIT
+		}
+	}
+	available = {
+		owner = {
+			has_completed_focus = SSG_Sell_The_World
+		}
+	}
+}
+SSG_astral_organization = {
+	include = generic_medium_tank_organization
+	icon = GFX_idea_astral_organization
+	allowed = {
+		has_dlc = "Arms Against Tyranny"
+		OR = {
+			original_tag = SSG
+			original_tag = WIT
+		}
+	}
+	available = {
+		owner = {
+			has_completed_focus = SSG_Sell_The_World
+		}
+	}
+}
+SSG_stalitend_arms = {
+	include = generic_heavy_tank_organization
+	icon = GFX_idea_stalitend_arms
+	allowed = {
+		has_dlc = "Arms Against Tyranny"
+		OR = {
+			original_tag = SSG
+			original_tag = WIT
+		}
+	}
+	available = {
+		owner = {
+			has_completed_focus = SSG_Sell_The_World
+		}
+	}
+}
+SSG_tank_war_korps = {
+	include = generic_mobile_tank_organization
+	icon = GFX_idea_tank_war_korps
+	allowed = {
+		has_dlc = "Arms Against Tyranny"
+		OR = {
+			original_tag = SSG
+			original_tag = WIT
+		}
+	}
+	available = {
+		owner = {
+			has_completed_focus = SSG_Sell_The_World
+		}
+	}
+}
+SSG_military_arms_proletary = {
+	include = generic_support_equipment_organization
+	icon = GFX_idea_military_arms_proletary
+	allowed = {
+		has_dlc = "Arms Against Tyranny"
+		OR = {
+			original_tag = SSG
+			original_tag = WIT
+		}
+	}
+	available = {
+		owner = {
+			has_completed_focus = SSG_Sell_The_World
+		}
+	}
+}

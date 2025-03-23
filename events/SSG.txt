@@ -1,0 +1,156 @@
+add_namespace = SSG
+country_event = {
+	id = ssg.1
+	title = ssg.1.t
+	desc = ssg.1.d
+	is_triggered_only = yes
+	option = {
+		name = ssg.1.a
+		WIT = {
+			change_tag_from = ROOT
+		}
+	}
+	option = {
+		name = ssg.1.b
+		WAR = {
+			change_tag_from = ROOT
+		}
+	}
+	option = {
+		name = ssg.1.c
+		TOH = {
+			change_tag_from = ROOT
+		}
+	}
+	option = {
+		name = ssg.1.f
+		PRO = {
+			change_tag_from = ROOT
+		}
+	}
+}
+country_event = {
+	id = ssg.2
+	title = ssg.2.t
+	desc = ssg.2.d
+	is_triggered_only = yes
+	option = {
+		name = ssg.2.a
+		KFC = {
+			add_opinion_modifier = {
+				target = THIS
+				modifier = SSG_rejected_union
+			}
+		}
+		WIT = {
+			add_state_claim = 125
+			add_state_claim = 133
+			create_wargoal = {
+				target = KFC
+				type = take_claimed_state
+			}
+		}
+	}
+	option = {
+		name = ssg.2.b
+		WIT = {
+			country_event = ssg.3
+		}
+	}
+}
+country_event = {
+	id = ssg.3
+	title = ssg.3.t
+	desc = ssg.3.d
+	is_triggered_only = yes
+	option = {
+		name = ssg.3.a
+		125 = {
+			transfer_state_to = WIT
+			add_core_of = WIT
+		}
+		133 = {
+			transfer_state_to = WIT
+			add_core_of = WIT
+		}
+	}
+}
+country_event = {
+	id = ssg.4
+	title = ssg.4.t
+	desc = ssg.4.d
+	is_triggered_only = yes
+	option = {
+		name = ssg.4.a
+		WIT = {
+			add_to_faction = ROOT
+		}
+	}
+	option = {
+		name = ssg.4.b
+		WIT = {
+			diplomatic_relation = {
+				country = ROOT
+				relation = non_aggression_pact
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SSG_union
+			}
+		}
+	}
+	option = {
+		name = ssg.4.c
+		WIT = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SSG_rejected_union
+			}
+		}
+	}
+}
+country_event = {
+	id = ssg.5
+	title = ssg.5.t
+	desc = ssg.5.d
+	is_triggered_only = yes
+	option = {
+		name = ssg.5.a
+		WIT = {
+			annex_country = {
+				target = ROOT
+			}
+		}
+	}
+	option = {
+		name = ssg.5.b
+		WIT = {
+			set_autonomy = {
+				target = ROOT
+				autonomy_state = autonomy_collaboration_government
+			}
+		}
+	}
+}
+country_event = {
+	id = ssg.6
+	title = ssg.6.t
+	desc = ssg.6.d
+	is_triggered_only = yes
+	option = {
+		name = ssg.6.a
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+	}
+}
+country_event = {
+	id = ssg.7
+	title = ssg.7.t
+	desc = ssg.7.d
+	is_triggered_only = yes
+	option = {
+		name = ssg.7.a
+	}
+}

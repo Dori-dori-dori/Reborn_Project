@@ -1,0 +1,42 @@
+NYA_forge_new_army = {
+	enable = {
+		always = yes
+		has_completed_focus = NYA_Check_Our_Army
+	}
+	icon = GFX_idea_NYA_forge_new_army
+	army_armor_speed_factor = NYA_army_armor_speed_factor
+	army_attack_factor = NYA_army_attack_factor
+	army_artillery_attack_factor = NYA_army_artillery_attack_factor
+	army_armor_attack_factor = NYA_army_armor_attack_factor
+	training_time_army_factor = NYA_training_time_army_factor
+	army_defence_factor = NYA_army_defence_factor
+	army_org_factor = NYA_army_org_factor
+}
+NYA_Nova_Ekna_Empire = {
+	enable = {
+		always = yes
+		has_country_flag = nya_nova_roma
+	}
+	icon = GFX_idea_nova_ekna_imperialism
+	production_speed_buildings_factor = NYA_des_production_speed_buildings_factor
+	political_power_factor = NYA_des_political_power_factor
+	army_org_regain = NYA_des_army_org_regain
+	industrial_capacity_factory = NYA_des_industrial_capacity_factory
+	justify_war_goal_time = NYA_des_justify_war_goal_time
+	army_attack_against_major_factor = NYA_des_army_attack_against_major_factor
+	research_speed_factor = NYA_des_research_speed_factor
+	army_armor_attack_factor = NYA_des_army_armor_attack_factor
+	army_armor_defence_factor = NYA_des_army_armor_defence_factor
+}
+SSG_Destroyed_Economy = {
+	enable = {
+		always = yes
+		has_completed_focus = SSG_Witchers
+	}
+	icon = GFX_idea_bul_darzhavna_voenna_fabrika
+	repair_speed_factor = SSG_repair_speed_factor
+	production_speed_buildings_factor = SSG_production_speed_buildings_factor
+	production_speed_industrial_complex_factor = SSG_production_speed_industrial_complex_factor
+	production_speed_arms_factory_factor = SSG_production_speed_arms_factory_factor
+	consumer_goods_expected_value = SSG_consumer_goods_expected_value
+}

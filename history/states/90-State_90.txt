@@ -1,0 +1,29 @@
+state={
+	id=90
+	name="STATE_90"
+
+	history={
+		owner = TEA
+		add_core_of = TEA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			anti_air_building = 3
+			3734 = { naval_base = 10 }
+		}
+
+	}
+	resources = {
+		oil = 35
+	}
+
+	provinces={
+		88 208 1848 1894 2068 2200 2217 2386 3096 3293 3734 4436 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+
+}

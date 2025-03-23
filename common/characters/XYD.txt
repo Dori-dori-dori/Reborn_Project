@@ -1,0 +1,27 @@
+characters = {
+    XYD_Kuwet={
+        name = "Countess Kuwet"
+        portraits = {
+            civilian = {
+                large = GFX_portrait_XYD_Kuwet
+            }
+        }
+        country_leader = {
+            ideology = monarchy
+            traits = {
+                agrarian_nationalist
+            }
+        }
+    }
+    XYD_Kirbugo = {
+        name = "Kirbugo"
+        portraits = {
+            civilian = {
+                large = GFX_portrait_XYD_Kirbugo
+            }
+        }
+        country_leader = {
+            ideology = conservatism
+        }
+    }
+}
