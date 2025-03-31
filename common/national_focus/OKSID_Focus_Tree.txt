@@ -113,7 +113,8 @@ focus_tree = {
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
-                completion_reward = {
+		}
+            completion_reward = {
 			add_ideas = OKS_The_Great_Stagnation
 		}
 	}
@@ -153,7 +154,8 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_Temporary_Replacement  }
-		mutually_exclusive = { focus = OKS_Who_Will_Fill_In  } mutually_exclusive = { focus = OKS_Jojik_Legacy  }
+		mutually_exclusive = { focus = OKS_Who_Will_Fill_In  } 
+		mutually_exclusive = { focus = OKS_Jojik_Legacy  }
 	}
 
 	#Наследие Жожика
@@ -3661,7 +3663,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = OKS_Airplane_Industry  } prerequisite = { focus = OKS_Choppers  }
+		prerequisite = { focus = OKS_Airplane_Industry  } 
+		prerequisite = { focus = OKS_Choppers  }
 	}
 
 }
