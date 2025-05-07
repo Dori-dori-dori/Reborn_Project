@@ -114,9 +114,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-        completion_reward = {
-			add_ideas = OKS_The_Great_Stagnation
-		}
 	}
 
 	#Истинное наследие Жожика
@@ -169,7 +166,8 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_Temporary_Replacement  }
-		mutually_exclusive = { focus = OKS_Maybe_not_Temperary  } mutually_exclusive = { focus = OKS_Who_Will_Fill_In  }
+		mutually_exclusive = { focus = OKS_Maybe_not_Temperary  } 
+		mutually_exclusive = { focus = OKS_Who_Will_Fill_In  }
 	}
 
 	#Старая гвардия
@@ -386,7 +384,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = OKS_Terminate_Traitor }
+		prerequisite = { focus = OKS_Jojiks_Real_Legacy }
 	}
 
 	#На руинах старого
@@ -411,6 +409,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_Terminate_Traitor }
+		mutually_exclusive = { focus = OKS_New_Regime_of_New_People  }
 	}
 
 	#Новому режиму новых людей
@@ -436,6 +435,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_I_Just_Wish_I_Hadnt_Lost  }
+		mutually_exclusive = { focus = OKS_The_Bigger_the_Better  }
 	}
 
 	#Море не преграда
@@ -497,6 +497,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_Propaganda_Throughout }
+		mutually_exclusive = { focus = OKS_Theres_a_Land_Far_Away  }
 	}
 
 	#В тылу врага
@@ -558,7 +559,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_Propaganda_Throughout }
-		mutually_exclusive = { focus = OKS_Motherland  } mutually_exclusive = { focus = OKS_Propaganda_Throughout  }
+		mutually_exclusive = { focus = OKS_Motherland  } 
 	}
 
 	#Укрепляем народ
@@ -778,6 +779,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_The_Admin_Rule_Admins  }
+		mutually_exclusive = { focus = OKS_The_Court_Admin  }
 	}
 
 	#Админа суда
@@ -815,7 +817,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_Restoring_Admin_Church  }
-		mutually_exclusive = { focus = OKS_Terminate_Traitor }
+		mutually_exclusive = { focus = OKS_Jojiks_Real_Legacy }
 	}
 
 	#Госпожу домой
@@ -840,6 +842,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_Where_To_Start?  }
+		mutually_exclusive = { focus = OKS_Jojiks_Motorized_Infantry  }
 	}
 
 	#Мотопехота Жожика
@@ -1239,6 +1242,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_Phoenix_Born  }
+		mutually_exclusive = { focus = OKS_Our_Capital_is_Everything_the_Rest_is_Nothing  }
 	}
 
 	#Наш капитал всё, остальное ничего
@@ -1984,6 +1988,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_Im_Going_For_a_Solarium  }
+		mutually_exclusive = { focus = OKS_Armored_Cars  }
 	}
 
 	#Улучшить адмиралтейство
@@ -2152,7 +2157,8 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_Temporary_Replacement  }
-		mutually_exclusive = { focus = OKS_Jojik_Legacy  } mutually_exclusive = { focus = OKS_Maybe_not_Temperary  }
+		mutually_exclusive = { focus = OKS_Jojik_Legacy  } 
+		mutually_exclusive = { focus = OKS_Maybe_not_Temperary  }
 	}
 
 	#Два пути
@@ -2935,6 +2941,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_Great_Stagnation  }
+		mutually_exclusive = { focus = OKS_Cash_Center  }
 	}
 
 	#Денежный центр
@@ -3396,6 +3403,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = OKS_Tank_Troops  }
+		mutually_exclusive = { focus = OKS_Advantage_of_Lightness  }
 	}
 
 	#Преимущество лёгкости
