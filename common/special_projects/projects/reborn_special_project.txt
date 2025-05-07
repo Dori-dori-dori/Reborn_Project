@@ -8,15 +8,21 @@ sp_land_sahelanthropus = {
 		base = 1
 	}
 
-	visible = {
-	    MGS = {
-	        has_completed_focus = NYA_Choose_Your_Destiny
-	    }
-    }
-	
-	allowed = {
-	    original_tag = MGS
-    }
+	available = {
+		FROM = {
+			has_completed_focus = NYA_Choose_Your_Destiny
+		}
+	}
+
+	#visible = {
+	#    MGS = {
+	#        has_completed_focus = NYA_Choose_Your_Destiny
+	#    }
+    #}
+	#
+	#allowed = {
+	#    original_tag = MGS
+    #}
 	breakthrough_cost = {
 		specialization_land = 5
 	}
