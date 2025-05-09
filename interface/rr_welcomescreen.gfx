@@ -1,0 +1,22 @@
+spritetypes = {
+	spriteType = {
+		name = GFX_tiled_reborn_welcome_screen_bg
+		textureFile = gfx/interface/reborn_welcome_screen_bg_tiled.dds
+	}
+	spriteType = {
+		name = GFX_reborn_welcome_screen_tab_on
+		textureFile = gfx/interface/reborn_welcome_screen_tab_on.dds
+	}
+	spriteType = {
+		name = GFX_reborn_welcome_screen_tab_off
+		textureFile = gfx/interface/reborn_welcome_screen_tab_off.dds
+	}
+	spriteType = {
+		name = GFX_blank
+		textureFile = gfx/interface/blank.dds
+	}
+	spriteType = {
+		name = GFX_reborn_screen_btn
+		textureFile = gfx/interface/welcome_screen_button.dds
+	}
+}

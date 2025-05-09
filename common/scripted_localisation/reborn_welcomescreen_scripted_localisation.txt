@@ -1,0 +1,42 @@
+defined_text = {
+	name = GetNiceCountryName
+	text = {
+		trigger = { original_tag = OKS }
+		localization_key = REBORN_WS_OKS
+	}
+	text = {
+		localization_key = "[Root.GetNameDef]"
+	}
+}
+
+defined_text = {
+	name = GetCountryIntro
+	text = {
+		trigger = { original_tag = OKS }
+		localization_key = REBORN_WS_OKS_desc
+	}
+	text = {
+		localization_key = "[Root.GetNameDef]"
+	}
+}
+
+defined_text = {
+	name = GetRegionName
+	text = {
+		localization_key = "[Root.GetNameDef]"
+	}
+}
+
+defined_text = {
+	name = GetRegionDesc
+	text = {
+		localization_key = "[Root.GetNameDef]"
+	}
+}
+
+defined_text = {
+	name = GetHeaderText
+	text = {
+		localization_key = REBORN_WS_standard_header_text
+	}
+}
