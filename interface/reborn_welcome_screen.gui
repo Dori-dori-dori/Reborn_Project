@@ -14,7 +14,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "reborn_ws_tab_1_slider"
 		position = { x = 33 y = 205 }
-		#size = { x = 1388 y = 443 }
+		size = { height = 1388 width = 1110 }
 		verticalScrollbar = "right_vertical_slider"
 		margin = { top = 4 bottom = 4 }
 		smooth_scrolling = yes
@@ -28,8 +28,8 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			font = "hoi_20bs"
 			text = "REBORN_WS_TAB_1_TXT"
-			maxWidth = 1363
-			maxHeight = 432
+			maxWidth = 1110
+			maxHeight = 270
 			scrollbartype = "standardtext_slider"
 		}
 	}

@@ -20,19 +20,19 @@ defined_text = {
 	}
 }
 
-defined_text = {
-	name = GetRegionName
-	text = {
-		localization_key = "[Root.GetNameDef]"
-	}
-}
-
-defined_text = {
-	name = GetRegionDesc
-	text = {
-		localization_key = "[Root.GetNameDef]"
-	}
-}
+#defined_text = {
+#	name = GetRegionName
+#	text = {
+#		localization_key = "[Root.GetNameDef]"
+#	}
+#}
+#
+#defined_text = {
+#	name = GetRegionDesc
+#	text = {
+#		localization_key = "[Root.GetNameDef]"
+#	}
+#}
 
 defined_text = {
 	name = GetHeaderText
