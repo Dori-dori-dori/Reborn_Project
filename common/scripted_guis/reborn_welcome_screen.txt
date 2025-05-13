@@ -6,13 +6,12 @@ scripted_gui = {
 
 		visible = {
 			is_ai = no
-			
 		}
 
 		effects = {
 			open_ws_click = {
 				if = {
-					limit = { has_variable = reborn_welcome_screen }
+					limit = { NOT = { has_variable = reborn_welcome_screen } }
 					set_variable = { reborn_welcome_screen = 1 }
 				}
 			}
