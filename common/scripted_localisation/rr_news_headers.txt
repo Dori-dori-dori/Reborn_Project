@@ -1,0 +1,16 @@
+defined_text = {
+	name = GetNewsHeader
+	
+	text = {
+		trigger = {
+			original_tag = OKS
+		}
+		localization_key = news_headline_lomka
+	}
+	text = {
+		trigger = {
+			original_tag = NYA
+		}
+		localization_key = news_headline_bobrino
+	}
+}

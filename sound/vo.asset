@@ -1,0 +1,257 @@
+
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	NYA_infantry_idle
+	NYA_infantry_neutral_combat
+	NYA_infantry_positive_combat
+	NYA_infantry_retreat
+	NYA_infantry_move_out
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+########## NYA
+
+soundeffect = 
+{
+    name = "NYA_infantry_idle"
+    sounds = {
+		sound = nya_idle_01
+        sound = nya_idle_02
+        sound = nya_idle_03
+        sound = nya_idle_04
+        sound = nya_idle_05
+		sound = nya_idle_06
+        sound = nya_idle_07
+		sound = nya_idle_08
+        sound = nya_idle_09
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.75
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect = 
+{
+    name = "NYA_infantry_neutral_combat"
+    sounds = {
+        sound = nya_neutral_01
+        sound = nya_neutral_02
+        sound = nya_neutral_03
+        sound = nya_neutral_04
+        sound = nya_neutral_05
+        sound = nya_neutral_06
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.75
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "NYA_infantry_positive_combat"
+    sounds = {
+        sound = nya_positive_01
+        sound = nya_positive_02
+        sound = nya_positive_03
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.75
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "NYA_infantry_retreat"
+    sounds = {
+        sound = nya_retreat_01
+        sound = nya_retreat_02
+        sound = nya_retreat_03
+        sound = nya_retreat_04
+        sound = nya_retreat_05
+        sound = nya_retreat_06
+        sound = nya_retreat_07
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.75
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "NYA_infantry_move_out"
+    sounds = {
+        sound = nya_positive_04
+        sound = nya_positive_05
+        sound = nya_positive_06
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.75
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+
+sound = 
+{
+	name = "nya_idle_01"
+	file = "nya/nya_idle_01.wav"
+}
+sound = 
+{
+	name = "nya_idle_02"
+	file = "nya/nya_idle_02.wav"
+}
+sound = 
+{
+	name = "nya_idle_03"
+	file = "nya/nya_idle_03.wav"
+}
+
+sound = 
+{
+	name = "nya_idle_04"
+	file = "nya/nya_idle_04.wav"
+}
+
+sound = 
+{
+	name = "nya_idle_05"
+	file = "nya/nya_idle_05.wav"
+}
+
+sound = 
+{
+	name = "nya_idle_06"
+	file = "nya/nya_idle_06.wav"
+}
+
+sound = 
+{
+	name = "nya_idle_07"
+	file = "nya/nya_idle_07.wav"
+}
+sound = 
+{
+	name = "nya_idle_08"
+	file = "nya/nya_idle_08.wav"
+}
+
+sound = 
+{
+	name = "nya_idle_09"
+	file = "nya/nya_idle_09.wav"
+}
+sound = 
+{
+	name = "nya_neutral_01"
+	file = "nya/nya_neutral_01.wav"
+}
+sound = 
+{
+	name = "nya_neutral_02"
+	file = "nya/nya_neutral_02.wav"
+}
+sound = 
+{
+	name = "nya_neutral_03"
+	file = "nya/nya_neutral_03.wav"
+}
+sound = 
+{
+	name = "nya_neutral_04"
+	file = "nya/nya_neutral_04.wav"
+}
+sound = 
+{
+	name = "nya_neutral_05"
+	file = "nya/nya_neutral_05.wav"
+}
+sound = 
+{
+	name = "nya_neutral_06"
+	file = "nya/nya_neutral_06.wav"
+}
+sound = 
+{
+	name = "nya_positive_01"
+	file = "nya/nya_positive_01.wav"
+}
+sound = 
+{
+	name = "nya_positive_02"
+	file = "nya/nya_positive_02.wav"
+}
+sound = 
+{
+	name = "nya_positive_03"
+	file = "nya/nya_positive_03.wav"
+}
+sound = 
+{
+	name = "nya_positive_04"
+	file = "nya/nya_positive_04.wav"
+}
+sound = 
+{
+	name = "nya_positive_05"
+	file = "nya/nya_positive_05.wav"
+}
+sound = 
+{
+	name = "nya_positive_06"
+	file = "nya/nya_positive_06.wav"
+}
+sound = 
+{
+	name = "nya_retreat_01"
+	file = "nya/nya_retreat_01.wav"
+}
+sound = 
+{
+	name = "nya_retreat_02"
+	file = "nya/nya_retreat_02.wav"
+}
+
+sound = 
+{
+	name = "nya_retreat_03"
+	file = "nya/nya_retreat_03.wav"
+}
+sound = 
+{
+	name = "nya_retreat_04"
+	file = "nya/nya_retreat_04.wav"
+}
+sound = 
+{
+	name = "nya_retreat_05"
+	file = "nya/nya_retreat_05.wav"
+}
+sound = 
+{
+	name = "nya_retreat_06"
+	file = "nya/nya_retreat_06.wav"
+}
+sound = 
+{
+	name = "nya_retreat_07"
+	file = "nya/nya_retreat_07.wav"
+}
