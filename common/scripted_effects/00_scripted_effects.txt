@@ -508,36 +508,6 @@ abandon_colony_tag = {
 		limit = {
 			is_subject = yes
 		}
-		if = {
-			limit = {
-				original_tag = CAN
-			}
-			if = {
-				limit = { NOT = { has_dlc = "Together for Victory" } }
-				set_cosmetic_tag = CAN_ALY
-			}
-			else = {
-				set_cosmetic_tag = CAN_UK
-			}
-		}
-		else_if = {
-			limit = {
-				original_tag = RAJ
-			}
-			set_cosmetic_tag = RAJ_UK
-		}
-		else_if = {
-			limit = {
-				original_tag = MAL
-			}
-			set_cosmetic_tag = MAL_UK
-		}
-		else_if = {
-			limit = {
-				original_tag = INS
-			}
-			set_cosmetic_tag = INS_HOL
-		}
 	}
 	else = {
 		if = {

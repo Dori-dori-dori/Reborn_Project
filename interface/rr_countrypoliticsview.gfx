@@ -76,8 +76,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_marxism"
-		texturefile = "gfx/interface/ideologies/marxism.dds"
+		name = "GFX_ideology_feeblism"
+		texturefile = "gfx/interface/ideologies/feeblism.dds"
 	}
 
 	spriteType = {

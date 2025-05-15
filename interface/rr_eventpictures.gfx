@@ -1,5 +1,19 @@
 spriteTypes = {
+
+	spriteType = {
+		name = "GFX_nhl_bobrino"
+		texturefile = "gfx/interface/news_headline/nhl_bobrino.dds"
+		legacy_lazy_load = no
+	}
 	
+	spriteType = {
+		name = "GFX_nhl_lomka"
+		texturefile = "gfx/interface/news_headline/nhl_lomka.dds"
+		legacy_lazy_load = no
+	}
+
+##########Изображение к событиями
+
 	spriteType = {
 		name = "GFX_country_event_new_weapon_ekna"
 		texturefile = "gfx/event_pictures/country_event_new_weapon_ekna.dds"

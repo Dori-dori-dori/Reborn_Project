@@ -5,6 +5,10 @@ defined_text = {
 		localization_key = REBORN_WS_OKS
 	}
 	text = {
+		trigger = { original_tag = NYA }
+		localization_key = REBORN_WS_NYA
+	}
+	text = {
 		localization_key = "[Root.GetNameDef]"
 	}
 }
@@ -16,9 +20,14 @@ defined_text = {
 		localization_key = REBORN_WS_OKS_desc
 	}
 	text = {
+		trigger = { original_tag = NYA }
+		localization_key = REBORN_WS_NYA_desc
+	}
+	text = {
 		localization_key = "[Root.GetNameDef]"
 	}
 }
+
 
 #defined_text = {
 #	name = GetRegionName
