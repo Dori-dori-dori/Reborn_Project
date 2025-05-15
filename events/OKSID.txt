@@ -1,4 +1,5 @@
 add_namespace = OKSID
+##Родина зовёт
 country_event = {
 	id = oksid.1
 	title = oksid.1.t

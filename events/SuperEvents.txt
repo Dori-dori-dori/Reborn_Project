@@ -4,7 +4,8 @@
 
 add_namespace = super
 
-country_event = {	#ww2
+##Империя наносит ответный удар
+country_event = {
 	id = super.1
 	title = super.1.t
 	desc = super.1.d
@@ -28,7 +29,7 @@ country_event = {	#ww2
 		play_song = "Song of the Free Arabian Legion"
 	}
 }
-
+##Новый порядок
 country_event = {
 	id = super.2
 	title = super.2.t
@@ -53,7 +54,7 @@ country_event = {
 		play_song = "Richard Sanderson - Reality"
 	}
 }
-
+##Великая война
 country_event = {
 	id = super.3
 	title = super.3.t
@@ -80,7 +81,7 @@ country_event = {
 		play_song = "Armageddon"
 	}
 }
-
+##Великий суд
 country_event = {
 	id = super.4
 	title = super.4.t
@@ -105,7 +106,7 @@ country_event = {
 		play_song = "Soldat"
 	}
 }
-
+##Победа ведьмаков в Гражданской войне
 country_event = {
 	id = super.5
 	title = super.5.t

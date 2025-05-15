@@ -1,4 +1,5 @@
 add_namespace = SSG
+##Раздробление страны
 country_event = {
 	id = ssg.1
 	title = ssg.1.t
@@ -29,6 +30,7 @@ country_event = {
 		}
 	}
 }
+##Ведьмаки требуют родные территории
 country_event = {
 	id = ssg.2
 	title = ssg.2.t
@@ -58,6 +60,7 @@ country_event = {
 		}
 	}
 }
+##Наши требования были одобрены
 country_event = {
 	id = ssg.3
 	title = ssg.3.t
@@ -75,6 +78,7 @@ country_event = {
 		}
 	}
 }
+##Ведьмаки предлагаю союз
 country_event = {
 	id = ssg.4
 	title = ssg.4.t
@@ -109,6 +113,7 @@ country_event = {
 		}
 	}
 }
+##Ведьмаки требуют господства
 country_event = {
 	id = ssg.5
 	title = ssg.5.t
@@ -132,6 +137,7 @@ country_event = {
 		}
 	}
 }
+##Госпожа встала на пост правителя Ведьмаков
 country_event = {
 	id = ssg.6
 	title = ssg.6.t
@@ -145,6 +151,7 @@ country_event = {
 		}
 	}
 }
+##Сверху вниз
 country_event = {
 	id = ssg.7
 	title = ssg.7.t
