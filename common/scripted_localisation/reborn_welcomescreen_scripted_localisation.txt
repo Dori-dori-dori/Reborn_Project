@@ -1,13 +1,17 @@
 defined_text = {
 	name = GetNiceCountryName
+	#text = {
+	#	trigger = { original_tag = OKS }
+	#	localization_key = REBORN_WS_OKS
+	#}
 	text = {
-		trigger = { original_tag = OKS }
-		localization_key = REBORN_WS_OKS
+		trigger = { is_ai = no }
+		localization_key = REBORN_WS_[Root.GetTag]
 	}
-	text = {
-		trigger = { original_tag = NYA }
-		localization_key = REBORN_WS_NYA
-	}
+	#text = {
+	#	trigger = { original_tag = NYA }
+	#	localization_key = REBORN_WS_NYA
+	#}
 	text = {
 		localization_key = "[Root.GetNameDef]"
 	}
@@ -15,14 +19,18 @@ defined_text = {
 
 defined_text = {
 	name = GetCountryIntro
+	#text = {
+	#	trigger = { original_tag = OKS }
+	#	localization_key = REBORN_WS_OKS_desc
+	#}
 	text = {
-		trigger = { original_tag = OKS }
-		localization_key = REBORN_WS_OKS_desc
+		trigger = { is_ai = no }
+		localization_key = REBORN_WS_[Root.GetTag]_desc
 	}
-	text = {
-		trigger = { original_tag = NYA }
-		localization_key = REBORN_WS_NYA_desc
-	}
+	#text = {
+	#	trigger = { original_tag = NYA }
+	#	localization_key = REBORN_WS_NYA_desc
+	#}
 	text = {
 		localization_key = "[Root.GetNameDef]"
 	}
