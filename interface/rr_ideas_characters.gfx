@@ -6,30 +6,30 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_NYA_Noximillian_Nox"
-		texturefile = "gfx/interface/ideas/NYA_Noximillian_Nox.dds"
+		texturefile = "gfx/interface/ideas/NYA/NYA_Noximillian_Nox.dds"
 	}
 	spriteType = {
 		name = "GFX_NYA_Supremeee"
-		texturefile = "gfx/interface/ideas/NYA_Supremeee.dds"
+		texturefile = "gfx/interface/ideas/NYA/NYA_Supremeee.dds"
 	}
 	spriteType = {
 		name = "GFX_NYA_Gradus"
-		texturefile = "gfx/interface/ideas/NYA_Gradus.dds"
+		texturefile = "gfx/interface/ideas/NYA/NYA_Gradus.dds"
 	}
 	spriteType = {
 		name = "GFX_NYA_Komod"
-		texturefile = "gfx/interface/ideas/NYA_Komod.dds"
+		texturefile = "gfx/interface/ideas/NYA/NYA_Komod.dds"
 	}
 	spriteType = {
 		name = "GFX_NYA_Celestin"
-		texturefile = "gfx/interface/ideas/NYA_Celestin.dds"
+		texturefile = "gfx/interface/ideas/NYA/NYA_Celestin.dds"
 	}
 	spriteType = {
 		name = "GFX_NYA_Potato"
-		texturefile = "gfx/interface/ideas/NYA_Potato.dds"
+		texturefile = "gfx/interface/ideas/NYA/NYA_Potato.dds"
 	}
 	spriteType = {
 		name = "GFX_NYA_Barmen_Engineer"
-		texturefile = "gfx/interface/ideas/NYA_Barmen_Engineer.dds"
+		texturefile = "gfx/interface/ideas/NYA/NYA_Barmen_Engineer.dds"
 	}
 }

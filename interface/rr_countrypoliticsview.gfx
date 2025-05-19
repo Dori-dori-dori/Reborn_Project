@@ -1,11 +1,6 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_pol_view_mask"
-		texturefile = "gfx/interface/pol_view_mask.dds"
-	}
-
-	spriteType = {
 		name = "GFX_ideology_neutrality_group"
 		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
 	}	
@@ -38,11 +33,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_anti_revisionism"
 		texturefile = "gfx/interface/ideologies/anti_revisionism.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_centrism"
-		texturefile = "gfx/interface/ideologies/centrism.dds"
 	}
 
 	spriteType = {

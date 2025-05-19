@@ -6,7 +6,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_OKS_Mistress_Revolver_Acelot_Anastasia"
-		texturefile = "gfx/leaders/OKS/Portrait_OKS_Mistress_Revolver_Acelot_Anastasia.dds"
+		texturefile = "gfx/leaders/OKS/portrait_OKS_mistress_revolver_acelot_anastasia.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_OKS_Mihairu"
@@ -14,23 +14,23 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_OKS_Frimmur"
-		texturefile = "gfx/leaders/OKS/Portrait_OKS_Frimmur.dds"
+		texturefile = "gfx/leaders/OKS/portrait_OKS_frimmur.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_OKS_Totally_Bread"
-		texturefile = "gfx/leaders/OKS/Portrait_OKS_Totally_Bread.dds"
+		texturefile = "gfx/leaders/OKS/portrait_OKS_totally_bread.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_OKS_Mamont"
-	    textureFile = "gfx/leaders/OKS/Portrait_OKS_Mamont.dds"
+	    textureFile = "gfx/leaders/OKS/portrait_OKS_mamont.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_OKS_Jojo_Division"
-		texturefile = "gfx/leaders/OKS/Portrait_OKS_Raul_Prime.dds"
+		texturefile = "gfx/leaders/OKS/portrait_OKS_raul_prime.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_OKS_Neco_Kumar"
-		texturefile = "gfx/leaders/OKS/Portrait_OKS_neco_kumar.dds"
+		texturefile = "gfx/leaders/OKS/portrait_OKS_neco_kumar.dds"
 	}
 
 
@@ -39,7 +39,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_FUT_Fantar"
-		texturefile = "gfx/leaders/FUT/portrait_FUT_Fantar.dds"
+		texturefile = "gfx/leaders/FUT/portrait_FUT_fantar.dds"
 	}
 	spritetype = {
 		name = "GFX_portrait_FUT_Fantario"
@@ -279,7 +279,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_WIT_Mistress_Revolver_Acelot_Anastasia"
-		texturefile = "gfx/leaders/WIT/Portrait_WIT_Mistress_Revolver_Acelot_Anastasia.dds"
+		texturefile = "gfx/leaders/WIT/portrait_WIT_mistress_revolver_acelot_anastasia.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_WIT_Fable"

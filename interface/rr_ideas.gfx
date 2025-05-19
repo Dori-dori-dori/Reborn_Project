@@ -5,52 +5,48 @@ spritetypes = {
 
 
 	spriteType = {
-		name = GFX_idea_witcher_problem
-		texturefile = "gfx/interface/ideas/SSG_witcher_problem.dds"
-	}
-	spriteType = {
 		name = GFX_idea_destroyed_economy
-		textureFile = "gfx/interface/ideas/SSG_destroyed_economy.dds"
+		textureFile = "gfx/interface/ideas/SSG/SSG_destroyed_economy.dds"
 	}
 	spriteType = {
 		name = GFX_idea_power_poroh_artillery
-		textureFile = "gfx/interface/ideas/SSG_Direct_Power.dds"
+		textureFile = "gfx/interface/ideas/SSG/SSG_Direct_Power.dds"
 	}
 	spriteType = {
 		name = GFX_idea_hersones_arsenal
-		textureFile = "gfx/interface/ideas/SSG_KSG.dds"
+		textureFile = "gfx/interface/ideas/SSG/SSG_KSG.dds"
 	}
 	spriteType = {
 		name = GFX_idea_proletarian_army
-		textureFile = "gfx/interface/ideas/SSG_VPO.dds"
+		textureFile = "gfx/interface/ideas/SSG/SSG_VPO.dds"
 	}
 	spriteType = {
 		name = GFX_idea_sea_proletarian
-		textureFile = "gfx/interface/ideas/SSG_Sea_Proletariy.dds"
+		textureFile = "gfx/interface/ideas/SSG/SSG_Sea_Proletariy.dds"
 	}
 	spriteType = {
 		name = GFX_idea_war_industrial_concern
-		textureFile = "gfx/interface/ideas/SSG_Proletarian_Concern.dds"
+		textureFile = "gfx/interface/ideas/SSG/SSG_Proletarian_Concern.dds"
 	}
 	spriteType = {
 		name = GFX_idea_astral_organization
-		textureFile = "gfx/interface/ideas/SSG_astral_organization.dds"
+		textureFile = "gfx/interface/ideas/SSG/SSG_astral_organization.dds"
 	}
 	spriteType = {
 		name = GFX_idea_stalitend_arms
-		textureFile = "gfx/interface/ideas/SSG_stalitend_arms.dds"
+		textureFile = "gfx/interface/ideas/SSG/SSG_stalitend_arms.dds"
 	}
 	spriteType = {
 		name = GFX_idea_tank_war_korps
-		textureFile = "gfx/interface/ideas/SSG_tank_war_korps.dds"
+		textureFile = "gfx/interface/ideas/SSG/SSG_tank_war_korps.dds"
 	}
 	spriteType = {
 		name = GFX_idea_military_arms_proletary
-		textureFile = "gfx/interface/ideas/SSG_military_arms_proletary.dds"
+		textureFile = "gfx/interface/ideas/SSG/SSG_military_arms_proletary.dds"
 	}
 	spriteType = {
 		name = GFX_idea_union_forever
-		textureFile = "gfx/interface/ideas/SSG_union_forever.dds"
+		textureFile = "gfx/interface/ideas/SSG/SSG_union_forever.dds"
 	}
 
 
@@ -59,47 +55,47 @@ spritetypes = {
 
 	spriteType = {
 		name = GFX_idea_moon_light
-		textureFile = "gfx/interface/ideas/OKS_moon_light.dds"
+		textureFile = "gfx/interface/ideas/OKS/OKS_moon_light.dds"
 	}
 	spriteType = {
 		name = GFX_idea_raskumar
-		textureFile = "gfx/interface/ideas/OKS_raskumar.dds"
+		textureFile = "gfx/interface/ideas/OKS/OKS_raskumar.dds"
 	}
 	spriteType = {
 		name = GFX_idea_kumar_guns
-		textureFile = "gfx/interface/ideas/OKS_kumar_guns.dds"
+		textureFile = "gfx/interface/ideas/OKS/OKS_kumar_guns.dds"
 	}
 	spriteType = {
 		name = GFX_idea_kumar_fleet_company
-		textureFile = "gfx/interface/ideas/OKS_kumar_fleet.dds"
+		textureFile = "gfx/interface/ideas/OKS/OKS_kumar_fleet.dds"
 	}
 	spriteType = {
 		name = GFX_idea_kumar_electronic_organization
-		textureFile = "gfx/interface/ideas/OKS_kumar_electroniks.dds"
+		textureFile = "gfx/interface/ideas/OKS/OKS_kumar_electroniks.dds"
 	}
 	spriteType = {
 		name = GFX_idea_kumar_light_tanks
-		textureFile = "gfx/interface/ideas/OKS_kumar_light_tank.dds"
+		textureFile = "gfx/interface/ideas/OKS/OKS_kumar_light_tank.dds"
 	}
 	spriteType = {
 		name = GFX_idea_kumar_medium_tanks
-		textureFile = "gfx/interface/ideas/OKS_kumar_medium_tank.dds"
+		textureFile = "gfx/interface/ideas/OKS/OKS_kumar_medium_tank.dds"
 	}
 	spriteType = {
 		name = GFX_idea_kumar_heavy_tanks
-		textureFile = "gfx/interface/ideas/OKS_kumar_heavy_tank.dds"
+		textureFile = "gfx/interface/ideas/OKS/OKS_kumar_heavy_tank.dds"
 	}
 	spriteType = {
 		name = GFX_idea_kumar_artillery_company
-		textureFile = "gfx/interface/ideas/OKS_kumar_artillery.dds"
+		textureFile = "gfx/interface/ideas/OKS/OKS_kumar_artillery.dds"
 	}
 	spriteType = {
 		name = GFX_idea_kumar_light_planes
-		textureFile = "gfx/interface/ideas/OKS_kumar_planes.dds"
+		textureFile = "gfx/interface/ideas/OKS/OKS_kumar_planes.dds"
 	}
 	spriteType = {
 		name = GFX_idea_kumar_excort_fleets
-		textureFile = "gfx/interface/ideas/OKS_kumar_excort_fleet.dds"
+		textureFile = "gfx/interface/ideas/OKS/OKS_kumar_excort_fleet.dds"
 	}
 
 
@@ -108,23 +104,23 @@ spritetypes = {
 
 	spriteType = {
 		name = GFX_idea_forge_new_army
-		textureFile = "gfx/interface/ideas/NYA_forge_new_army.dds"
+		textureFile = "gfx/interface/ideas/NYA/NYA_forge_new_army.dds"
 	}
 	spriteType = {
 		name = GFX_idea_mobilize_army
-		textureFile = "gfx/interface/ideas/NYA_mobilize_army.dds"
+		textureFile = "gfx/interface/ideas/NYA/NYA_mobilize_army.dds"
 	}
 	spriteType = {
 		name = GFX_idea_power_armor
-		textureFile = "gfx/interface/ideas/NYA_power_armor.dds"
+		textureFile = "gfx/interface/ideas/NYA/NYA_power_armor.dds"
 	}
 	spriteType = {
 		name = GFX_idea_burenya_church
-		textureFile = "gfx/interface/ideas/NYA_burenya_church.dds"
+		textureFile = "gfx/interface/ideas/NYA/NYA_burenya_church.dds"
 	}
 	spriteType = {
 		name = GFX_idea_great_army
-		textureFile = "gfx/interface/ideas/NYA_great_army.dds"
+		textureFile = "gfx/interface/ideas/NYA/NYA_great_army.dds"
 	}
 	spriteType = {
 		name = GFX_idea_research
@@ -132,22 +128,22 @@ spritetypes = {
 	}
 	spriteType = {
 		name = GFX_idea_nova_ekna_imperialism
-		textureFile = "gfx/interface/ideas/NYA_sparnat_country.tga"
+		textureFile = "gfx/interface/ideas/NYA/NYA_sparnat_country.tga"
 	}
 	spriteType = {
 		name = GFX_idea_new_era_science
-		textureFile = "gfx/interface/ideas/NYA_new_era_science.tga"
+		textureFile = "gfx/interface/ideas/NYA/NYA_new_era_science.tga"
 	}
 	spriteType = {
 		name = GFX_idea_new_era_equipment
-		textureFile = "gfx/interface/ideas/NYA_new_era_equipment.tga"
+		textureFile = "gfx/interface/ideas/NYA/NYA_new_era_equipment.tga"
 	}
 	spriteType = {
 		name = GFX_idea_chemical_weapons
-		textureFile = "gfx/interface/ideas/NYA_chemical_weapons.dds"
+		textureFile = "gfx/interface/ideas/NYA/NYA_chemical_weapons.dds"
 	}
 	spriteType = {
 		name = GFX_idea_forge_new_army
-		textureFile = "gfx/interface/ideas/NYA_forge_new_army.dds"
+		textureFile = "gfx/interface/ideas/NYA/NYA_forge_new_army.dds"
 	}
 }
