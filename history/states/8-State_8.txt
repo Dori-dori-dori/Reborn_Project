@@ -1,26 +1,24 @@
-state={
-	id=8
-	name="STATE_8"
+state = { 
+	id = 8 
+	name = "STATE_8" 
+	manpower = 1000000 
 	
-	history={
-		owner = IDK
-		add_core_of = IDK
-		buildings = {
-			infrastructure = 4
-			arms_factory = 2
-			industrial_complex = 2
-			air_base = 3
-			anti_air_building = 3
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	
+	resources = { oil = 20 } 
+	history = { 
+		owner = IDK 
+		
+		buildings = { 
+			infrastructure = 4 
+			arms_factory = 2 
+			industrial_complex = 2 
+			air_base = 3 
+			anti_air_building = 3 
 		}
-    }
-	resources = {
-		oil = 20
+		
+		add_core_of = IDK 
 	}
-    buildings_max_level_factor=1.000
-    
-	provinces={
-		202 351 575 581 1230 1287 1497 1535 1937 2203 2212 2934 2953 3172 3335 3881 3892 3895 3902 3907 3909 3912 3918 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 202 351 575 581 1230 1287 1497 1535 1937 2203 2212 2934 2953 3172 3335 3881 3892 3895 3902 3907 3909 3912 3918 }
 }

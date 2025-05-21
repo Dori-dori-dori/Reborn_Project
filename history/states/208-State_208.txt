@@ -1,23 +1,22 @@
-state={
-	id=208
-	name="STATE_208"
+state = { 
+	id = 208 
+	name = "STATE_208" 
+	manpower = 1000000 
 	
-	history={
-		owner = TOX
-		add_core_of = TOX
-		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 2
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	history = { 
+		owner = TOX 
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 2 
+			industrial_complex = 2 
 			anti_air_building = 4 
 			2127 = { naval_base = 5 }
 		}
+		
+		add_core_of = TOX 
 	}
-	buildings_max_level_factor=1.000
-
-	provinces={
-		237 250 675 1140 1229 1314 1622 1759 1933 2127 2128 2176 2209 2214 2547 2845 2899 3366 3396 3475 3481 3753 3824 5190 5195 5209 5211 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 237 250 675 1140 1229 1314 1622 1759 1933 2127 2128 2176 2209 2214 2547 2845 2899 3366 3396 3475 3481 3753 3824 5190 5195 5209 5211 }
 }

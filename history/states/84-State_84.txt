@@ -1,32 +1,30 @@
-state={
-	id=84
-	name="STATE_84"
+state = { 
+	id = 84 
+	name = "STATE_84" 
+	manpower = 1000000 
 	
-	history={
-		owner = SSG
-		add_core_of = SSG
-		add_claim_by = WAR
-		add_claim_by = WIT
-		add_claim_by = PRO
-		add_claim_by = TOH
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	
+	resources = { oil = 40 } 
+	history = { 
+		owner = SSG 
+		
 		victory_points = { 2582 15 }
-		buildings = {
-			infrastructure = 3
-			arms_factory = 4
-			industrial_complex = 3
-			anti_air_building = 4
-			air_base = 3
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 4 
+			industrial_complex = 3 
+			anti_air_building = 4 
+			air_base = 3 
 		}
 		
+		add_core_of = SSG 
+		add_claim_by = WAR 
+		add_claim_by = WIT 
+		add_claim_by = PRO 
+		add_claim_by = TOH 
 	}
-	resources = {
-		oil = 40
-	}
-	buildings_max_level_factor=1.000
-
-	provinces={
-		96 121 160 180 223 347 385 587 614 648 839 926 952 989 1383 1682 1745 1787 1863 1881 2003 2157 2241 2475 2582 2627 2640 2725 2974 3176 3321 3431 3682 3756 3795 3842 3848 4293 4302 4330 4333 4336 4343 4370 4374 4375 4380 4390 4398 4412 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 96 121 160 180 223 347 385 587 614 648 839 926 952 989 1383 1682 1745 1787 1863 1881 2003 2157 2241 2475 2582 2627 2640 2725 2974 3176 3321 3431 3682 3756 3795 3842 3848 4293 4302 4330 4333 4336 4343 4370 4374 4375 4380 4390 4398 4412 }
 }

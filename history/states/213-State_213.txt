@@ -1,31 +1,30 @@
-state={
-	id=213
-	name="STATE_213"
+state = { 
+	id = 213 
+	name = "STATE_213" 
+	manpower = 1000000 
 	
-	history={
-		owner = NYA
-		add_core_of = NYA
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	
+	resources = { oil = 40 } 
+	history = { 
+		owner = NYA 
+		
 		victory_points = { 638 15 }
-		buildings = {
-			infrastructure = 5
-			arms_factory = 2
-			industrial_complex = 3
-			air_base = 2
-			dockyard = 1
-			anti_air_building = 3
-			3745 = { naval_base = 5 }
+		
+		buildings = { 
+			infrastructure = 4 
+			arms_factory = 2 
+			industrial_complex = 3 
+			air_base = 2 
+			dockyard = 1 
+			anti_air_building = 3 
 			214 = { naval_base = 2 }
 			2234 = { naval_base = 4 }
+			3745 = { naval_base = 5 }
 		}
+		
+		add_core_of = NYA 
 	}
-	resources = {
-		oil = 40
-	}
-	buildings_max_level_factor=1.000
-
-	provinces={
-		214 638 738 781 891 1006 1051 1146 1686 2234 2451 2467 2872 3284 3745 3838 5228 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 214 638 738 781 891 1006 1051 1146 1686 2234 2451 2467 2872 3284 3745 3838 5228 }
 }

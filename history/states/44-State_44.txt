@@ -1,25 +1,22 @@
-state={
-	id=44
-	name="STATE_44"
+state = { 
+	id = 44 
+	name = "STATE_44" 
+	manpower = 1000000 
 	
-	history={
-		owner = OKS
-		add_core_of = OKS
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-			industrial_complex = 5
-			air_base = 0
-			anti_air_building = 4
-
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	history = { 
+		owner = OKS 
+		
+		buildings = { 
+			infrastructure = 2 
+			arms_factory = 3 
+			industrial_complex = 5 
+			air_base = 0 
+			anti_air_building = 4 
 		}
+		
+		add_core_of = OKS 
 	}
-
-	buildings_max_level_factor=1.000
-    
-	provinces={
-		8 490 594 598 724 782 1042 1231 1245 1256 1311 1370 1430 1536 1565 1793 1868 1953 2313 2407 2421 2466 2553 2594 2644 2689 2724 2793 2832 3013 3026 3036 3055 3099 3114 3163 3238 3386 3417 3567 3711 3780 3792 4018 4037 4043 4067 4068 4087 4092 4093 4103 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 8 490 594 598 724 782 1042 1231 1245 1256 1311 1370 1430 1536 1565 1793 1868 1953 2313 2407 2421 2466 2553 2594 2644 2689 2724 2793 2832 3013 3026 3036 3055 3099 3114 3163 3238 3386 3417 3567 3711 3780 3792 4018 4037 4043 4067 4068 4087 4092 4093 4103 }
 }

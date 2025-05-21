@@ -17,7 +17,7 @@ characters = {
 			logistics_skill = 4
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = feeblism
 			traits = {
 				social_revolutionary
 				guardian_of_order

@@ -1,4 +1,6 @@
 ﻿l_russian:
+ develop_hellpancake_tungsten_deposits: "Разработка месторождений вольфрама в Хеллпанкейке"
+ develop_hellpancake_tungsten_deposits_desc: "Разработка месторождений вольфрама в Хеллпанкейке"
  new_factory_construction: "Новый дизайн фабрик"
  new_weapon_design: "Новые наработки по оружию"
  improve_tanks: "Усовершенствование танков"
@@ -16,3 +18,4 @@
  kfc_intergate_goverment: "Интеграция [KFC.GetNameDefCap]"
  OKS_civil_war_prepare: "Подготовка к войне"
  OKS_civil_war_prepare_desc: "Писяпопа"
+ 

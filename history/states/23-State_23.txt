@@ -1,30 +1,28 @@
-state={
-	id=23
-	name="STATE_23"
-
-	history={
-		owner = IDK
-		add_core_of = IDK
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-			industrial_complex = 4
-			anti_air_building = 4
-			dockyard = 1
+state = { 
+	id = 23 
+	name = "STATE_23" 
+	manpower = 1000000 
+	
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	local_supplies = 0 
+	
+	resources = { 
+		tungsten = 64 
+		aluminium = 95 
+	} 
+	history = { 
+		owner = IDK 
+		
+		buildings = { 
+			infrastructure = 4 
+			arms_factory = 3 
+			industrial_complex = 4 
+			anti_air_building = 4 
+			dockyard = 1 
 		}
-
+		
+		add_core_of = IDK 
 	}
-	resources = {
-		tungsten = 64
-		aluminium = 95
-	}
-
-	provinces={
-		479 496 756 876 881 1071 1123 1244 1297 1416 1510 1667 2148 2244 2430 2700 2855 3119 3440 3586 3851 3933 3953 3962 3982 4000 4001 4022 
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=megalopolis
-	local_supplies=0.000
-
+	provinces = { 479 496 756 876 881 1071 1123 1244 1297 1416 1510 1667 2148 2244 2430 2700 2855 3119 3440 3586 3851 3933 3953 3962 3982 4000 4001 4022 }
 }

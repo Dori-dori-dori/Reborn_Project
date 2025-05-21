@@ -1,24 +1,23 @@
-state={
-	id=164
-	name="STATE_164"
+state = { 
+	id = 164 
+	name = "STATE_164" 
+	manpower = 1000000 
 	
-	history={
-		owner = BUL
-		add_core_of = BUL
-		buildings = {
-			infrastructure = 5
-			arms_factory = 2
-			industrial_complex = 2
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	history = { 
+		owner = BUL 
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 2 
+			industrial_complex = 2 
 			anti_air_building = 3 
-			dockyard = 1
+			dockyard = 1 
 			3603 = { naval_base = 5 }
 		}
+		
+		add_core_of = BUL 
 	}
-	buildings_max_level_factor=1.000
-
-	provinces={
-		36 650 860 1060 1645 1785 1800 1803 2027 3563 3603 3840 4836 4851 4896 4907 4915 4919 4953 4971 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 36 650 860 1060 1645 1785 1800 1803 2027 3563 3603 3840 4836 4851 4896 4907 4915 4919 4953 4971 }
 }

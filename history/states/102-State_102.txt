@@ -1,30 +1,26 @@
-state={
-	id=102
-	name="STATE_102"
-
-	history={
-		owner = NIG
-		add_core_of = NIG
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-			industrial_complex = 2
-			dockyard = 1
-			anti_air_building = 4
+state = { 
+	id = 102 
+	name = "STATE_102" 
+	manpower = 1000000 
+	
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	local_supplies = 0 
+	
+	resources = { oil = 30 } 
+	history = { 
+		owner = NIG 
+		
+		buildings = { 
+			infrastructure = 5 
+			arms_factory = 3 
+			industrial_complex = 2 
+			dockyard = 1 
+			anti_air_building = 4 
 			1993 = { naval_base = 5 }
 		}
-
+		
+		add_core_of = NIG 
 	}
-	resources = {
-		oil = 30
-	}
-
-	provinces={
-		1993 3171 3294 4478 
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=megalopolis
-	local_supplies=0.000
-
+	provinces = { 1993 3171 3294 4478 }
 }

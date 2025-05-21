@@ -1,29 +1,27 @@
-state={
-	id=31
-	name="STATE_31"
-
-	history={
-		owner = IDK
-		add_core_of = IDK
-		buildings = {
-			infrastructure = 5
-			arms_factory = 2
-			industrial_complex = 2
-			anti_air_building = 4
+state = { 
+	id = 31 
+	name = "STATE_31" 
+	manpower = 1000000 
+	
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	local_supplies = 0 
+	
+	resources = { 
+		tungsten = 50 
+		aluminium = 24 
+	} 
+	history = { 
+		owner = IDK 
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 2 
+			industrial_complex = 2 
+			anti_air_building = 4 
 		}
-
+		
+		add_core_of = IDK 
 	}
-	resources = {
-		tungsten = 50
-		aluminium = 24
-	}
-
-	provinces={
-		315 503 871 1806 2251 3022 3987 4002 
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=megalopolis
-	local_supplies=0.000
-
+	provinces = { 315 503 871 1806 2251 3022 3987 4002 }
 }

@@ -1,29 +1,26 @@
-state={
-	id=13
-	name="STATE_13"
-
-	history={
-		owner = OKS
-		add_core_of = OKS
-		buildings = {
-			infrastructure = 5
-			arms_factory = 2
-			industrial_complex = 3
-			dockyard = 1
-			anti_air_building = 5
+state = { 
+	id = 13 
+	name = "STATE_13" 
+	manpower = 1000000 
+	
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	
+	resources = { chromium = 30 } 
+	history = { 
+		owner = OKS 
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 2 
+			industrial_complex = 3 
+			dockyard = 1 
+			anti_air_building = 5 
 			1516 = { naval_base = 8 }
 			2848 = { naval_base = 7 }
 		}
+		
+		add_core_of = OKS 
 	}
-	resources = {
-    chromium = 30
-   	}
-
-	buildings_max_level_factor=1.000
-	
-	provinces={
-		340 1199 1516 2207 2397 2426 2443 2448 2848 3074 3206 3354 3664 3698 3903 3904 3914 3917 3928 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 340 1199 1516 2207 2397 2426 2443 2448 2848 3074 3206 3354 3664 3698 3903 3904 3914 3917 3928 }
 }

@@ -1,30 +1,29 @@
-state={
-	id=99
-	name="STATE_99"
-
-	history={
-		owner=TEA
-		add_core_of = TEA
-		buildings = {
-			infrastructure=4
-			arms_factory=3
-			industrial_complex=4
-			anti_air_building=4
-			dockyard=1
+state = { 
+	id = 99 
+	name = "STATE_99" 
+	manpower = 1000000 
+	
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	local_supplies = 0 
+	
+	resources = { 
+		oil = 25 
+		steel = 34 
+	} 
+	history = { 
+		owner = TEA 
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 3 
+			industrial_complex = 4 
+			anti_air_building = 4 
+			dockyard = 1 
 			4391 = { naval_base = 8 }
 		}
+		
+		add_core_of = TEA 
 	}
-	resources = {
-		oil = 25
-		steel = 34
-	}
-
-	provinces={
-		71 274 373 1263 1494 1684 1875 2868 2966 4391 4400 4427 4429 4499 4521 
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=megalopolis
-	local_supplies=0.000
-
+	provinces = { 71 274 373 1263 1494 1684 1875 2868 2966 4391 4400 4427 4429 4499 4521 }
 }

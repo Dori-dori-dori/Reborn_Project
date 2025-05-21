@@ -1,24 +1,23 @@
-state={
-	id=43
-	name="STATE_43"
+state = { 
+	id = 43 
+	name = "STATE_43" 
+	manpower = 1000000 
 	
-	history={
-		owner = MET
-		add_core_of = MET
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-			industrial_complex = 3
-			air_base = 3
-			dockyard = 1
-			anti_air_building = 4
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	history = { 
+		owner = MET 
+		
+		buildings = { 
+			infrastructure = 5 
+			arms_factory = 3 
+			industrial_complex = 3 
+			air_base = 3 
+			dockyard = 1 
+			anti_air_building = 4 
 		}
+		
+		add_core_of = MET 
 	}
-	buildings_max_level_factor=1.000
-
-	provinces={
-		86 370 2129 2143 2180 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 86 370 2129 2143 2180 }
 }

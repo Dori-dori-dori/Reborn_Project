@@ -1,25 +1,22 @@
-state={
-	id=154
-	name="STATE_154"
-
-	history={
-		owner = KFC
-		add_core_of = KFC
-		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 3
-			anti_air_building = 3
+state = { 
+	id = 154 
+	name = "STATE_154" 
+	manpower = 1000000 
+	
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	local_supplies = 0 
+	history = { 
+		owner = KFC 
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 2 
+			industrial_complex = 3 
+			anti_air_building = 3 
 		}
-
+		
+		add_core_of = KFC 
 	}
-
-	provinces={
-		653 1196 1520 2887 3629 4842 4876 
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=megalopolis
-	local_supplies=0.000
-
+	provinces = { 653 1196 1520 2887 3629 4842 4876 }
 }

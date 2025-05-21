@@ -1,26 +1,23 @@
-state={
-	id=146
-	name=" STATE_146"
+state = { 
+	id = 146 
+	name = " STATE_146" 
+	manpower = 1000000 
 	
-	history={
-		owner = CHE
-		add_core_of = CHE
-		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 1
-			anti_air_building = 3
-
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	
+	resources = { tungsten = 35 } 
+	history = { 
+		owner = CHE 
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 2 
+			industrial_complex = 1 
+			anti_air_building = 3 
 		}
+		
+		add_core_of = CHE 
 	}
-	resources = {
-		tungsten = 35
-	}
-	buildings_max_level_factor=1.000
-
-	provinces={
-		164 203 318 336 995 1804 1909 2061 2062 2352 2977 3401 3568 4759 4767 4770 4807 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 164 203 318 336 995 1804 1909 2061 2062 2352 2977 3401 3568 4759 4767 4770 4807 }
 }

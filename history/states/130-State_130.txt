@@ -1,28 +1,28 @@
-state={
-	id=130
-	name="STATE_130"
+state = { 
+	id = 130 
+	name = "STATE_130" 
+	manpower = 1000000 
 	
-	history={
-		owner = SSG
-		add_core_of = SSG
-		add_claim_by = WAR
-		add_claim_by = WIT
-		add_claim_by = PRO
-		add_claim_by = TOH
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	history = { 
+		owner = SSG 
+		
 		victory_points = { 4675 10 }
-		buildings = {
-			infrastructure = 4
-			arms_factory = 2
-			industrial_complex = 2
-			anti_air_building = 2
-			dockyard = 1
+		
+		buildings = { 
+			infrastructure = 4 
+			arms_factory = 2 
+			industrial_complex = 2 
+			anti_air_building = 2 
+			dockyard = 1 
 		}
+		
+		add_core_of = SSG 
+		add_claim_by = WAR 
+		add_claim_by = WIT 
+		add_claim_by = PRO 
+		add_claim_by = TOH 
 	}
-	buildings_max_level_factor=1.000
-
-	provinces={
-		189 1219 1637 1757 2523 2624 2833 3164 3768 4634 4659 4670 4675 4684 4695 4706 4733 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 189 1219 1637 1757 2523 2624 2833 3164 3768 4634 4659 4670 4675 4684 4695 4706 4733 }
 }

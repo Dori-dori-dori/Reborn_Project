@@ -1,26 +1,23 @@
-state={
-	id=129
-	name="STATE_129"
-
-	history={
-		owner = TOX
-		add_core_of = TOX
-		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 2
-			anti_air_building = 4
-			dockyard = 1
-
+state = { 
+	id = 129 
+	name = "STATE_129" 
+	manpower = 1000000 
+	
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	local_supplies = 0 
+	history = { 
+		owner = TOX 
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 2 
+			industrial_complex = 2 
+			anti_air_building = 4 
+			dockyard = 1 
 		}
-
+		
+		add_core_of = TOX 
 	}
-
-	provinces={
-		630 819 828 832 2026 2182 2281 2729 2783 3083 3159 3204 3277 4687 4700 4716 4741 
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=megalopolis
-	local_supplies=0.000
+	provinces = { 630 819 828 832 2026 2182 2281 2729 2783 3083 3159 3204 3277 4687 4700 4716 4741 }
 }

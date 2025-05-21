@@ -1,26 +1,23 @@
-state={
-	id=157
-	name="STATE_157"
-
-	history={
-		owner = KFC
-		add_core_of = KFC
-		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 3
-			anti_air_building = 3
+state = { 
+	id = 157 
+	name = "STATE_157" 
+	manpower = 1000000 
+	
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	local_supplies = 0 
+	history = { 
+		owner = KFC 
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 2 
+			industrial_complex = 3 
+			anti_air_building = 3 
 			4867 = { naval_base = 6 }
 		}
-
+		
+		add_core_of = KFC 
 	}
-
-	provinces={
-		493 501 903 960 3407 3674 4867 4875 4897 4934 
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=megalopolis
-	local_supplies=0.000
-
+	provinces = { 493 501 903 960 3407 3674 4867 4875 4897 4934 }
 }

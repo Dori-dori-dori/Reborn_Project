@@ -1,22 +1,21 @@
-state={
-	id=67
-	name="STATE_67"
+state = { 
+	id = 67 
+	name = "STATE_67" 
+	manpower = 1000000 
 	
-	history={
-		owner = OKS
-		add_core_of = OKS
-		buildings = {
-			infrastructure = 5
-			arms_factory = 2
-			industrial_complex = 3
-			anti_air_building = 4
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	history = { 
+		owner = OKS 
+		
+		buildings = { 
+			infrastructure = 4 
+			arms_factory = 2 
+			industrial_complex = 3 
+			anti_air_building = 4 
 		}
+		
+		add_core_of = OKS 
 	}
-	buildings_max_level_factor=1.000
-
-	provinces={
-		19 312 593 618 830 1148 1262 1331 1355 1474 2356 2432 2637 2641 2652 3344 3422 3463 3632 3642 3644 4175 4184 4212 4213 4227 4268 4279 4295 4311 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 19 312 593 618 830 1148 1262 1331 1355 1474 2356 2432 2637 2641 2652 3344 3422 3463 3632 3642 3644 4175 4184 4212 4213 4227 4268 4279 4295 4311 }
 }

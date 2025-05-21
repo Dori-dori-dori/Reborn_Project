@@ -1,28 +1,27 @@
-state={
-	id=47
-	name="STATE_47"
+state = { 
+	id = 47 
+	name = "STATE_47" 
+	manpower = 1000000 
 	
-	history={
-		owner = SSG
-		add_core_of = SSG
-		add_core_of = WAR
-		add_claim_by = WAR
-		add_claim_by = WIT
-		add_claim_by = PRO
-		add_claim_by = TOH
-		buildings = {
-			infrastructure = 2
-			arms_factory = 2
-			industrial_complex = 3
-			air_base = 5
-			anti_air_building = 2
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	history = { 
+		owner = SSG 
+		
+		buildings = { 
+			infrastructure = 2 
+			arms_factory = 2 
+			industrial_complex = 3 
+			air_base = 5 
+			anti_air_building = 2 
 		}
+		
+		add_core_of = SSG 
+		add_core_of = WAR 
+		add_claim_by = WAR 
+		add_claim_by = WIT 
+		add_claim_by = PRO 
+		add_claim_by = TOH 
 	}
-	buildings_max_level_factor=1.000
-
-	provinces={
-		52 76 331 1080 1643 1925 1942 2004 2414 2812 3216 3332 3588 4124 4138 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 52 76 331 1080 1643 1925 1942 2004 2414 2812 3216 3332 3588 4124 4138 }
 }

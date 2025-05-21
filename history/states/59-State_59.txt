@@ -1,34 +1,35 @@
-state={
-	id=59
-	name="STATE_59"
+state = { 
+	id = 59 
+	name = "STATE_59" 
+	manpower = 1000000 
 	
-	history={
-		owner = SSG
-		add_core_of = SSG
-		add_core_of = WIT
-		add_claim_by = WAR
-		add_claim_by = WIT
-		add_claim_by = PRO
-		add_claim_by = TOH
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	
+	resources = { 
+		chromium = 50 
+		steel = 12 
+	} 
+	history = { 
+		owner = SSG 
+		
 		victory_points = { 4169 5 }
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-			industrial_complex = 3
-			air_base = 4
-			dockyard = 1
-			anti_air_building = 5
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 3 
+			industrial_complex = 3 
+			air_base = 4 
+			dockyard = 1 
+			anti_air_building = 5 
 		}
+		
+		add_core_of = SSG 
+		add_core_of = WIT 
+		add_claim_by = WAR 
+		add_claim_by = WIT 
+		add_claim_by = PRO 
+		add_claim_by = TOH 
 	}
-	resources = {
-		chromium = 50
-		steel = 12
-	}
-	buildings_max_level_factor=1.000
-
-	provinces={
-		360 405 410 424 482 764 804 812 1011 1039 1242 1267 1389 1435 1467 1558 1595 1599 1608 1647 1706 1707 1758 1845 2010 2255 2276 2341 2510 2801 2900 2924 2933 2992 3006 3066 3080 3323 3338 3527 3853 3883 4117 4144 4161 4168 4169 4186 4199 4202 4204 4252 4260 4267 4273 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 360 405 410 424 482 764 804 812 1011 1039 1242 1267 1389 1435 1467 1558 1595 1599 1608 1647 1706 1707 1758 1845 2010 2255 2276 2341 2510 2801 2900 2924 2933 2992 3006 3066 3080 3323 3338 3527 3853 3883 4117 4144 4161 4168 4169 4186 4199 4202 4204 4252 4260 4267 4273 }
 }

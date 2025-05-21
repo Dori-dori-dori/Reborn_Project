@@ -1,27 +1,25 @@
-state={
-	id=70
-	name="STATE_70"
+state = { 
+	id = 70 
+	name = "STATE_70" 
+	manpower = 1000000 
 	
-	history={
-		owner = SSG
-		add_core_of = SSG
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	
+	resources = { steel = 50 } 
+	history = { 
+		owner = SSG 
+		
 		victory_points = { 2054 5 }
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-			industrial_complex = 4
-			anti_air_building = 4
+		
+		buildings = { 
+			infrastructure = 5 
+			arms_factory = 3 
+			industrial_complex = 4 
+			anti_air_building = 4 
 		}
-
+		
+		add_core_of = SSG 
 	}
-	resources = {
-		steel = 50
-	}
-	buildings_max_level_factor=1.000
-
-	provinces={
-		553 590 635 1147 1172 1198 1255 1271 1319 1328 1373 1382 1554 1663 1723 1774 1852 1973 2054 2097 2137 2156 2280 2330 2351 2453 2654 2767 2806 3177 3286 3442 3821 4223 4236 4238 4280 4281 4286 4294 4323 4334 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 553 590 635 1147 1172 1198 1255 1271 1319 1328 1373 1382 1554 1663 1723 1774 1852 1973 2054 2097 2137 2156 2280 2330 2351 2453 2654 2767 2806 3177 3286 3442 3821 4223 4236 4238 4280 4281 4286 4294 4323 4334 }
 }

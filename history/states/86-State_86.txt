@@ -1,27 +1,23 @@
-state= {
-	id=86
-	name="STATE_86"
-
-	history={
-		owner = MET
-		add_core_of = MET
-		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 1
-			air_base = 1
-			anti_air_building = 2
-			
-		}
-	}
-
+state = { 
+	id = 86 
+	name = "STATE_86" 
+	manpower = 1000000 
+	
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	local_supplies = 0 
+	history = { 
+		owner = MET 
 		
-	provinces={
-		44 233 241 256 259 387 432 632 923 1024 1054 1436 1619 1691 1753 2053 2202 2512 2554 2628 2684 3268 3367 3432 3473 3476 3526 3776 4308 4358 4363 4381 4386 4394 4416 
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 1 
+			industrial_complex = 1 
+			air_base = 1 
+			anti_air_building = 2 
+		}
+		
+		add_core_of = MET 
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=megalopolis
-	local_supplies=0.000
-
+	provinces = { 44 233 241 256 259 387 432 632 923 1024 1054 1436 1619 1691 1753 2053 2202 2512 2554 2628 2684 3268 3367 3432 3473 3476 3526 3776 4308 4358 4363 4381 4386 4394 4416 }
 }

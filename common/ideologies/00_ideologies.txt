@@ -71,6 +71,9 @@ ideologies = {
 
 			anarchist_communism = {
 			}
+
+			feeblism = {
+			}
 		}
 
 		dynamic_faction_names = {

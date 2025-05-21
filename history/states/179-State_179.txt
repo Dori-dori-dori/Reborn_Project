@@ -1,30 +1,26 @@
-state={
-	id=179
-	name="STATE_179"
-
-	history={
-		owner = XYD
-		add_core_of = XYD
-		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 2
-			anti_air_building = 2
-			dockyard = 1
+state = { 
+	id = 179 
+	name = "STATE_179" 
+	manpower = 1000000 
+	
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	local_supplies = 0 
+	
+	resources = { chromium = 42 } 
+	history = { 
+		owner = XYD 
+		
+		buildings = { 
+			infrastructure = 2 
+			arms_factory = 1 
+			industrial_complex = 2 
+			anti_air_building = 2 
+			dockyard = 1 
 			3448 = { naval_base = 2 }
 		}
-
+		
+		add_core_of = XYD 
 	}
-	resources = {
-		chromium = 42
-	}
-
-	provinces={
-		628 1019 2120 2525 3126 3448 3566 5031 5051 
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=megalopolis
-	local_supplies=0.000
-
+	provinces = { 628 1019 2120 2525 3126 3448 3566 5031 5051 }
 }

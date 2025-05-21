@@ -1,31 +1,29 @@
-state={
-	id=66
-	name="STATE_66"
-
-	history={
-		owner=TEA
-		add_core_of = TEA
-		buildings = {
-			infrastructure=3
-			arms_factory=1
-			industrial_complex=1
-			air_base=1
-			anti_air_building=1
-		    4346 = { naval_base = 8 }
-	    }
-
-	}
-
-	provinces={
-		123 352 443 979 1068 1397 1903 2586 2679 3056 3634 4259 4298 4312 4326 4346 4354 4359 
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=megalopolis
-	local_supplies=0.000
+state = { 
+	id = 66 
+	name = "STATE_66" 
+	manpower = 1000000 
 	
-	resources = {
-		rubber = 52
-		oil=90
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	local_supplies = 0 
+	
+	resources = { 
+		rubber = 52 
+		oil = 90 
+	} 
+	history = { 
+		owner = TEA 
+		
+		buildings = { 
+			infrastructure = 1 
+			arms_factory = 1 
+			industrial_complex = 1 
+			air_base = 1 
+			anti_air_building = 1 
+			4346 = { naval_base = 8 }
+		}
+		
+		add_core_of = TEA 
 	}
+	provinces = { 123 352 443 979 1068 1397 1903 2586 2679 3056 3634 4259 4298 4312 4326 4346 4354 4359 }
 }

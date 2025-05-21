@@ -1,23 +1,22 @@
-state={
-	id=203
-	name="STATE_203"
+state = { 
+	id = 203 
+	name = "STATE_203" 
+	manpower = 1000000 
 	
-	history={
-		owner = NYA
-		add_core_of = NYA
-		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			anti_air_building = 2
-			dockyard = 1
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
+	history = { 
+		owner = NYA 
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 1 
+			industrial_complex = 2 
+			anti_air_building = 2 
+			dockyard = 1 
 		}
+		
+		add_core_of = NYA 
 	}
-	buildings_max_level_factor=1.000
-
-	provinces={
-		422 735 1022 1075 1873 2286 2312 2498 2639 3837 3882 5132 5148 5151 5160 5170 
-	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 422 735 1022 1075 1873 2286 2312 2498 2639 3837 3882 5132 5148 5151 5160 5170 }
 }

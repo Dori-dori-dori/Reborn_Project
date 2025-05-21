@@ -1,29 +1,26 @@
-state={
-	id=167
-	name="STATE_167"
+state = { 
+	id = 167 
+	name = "STATE_167" 
+	manpower = 1000000 
 	
-	history={
-		owner = NIG
-		add_core_of = NIG
-		buildings = {
-		infrastructure = 3
-		arms_factory = 2
-		industrial_complex = 1
-		anti_air_building = 3
-
-	}
-
-	}
-	resources = {
-		steel = 30
-		chromium = 15
-	}
+	state_category = megalopolis 
+	buildings_max_level_factor = 1 
 	
-	buildings_max_level_factor=1.000
-
-	provinces={
-		388 491 540 1464 1593 1718 1837 1926 1938 1954 1957 1959 2051 2213 2423 2436 2531 2593 2626 2735 2981 3069 3464 3553 3729 4911 4946 4950 4966 4981 
+	resources = { 
+		steel = 30 
+		chromium = 15 
+	} 
+	history = { 
+		owner = NIG 
+		
+		buildings = { 
+			infrastructure = 3 
+			arms_factory = 2 
+			industrial_complex = 1 
+			anti_air_building = 3 
+		}
+		
+		add_core_of = NIG 
 	}
-	manpower=1000000
-	state_category=megalopolis
+	provinces = { 388 491 540 1464 1593 1718 1837 1926 1938 1954 1957 1959 2051 2213 2423 2436 2531 2593 2626 2735 2981 3069 3464 3553 3729 4911 4946 4950 4966 4981 }
 }
