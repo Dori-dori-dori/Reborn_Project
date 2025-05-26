@@ -23,6 +23,23 @@ on_actions = {
 					transfer_state = 179
 				}
 			}
+			if = {
+				limit = {
+					FROM = {
+						has_country_flag = SSG_civil_war
+					}
+				}
+				ROOT = {
+					if = {
+						limit = { has_country_flag = SSG_civil_war }
+						every_owned_state = {
+							transfer_state_to = FROM
+							add_core_of = FROM
+							remove_core_of = ROOT
+						}
+					}
+				}
+			}			
 		}
 	}
 	on_capitulation = {

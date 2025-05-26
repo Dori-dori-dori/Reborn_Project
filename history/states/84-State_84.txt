@@ -5,10 +5,7 @@ state={
 	history={
 		owner = SSG
 		add_core_of = SSG
-		add_claim_by = WAR
-		add_claim_by = WIT
-		add_claim_by = PRO
-		add_claim_by = TOH
+
 		victory_points = { 2582 15 }
 		buildings = {
 			infrastructure = 3

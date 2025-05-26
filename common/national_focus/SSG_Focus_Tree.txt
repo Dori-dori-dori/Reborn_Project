@@ -26,11 +26,107 @@ focus_tree = {
 				news_event = news.2
 				play_song = "Limbus Company - Compass"
 				remove_ideas = SSG_Witchers_Problem
-				release = WAR
-			    release = PRO
-			    release = TOH
-			    release = WIT
-			    declare_war_on = {
+				send_equipment = {
+    				equipment = infantry_equipment
+    				amount = 2000
+    				target = WIT
+				}	
+				send_equipment = {
+    				equipment = infantry_equipment
+    				amount = 2000
+    				target = WAR
+				}				
+				send_equipment = {
+    				equipment = infantry_equipment
+    				amount = 2000
+    				target = TOH
+				}				
+				send_equipment = {
+    				equipment = infantry_equipment
+    				amount = 2000
+    				target = PRO
+				}							
+				TOH = {
+					add_state_core = 76
+					add_state_core = 85
+					add_state_core = 95
+					add_state_core = 112
+					add_state_core = 101
+					add_state_core = 79
+					transfer_state = 76
+					transfer_state = 85
+					transfer_state = 95
+					transfer_state = 112
+					transfer_state = 101
+					transfer_state = 79
+					add_opinion_modifier = {
+						target = TOX
+						modifier = ETH_closer_cooperation
+					}
+					set_country_flag = SSG_civil_war			
+				}
+				PRO = {
+					add_state_core = 20
+					add_state_core = 22
+					add_state_core = 3
+					add_state_core = 11	
+					transfer_state = 20
+					transfer_state = 22
+					transfer_state = 3
+					transfer_state = 11
+					declare_war_on = {
+						target = TOH
+						type = annex_everything
+					}
+					set_country_flag = SSG_civil_war			
+				}
+				WAR = {
+					add_state_core = 27
+					add_state_core = 47
+					add_state_core = 45
+					add_state_core = 69	
+					transfer_state = 27
+					transfer_state = 47
+					transfer_state = 45
+					transfer_state = 69	
+					declare_war_on = {
+						target = PRO
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = TOH
+						type = annex_everything
+					}
+					set_country_flag = SSG_civil_war						
+				}
+				WIT = {
+					add_state_core = 73
+					add_state_core = 61
+					add_state_core = 57
+					add_state_core = 42
+					add_state_core = 59
+					add_state_core = 83
+					transfer_state = 73
+					transfer_state = 61
+					transfer_state = 57
+					transfer_state = 42
+					transfer_state = 59
+					transfer_state = 83
+					declare_war_on = {
+						target = WAR
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = PRO
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = TOH
+						type = annex_everything
+					}
+					set_country_flag = SSG_civil_war
+				}
+				 declare_war_on = {
 				    target = WAR
 				    type = annex_everything
 		        }
@@ -46,46 +142,6 @@ focus_tree = {
 				    target = WIT
 				    type = annex_everything
 			    }
-				WIT = {
-					declare_war_on = {
-						target = WAR
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = PRO
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = TOH
-						type = annex_everything
-					}
-					set_country_flag = SSG_civil_war
-				}
-				WAR = {
-					declare_war_on = {
-						target = PRO
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = TOH
-						type = annex_everything
-					}
-					set_country_flag = SSG_civil_war
-				}
-				PRO = {
-					declare_war_on = {
-						target = TOH
-						type = annex_everything
-					}
-					set_country_flag = SSG_civil_war
-				}
-				TOH = {
-					add_opinion_modifier = {
-						target = TOX
-						modifier = ETH_closer_cooperation
-					}
-					set_country_flag = SSG_civil_war
-				}
 				country_event = ssg.1	
 			}
 			custom_effect_tooltip = SSG_start_civil_war
