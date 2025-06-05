@@ -10,5 +10,50 @@ ideas = {
 				production_speed_buildings_factor = 0.20
 			}
 		}
-	}
+                TOX_Losers_in_the_Servers = {
+            picture = generic_fascism_medal
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+            opinion_gain_monthly - -20
+            army_morale = -20
+        }
+}
+TOX_On_the_Bones_of_SPHI = {
+            picture = generic_economic_increase
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+            production_speed_buildings_factor = -0.4
+            global_building_slots = 2
+            industrial_capacity_factory = 0.5
+            civilian_factory_use = 1
+            consumer_goods_factor = 0.3
+        }
+}
+TOX_Best_in_the_Sky = (
+            picture = generic_air_manufacturer
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+            air_attack_factor = 0.7
+            air_interception_detect_factor = 1
+            air_cas_efficiency - 0.8
+            air_night_penalty - 0.5
+        }
+)
+TOX_Nexdor_Paranoia = {
+            picture = generic_fascism_drif
+            allowed_civil_war = {
+                always = no
+            }
+            modifier = {
+            communism_acceptance = -70
+            democracy_acceptance = -50
+            stability_factor = - 0.2
+            stability_weekly = - 0.03
+        }
 }
