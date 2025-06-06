@@ -15,26 +15,26 @@ ideas = {
 	    }
 }
 TEA_Tea_Democratic_Goverment = {
-    picture = generic_central_management
-			allowed_civil_war = {
-				always = no
-			}
-            modifiers = {
-            stability_weekly = 0.7
-            improve_relations_maintain_cost_factor = 0.60
-            war_support_weekly = -0.2
-            opinion_gain_monthly = 6
+           picture = generic_central_management
+	   allowed_civil_war = {
+	   always = no
+	   }
+           modifiers = {
+           stability_weekly = 0.7
+           improve_relations_maintain_cost_factor = 0.60
+           war_support_weekly = -0.2
+           opinion_gain_monthly = 6
+           }
+   }
+   TEA_Only_Defense = {
+   picture = generic_economic_increase
+	allowed_civil_war = {
+	always = no
+	}
+        modifiers = {
+        navy_anti_air_attack = 5
+        naval_coordination = 0.5
+        naval_defense_factor = 0.4
+        naval_detection = 0.5
             }
-        }
-TEA_Only_Defense = {
-    picture = generic_economic_increase
-			allowed_civil_war = {
-				always = no
-			}
-            modifiers = {
-            navy_anti_air_attack = 5
-            naval_coordination = 0.5
-            naval_defense_factor = 0.4
-            naval_detection = 0.5
-            }
-        }
+}
