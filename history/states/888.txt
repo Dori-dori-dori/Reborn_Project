@@ -1,36 +1,28 @@
-
-state={
-	id=888
-	name="STATE_888"
-	manpower = 1345035
+state = { 
+	id = 888 
+	name = "STATE_888" 
+	manpower = 1345035 
 	
-	state_category = rural
-	resources={
-		aluminium=0
-		chromium=0
-		oil=0
-		rubber=0
-		steel=0
-		tungsten=0
-	}
-
-	history={
-		victory_points = { 5469 3}
+	state_category = rural 
+	local_supplies = 0 
+	
+	resources = { 
+		aluminium = 0 
+		chromium = 0 
+		oil = 0 
+		rubber = 0 
+		steel = 0 
+		tungsten = 0 
+	} 
+	history = { 
 		
-		 
-		buildings = {
-			infrastructure = 1
-			
-			arms_factory = 0
-			industrial_complex = 0
-			
-			
+		victory_points = { 5469 3 }
+		
+		buildings = { 
+			infrastructure = 1 
+			arms_factory = 0 
+			industrial_complex = 0 
 		}
-		 
 	}
-
-	provinces={
-		5468 5469 
-	}
-	local_supplies=0.0 
+	provinces = { 5468 5469 }
 }

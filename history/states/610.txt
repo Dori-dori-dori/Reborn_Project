@@ -1,39 +1,29 @@
-
-state={
-	id=610
-	name="STATE_610"
-	manpower = 876247
+state = { 
+	id = 610 
+	name = "STATE_610" 
+	manpower = 876247 
 	
-	state_category = pastoral
-	resources={
-		aluminium=0
-		chromium=0
-		oil=0
-		rubber=0
-		steel=0
-		tungsten=1
-	}
-
-	history={
-		victory_points = { 3716 2}
+	state_category = pastoral 
+	local_supplies = 0 
+	
+	resources = { 
+		aluminium = 0 
+		chromium = 0 
+		oil = 0 
+		rubber = 0 
+		steel = 0 
+		tungsten = 1 
+	} 
+	history = { 
 		
-		 
-		buildings = {
-			infrastructure = 1
-			
-			arms_factory = 0
-			industrial_complex = 1
-			
-			3716 = {
-				naval_base = 1
-			}
-			
+		victory_points = { 3716 2 }
+		
+		buildings = { 
+			infrastructure = 1 
+			arms_factory = 0 
+			industrial_complex = 1 
+			3716 = { naval_base = 1 }
 		}
-		 
 	}
-
-	provinces={
-		3716 
-	}
-	local_supplies=0.0 
+	provinces = { 3716 }
 }

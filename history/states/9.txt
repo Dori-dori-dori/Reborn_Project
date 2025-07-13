@@ -1,39 +1,31 @@
-
-state={
-	id=9
-	name="STATE_9"
-	manpower = 6587528
+state = { 
+	id = 9 
+	name = "STATE_9" 
+	manpower = 6587528 
 	
-	state_category = megalopolis
-	resources={
-		aluminium=0
-		chromium=0
-		oil=0
-		rubber=0
-		steel=1
-		tungsten=0
-	}
-
-	history={
-		victory_points = { 51 14}
-		victory_points = { 52 1}
-		victory_points = { 53 1}
-		victory_points = { 55 3}
+	state_category = megalopolis 
+	local_supplies = 0 
+	
+	resources = { 
+		aluminium = 0 
+		chromium = 0 
+		oil = 0 
+		rubber = 0 
+		steel = 1 
+		tungsten = 0 
+	} 
+	history = { 
 		
-		 
-		buildings = {
-			infrastructure = 2
-			
-			arms_factory = 1
-			industrial_complex = 1
-			
-			
+		victory_points = { 51 14 }
+		victory_points = { 52 1 }
+		victory_points = { 53 1 }
+		victory_points = { 55 3 }
+		
+		buildings = { 
+			infrastructure = 2 
+			arms_factory = 1 
+			industrial_complex = 1 
 		}
-		 
 	}
-
-	provinces={
-		50 51 52 53 54 55 56 57 58 59 60 61 62 
-	}
-	local_supplies=0.0 
+	provinces = { 50 51 52 53 54 55 56 57 58 59 60 61 62 }
 }
