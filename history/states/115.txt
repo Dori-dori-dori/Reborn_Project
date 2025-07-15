@@ -15,6 +15,7 @@ state = {
 		tungsten = 1 
 	} 
 	history = { 
+		owner = OKS 
 		
 		victory_points = { 765 10 }
 		victory_points = { 766 2 }

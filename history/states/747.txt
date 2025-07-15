@@ -15,6 +15,7 @@ state = {
 		tungsten = 1 
 	} 
 	history = { 
+		owner = KFC 
 		
 		victory_points = { 4606 7 }
 		victory_points = { 4609 1 }

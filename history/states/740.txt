@@ -15,6 +15,7 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
+		owner = NYA 
 		
 		victory_points = { 4558 1 }
 		victory_points = { 4560 4 }

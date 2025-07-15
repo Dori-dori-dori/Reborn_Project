@@ -15,6 +15,7 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
+		owner = TEA 
 		
 		victory_points = { 3214 11 }
 		victory_points = { 3215 11 }

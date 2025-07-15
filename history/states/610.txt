@@ -15,6 +15,7 @@ state = {
 		tungsten = 1 
 	} 
 	history = { 
+		owner = ADF 
 		
 		victory_points = { 3716 2 }
 		

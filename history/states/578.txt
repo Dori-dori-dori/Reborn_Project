@@ -15,6 +15,7 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
+		owner = MGS 
 		
 		victory_points = { 3481 1 }
 		victory_points = { 3482 6 }
