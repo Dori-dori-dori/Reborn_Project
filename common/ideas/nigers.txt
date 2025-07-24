@@ -12,5 +12,24 @@ ideas = {
 				recon_factor = 0.40
 			}
 		}
-	}
+}
+NIG_Scientific_Аctivity = {
+    picture = Socialist science focus
+    modifier = {
+        research_speed_factor = 0.7
+        research_sharing_per_country_bonus = 0.8
+        scientist_breakthrough_bonus_factor = -0.45
+        scientist_xp_gain_factor = 0.13
+    }
+}
+NIG_Counter_Espionage = {
+    picture = Spr torchbearers of tomorrow
+    modifier = {
+    own_operative_capture_chance_factor = 0.3
+    own_operative_detection_chance = 10
+    enemy_operative_detection_chance = 30
+    enemy_operative_detection_chance_factor = 0.8
+    enemy_operative_intel_extraction_rate = 0.8
+    }
+}
 }
