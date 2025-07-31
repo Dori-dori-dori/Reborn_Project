@@ -3,7 +3,7 @@ strategic_region = {
 	name = "STRATEGICREGION_256"
 
 	provinces = {
-		5713 
+		
 	}
 
 	weather = {
