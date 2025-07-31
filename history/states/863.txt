@@ -15,8 +15,10 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = LOB 
+		owner = ADF 
 		
+		victory_points = { 4697 1 }
+		victory_points = { 4700 4 }
 		victory_points = { 5330 8 }
 		victory_points = { 5334 2 }
 		
@@ -24,8 +26,9 @@ state = {
 			infrastructure = 2 
 			arms_factory = 0 
 			industrial_complex = 1 
+			4699 = { naval_base = 1 }
 			5334 = { naval_base = 1 }
 		}
 	}
-	provinces = { 5330 5331 5332 5333 5334 5335 5336 }
+	provinces = { 4696 4697 4698 4699 4700 5330 5331 5332 5333 5334 5335 5336 8109 }
 }

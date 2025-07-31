@@ -17,6 +17,7 @@ state = {
 	history = { 
 		owner = SSG 
 		
+		victory_points = { 3990 2 }
 		victory_points = { 5695 7 }
 		
 		buildings = { 
@@ -27,5 +28,5 @@ state = {
 			5694 = { naval_base = 1 }
 		}
 	}
-	provinces = { 5691 5692 5693 5694 5695 }
+	provinces = { 3990 5691 5692 5693 5694 5695 }
 }

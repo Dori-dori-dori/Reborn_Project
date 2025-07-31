@@ -26,5 +26,5 @@ state = {
 			industrial_complex = 1 
 		}
 	}
-	provinces = { 4863 4864 4865 4866 }
+	provinces = { 4863 4864 4865 }
 }

@@ -17,6 +17,7 @@ state = {
 	history = { 
 		owner = SSG 
 		
+		victory_points = { 5074 2 }
 		victory_points = { 5478 4 }
 		
 		buildings = { 
@@ -24,8 +25,9 @@ state = {
 			arms_factory = 0 
 			industrial_complex = 0 
 			dockyard = 1 
+			5074 = { naval_base = 1 }
 			5478 = { naval_base = 1 }
 		}
 	}
-	provinces = { 5477 5478 }
+	provinces = { 5074 5136 5477 5478 }
 }

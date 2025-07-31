@@ -17,6 +17,7 @@ state = {
 	history = { 
 		owner = ADF 
 		
+		victory_points = { 5119 2 }
 		victory_points = { 5673 3 }
 		victory_points = { 5674 2 }
 		
@@ -24,8 +25,9 @@ state = {
 			infrastructure = 1 
 			arms_factory = 1 
 			industrial_complex = 0 
+			5119 = { naval_base = 1 }
 			5672 = { naval_base = 1 }
 		}
 	}
-	provinces = { 5671 5672 5673 5674 }
+	provinces = { 5119 5671 5672 5673 5674 }
 }

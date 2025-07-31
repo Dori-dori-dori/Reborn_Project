@@ -19,6 +19,8 @@ state = {
 		
 		victory_points = { 5277 6 }
 		victory_points = { 5279 1 }
+		victory_points = { 5422 1 }
+		victory_points = { 5423 2 }
 		
 		buildings = { 
 			infrastructure = 2 
@@ -26,7 +28,8 @@ state = {
 			industrial_complex = 0 
 			dockyard = 1 
 			5278 = { naval_base = 1 }
+			5422 = { naval_base = 1 }
 		}
 	}
-	provinces = { 5275 5276 5277 5278 5279 }
+	provinces = { 5275 5276 5277 5278 5279 5422 5423 }
 }

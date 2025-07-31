@@ -17,14 +17,16 @@ state = {
 	history = { 
 		owner = IDK 
 		
+		victory_points = { 3800 1 }
 		victory_points = { 4993 2 }
 		
 		buildings = { 
 			infrastructure = 1 
 			arms_factory = 0 
 			industrial_complex = 1 
+			3800 = { naval_base = 1 }
 			4992 = { naval_base = 1 }
 		}
 	}
-	provinces = { 4992 4993 }
+	provinces = { 3800 4992 4993 }
 }

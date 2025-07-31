@@ -18,13 +18,17 @@ state = {
 		owner = OKS 
 		
 		victory_points = { 5843 10 }
+		victory_points = { 5850 1 }
+		victory_points = { 5854 1 }
 		
 		buildings = { 
 			infrastructure = 2 
 			arms_factory = 0 
 			industrial_complex = 1 
 			5837 = { naval_base = 1 }
+			5850 = { naval_base = 1 }
+			5854 = { naval_base = 1 }
 		}
 	}
-	provinces = { 5836 5837 5838 5839 5840 5841 5842 5843 }
+	provinces = { 5836 5837 5839 5840 5843 5850 5854 }
 }
