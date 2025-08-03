@@ -1,5 +1,4 @@
-strategic_region = {
-	id = 22
+strategic_region = { id = 22
 	name = "STRATEGICREGION_22"
 
 	provinces = {
