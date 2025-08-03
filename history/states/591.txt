@@ -1,15 +1,15 @@
 state = { 
 	id = 591 
 	name = "STATE_591" 
-	manpower = 8514364 
+	manpower = 3599952 
 	
-	state_category = megalopolis 
+	state_category = town 
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 1 
-		chromium = 1 
-		oil = 1 
+		aluminium = 0 
+		chromium = 0 
+		oil = 0 
 		rubber = 0 
 		steel = 0 
 		tungsten = 0 
@@ -17,19 +17,14 @@ state = {
 	history = { 
 		owner = SSG 
 		
-		victory_points = { 3588 2 }
-		victory_points = { 3590 3 }
-		victory_points = { 3595 15 }
-		victory_points = { 3597 2 }
-		victory_points = { 3600 3 }
+		victory_points = { 3623 8 }
+		victory_points = { 3624 2 }
 		
 		buildings = { 
-			infrastructure = 3 
+			infrastructure = 2 
 			arms_factory = 1 
-			industrial_complex = 1 
-			dockyard = 1 
-			3590 = { naval_base = 1 }
+			industrial_complex = 0 
 		}
 	}
-	provinces = { 3587 3588 3589 3590 3591 3592 3593 3594 3595 3596 3597 3598 3599 3600 3601 3602 3603 }
+	provinces = { 3623 3624 3625 3626 3627 3628 3629 }
 }

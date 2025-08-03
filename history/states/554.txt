@@ -1,9 +1,9 @@
 state = { 
 	id = 554 
 	name = "STATE_554" 
-	manpower = 7307852 
+	manpower = 2182471 
 	
-	state_category = megalopolis 
+	state_category = town 
 	local_supplies = 0 
 	
 	resources = { 
@@ -17,17 +17,16 @@ state = {
 	history = { 
 		owner = TEA 
 		
-		victory_points = { 3370 4 }
-		victory_points = { 3381 3 }
-		victory_points = { 3384 17 }
+		victory_points = { 3387 3 }
+		victory_points = { 3388 3 }
 		
 		buildings = { 
-			infrastructure = 3 
+			infrastructure = 2 
 			arms_factory = 0 
-			industrial_complex = 2 
+			industrial_complex = 0 
 			dockyard = 1 
-			3372 = { naval_base = 1 }
+			3387 = { naval_base = 1 }
 		}
 	}
-	provinces = { 3370 3371 3372 3373 3374 3375 3376 3377 3378 3379 3380 3381 3382 3383 3384 }
+	provinces = { 3385 3386 3387 3388 }
 }

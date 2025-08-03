@@ -1,13 +1,13 @@
 state = { 
 	id = 906 
 	name = "STATE_906" 
-	manpower = 1875769 
+	manpower = 1977401 
 	
 	state_category = rural 
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 1 
+		aluminium = 0 
 		chromium = 0 
 		oil = 0 
 		rubber = 0 
@@ -15,16 +15,19 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = SSG 
+		owner = ADF 
 		
-		victory_points = { 5567 3 }
-		victory_points = { 5568 1 }
+		victory_points = { 5119 2 }
+		victory_points = { 5673 3 }
+		victory_points = { 5674 2 }
 		
 		buildings = { 
 			infrastructure = 1 
-			arms_factory = 0 
-			industrial_complex = 1 
+			arms_factory = 1 
+			industrial_complex = 0 
+			5119 = { naval_base = 1 }
+			5672 = { naval_base = 1 }
 		}
 	}
-	provinces = { 5567 5568 5569 5570 }
+	provinces = { 5119 5671 5672 5673 5674 }
 }

@@ -1,33 +1,33 @@
 state = { 
 	id = 562 
 	name = "STATE_562" 
-	manpower = 3632039 
+	manpower = 4008263 
 	
 	state_category = city 
 	local_supplies = 0 
 	
 	resources = { 
 		aluminium = 0 
-		chromium = 2 
-		oil = 2 
+		chromium = 0 
+		oil = 0 
 		rubber = 0 
-		steel = 1 
+		steel = 0 
 		tungsten = 0 
 	} 
 	history = { 
 		owner = TEA 
 		
-		victory_points = { 3418 2 }
-		victory_points = { 3420 4 }
-		victory_points = { 3422 1 }
-		victory_points = { 3423 4 }
+		victory_points = { 3427 4 }
+		victory_points = { 3428 2 }
+		victory_points = { 3429 6 }
 		
 		buildings = { 
 			infrastructure = 2 
-			arms_factory = 1 
+			arms_factory = 0 
 			industrial_complex = 0 
-			3417 = { naval_base = 1 }
+			dockyard = 1 
+			3425 = { naval_base = 1 }
 		}
 	}
-	provinces = { 3417 3418 3419 3420 3421 3422 3423 }
+	provinces = { 3424 3425 3426 3427 3428 3429 3430 3431 }
 }

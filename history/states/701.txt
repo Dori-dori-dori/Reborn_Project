@@ -1,33 +1,33 @@
 state = { 
 	id = 701 
 	name = "STATE_701" 
-	manpower = 4292877 
+	manpower = 3861347 
 	
 	state_category = large_town 
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 0 
-		chromium = 0 
-		oil = 2 
+		aluminium = 1 
+		chromium = 1 
+		oil = 0 
 		rubber = 0 
-		steel = 1 
+		steel = 0 
 		tungsten = 0 
 	} 
 	history = { 
-		owner = SSG 
+		owner = IDK 
 		
-		victory_points = { 4325 1 }
-		victory_points = { 4326 1 }
-		victory_points = { 4329 9 }
+		victory_points = { 4376 3 }
+		victory_points = { 4379 1 }
+		victory_points = { 4381 1 }
+		victory_points = { 4382 5 }
 		
 		buildings = { 
 			infrastructure = 2 
 			arms_factory = 0 
-			industrial_complex = 0 
-			dockyard = 1 
-			4325 = { naval_base = 1 }
+			industrial_complex = 1 
+			4381 = { naval_base = 1 }
 		}
 	}
-	provinces = { 4324 4325 4326 4327 4328 4329 4330 4331 4332 }
+	provinces = { 4376 4377 4378 4379 4380 4381 4382 4383 }
 }

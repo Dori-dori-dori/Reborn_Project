@@ -1,13 +1,13 @@
 state = { 
 	id = 782 
 	name = "STATE_782" 
-	manpower = 1066305 
+	manpower = 3039767 
 	
-	state_category = pastoral 
+	state_category = town 
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 0 
+		aluminium = 1 
 		chromium = 0 
 		oil = 0 
 		rubber = 0 
@@ -15,15 +15,16 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = NYA 
+		owner = ADF 
 		
-		victory_points = { 4826 2 }
+		victory_points = { 4900 3 }
+		victory_points = { 4904 3 }
 		
 		buildings = { 
-			infrastructure = 1 
+			infrastructure = 2 
 			arms_factory = 0 
 			industrial_complex = 1 
 		}
 	}
-	provinces = { 4825 4826 }
+	provinces = { 4899 4900 4901 4903 4904 }
 }

@@ -1,0 +1,30 @@
+state = { 
+	id = 900 
+	name = "STATE_900" 
+	manpower = 3150003 
+	
+	state_category = large_town 
+	local_supplies = 0 
+	
+	resources = { 
+		aluminium = 0 
+		chromium = 0 
+		oil = 0 
+		rubber = 0 
+		steel = 1 
+		tungsten = 1 
+	} 
+	history = { 
+		owner = KFC 
+		
+		victory_points = { 5634 9 }
+		
+		buildings = { 
+			infrastructure = 2 
+			arms_factory = 0 
+			industrial_complex = 1 
+			5631 = { naval_base = 1 }
+		}
+	}
+	provinces = { 5631 5632 5633 5634 5635 5636 }
+}

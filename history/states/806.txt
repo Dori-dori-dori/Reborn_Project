@@ -1,13 +1,13 @@
 state = { 
 	id = 806 
 	name = "STATE_806" 
-	manpower = 6869276 
+	manpower = 4459444 
 	
-	state_category = metropolis 
+	state_category = large_town 
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 1 
+		aluminium = 0 
 		chromium = 0 
 		oil = 0 
 		rubber = 0 
@@ -15,17 +15,17 @@ state = {
 		tungsten = 1 
 	} 
 	history = { 
-		owner = IDK 
+		owner = ADF 
 		
-		victory_points = { 4981 9 }
-		victory_points = { 4987 9 }
+		victory_points = { 5061 3 }
+		victory_points = { 5064 7 }
+		victory_points = { 5066 1 }
 		
 		buildings = { 
 			infrastructure = 2 
-			arms_factory = 1 
+			arms_factory = 0 
 			industrial_complex = 1 
-			4979 = { naval_base = 1 }
 		}
 	}
-	provinces = { 4978 4979 4980 4981 4982 4983 4984 4985 4986 4987 4988 4989 4990 4991 }
+	provinces = { 5061 5062 5063 5064 5065 5066 5067 5068 5069 }
 }

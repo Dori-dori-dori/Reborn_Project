@@ -1,29 +1,32 @@
 state = { 
 	id = 726 
 	name = "STATE_726" 
-	manpower = 2124685 
+	manpower = 6395166 
 	
-	state_category = rural 
+	state_category = large_city 
 	local_supplies = 0 
 	
 	resources = { 
 		aluminium = 0 
-		chromium = 0 
-		oil = 0 
+		chromium = 1 
+		oil = 2 
 		rubber = 0 
-		steel = 0 
-		tungsten = 0 
+		steel = 3 
+		tungsten = 1 
 	} 
 	history = { 
 		owner = IDK 
 		
-		victory_points = { 4465 5 }
+		victory_points = { 4506 6 }
+		victory_points = { 4514 1 }
+		victory_points = { 4515 1 }
+		victory_points = { 4518 8 }
 		
 		buildings = { 
-			infrastructure = 1 
-			arms_factory = 1 
-			industrial_complex = 0 
+			infrastructure = 2 
+			arms_factory = 0 
+			industrial_complex = 2 
 		}
 	}
-	provinces = { 4465 4466 4467 4468 }
+	provinces = { 4506 4507 4508 4509 4510 4511 4512 4513 4514 4515 4516 4517 4518 }
 }

@@ -1,9 +1,9 @@
 state = { 
 	id = 617 
 	name = "STATE_617" 
-	manpower = 3814561 
+	manpower = 2404050 
 	
-	state_category = large_town 
+	state_category = rural 
 	local_supplies = 0 
 	
 	resources = { 
@@ -11,21 +11,20 @@ state = {
 		chromium = 0 
 		oil = 0 
 		rubber = 0 
-		steel = 1 
+		steel = 0 
 		tungsten = 0 
 	} 
 	history = { 
-		owner = KFC 
+		owner = ADF 
 		
-		victory_points = { 3750 2 }
-		victory_points = { 3751 2 }
-		victory_points = { 3755 7 }
+		victory_points = { 3786 4 }
+		victory_points = { 3787 1 }
 		
 		buildings = { 
-			infrastructure = 2 
+			infrastructure = 1 
 			arms_factory = 0 
-			industrial_complex = 1 
+			industrial_complex = 0 
 		}
 	}
-	provinces = { 3749 3750 3751 3752 3753 3754 3755 3756 }
+	provinces = { 3786 3787 3788 3789 3790 5199 }
 }

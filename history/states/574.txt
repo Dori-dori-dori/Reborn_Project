@@ -1,13 +1,13 @@
 state = { 
 	id = 574 
 	name = "STATE_574" 
-	manpower = 2140153 
+	manpower = 1289416 
 	
-	state_category = town 
+	state_category = rural 
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 0 
+		aluminium = 1 
 		chromium = 0 
 		oil = 0 
 		rubber = 0 
@@ -15,18 +15,17 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = TEA 
+		owner = OKS 
 		
-		victory_points = { 3470 1 }
-		victory_points = { 3471 1 }
-		victory_points = { 3472 4 }
+		victory_points = { 3478 1 }
+		victory_points = { 3479 2 }
 		
 		buildings = { 
-			infrastructure = 2 
+			infrastructure = 1 
 			arms_factory = 0 
-			industrial_complex = 1 
-			3471 = { naval_base = 1 }
+			industrial_complex = 0 
+			3479 = { naval_base = 1 }
 		}
 	}
-	provinces = { 3469 3470 3471 3472 }
+	provinces = { 3478 3479 }
 }

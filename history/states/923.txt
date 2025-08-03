@@ -1,0 +1,32 @@
+state = { 
+	id = 923 
+	name = "STATE_923" 
+	manpower = 4319600 
+	
+	state_category = city 
+	local_supplies = 0 
+	
+	resources = { 
+		aluminium = 1 
+		chromium = 0 
+		oil = 0 
+		rubber = 0 
+		steel = 1 
+		tungsten = 0 
+	} 
+	history = { 
+		owner = OKS 
+		
+		victory_points = { 5752 5 }
+		victory_points = { 5758 5 }
+		victory_points = { 5759 3 }
+		
+		buildings = { 
+			infrastructure = 2 
+			arms_factory = 0 
+			industrial_complex = 1 
+			5758 = { naval_base = 1 }
+		}
+	}
+	provinces = { 5751 5752 5753 5754 5755 5756 5757 5758 5759 }
+}

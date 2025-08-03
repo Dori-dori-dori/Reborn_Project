@@ -1311,7 +1311,7 @@
 1310;43;197;1;land;false;forest;3
 1311;142;37;1;land;false;forest;3
 1312;182;110;1;land;false;forest;3
-1313;229;216;80;land;true;forest;0
+1313;229;216;80;land;true;forest;2
 1314;140;96;1;land;false;forest;3
 1315;160;57;1;land;false;forest;3
 1316;37;127;1;land;false;forest;3
@@ -3651,7 +3651,7 @@
 3650;86;203;1;land;false;forest;2
 3651;44;248;1;land;false;forest;2
 3652;22;206;1;land;false;forest;2
-3653;52;170;90;land;false;forest;0
+3653;52;170;90;land;false;forest;2
 3654;16;58;1;land;false;forest;2
 3655;33;59;1;land;false;forest;2
 3656;11;68;1;land;false;forest;2

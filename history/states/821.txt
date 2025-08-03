@@ -1,9 +1,9 @@
 state = { 
 	id = 821 
 	name = "STATE_821" 
-	manpower = 2549544 
+	manpower = 7644692 
 	
-	state_category = town 
+	state_category = megalopolis 
 	local_supplies = 0 
 	
 	resources = { 
@@ -12,20 +12,22 @@ state = {
 		oil = 0 
 		rubber = 0 
 		steel = 1 
-		tungsten = 0 
+		tungsten = 2 
 	} 
 	history = { 
-		owner = NYA 
+		owner = IDK 
 		
-		victory_points = { 5078 2 }
-		victory_points = { 5079 3 }
-		victory_points = { 5081 2 }
+		victory_points = { 5171 10 }
+		victory_points = { 5175 1 }
+		victory_points = { 5180 11 }
 		
 		buildings = { 
 			infrastructure = 2 
 			arms_factory = 1 
 			industrial_complex = 0 
+			dockyard = 1 
+			5176 = { naval_base = 1 }
 		}
 	}
-	provinces = { 5078 5079 5080 5081 5082 }
+	provinces = { 5166 5167 5168 5169 5170 5171 5172 5173 5174 5175 5176 5177 5178 5179 5180 5181 }
 }

@@ -1,31 +1,30 @@
 state = { 
 	id = 626 
 	name = "STATE_626" 
-	manpower = 5525508 
+	manpower = 2434772 
 	
-	state_category = city 
+	state_category = town 
 	local_supplies = 0 
 	
 	resources = { 
 		aluminium = 0 
-		chromium = 1 
+		chromium = 0 
 		oil = 0 
 		rubber = 0 
-		steel = 2 
+		steel = 0 
 		tungsten = 0 
 	} 
 	history = { 
-		owner = IDK 
+		owner = ADF 
 		
-		victory_points = { 3809 9 }
-		victory_points = { 3812 5 }
-		victory_points = { 3817 1 }
+		victory_points = { 3853 6 }
 		
 		buildings = { 
 			infrastructure = 2 
-			arms_factory = 1 
-			industrial_complex = 0 
+			arms_factory = 0 
+			industrial_complex = 1 
+			3853 = { naval_base = 1 }
 		}
 	}
-	provinces = { 3807 3808 3809 3810 3811 3812 3813 3814 3815 3816 3817 }
+	provinces = { 3852 3853 3854 3855 3856 }
 }

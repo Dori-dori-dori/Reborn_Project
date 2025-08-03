@@ -1,30 +1,30 @@
 state = { 
 	id = 790 
 	name = "STATE_790" 
-	manpower = 1568238 
+	manpower = 6928100 
 	
-	state_category = rural 
+	state_category = metropolis 
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 1 
+		aluminium = 0 
 		chromium = 0 
-		oil = 1 
+		oil = 2 
 		rubber = 0 
-		steel = 0 
-		tungsten = 0 
+		steel = 2 
+		tungsten = 2 
 	} 
 	history = { 
 		owner = SSG 
 		
-		victory_points = { 4878 3 }
-		victory_points = { 4879 1 }
+		victory_points = { 4950 17 }
+		victory_points = { 4956 3 }
 		
 		buildings = { 
-			infrastructure = 1 
-			arms_factory = 0 
-			industrial_complex = 1 
+			infrastructure = 2 
+			arms_factory = 2 
+			industrial_complex = 0 
 		}
 	}
-	provinces = { 4878 4879 4880 }
+	provinces = { 4948 4949 4950 4951 4952 4953 4954 4955 4956 4957 4958 4959 4960 4961 }
 }

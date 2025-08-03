@@ -1,9 +1,9 @@
 state = { 
 	id = 755 
 	name = "STATE_755" 
-	manpower = 3591628 
+	manpower = 4386483 
 	
-	state_category = large_town 
+	state_category = city 
 	local_supplies = 0 
 	
 	resources = { 
@@ -11,14 +11,15 @@ state = {
 		chromium = 0 
 		oil = 0 
 		rubber = 0 
-		steel = 0 
+		steel = 1 
 		tungsten = 1 
 	} 
 	history = { 
-		owner = IDK 
+		owner = NYA 
 		
-		victory_points = { 4657 8 }
-		victory_points = { 4662 2 }
+		victory_points = { 4715 7 }
+		victory_points = { 4717 4 }
+		victory_points = { 4718 1 }
 		
 		buildings = { 
 			infrastructure = 2 
@@ -26,5 +27,5 @@ state = {
 			industrial_complex = 0 
 		}
 	}
-	provinces = { 4656 4657 4658 4659 4660 4661 4662 }
+	provinces = { 4710 4711 4712 4713 4714 4715 4716 4717 4718 5207 }
 }

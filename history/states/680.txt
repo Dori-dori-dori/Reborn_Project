@@ -1,29 +1,29 @@
 state = { 
 	id = 680 
 	name = "STATE_680" 
-	manpower = 8958614 
+	manpower = 2453536 
 	
-	state_category = megalopolis 
+	state_category = town 
 	local_supplies = 0 
 	
 	resources = { 
 		aluminium = 0 
-		chromium = 2 
+		chromium = 0 
 		oil = 0 
 		rubber = 0 
-		steel = 3 
-		tungsten = 2 
+		steel = 0 
+		tungsten = 1 
 	} 
 	history = { 
-		owner = NYA 
+		owner = SSG 
 		
-		victory_points = { 4187 27 }
+		victory_points = { 4245 5 }
 		
 		buildings = { 
-			infrastructure = 2 
-			arms_factory = 1 
-			industrial_complex = 2 
+			infrastructure = 1 
+			arms_factory = 0 
+			industrial_complex = 1 
 		}
 	}
-	provinces = { 4187 4188 4189 4190 4191 4192 4193 4194 4195 4196 4197 4198 4199 4200 4201 4202 4203 4204 4205 }
+	provinces = { 4244 4245 4246 4247 4248 }
 }

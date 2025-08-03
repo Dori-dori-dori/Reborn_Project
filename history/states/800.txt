@@ -1,9 +1,9 @@
 state = { 
 	id = 800 
 	name = "STATE_800" 
-	manpower = 3341465 
+	manpower = 2998213 
 	
-	state_category = large_town 
+	state_category = town 
 	local_supplies = 0 
 	
 	resources = { 
@@ -11,14 +11,14 @@ state = {
 		chromium = 0 
 		oil = 0 
 		rubber = 0 
-		steel = 0 
+		steel = 1 
 		tungsten = 0 
 	} 
 	history = { 
 		owner = NYA 
 		
-		victory_points = { 4943 4 }
-		victory_points = { 4944 5 }
+		victory_points = { 5012 3 }
+		victory_points = { 5014 4 }
 		
 		buildings = { 
 			infrastructure = 2 
@@ -26,5 +26,5 @@ state = {
 			industrial_complex = 1 
 		}
 	}
-	provinces = { 4941 4942 4943 4944 4945 4946 4947 }
+	provinces = { 5012 5013 5014 5015 5016 5017 }
 }

@@ -1,15 +1,15 @@
 state = { 
 	id = 940 
 	name = "STATE_940" 
-	manpower = 3633107 
+	manpower = 2410668 
 	
-	state_category = large_town 
+	state_category = town 
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 2 
-		chromium = 0 
-		oil = 1 
+		aluminium = 0 
+		chromium = 1 
+		oil = 0 
 		rubber = 0 
 		steel = 1 
 		tungsten = 0 
@@ -17,16 +17,16 @@ state = {
 	history = { 
 		owner = OKS 
 		
-		victory_points = { 5724 2 }
-		victory_points = { 5727 9 }
+		victory_points = { 5844 1 }
+		victory_points = { 5845 3 }
+		victory_points = { 5847 2 }
 		
 		buildings = { 
 			infrastructure = 2 
-			arms_factory = 0 
+			arms_factory = 1 
 			industrial_complex = 0 
-			dockyard = 1 
-			5723 = { naval_base = 1 }
+			5844 = { naval_base = 1 }
 		}
 	}
-	provinces = { 5722 5723 5724 5725 5726 5727 5728 }
+	provinces = { 5838 5841 5842 5844 5845 5846 5847 5848 }
 }

@@ -1,9 +1,9 @@
 state = { 
 	id = 934 
 	name = "STATE_934" 
-	manpower = 101361 
+	manpower = 1006316 
 	
-	state_category = pastoral 
+	state_category = rural 
 	local_supplies = 0 
 	
 	resources = { 
@@ -17,13 +17,16 @@ state = {
 	history = { 
 		owner = OKS 
 		
-		victory_points = { 5710 1 }
+		victory_points = { 5811 1 }
+		victory_points = { 5812 1 }
 		
 		buildings = { 
 			infrastructure = 1 
 			arms_factory = 0 
 			industrial_complex = 0 
+			dockyard = 1 
+			5811 = { naval_base = 1 }
 		}
 	}
-	provinces = { 5710 }
+	provinces = { 5811 5812 }
 }

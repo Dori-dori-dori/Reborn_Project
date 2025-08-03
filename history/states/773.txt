@@ -1,9 +1,9 @@
 state = { 
 	id = 773 
 	name = "STATE_773" 
-	manpower = 7552002 
+	manpower = 6177900 
 	
-	state_category = metropolis 
+	state_category = large_city 
 	local_supplies = 0 
 	
 	resources = { 
@@ -11,22 +11,22 @@ state = {
 		chromium = 0 
 		oil = 0 
 		rubber = 0 
-		steel = 1 
-		tungsten = 1 
+		steel = 3 
+		tungsten = 0 
 	} 
 	history = { 
-		owner = IDK 
+		owner = LOB 
 		
-		victory_points = { 4758 2 }
-		victory_points = { 4761 1 }
-		victory_points = { 4763 7 }
-		victory_points = { 4768 12 }
+		victory_points = { 4836 9 }
+		victory_points = { 4837 2 }
+		victory_points = { 4838 2 }
+		victory_points = { 4843 5 }
 		
 		buildings = { 
 			infrastructure = 2 
-			arms_factory = 0 
-			industrial_complex = 2 
+			arms_factory = 1 
+			industrial_complex = 1 
 		}
 	}
-	provinces = { 4754 4755 4756 4757 4758 4759 4760 4761 4762 4763 4764 4765 4766 4767 4768 4769 }
+	provinces = { 4836 4837 4838 4839 4840 4841 4842 4843 4844 4845 4846 4847 4848 }
 }

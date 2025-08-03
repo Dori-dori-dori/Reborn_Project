@@ -1,29 +1,29 @@
 state = { 
 	id = 833 
 	name = "STATE_833" 
-	manpower = 2666354 
+	manpower = 1734053 
 	
 	state_category = rural 
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 1 
-		chromium = 0 
+		aluminium = 0 
+		chromium = 2 
 		oil = 0 
 		rubber = 0 
-		steel = 0 
+		steel = 1 
 		tungsten = 0 
 	} 
 	history = { 
-		owner = NYA 
+		owner = SSG 
 		
-		victory_points = { 5165 6 }
+		victory_points = { 5246 4 }
 		
 		buildings = { 
 			infrastructure = 1 
 			arms_factory = 0 
-			industrial_complex = 1 
+			industrial_complex = 0 
 		}
 	}
-	provinces = { 5161 5162 5163 5164 5165 }
+	provinces = { 5244 5245 5246 }
 }

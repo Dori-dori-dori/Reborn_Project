@@ -1,7 +1,7 @@
 state = { 
 	id = 704 
 	name = "STATE_704" 
-	manpower = 3034932 
+	manpower = 3276591 
 	
 	state_category = town 
 	local_supplies = 0 
@@ -11,21 +11,22 @@ state = {
 		chromium = 0 
 		oil = 0 
 		rubber = 0 
-		steel = 1 
+		steel = 0 
 		tungsten = 0 
 	} 
 	history = { 
-		owner = SSG 
+		owner = KFC 
 		
-		victory_points = { 4348 4 }
-		victory_points = { 4349 1 }
-		victory_points = { 4350 2 }
+		victory_points = { 4390 6 }
+		victory_points = { 4391 1 }
+		victory_points = { 4395 1 }
 		
 		buildings = { 
 			infrastructure = 2 
 			arms_factory = 0 
 			industrial_complex = 1 
+			4390 = { naval_base = 1 }
 		}
 	}
-	provinces = { 4348 4349 4350 4351 4352 4353 }
+	provinces = { 4390 4391 4392 4393 4394 4395 }
 }

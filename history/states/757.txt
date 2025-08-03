@@ -1,31 +1,30 @@
 state = { 
 	id = 757 
 	name = "STATE_757" 
-	manpower = 7117515 
+	manpower = 2888720 
 	
-	state_category = metropolis 
+	state_category = town 
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 0 
-		chromium = 1 
-		oil = 4 
+		aluminium = 1 
+		chromium = 0 
+		oil = 0 
 		rubber = 0 
-		steel = 3 
-		tungsten = 1 
+		steel = 0 
+		tungsten = 0 
 	} 
 	history = { 
-		owner = KFC 
+		owner = NYA 
 		
-		victory_points = { 4665 17 }
-		victory_points = { 4668 1 }
-		victory_points = { 4672 4 }
+		victory_points = { 4729 2 }
+		victory_points = { 4731 4 }
 		
 		buildings = { 
 			infrastructure = 2 
 			arms_factory = 1 
-			industrial_complex = 1 
+			industrial_complex = 0 
 		}
 	}
-	provinces = { 4665 4666 4667 4668 4669 4670 4671 4672 4673 4674 4675 4676 4677 4678 4679 }
+	provinces = { 4726 4727 4728 4729 4730 4731 }
 }

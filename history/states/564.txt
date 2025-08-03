@@ -1,9 +1,9 @@
 state = { 
 	id = 564 
 	name = "STATE_564" 
-	manpower = 2037539 
+	manpower = 823484 
 	
-	state_category = town 
+	state_category = pastoral 
 	local_supplies = 0 
 	
 	resources = { 
@@ -17,14 +17,13 @@ state = {
 	history = { 
 		owner = TEA 
 		
-		victory_points = { 3432 3 }
-		victory_points = { 3435 3 }
+		victory_points = { 3436 2 }
 		
 		buildings = { 
-			infrastructure = 2 
-			arms_factory = 1 
+			infrastructure = 1 
+			arms_factory = 0 
 			industrial_complex = 0 
 		}
 	}
-	provinces = { 3432 3433 3434 3435 }
+	provinces = { 3436 }
 }

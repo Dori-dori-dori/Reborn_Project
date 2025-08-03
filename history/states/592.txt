@@ -1,29 +1,32 @@
 state = { 
 	id = 592 
 	name = "STATE_592" 
-	manpower = 2273607 
+	manpower = 3679937 
 	
-	state_category = rural 
+	state_category = large_town 
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 1 
+		aluminium = 0 
 		chromium = 0 
-		oil = 1 
+		oil = 0 
 		rubber = 0 
-		steel = 2 
+		steel = 1 
 		tungsten = 0 
 	} 
 	history = { 
 		owner = KFC 
 		
-		victory_points = { 3604 5 }
+		victory_points = { 3632 3 }
+		victory_points = { 3634 6 }
+		victory_points = { 3635 1 }
 		
 		buildings = { 
-			infrastructure = 1 
-			arms_factory = 1 
-			industrial_complex = 0 
+			infrastructure = 2 
+			arms_factory = 0 
+			industrial_complex = 1 
+			3636 = { naval_base = 1 }
 		}
 	}
-	provinces = { 3604 3605 3606 3607 }
+	provinces = { 3630 3631 3632 3633 3634 3635 3636 }
 }

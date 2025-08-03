@@ -1,13 +1,13 @@
 state = { 
 	id = 914 
 	name = "STATE_914" 
-	manpower = 2489485 
+	manpower = 2813089 
 	
 	state_category = town 
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 1 
+		aluminium = 0 
 		chromium = 0 
 		oil = 0 
 		rubber = 0 
@@ -15,16 +15,16 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = LOB 
+		owner = NYA 
 		
-		victory_points = { 5608 3 }
-		victory_points = { 5612 3 }
+		victory_points = { 5705 6 }
+		victory_points = { 5706 1 }
 		
 		buildings = { 
 			infrastructure = 2 
-			arms_factory = 0 
-			industrial_complex = 1 
+			arms_factory = 1 
+			industrial_complex = 0 
 		}
 	}
-	provinces = { 5608 5609 5610 5611 5612 }
+	provinces = { 5705 5706 5707 5708 5709 }
 }
