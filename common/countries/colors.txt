@@ -83,3 +83,7 @@ MGS = {
 	color = rgb { 123 104 238 }
 	color_ui = rgb { 123 104 238 }
 }
+PDS = {
+	color = rgb { 294 4 -129 }
+	color_ui = rgb { 294 4 -129 }
+}
