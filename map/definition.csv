@@ -2385,7 +2385,7 @@
 2384;182;14;1;land;false;forest;3
 2385;174;15;1;land;false;forest;3
 2386;196;46;1;land;false;forest;3
-2387;217;50;1;land;false;forest;3
+2387;246;166;128;lake;false;lakes;0
 2388;95;78;1;land;false;forest;3
 2389;40;71;1;land;false;forest;3
 2390;79;228;1;land;false;forest;3
@@ -8087,4 +8087,3 @@
 8086;58;117;128;lake;false;lakes;0
 8087;22;167;128;lake;false;lakes;0
 8088;60;100;128;lake;false;lakes;0
-8089;246;166;128;lake;false;lakes;0
