@@ -9,13 +9,11 @@ state = {
 	resources = { 
 		aluminium = 1 
 		chromium = 1 
-		oil = 0 
-		rubber = 0 
 		steel = 1 
-		tungsten = 0 
 	} 
 	history = { 
-		owner = OKS 
+		owner = TOH
+		add_core_of = TOH
 		
 		victory_points = { 2026 3 }
 		victory_points = { 2027 1 }

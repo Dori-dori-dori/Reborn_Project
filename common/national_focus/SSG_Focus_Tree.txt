@@ -1438,7 +1438,30 @@ focus_tree = {
 			focus = SSG_Droblenie
 		}
 		completion_reward = {
+			country_event = {
+			   id = SSG_from_focus_events.1
+			}
 			
+			country_event = {
+			  id = SSG_from_focus_events.2
+			  days = 2
+			}	
+			
+			country_event = {
+			   id = SSG_from_focus_events.3
+			   days = 4
+			}
+			
+			add_dynamic_modifier = { modifier = SSG_statemodifer_ideas }
+			
+			add_to_variable = { SSG_statemodifer_ideas_production_speed_infrastructure_factor = -0.3   }
+			add_to_variable = { SSG_statemodifer_ideas_political_power_factor = -0.1 }
+			add_to_variable = { SSG_statemodifer_ideas_stability_factor = -0.4 }
+			add_to_variable = { SSG_statemodifer_ideas_war_support_factor = -0.4  }
+			add_to_variable = { SSG_statemodifer_ideas_conscription = -0.05 }
+			add_to_variable = { SSG_statemodifer_ideas_production_factory_efficiency_gain_factor = -0.3 }
+			add_to_variable = { SSG_statemodifer_ideas_production_factory_start_efficiency_factor = -0.3 }
+			add_to_variable = { SSG_statemodifer_ideas_consumer_goods_factor = 0.333 }
 		}
 		x = 42
 		y = 0

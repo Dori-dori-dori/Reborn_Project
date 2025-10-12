@@ -6,16 +6,14 @@ state = {
 	state_category = city 
 	local_supplies = 0 
 	
-	resources = { 
-		aluminium = 0 
+	resources = { 	
 		chromium = 2 
-		oil = 0 
-		rubber = 0 
 		steel = 1 
 		tungsten = 1 
 	} 
 	history = { 
-		owner = OKS 
+		owner = OKS
+        add_core_of = OKS		
 		
 		victory_points = { 2189 12 }
 		

@@ -332,6 +332,23 @@ military_appeasement = {
 	resistance_growth = -0.5
 }
 
+## SSG
+SSG_statemodifer_ideas = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_generic_military_plans
+	
+	production_speed_infrastructure_factor = SSG_statemodifer_ideas_production_speed_infrastructure_factor #0.20  - это останется на 0.01
+	political_power_factor = SSG_statemodifer_ideas_political_power_factor #0.03 - это останется на 0.02
+	stability_factor = SSG_statemodifer_ideas_stability_factor #0.4 - это останется на 0.02
+	war_support_factor = SSG_statemodifer_ideas_war_support_factor #0.4 - это останется на 0.02
+	conscription = SSG_statemodifer_ideas_conscription  #0.32 - это уйдёт полностью
+	production_factory_efficiency_gain_factor = SSG_statemodifer_ideas_production_factory_efficiency_gain_factor #0.32 - это уйдёт полностью
+	production_factory_start_efficiency_factor = SSG_statemodifer_ideas_production_factory_start_efficiency_factor #0.32 - это уйдёт полностью
+	consumer_goods_factor = SSG_statemodifer_ideas_consumer_goods_factor #0.32 - это тоже уйдет даже в плюс, на -0.2
+}
+
+
 POL_plan_modifier = {
 	enable = { always = yes }
 

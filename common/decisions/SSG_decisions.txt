@@ -128,3 +128,10 @@ forming_category = {
 		}
 	}
 }
+
+SSG_decisions  = {
+   dec_SSG_ym_straf = {
+   
+   }
+   dec_SSG_ym_straf
+}

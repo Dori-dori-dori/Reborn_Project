@@ -8,14 +8,12 @@ state = {
 	
 	resources = { 
 		aluminium = 1 
-		chromium = 0 
 		oil = 1 
-		rubber = 0 
 		steel = 1 
-		tungsten = 0 
 	} 
 	history = { 
-		owner = OKS 
+		owner = NIG
+		add_core_of = NIG
 		
 		victory_points = { 2257 17 }
 		

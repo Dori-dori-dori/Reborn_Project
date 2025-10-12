@@ -6,16 +6,9 @@ state = {
 	state_category = town 
 	local_supplies = 0 
 	
-	resources = { 
-		aluminium = 0 
-		chromium = 0 
-		oil = 0 
-		rubber = 0 
-		steel = 0 
-		tungsten = 0 
-	} 
 	history = { 
-		owner = OKS 
+		owner = NIG
+		add_Core_of = NIG
 		
 		victory_points = { 706 6 }
 		

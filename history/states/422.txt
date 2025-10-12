@@ -7,15 +7,11 @@ state = {
 	local_supplies = 0 
 	
 	resources = { 
-		aluminium = 1 
-		chromium = 0 
-		oil = 0 
-		rubber = 0 
-		steel = 0 
-		tungsten = 0 
+		aluminium = 1
 	} 
 	history = { 
-		owner = OKS 
+		owner = NIG
+		add_core_of = NIG
 		
 		victory_points = { 2544 1 }
 		victory_points = { 2545 4 }

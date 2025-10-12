@@ -1,3 +1,15 @@
+SSG_decisions = {
+   icon  = generic_research
+   availble = {
+     original_tag = SSG
+   }
+   
+   visible = {
+      original_tag = SSG
+   }
+}
+
+
 debug_decisions = {
 	icon = generic_research
 	visible = {

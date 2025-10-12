@@ -2,21 +2,15 @@ state = {
 	id = 101 
 	name = "STATE_101" 
 	manpower = 2965156 
-	
 	state_category = large_town 
 	local_supplies = 0 
-	
 	resources = { 
-		aluminium = 0 
-		chromium = 0 
 		oil = 1 
-		rubber = 0 
 		steel = 1 
-		tungsten = 0 
 	} 
 	history = { 
-		owner = OKS 
-		
+		owner = NIG 
+		add_core_of = NIG
 		victory_points = { 669 1 }
 		victory_points = { 671 3 }
 		victory_points = { 673 5 }
