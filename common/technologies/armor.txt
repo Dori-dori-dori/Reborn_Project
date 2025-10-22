@@ -343,22 +343,6 @@ technologies = {
 			base = 1
 			
 			modifier = {
-				factor = 2
-				is_major = yes
-				not = {
-					num_of_military_factories < 50
-				}
-			}
-			modifier = {
-				is_major = yes
-				has_war = yes
-				factor = 10 #you are embarassing yourself
-			}
-			modifier = {
-				factor = 3
-			}
-			
-			modifier = {
 				factor = 1.1
 				date > "1937.1.1"
 			}
@@ -396,18 +380,6 @@ technologies = {
 		ai_will_do = {
 			base = 0
 
-			modifier = {
-				add = 120
-				has_war = yes
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 27
-						}
-					}
-				}
-			}
 			modifier = {
 				has_template_containing_unit = light_tank_destroyer_brigade
 				add = 2
@@ -528,9 +500,6 @@ technologies = {
 		ai_will_do = {
 			base = 0.5
 			modifier = {
-				factor = 3
-			}
-			modifier = {
 				not = {
 					any_controlled_state = {
 						is_coastal = yes
@@ -570,9 +539,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				is_major = yes
-			}
-			modifier = {
-				factor = 2
 			}
 			modifier = {
 				not = {
@@ -758,17 +724,6 @@ technologies = {
 			base = 2
 			
 			modifier = {
-				factor = 2
-				is_major = yes
-				not = {
-					num_of_military_factories < 50
-				}
-				date > "1938.1.1"
-			}
-			modifier = {
-				factor = 1.5
-			}
-			modifier = {
 				factor = 1.1
 				date > "1940.1.1"
 			}
@@ -783,10 +738,6 @@ technologies = {
 				date > "1942.1.1"
 			}
 			
-			modifier = {
-				factor = 15.0
-				has_opinion_modifier = sov_ger_treaty
-			}
 		}
 		
 		categories = {
@@ -814,18 +765,6 @@ technologies = {
 		
 		ai_will_do = {
 			base = 0
-			
-			modifier = {
-				add = 140
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 30
-						}
-					}
-				}
-			}
 
 			modifier = {
 				factor = 0
@@ -900,9 +839,6 @@ technologies = {
 				factor = 1.1
 				date > "1942.1.1"
 			}
-			modifier = {
-				factor = 100
-			}
 		}
 		
 		categories = {
@@ -937,9 +873,6 @@ technologies = {
 					can_research = improved_medium_spaa
 					is_researching_technology = improved_medium_tank
 				}
-			}
-			modifier = {
-				factor = 0 # we dont use it
 			}
 		}
 		
@@ -985,24 +918,9 @@ technologies = {
 			base = 3
 			
 			modifier = {
-				factor = 2
-				is_major = yes
-				not = {
-					num_of_military_factories < 50
-				}
-			}
-			modifier = {
 				date < "1941.1.1"
 				factor = 0.3
 			}
-			modifier = {
-				factor = 2
-			}
-			
-			modifier = {
-				factor = 2
-			}
-			
 			modifier = {
 				factor = 1.1
 				date > "1942.1.1"
@@ -1040,18 +958,6 @@ technologies = {
 		ai_will_do = {
 			base = 0
 			
-			modifier = {
-				add = 150
-				has_war = yes
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 32
-						}
-					}
-				}
-			}
 			modifier = {
 				has_template_containing_unit = medium_tank_destroyer_brigade
 				factor = 3
@@ -1160,9 +1066,6 @@ technologies = {
 					is_researching_technology = advanced_medium_tank
 				}
 			}
-			modifier = {
-				factor = 0 # we dont use it
-			}
 		}
 		
 		categories = {
@@ -1243,18 +1146,6 @@ technologies = {
 		
 		ai_will_do = {
 			base = 1
-			
-			modifier = {
-				add = 160
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 35
-						}
-					}
-				}
-			}
 
 			modifier = {
 				factor = 0
@@ -1607,13 +1498,6 @@ technologies = {
 				date > "1939.1.1"
 			}
 			modifier = {
-				factor = 3
-			}
-			modifier = {
-				num_of_military_factories < 100
-				factor = 0
-			}
-			modifier = {
 				factor = 0
 				OR = {
 					can_research = improved_heavy_tank
@@ -1773,6 +1657,7 @@ technologies = {
 		ai_will_do = {
 			base = 0.8
 			modifier = {
+				tag = JAP
 				num_of_military_factories < 100
 				factor = 0
 			}

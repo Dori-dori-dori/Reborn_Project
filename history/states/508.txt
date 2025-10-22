@@ -15,7 +15,7 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = OKS 
+		owner = CHE 
 		
 		victory_points = { 3065 6 }
 		
@@ -24,8 +24,8 @@ state = {
 			arms_factory = 0 
 			industrial_complex = 0 
 			dockyard = 1 
-			3066 = { naval_base = 1 }
+			3066 = { }
 		}
 	}
-	provinces = { 3063 3064 3065 3066 }
+	provinces = { 3063 3065 }
 }

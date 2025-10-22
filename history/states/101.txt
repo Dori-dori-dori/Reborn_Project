@@ -2,15 +2,17 @@ state = {
 	id = 101 
 	name = "STATE_101" 
 	manpower = 2965156 
+	
 	state_category = large_town 
 	local_supplies = 0 
+	
 	resources = { 
 		oil = 1 
 		steel = 1 
 	} 
 	history = { 
 		owner = NIG 
-		add_core_of = NIG
+		
 		victory_points = { 669 1 }
 		victory_points = { 671 3 }
 		victory_points = { 673 5 }
@@ -21,6 +23,8 @@ state = {
 			industrial_complex = 1 
 			669 = { naval_base = 1 }
 		}
+		
+		add_core_of = NIG 
 	}
 	provinces = { 669 670 671 672 673 674 }
 }

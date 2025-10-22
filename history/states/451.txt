@@ -6,12 +6,9 @@ state = {
 	state_category = city 
 	local_supplies = 0 
 	
-	resources = { 
-		aluminium = 1 
-	} 
+	resources = { aluminium = 1 } 
 	history = { 
-		owner = NIG
-		add_Core_of = NIG
+		owner = NIG 
 		
 		victory_points = { 2741 5 }
 		victory_points = { 2742 6 }
@@ -22,6 +19,8 @@ state = {
 			arms_factory = 1 
 			industrial_complex = 0 
 		}
+		
+		add_core_of = NIG 
 	}
-	provinces = { 2739 2740 2741 2742 2743 2744 2745 2746 2747 }
+	provinces = { 2739 2740 2741 2742 2743 2744 2745 2747 }
 }

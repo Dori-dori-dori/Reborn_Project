@@ -29,5 +29,5 @@ state = {
 			4448 = { naval_base = 1 }
 		}
 	}
-	provinces = { 4446 4447 4448 4449 }
+	provinces = { 4446 4448 4449 }
 }

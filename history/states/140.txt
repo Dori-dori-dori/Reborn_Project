@@ -6,12 +6,9 @@ state = {
 	state_category = large_town 
 	local_supplies = 0 
 	
-	resources = { 
-		tungsten = 1 
-	} 
+	resources = { tungsten = 1 } 
 	history = { 
-		owner = NIG
-		add_core_of = NIG
+		owner = NIG 
 		
 		victory_points = { 917 2 }
 		victory_points = { 918 8 }
@@ -22,6 +19,8 @@ state = {
 			industrial_complex = 0 
 			919 = { naval_base = 1 }
 		}
+		
+		add_core_of = NIG 
 	}
 	provinces = { 916 917 918 919 920 921 }
 }

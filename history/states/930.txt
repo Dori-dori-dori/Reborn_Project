@@ -15,7 +15,7 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = OKS 
+		owner = NIG 
 		
 		victory_points = { 5800 4 }
 		
@@ -26,5 +26,5 @@ state = {
 			5800 = { naval_base = 1 }
 		}
 	}
-	provinces = { 5799 5800 5801 }
+	provinces = { 5800 5801 }
 }

@@ -864,26 +864,6 @@ technologies = {
 				factor = 0.5
 				NOT = { has_war = yes }
 			}
-			
-			modifier = {
-				factor = 2
-			}
-			
-			modifier = {
-				factor = 2
-			}
-
-			modifier = {
-				factor = 50
-			}
-			
-			modifier = {
-				factor = 5
-			}
-
-			modifier = {
-				factor = 10
-			}
 		}
 		
 		categories = {
@@ -1026,16 +1006,6 @@ technologies = {
 		
 		research_cost = 2
 		start_year = 1940
-
-		on_research_complete = {
-			if = { 
-				limit = { has_dlc = "Gotterdammerung"}
-				custom_effect_tooltip = {
-					localization_key = SP_UNLOCK_PROJECT
-					PROJECT = sp_naval_ice_carrier	
-				}
-			}
-		}
 		
 		folder = {
 			name = naval_folder
@@ -1141,10 +1111,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -1189,10 +1155,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -1225,10 +1187,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 5
-			}
 		}
 		
 		categories = {
@@ -1256,10 +1214,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 5
-			}
 		}
 		
 		categories = {

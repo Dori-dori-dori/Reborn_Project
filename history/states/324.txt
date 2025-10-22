@@ -12,8 +12,7 @@ state = {
 		steel = 1 
 	} 
 	history = { 
-		owner = TOH
-		add_core_of = TOH
+		owner = TOX 
 		
 		victory_points = { 2026 3 }
 		victory_points = { 2027 1 }
@@ -24,6 +23,8 @@ state = {
 			arms_factory = 0 
 			industrial_complex = 1 
 		}
+		
+		add_core_of = TOX 
 	}
 	provinces = { 2026 2027 2028 2029 2030 2031 }
 }

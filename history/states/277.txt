@@ -6,12 +6,9 @@ state = {
 	state_category = town 
 	local_supplies = 0 
 	
-	resources = { 
-		oil = 1 
-	} 
+	resources = { oil = 1 } 
 	history = { 
-		owner = NIG
-		add_core_of = NIG
+		owner = NIG 
 		
 		victory_points = { 1801 4 }
 		victory_points = { 1803 1 }
@@ -23,6 +20,8 @@ state = {
 			dockyard = 1 
 			1801 = { naval_base = 1 }
 		}
+		
+		add_core_of = NIG 
 	}
 	provinces = { 1800 1801 1802 1803 }
 }

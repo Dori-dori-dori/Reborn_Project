@@ -1215,7 +1215,7 @@ ITA_pacified_italian_east_africa_modifier = {
 ITA_fronte_militare_clandestino_modifier = { #In a RSI state
 	enable = { always = yes }
 	remove_trigger = {
-		ROOT = { is_controlled_by = RDS } # ROOT refers to the state on which the modifier is added
+		ROOT = { } # ROOT refers to the state on which the modifier is added
 	}
 	icon = GFX_modifiers_SOV_invaders_must_die
 
@@ -1400,7 +1400,7 @@ SWI_fake_active_citizen_militia_for_the_tooltip = { # I swear this is the last t
 SWI_gold_trade_with_switzerland = {
 	enable = { 
 		NOT = {
-			has_war_with = SWI
+		
 		}
 	}
 	icon = GFX_idea_SPR_seize_the_gold_reserves

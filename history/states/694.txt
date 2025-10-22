@@ -18,7 +18,6 @@ state = {
 		owner = SSG 
 		
 		victory_points = { 4333 6 }
-		victory_points = { 4334 2 }
 		
 		buildings = { 
 			infrastructure = 2 
@@ -26,5 +25,5 @@ state = {
 			industrial_complex = 0 
 		}
 	}
-	provinces = { 4333 4334 4335 4336 4337 }
+	provinces = { 4333 4335 4336 4337 }
 }

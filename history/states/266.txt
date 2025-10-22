@@ -5,10 +5,8 @@ state = {
 	
 	state_category = city 
 	local_supplies = 0 
-	
 	history = { 
-		owner = NIG
-		add_core_of = NIG
+		owner = NIG 
 		
 		victory_points = { 1752 6 }
 		victory_points = { 1753 6 }
@@ -19,6 +17,8 @@ state = {
 			industrial_complex = 1 
 			1748 = { naval_base = 1 }
 		}
+		
+		add_core_of = NIG 
 	}
 	provinces = { 1747 1748 1749 1750 1751 1752 1753 1754 }
 }

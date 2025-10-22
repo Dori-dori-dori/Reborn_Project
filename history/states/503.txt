@@ -12,8 +12,7 @@ state = {
 		steel = 1 
 	} 
 	history = { 
-		owner = NIG
-		add_core_of = NIG
+		owner = NIG 
 		
 		victory_points = { 3030 1 }
 		victory_points = { 3031 1 }
@@ -24,6 +23,8 @@ state = {
 			arms_factory = 0 
 			industrial_complex = 1 
 		}
+		
+		add_core_of = NIG 
 	}
-	provinces = { 3030 3031 3032 3033 }
+	provinces = { 3030 3031 3033 }
 }

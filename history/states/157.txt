@@ -15,11 +15,10 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = OKS 
+		owner = CHE 
 		
 		victory_points = { 1043 7 }
 		victory_points = { 1044 2 }
-		victory_points = { 1046 2 }
 		victory_points = { 1049 1 }
 		
 		buildings = { 
@@ -28,5 +27,5 @@ state = {
 			industrial_complex = 1 
 		}
 	}
-	provinces = { 1043 1044 1045 1046 1047 1048 1049 1050 }
+	provinces = { 1043 1044 1045 1047 1048 1049 1050 }
 }

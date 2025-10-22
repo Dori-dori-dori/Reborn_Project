@@ -24,6 +24,8 @@ state = {
 			arms_factory = 0 
 			industrial_complex = 1 
 		}
+		
+		add_claim_by = NYA 
 	}
 	provinces = { 4354 4355 4356 }
 }

@@ -6,14 +6,13 @@ state = {
 	state_category = city 
 	local_supplies = 0 
 	
-	resources = { 	
+	resources = { 
 		chromium = 2 
 		steel = 1 
 		tungsten = 1 
 	} 
 	history = { 
-		owner = OKS
-        add_core_of = OKS		
+		owner = TOX 
 		
 		victory_points = { 2189 12 }
 		
@@ -22,6 +21,8 @@ state = {
 			arms_factory = 0 
 			industrial_complex = 1 
 		}
+		
+		add_core_of = OKS 
 	}
 	provinces = { 2187 2188 2189 2190 2191 2192 2193 2194 2195 }
 }
