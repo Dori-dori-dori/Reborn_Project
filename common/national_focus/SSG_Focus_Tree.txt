@@ -18,7 +18,9 @@ focus_tree = {
 			focus = SSG_Unity
 		}
 		available = {
-			tag = SSG
+			NOT = {
+				tag = SSG
+			}
 		}
 		bypass_if_unavailable = yes
 		completion_reward = {
@@ -1504,6 +1506,18 @@ focus_tree = {
 			add_ideas = SSG_Union_Forever
 		}
 
+	}
+	focus = {
+		id = SSG_Supress_Bunt
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -2
+		y = 1
+		relative_position_id = SSG_Unify_Party
+		prerequisite = {
+			focus = SSG_Unify_Party
+		}
+		completion_reward = { }
 	}
 	focus = {
 		id = SSG_Never_Again
