@@ -1470,7 +1470,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SSG_Kill_Opponents
+		id = SSG_Arrest_Extremist
 		icon = GFX_goal_unknown
 		cost = 10.00
 		relative_position_id = SSG_Unity
@@ -1528,7 +1528,7 @@ focus_tree = {
 			focus = SSG_Unify_Party
 		}
 		prerequisite = {
-			focus = SSG_Kill_Opponents
+			focus = SSG_Arrest_Extremist
 		}
 		x = 1.5
 		y = 2
@@ -1538,12 +1538,12 @@ focus_tree = {
 		id = SSG_Soviet_Monarchism
 		icon = GFX_goal_unknown
 		cost = 10.00
-		relative_position_id = SSG_Kill_Opponents
+		relative_position_id = SSG_Arrest_Extremist
 		prerequisite = {
 			focus = SSG_Unify_Party
 		}
 		prerequisite = {
-			focus = SSG_Kill_Opponents
+			focus = SSG_Arrest_Extremist
 		}
 		mutually_exclusive = {
 			focus = SSG_Never_Again
@@ -1630,6 +1630,84 @@ focus_tree = {
 		x = -2
 		y = 3
 
+	}
+	focus = {
+		id = SSG_Upgrade_Rifles
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -1
+		y = 1
+		relative_position_id = SSG_Strong_Army
+		prerequisite = {
+			focus = SSG_Strong_Army
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SSG_Improve_Vehicles
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -3
+		y = 1
+		relative_position_id = SSG_Strong_Army
+		prerequisite = {
+			focus = SSG_Strong_Army
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SSG_Red_Commisars
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -5
+		y = 1
+		relative_position_id = SSG_Strong_Army
+		prerequisite = {
+			focus = SSG_Strong_Army
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SSG_Forget_Gorilla_Tactics
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -2
+		y = 2
+		relative_position_id = SSG_Strong_Army
+		prerequisite = {
+			focus = SSG_Strong_Army
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SSG_From_all_Directions
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -3
+		y = 1
+		relative_position_id = SSG_Forget_Gorilla_Tactics
+		prerequisite = {
+			focus = SSG_Forget_Gorilla_Tactics
+		}
+		mutually_exclusive = {
+			focus = SSG_Use_Technical
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SSG_Use_Technical
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -1
+		y = 1
+		relative_position_id = SSG_Forget_Gorilla_Tactics
+		prerequisite = {
+			focus = SSG_Forget_Gorilla_Tactics
+		}
+		mutually_exclusive = {
+			focus = SSG_From_all_Directions
+		}
+		completion_reward = { }
 	}
 	focus = {
 		id = SSG_Take_Neighbors
