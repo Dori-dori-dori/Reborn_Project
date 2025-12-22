@@ -18,7 +18,7 @@ country_event = {
 	hidden = yes
 	
 	trigger = {
-		has_completed_focus = NYA_One_Way_One_Race_One_Fuhrer
+		
 	}
 
 	option = {
@@ -43,7 +43,7 @@ country_event = {
 	hidden = yes
 	
 	trigger = {
-		has_completed_focus = NYA_Peace
+		
 	}
 
 	option = {
@@ -95,7 +95,7 @@ country_event = {
 	hidden = yes
 	
 	trigger = {
-		has_completed_focus = NYA_Revenge_For_Lose
+		
 	}
 
 	option = {

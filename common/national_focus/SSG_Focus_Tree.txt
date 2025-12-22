@@ -18,11 +18,8 @@ focus_tree = {
 			focus = SSG_Unity
 		}
 		available = {
-			NOT = {
-				tag = SSG
-			}
+			is_ai = yes
 		}
-		bypass_if_unavailable = yes
 		completion_reward = {
 			hidden_effect = {
 				news_event = news.2
@@ -1736,7 +1733,31 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SSG_Take_Second_Continent
+		id = SSG_New_Breakings
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Strong_Science
+		prerequisite = {
+			focus = SSG_Strong_Science
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = SSG_New_Breakings
+		icon = GFX_goal_unknown
+		cost = 10.00
+		relative_position_id = SSG_Strong_Science
+		prerequisite = {
+			focus = SSG_Strong_Science
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = SSG_Final_Countdown
 		icon = GFX_goal_unknown
 		cost = 10.00
 		relative_position_id = SSG_Take_Neighbors
@@ -1757,16 +1778,18 @@ focus_tree = {
 		id = SSG_Fortify_Borders
 		icon = GFX_surrender_tiny_flag
 		cost = 10.00
-		relative_position_id = SSG_Take_Second_Continent
+		relative_position_id = SSG_Final_Countdown
 		prerequisite = {
-			focus = SSG_Take_Second_Continent
+			focus = SSG_Final_Countdown
 		}
 		available = {
-			KFC = {
-				exists = no
-				or = {
-					is_puppet = yes
+			or = {
+				NYA = {
+					has_war_with = root
 				}
+				KFC = {
+				exists = no
+			}
 			}
 		}
 		x = -1
@@ -1776,9 +1799,9 @@ focus_tree = {
 		id = SSG_Supply_Lines
 		icon = GFX_surrender_tiny_flag
 		cost = 10.00
-		relative_position_id = SSG_Take_Second_Continent
+		relative_position_id = SSG_Final_Countdown
 		prerequisite = {
-			focus = SSG_Take_Second_Continent
+			focus = SSG_Final_Countdown
 		}
 		available = {
 			KFC = {
@@ -1789,69 +1812,6 @@ focus_tree = {
 			}
 		}
 		x = 1
-		y = 1
-	}
-	focus = {
-		id = SSG_Last_Enemy
-		icon = GFX_surrender_tiny_flag
-		cost = 10.00
-		relative_position_id = SSG_Take_Second_Continent
-		prerequisite = {
-			focus = SSG_Take_Second_Continent
-		}
-		available = {
-			KFC = {
-				exists = no
-				or = {
-					is_puppet = yes
-				}
-			}
-		}
-		x = 0
-		y = 3
-	}
-	focus = {
-		id = SSG_Danger_Kumar
-		icon = GFX_surrender_tiny_flag
-		cost = 10.00
-		relative_position_id = SSG_Last_Enemy
-		prerequisite = {
-			focus = SSG_Last_Enemy
-		}
-		available = {
-			KFC = {
-				exists = no
-				or = {
-					is_puppet = yes
-				}
-			}
-		}
-		mutually_exclusive = {
-			focus = SSG_Friendly_Kumar
-		}
-		x = 1
-		y = 1
-	}
-	focus = {
-		id = SSG_Friendly_Kumar
-		icon = GFX_surrender_tiny_flag
-		cost = 10.00
-		relative_position_id = SSG_Last_Enemy
-		prerequisite = {
-			focus = SSG_Last_Enemy
-		}
-		available = {
-			KFC = {
-				exists = no
-				or = {
-					is_puppet = yes
-				}
-			}
-		}
-		mutually_exclusive = {
-			focus = SSG_Danger_Kumar
-		}
-		x = -1
 		y = 1
 	}
 	continuous_focus_position = {

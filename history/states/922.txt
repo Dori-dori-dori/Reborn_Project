@@ -24,7 +24,6 @@ state = {
 			arms_factory = 0 
 			industrial_complex = 0 
 			dockyard = 1 
-			5746 = { }
 		}
 	}
 	provinces = { 5747 5748 5750 }

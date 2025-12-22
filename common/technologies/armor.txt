@@ -1657,7 +1657,6 @@ technologies = {
 		ai_will_do = {
 			base = 0.8
 			modifier = {
-				tag = JAP
 				num_of_military_factories < 100
 				factor = 0
 			}

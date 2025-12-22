@@ -509,19 +509,6 @@ abandon_colony_tag = {
 			is_subject = yes
 		}
 	}
-	else = {
-		if = {
-			limit = {
-				OR = {
-					has_cosmetic_tag = united_polynesia
-					has_cosmetic_tag = MAJ_UNIFIED
-				}
-			}
-		}
-		else = {
-			drop_cosmetic_tag = yes
-		}
-	}
 }
 
 upgrade_economy_law = {

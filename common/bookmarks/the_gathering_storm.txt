@@ -25,9 +25,7 @@ bookmarks = {
 			ideology = fascism
 			history = "NYA_GATHERING_STORM_DESC"
 			focuses = {
-				NYA_Second_Try
-				NYA_Clear_From_Criminal_Scum
-				NYA_New_Hope
+				
 			}
 		}
 		"KFC"={

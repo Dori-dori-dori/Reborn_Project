@@ -25,7 +25,6 @@ state = {
 			arms_factory = 0 
 			industrial_complex = 1 
 			4699 = { naval_base = 1 }
-			5334 = { naval_base = 1 }
 		}
 	}
 	provinces = { 4696 4697 4698 4699 4700 }

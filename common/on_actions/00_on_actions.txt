@@ -6,7 +6,7 @@ on_actions = {
 					FROM = { 
 						tag = NYA 
 					}
-					has_completed_focus = NYA_Start_of_an_Empire
+					## Вставить фокус
 					ROOT = { 
 						tag = XYD 
 					}
