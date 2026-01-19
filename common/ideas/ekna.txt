@@ -359,5 +359,16 @@ ideas = {
                 political_power_gain = 2.00
             }
         }
+		NYA_Ahnenerbe_start ={
+			picture = ahnenerbe
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				despotism_drift = 0.01
+				research_speed_factor = 0.05
+				non_core_manpower = -0.1
+			}
+		}
     }
 }

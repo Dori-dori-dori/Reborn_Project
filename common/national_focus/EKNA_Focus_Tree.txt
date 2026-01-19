@@ -9,6 +9,9 @@
 	}
 	continuous_focus_position = { x = 800 y = 500 }
 	default = no
+
+	## Politics ##
+
 	focus = {
 		id = NYA_The_Great_Start
 		icon = x
@@ -16,7 +19,13 @@
 		x = 20 
 		y = 0
 		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = "Majima_killed"
+			}
 			
+			hidden_effect = {
+				country_event = ekna.4
+			}
 		}
 
 	}
@@ -26,10 +35,13 @@
 		icon = x
 		cost = x
 		x = 0 
-		y = 2
+		y = 1
 		relative_position_id = NYA_The_Great_Start
 		prerequisite = {
 			focus = NYA_The_Great_Start
+		}
+		completion_reward = {
+			
 		}
 	}
 	
@@ -38,7 +50,7 @@
 		icon = x
 		cost = x
 		x = -2
-		y = 2
+		y = 1
 		relative_position_id = NYA_Time_to_Fix
 		prerequisite = {
 			focus = NYA_Time_to_Fix
@@ -49,7 +61,7 @@
 		icon = x
 		cost = x
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = NYA_Time_to_Fix
 		prerequisite = {
 			focus = NYA_Time_to_Fix
@@ -61,7 +73,7 @@
 		icon = x
 		cost = x
 		x = 0  
-		y = 2
+		y = 1
 		relative_position_id = NYA_Long_Live_Fuhrer
 		prerequisite = {
 			focus = NYA_Long_Live_Fuhrer
@@ -73,7 +85,7 @@
 		icon = x
 		cost = x
 		x = -2 
-		y  = 2
+		y  = 1
 		relative_position_id = NYA_Rebuilds_Our_Country
 		prerequisite = {
 			focus = NYA_Rebuilds_Our_Country
@@ -85,7 +97,7 @@
 		icon = x
 		cost = x
 		x = 2 
-		y = 2
+		y = 1
 		relative_position_id = NYA_Rebuilds_Our_Country
 		prerequisite = {
 			focus = NYA_Rebuilds_Our_Country
@@ -97,7 +109,7 @@
 		icon = GFX_super_station_cover
 		cost = x
 		x = 2
-		y = 4
+		y = 2
 		relative_position_id = NYA_Rebuilds_Our_Country
 		prerequisite = {
 			focus = NYA_Cities_Our_Heart
@@ -109,7 +121,7 @@
 		icon = GFX_super_station_cover
 		cost = x
 		x = -2
-		y = 4
+		y = 2
 		relative_position_id = NYA_Rebuilds_Our_Country
 		prerequisite = {
 			focus = NYA_Factory_Our_Face
@@ -122,7 +134,7 @@
 		icon = GFX_super_station_cover
 		cost = x
 		x = -4
-		y = 5
+		y = 3
 		relative_position_id = NYA_Rebuilds_Our_Country
 		prerequisite = {
 			focus = NYA_Factory_Our_Face
@@ -135,7 +147,7 @@
 		icon = x
 		cost = x
 		x = 0 
-		y = 6
+		y = 5
 		relative_position_id = NYA_Rebuilds_Our_Country
 		prerequisite = {
 			focus = NYA_Cities_Our_Heart
@@ -154,7 +166,7 @@
 		icon = x
 		cost = x
 		x = -2 
-		y = 2
+		y = 1
 		relative_position_id = NYA_Racism_Full
 		prerequisite = {
 			focus = NYA_Racism_Full
@@ -164,7 +176,8 @@
 	focus = {
 		id = NYA_Weakness_Control
 		relative_position_id = NYA_Interutopia
-		x = 0 y = 2
+		x = 0 
+		y = 1
 		prerequisite = {
 			focus = NYA_Interutopia
 		}
@@ -174,7 +187,7 @@
 		id = NYA_Nazi-Isolation
 		relative_position_id = NYA_Weakness_Control
 		x = 0 
-		y = 2
+		y = 1
 		prerequisite = {
 			focus = NYA_Weakness_Control
 		}
@@ -182,7 +195,8 @@
    
 	focus = {
 		id = 14
-		x = -3 y = 2
+		x = -3 
+		y = 1
 		relative_position_id = NYA_Weakness_Control
 		prerequisite = {
 			focus = NYA_Weakness_Control
@@ -191,7 +205,8 @@
  
 	focus = {
 		id = 13
-		x = 0 y = 2
+		x = 0 
+		y = 1
 		relative_position_id = NYA_Nazi-Isolation
 		prerequisite = {
 			focus = NYA_Nazi-Isolation
@@ -203,7 +218,8 @@
    
 	focus = {
 		id = 16
-		x = 0 y = 2
+		x = 0 
+		y = 1
 		relative_position_id = 14
 		prerequisite = {
 			focus = 14
@@ -215,7 +231,7 @@
 		icon = x
 		cost = x
 		x = -3 
-		y = 2
+		y = 1
 		relative_position_id = 14
 		prerequisite = {
 			focus = 14
@@ -227,7 +243,7 @@
 		icon = x
 		cost = x
 		x = 2 
-		y = 2
+		y = 1
 		relative_position_id = NYA_Racism_Full
 		prerequisite = {
 			focus = NYA_Racism_Full
@@ -240,7 +256,7 @@
 		cost = x
 		relative_position_id = NYA_Utopia_For_All
 		x = 0 
-		y = 2
+		y = 1
 		prerequisite = {
 			focus = NYA_Utopia_For_All
 		}
@@ -248,7 +264,8 @@
    
 	focus = {
 		id = 20
-		x = 0 y = 2
+		x = 0 
+		y = 1
 		relative_position_id = 19
 		prerequisite = {
 			focus = 19
@@ -258,7 +275,8 @@
 	focus = {
 		id = 21
 		relative_position_id = 20
-		x = 0 y = 2
+		x = 0 
+		y = 1
 		prerequisite = {
 			focus = 20
 		}
@@ -267,7 +285,8 @@
    
 	focus = {
 		id = 22
-		x = 6 y = 2
+		x = 6 
+		y = 1
 		relative_position_id = 19
 		prerequisite = {
 			focus = 19
@@ -276,7 +295,8 @@
    
 	focus = {
 		id = 23
-		x = 3 y = 2
+		x = 3 
+		y = 1
 		relative_position_id = 20
 		prerequisite = {
 			focus = 20
@@ -288,7 +308,7 @@
 		icon = x
 		cost = x
 		x = 0 
-		y = 2
+		y = 1
 		relative_position_id = 22
 		prerequisite = {
 			focus = 22
@@ -300,7 +320,7 @@
 		icon = x
 		cost = x
 		x = 24 
-		y = 2
+		y = 1
 		prerequisite = {
 			focus = NYA_The_Great_Start
 		}
@@ -310,7 +330,7 @@
 		icon = GFX_super_station_cover
 		cost = x
 		x = 0
-		y = 2
+		y = 1
 		prerequisite = {
 			focus = NYA_Save_the_Church
 		}
@@ -322,7 +342,7 @@
 		icon = GFX_super_station_cover
 		cost = x
 		x = 2
-		y = 2
+		y = 1
 		prerequisite = {
 			focus = NYA_Save_the_Church
 		}
@@ -345,7 +365,7 @@
 		icon = x
 		cost = x
 		x = 0 
-		y = 2
+		y = 1
 		relative_position_id = NYA_Rearming_Started
 		prerequisite = {
 			focus = NYA_Rearming_Started
@@ -361,7 +381,7 @@
 		icon = x
 		cost = x
 		x = -2 
-		y = 2
+		y = 1
 		relative_position_id = NYA_Rearming_Started
 		prerequisite = {
 			focus = NYA_Rearming_Started
@@ -377,7 +397,7 @@
 		icon = x
 		cost = x
 		x = -4 
-		y = 2
+		y = 1
 		relative_position_id = NYA_Rearming_Started
 		prerequisite = {
 			focus = NYA_Rearming_Started
@@ -392,7 +412,7 @@
 		icon = GFX_super_station_cover
 		cost = x
 		x = x
-		y = 2
+		y = 1
 		relative_position_id = NYA_Armored_Focus
 		prerequisite = {
 			focus = NYA_Armored_Focus
@@ -404,7 +424,7 @@
 		icon = GFX_super_station_cover
 		cost = x
 		x = x
-		y = 2
+		y = 1
 		relative_position_id = NYA_New_Armor_Research
 		prerequisite = {
 			focus = NYA_New_Armor_Research
@@ -416,7 +436,7 @@
 		icon = GFX_super_station_cover
 		cost = x
 		x = x
-		y = 2
+		y = 1
 		relative_position_id = NYA_Army_Focus
 		prerequisite = {
 			focus = NYA_Armored_Focus
@@ -430,7 +450,7 @@
 		icon = GFX_super_station_cover
 		cost = x
 		x = -2
-		y = 2
+		y = 1
 		relative_position_id = NYA_Armored_Focus
 		prerequisite = {
 			focus = NYA_Armored_Focus
@@ -442,7 +462,7 @@
 		icon = GFX_super_station_cover
 		cost = x
 		x = x
-		y = 2
+		y = 1
 		relative_position_id = NYA_Fist_of_Motorization
 		prerequisite = {
 			focus = NYA_Fist_of_Motorization
@@ -464,7 +484,7 @@
 		icon = x
 		cost = x
 		x = 0 
-		y = 2
+		y = 1
 		relative_position_id = NYA_Now_what_lmao
 		prerequisite = {
 			focus = NYA_Now_what_lmao
@@ -476,7 +496,7 @@
 		icon = x
 		cost = x
 		x = 2 
-		y = 2
+		y = 1
 		relative_position_id = NYA_Now_what_lmao
 		prerequisite = {
 			focus = NYA_Now_what_lmao
@@ -488,8 +508,8 @@
 		icon = x
 		cost = x
 		x = 0
-		y = 5
-		relative_position_id = NYA_Now_what_lmao
+		y = 1
+		relative_position_id = NYA_Funds_for_Future
 		prerequisite = {
 			focus = NYA_Funds_for_Future
 		}
@@ -504,7 +524,7 @@
 		icon = GFX_super_station_cover
 		cost = x
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = NYA_Pilk_for_Everynyan
 		prerequisite = {
 			focus = NYA_Pilk_for_Everynyan
@@ -520,7 +540,7 @@
 		icon = x
 		cost = x
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = NYA_Expand_Railways
 		prerequisite = {
 			focus = NYA_Expand_Railways
@@ -533,7 +553,7 @@
 		icon = x
 		cost = x
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = NYA_Fuel_Birthplace
 		prerequisite = {
 			focus = NYA_Digging_Deeper
@@ -546,7 +566,7 @@
 		icon = x
 		cost = x
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = NYA_Digging_Deeper
 		prerequisite = {
 			focus = NYA_Digging_Deeper
@@ -559,7 +579,7 @@
 		icon = x
 		cost = x
 		x = 4 
-		y = 2 
+		y = 1 
 		relative_position_id = NYA_Now_what_lmao
 		prerequisite = {
 			focus = NYA_Now_what_lmao
@@ -570,7 +590,7 @@
 		icon = x
 		cost = x
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = NYA_Trades_With_Tea
 		prerequisite = {
 			focus = NYA_Trades_With_Tea

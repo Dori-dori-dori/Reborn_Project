@@ -146,4 +146,8 @@ spritetypes = {
 		name = GFX_idea_forge_new_army
 		textureFile = "gfx/interface/ideas/NYA/NYA_forge_new_army.dds"
 	}
+	spriteType = {
+		name = GFX_idea_ahnenerbe
+		textureFile = "gfx/interface/ideas/NYA/NYA_Ahnenerbe.dds"
+	}
 }

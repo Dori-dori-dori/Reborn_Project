@@ -192,7 +192,7 @@ technologies = {
 		categories = {
 			naval_artillery
 			naval_equipment
-			cl_tech
+			ca_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -239,7 +239,7 @@ technologies = {
 		categories = {
 			naval_artillery
 			naval_equipment
-			cl_tech
+			ca_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -285,7 +285,7 @@ technologies = {
 		categories = {
 			naval_artillery
 			naval_equipment
-			cl_tech
+			ca_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -327,7 +327,7 @@ technologies = {
 		categories = {
 			naval_artillery
 			naval_equipment
-			cl_tech
+			ca_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
