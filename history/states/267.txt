@@ -25,9 +25,7 @@ state = {
 			arms_factory = 0 
 			industrial_complex = 1 
 			dockyard = 1 
-			1756 = { }
 			1759 = { naval_base = 1 }
-			1764 = { }
 		}
 	}
 	provinces = { 1755 1756 1757 1758 1759 1760 1761 1762 1764 }

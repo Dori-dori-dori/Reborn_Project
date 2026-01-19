@@ -567,7 +567,7 @@
 566;126;73;1;land;false;forest;3
 567;126;77;1;land;false;forest;3
 568;175;128;1;land;true;forest;3
-569;195;159;1;land;true;forest;3
+569;159;7;255;sea;false;ocean;0
 570;169;195;1;land;false;forest;3
 571;222;192;1;land;false;forest;3
 572;191;145;1;land;false;forest;3
@@ -7980,4 +7980,3 @@
 7979;156;33;255;sea;true;ocean;0
 7980;139;21;255;sea;false;ocean;0
 7981;213;4;255;sea;false;ocean;0
-7982;159;7;255;sea;false;ocean;0
