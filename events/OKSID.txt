@@ -15,3 +15,12 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = oksid.2
+	title = oksid.2.t
+	desc = oksid.2.d
+	is_triggered_only = yes
+	option = {
+		name = oksid.2.a
+	}
+}
