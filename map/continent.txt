@@ -1,7 +1,8 @@
 continents = {
-	Uarbi
-	Glui
-	Steapp
+	#Custom continents
+	Edenium
+	Reborn_Islands
+	Libium
 	
 	
 	#Vanilla continents kept in for compatibility. Removing them breaks a lot of references to them
