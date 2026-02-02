@@ -24,6 +24,11 @@ bookmarks = {
 		"NYA"={
 			ideology = fascism
 			history = "NYA_GATHERING_STORM_DESC"
+			ideas = {
+				NYA_Ahnenerbe_start
+				NYA_Passive_Resistance
+				NYA_Militarized_Society_Remains
+			}
 			focuses = {
 				
 			}

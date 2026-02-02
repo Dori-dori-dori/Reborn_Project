@@ -11,9 +11,10 @@ add_breakthrough_points = {
 }
 
 add_ideas = {
-	NYA_Great_Army
 	partial_economic_mobilisation
 	limited_conscription
+	NYA_Passive_Resistance
+	NYA_Militarized_Society_Remains
 	NYA_Ahnenerbe_start
 }
 

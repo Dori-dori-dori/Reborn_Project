@@ -1,6 +1,7 @@
 NYA_forge_new_army = {
 	enable = {
 		always = yes
+		has_country_flag = x
 	}
 	icon = GFX_idea_NYA_forge_new_army
 	army_armor_speed_factor = NYA_army_armor_speed_factor

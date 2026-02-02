@@ -33,10 +33,7 @@
 			focus = NYA_The_Great_Depression
 		}
 		completion_reward = {
-			custom_effect_tooltip = {
-				localization_key = NYA_Decision_Emergency_Measures
-			}
-			add_political_power = 100
+			country_event = { id = NYA_citizens.2 }
 		}
 	}
 	focus = {

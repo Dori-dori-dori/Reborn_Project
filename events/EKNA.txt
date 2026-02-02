@@ -19,6 +19,10 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = NYA_citizens.2.a
+		add_political_power = 100
+		custom_effect_tooltip = {
+			localization_key = NYA_Decision_Emergency_Measures
+		}
 	}
 }
 
