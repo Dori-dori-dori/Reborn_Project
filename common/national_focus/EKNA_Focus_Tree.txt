@@ -60,9 +60,42 @@
 		prerequisite = {
 			focus = NYA_Phase_One
 		}
-		completion_reward = {  
-			
+		completion_reward = {#Решения об успокоении хз
+		#Решение о вызове полиции для успокоения населения
+		#Решение о том, что полиция будет использовать силу для разгона протестов
+		#Решение о том, что полиция будет использовать гуманные методы для разгона протестов
+		#Решение о том, что полиция будет использовать пропаганду для разгона протестов
+		#Решение о том, что полиция будет использовать социальные сети для разгона протестов
 		}
+	}
+	focus = {
+		id = NYA_Call_the_Police
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_Calm_Down_Population
+		prerequisite = {
+			focus = NYA_Calm_Down_Population
+			#Решение о вызове полиции для успокоения населения
+			#Решение о том, что полиция будет использовать силу для разгона протестов
+			#Решение о том, что полиция будет использовать гуманные методы для разгона протестов
+			#Решение о том, что полиция будет использовать пропаганду для разгона протестов
+			#Решение о том, что полиция будет использовать социальные сети для разгона протестов
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Secure_Goverment_Places
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -2
+		y = 1
+		relative_position_id = NYA_Calm_Down_Population
+		prerequisite = {
+			focus = NYA_Calm_Down_Population
+		}
+		completion_reward = { }
 	}
 	focus = {
 		id = NYA_Citizens_On_First
@@ -77,6 +110,18 @@
 		completion_reward = { }
 	}
 	focus = {
+		id = NYA_Censorship_for_Safety
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_Citizens_On_First
+		prerequisite = {
+			focus = NYA_Citizens_On_First
+		}
+		completion_reward = { }
+	}
+	focus = {
 		id = NYA_Rebuild_The_Goverment
 		icon = GFX_surrender_tiny_flag
 		cost = x
@@ -86,6 +131,33 @@
 		prerequisite = {
 			focus = NYA_Phase_One
 		}
-		completion_reward = { }
+		completion_reward = { #Решения 
+		}
+	}
+	focus = {
+		id = NYA_Rethink_Goverment_Structure
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_Rebuild_The_Goverment
+		prerequisite = {
+			focus = NYA_Rebuild_The_Goverment
+		}
+		completion_reward = { #Переделка структуры правительства, выбирая между двух-палатной системной и единой
+		}
+	}
+	focus = {
+		id = NYA_New_Voting_System
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 2
+		y = 1
+		relative_position_id = NYA_Rebuild_The_Goverment
+		prerequisite = {
+			focus = NYA_Rebuild_The_Goverment
+		}
+		completion_reward = { #Новая система голосования на основе пасты Гарфилда
+		}
 	}
 }
