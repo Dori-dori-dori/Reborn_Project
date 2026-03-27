@@ -9,6 +9,7 @@ country_event = {
 	option = {
 		name = NYA_citizens.1.a
 		add_stability = -0.01
+		country_event = { days = 10 id = NYA_citizens.2 }
 	}
 }
 country_event = {

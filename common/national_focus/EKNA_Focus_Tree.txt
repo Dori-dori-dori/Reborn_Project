@@ -69,7 +69,7 @@
 		}
 	}
 	focus = {
-		id = NYA_Call_the_Police
+		id = NYA_Croos_The_Streets
 		icon = GFX_surrender_tiny_flag
 		cost = x
 		x = x
@@ -77,6 +77,18 @@
 		relative_position_id = NYA_Calm_Down_Population
 		prerequisite = {
 			focus = NYA_Calm_Down_Population
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Call_the_Police
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 2
+		relative_position_id = NYA_Calm_Down_Population
+		prerequisite = {
+			focus = NYA_Croos_The_Streets
 			#Решение о вызове полиции для успокоения населения
 			#Решение о том, что полиция будет использовать силу для разгона протестов
 			#Решение о том, что полиция будет использовать гуманные методы для разгона протестов
@@ -95,7 +107,8 @@
 		prerequisite = {
 			focus = NYA_Calm_Down_Population
 		}
-		completion_reward = { }
+		completion_reward = { #Фокус для выхода в другой путь
+		}
 	}
 	focus = {
 		id = NYA_Citizens_On_First
@@ -135,7 +148,7 @@
 		}
 	}
 	focus = {
-		id = NYA_Rethink_Goverment_Structure
+		id = NYA_Question_Landtag
 		icon = GFX_surrender_tiny_flag
 		cost = x
 		x = x
@@ -144,7 +157,19 @@
 		prerequisite = {
 			focus = NYA_Rebuild_The_Goverment
 		}
-		completion_reward = { #Переделка структуры правительства, выбирая между двух-палатной системной и единой
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Rethink_Goverment_Structure
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 2
+		relative_position_id = NYA_Rebuild_The_Goverment
+		prerequisite = {
+			focus = NYA_Question_Landtag
+		}
+		completion_reward = { #Переделка структуры правительства, выбирая между двух-палатной системной и единой (https://en.wikipedia.org/wiki/Unicameralism)
 		}
 	}
 	focus = {
@@ -158,6 +183,191 @@
 			focus = NYA_Rebuild_The_Goverment
 		}
 		completion_reward = { #Новая система голосования на основе пасты Гарфилда
+		#Фокус для выхода в другой путь
 		}
+	}
+
+	#ВТОРАЯ ФАЗА
+	focus = {
+		id = NYA_Phase_Two
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 2
+		relative_position_id = NYA_Censorship_for_Safety
+		prerequisite = {
+			focus = NYA_Censorship_for_Safety
+		}
+		prerequisite = {
+			focus = NYA_Rethink_Goverment_Structure
+		}
+		prerequisite = {
+			focus = NYA_Call_the_Police
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_New_Dawn
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 1
+		y = 1
+		relative_position_id = NYA_Phase_Two
+		prerequisite = {
+			focus = NYA_Phase_Two
+		}
+		mutually_exclusive = {
+			focus = NYA_End_of_Country_Sufferings
+		}
+		completion_reward = { #Комод смог стабилизировать ситуацию и вернуть доверие народа, но ему придется провести выборы
+		}
+	}
+	focus = {
+		id = NYA_End_of_Country_Sufferings
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -1
+		y = 1
+		relative_position_id = NYA_Phase_Two
+		prerequisite = {
+			focus = NYA_Phase_Two
+		}
+		mutually_exclusive = {
+			focus = NYA_New_Dawn
+		}
+		completion_reward = { #Ивент, где убьют Комода
+
+		}
+	}
+
+	#Военная ветка
+	focus = {
+		id = NYA_General_Conferesion
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 20
+		y = x
+		completion_reward = { #Ивент, где выбирается основная доктрина 
+		}
+	}
+	focus = {
+		id = NYA_Fast_and_Furious
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -1
+		y = 1
+		relative_position_id = NYA_General_Conferesion
+		prerequisite = {
+			focus = NYA_General_Conferesion
+		}
+		mutually_exclusive = {
+			focus = NYA_Goddess_of_Battle
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_New_Transmission
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -2
+		y = 1
+		relative_position_id = NYA_Fast_and_Furious
+		prerequisite = {
+			focus = NYA_Fast_and_Furious
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Goddess_of_Battle
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 1
+		y = 1
+		relative_position_id = NYA_General_Conferesion
+		prerequisite = {
+			focus = NYA_General_Conferesion
+		}
+		mutually_exclusive = {
+			focus = NYA_Fast_and_Furious
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Matter_of_Size
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 2
+		y = 1
+		relative_position_id = NYA_Goddess_of_Battle
+		prerequisite = {
+			focus = NYA_Goddess_of_Battle
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Reforming_Army
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 2
+		relative_position_id = NYA_General_Conferesion
+		prerequisite = {
+			focus = NYA_Fast_and_Furious
+			focus = NYA_Goddess_of_Battle
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Investigate_Army
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_Reforming_Army
+		prerequisite = {
+			focus = NYA_Reforming_Army
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Question_of_Radicals
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_Investigate_Army
+		prerequisite = {
+			focus = NYA_Investigate_Army
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Propagand_in_Barracks
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = x
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Re-equip_Soldiers
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 2
+		y = 1
+		relative_position_id = NYA_Investigate_Army
+		prerequisite = {
+			focus = NYA_Investigate_Army
+		}
+		completion_reward = { }
+	}
+	#Экономическая ветка
+	focus = {
+		id = NYA_Economic_Reform
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 30
+		y = x
+		completion_reward = { }
 	}
 }
