@@ -12,23 +12,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2022.1.1"
+	ruling_party = despotism
+	last_election = "1932.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 75
+	fascism = 15
 	communism = 10
-	democratic = 0
-	neutrality = 15
+	democratic = 10
+	neutrality = 5
+	despotism = 60
 }
-create_country_leader = {
-    name = "Minor"
-	desc = "Bird Master"
-	picture = "Portrait_MIN_Semnik.dds"
-	ideology = "conservatism"
-	traits = {
-	    #
-    }
-}
+
+set_cosmetic_tag = CHE_empire
+# end of country history

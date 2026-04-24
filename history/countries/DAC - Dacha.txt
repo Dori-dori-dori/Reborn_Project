@@ -1,0 +1,18 @@
+capital = 110
+set_research_slots = 3
+load_focus_tree = generic_focus
+set_politics = {
+	ruling_party = despotism
+	last_election = "1932.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 15
+	communism = 10
+	democratic = 10
+	neutrality = 5
+	despotism = 60
+}
+set_cosmetic_tag = DAC_empire
+# end of country history

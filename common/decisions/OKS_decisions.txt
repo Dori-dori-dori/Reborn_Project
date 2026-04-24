@@ -10,7 +10,6 @@ debug_decisions = {
 			}
 		}
 	}
-
 }
 
 OKS_civil_war_prepare = {

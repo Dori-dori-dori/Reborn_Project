@@ -15,13 +15,15 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = BLI 
+		owner = DAC 
 		
 		buildings = { 
 			infrastructure = 1 
 			arms_factory = 1 
 			industrial_complex = 0 
 		}
+
+		add_claim_by = OKS
 	}
 	provinces = { 3000 3001 3005 3008 }
 }

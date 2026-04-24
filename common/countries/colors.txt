@@ -91,3 +91,27 @@ PDS = {
 	color = rgb { -150 41 291 }
 	color_ui = rgb { -150 41 291 }
 }
+DAC = {
+	color = rgb { 169 154 207 }
+	color_ui = rgb { 169 154 207 }
+}
+
+GUL = {
+	color = rgb { 126 207 112 }
+	color_ui = rgb { 126 207 112 }
+}
+
+CHA = {
+	color = rgb { 209 59 189 }
+	color_ui = rgb { 209 59 189 }
+}
+
+CHC = {
+	color = rgb { 51 109 62 }
+	color_ui = rgb { 51 109 62 }
+}
+
+MEM = {
+	color = rgb { 93 66 204 }
+	color_ui = rgb { 93 66 204 }
+}

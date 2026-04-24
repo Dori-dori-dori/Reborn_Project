@@ -149,16 +149,13 @@ characters = {
 			army = {
 				large = GFX_portrait_FUT_Guardians
 			}
+			civilian = {
+				large = GFX_portrait_FUT_Guardians
+				small = GFX_portrait_FUT_Guardians
+			}
 		}
-		corps_commander = {
-			traits = { 
-			    media_personality
-		    }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-	    }
+		country_leader = {
+			ideology = absolute_monarchy
+		}
     }
 }

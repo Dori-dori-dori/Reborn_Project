@@ -12,32 +12,17 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "2022.1.1"
+	ruling_party = despotism
+	last_election = "1932.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 75
+	fascism = 15
 	communism = 10
-	democratic = 0
-	neutrality = 15
+	democratic = 10
+	neutrality = 5
+	despotism = 60
 }
-create_country_leader = {
-    name = "Minor"
-	desc = "Bird Master"
-	picture = "Portrait_MIN_Semnik.dds"
-	ideology = "fascism_ideology"
-	traits = {
-	    #
-    }
-}
-recruit_character = FUT_Fanta_and_Cola
-recruit_character = FUT_Fantar
-recruit_character = FUT_Fantario
-recruit_character = FUT_Fanter
-recruit_character = FUT_Fantik
-recruit_character = FUT_Fucker
-recruit_character = FUT_Funter
-recruit_character = FUT_Funtik
-recruit_character = FUT_Guardians
+set_cosmetic_tag = FUT_empire
+# end of country history

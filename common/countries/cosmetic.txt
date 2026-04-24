@@ -26,3 +26,35 @@ NIG_blacksun = {
     color = rgb { 75 0 130 }
     color_ui = rgb { 75 0 130 }
 }
+DAC_Empire = {
+    color = rgb { 255 170 0}
+    color_ui = rgb { 255 170 0 }
+}
+GUL_Empire = {
+    color = rgb { 255 170 0 }
+    color_ui = rgb { 255 170 0 }
+}
+CHA_Empire = {
+    color = rgb { 255 170 0 }
+    color_ui = rgb { 255 170 0 }
+}
+CHC_Empire = {
+    color = rgb { 255 170 0 }
+    color_ui = rgb { 255 170 0 }
+}
+MEM_Empire = {
+    color = rgb { 255 170 0 }
+    color_ui = rgb { 255 170 0 }
+}
+FUT_Empire = {
+    color = rgb { 255 170 0 }
+    color_ui = rgb { 255 170 0 }
+}
+XYD_Empire = {
+    color = rgb { 255 170 0 }
+    color_ui = rgb { 255 170 0 }
+}
+CHE_Empire = {
+    color = rgb { 255 170 0 }
+    color_ui = rgb { 255 170 0 }
+}

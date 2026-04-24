@@ -15,7 +15,7 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = BLI 
+		owner = DAC 
 		
 		victory_points = { 1184 2 }
 		victory_points = { 1189 10 }
@@ -25,6 +25,8 @@ state = {
 			arms_factory = 0 
 			industrial_complex = 1 
 		}
+
+		add_claim_by = OKS
 	}
 	provinces = { 1183 1184 1185 1186 1187 1188 1189 }
 }

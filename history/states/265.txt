@@ -15,7 +15,7 @@ state = {
 		tungsten = 1 
 	} 
 	history = { 
-		owner = BLI 
+		owner = CHC 
 		
 		victory_points = { 1741 2 }
 		victory_points = { 1745 1 }

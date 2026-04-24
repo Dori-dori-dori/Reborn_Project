@@ -7,7 +7,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = monarchy
+            ideology = conservatism
             traits = {
                 agrarian_nationalist
             }
@@ -21,7 +21,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = conservatism
+            ideology = absolute_monarchy
         }
     }
 }

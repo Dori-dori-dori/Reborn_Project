@@ -1,18 +1,51 @@
 capital = 100
-oob = "BLI_1936"
 set_research_slots = 3
 load_focus_tree = generic_focus
 set_politics = {
-	ruling_party = democratic
+	ruling_party = despotism
 	last_election = "1932.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 80
+	neutrality = 5
 	democratic = 10
 	fascism = 5
 	communism = 5
+	despotism = 75
+}
+
+set_autonomy = {
+	target = CHA
+	autonomy_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = CHC
+	autonomy_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = CHE
+	autonomy_state = autonomy_personal_union
+}		
+set_autonomy = {
+	target = DAC
+	autonomy_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = FUT
+	autonomy_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = GUL
+	autonomy_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = MEM
+	autonomy_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = XYD
+	autonomy_state = autonomy_personal_union
 }
 
 # end of country history

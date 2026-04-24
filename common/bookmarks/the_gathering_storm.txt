@@ -80,21 +80,6 @@ bookmarks = {
 
 			history = "BUL_GATHERING_STORM_DESC"
 		}
-		"CHE"={
-			ideology = fascism
-			minor = yes
-			history = "CHE_GATHERING_STORM_DESC"
-		}
-		"FUT"={
-			ideology = fascism
-			minor = yes
-			history = "FUT_GATHERING_STORM_DESC"
-		}
-		"XYD"={
-			ideology = fascism
-			minor = yes
-			history = "XYD_GATHERING_STORM_DESC"
-		}
 		"IDK"={
 			ideology = fascism
 			minor = yes
