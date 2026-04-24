@@ -11,6 +11,10 @@ BUL = {
 	color = rgb { 32 21 94 }
 	color_ui = rgb { 32 21 94 }
 }
+BLI = {
+	color = rgb { 255 170 0 }
+	color_ui = rgb { 255 170 0 }
+}
 CHE = {
 	color = rgb { 255 240 245 }
 	color_ui = rgb { 255 240 245 }

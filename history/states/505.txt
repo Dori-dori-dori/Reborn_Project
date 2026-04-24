@@ -17,14 +17,11 @@ state = {
 	history = { 
 		owner = OKS 
 		
-		victory_points = { 3045 2 }
-		victory_points = { 3050 20 }
-		
 		buildings = { 
 			infrastructure = 2 
 			arms_factory = 1 
 			industrial_complex = 1 
 		}
 	}
-	provinces = { 3042 3043 3044 3045 3046 3047 3048 3049 3050 3051 3052 3053 3054 3055 }
+	provinces = { 3043 3044 3046 3048 3051 3053 }
 }

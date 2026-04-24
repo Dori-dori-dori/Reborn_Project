@@ -15,16 +15,13 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = CHE 
-		
-		victory_points = { 3147 1 }
+		owner = BLI 
 		
 		buildings = { 
 			infrastructure = 1 
 			arms_factory = 0 
 			industrial_complex = 0 
-			3147 = { naval_base = 1 }
 		}
 	}
-	provinces = { 3147 }
+	provinces = { 1 2 }
 }

@@ -330,6 +330,18 @@
 		completion_reward = { }
 	}
 	focus = {
+		id = NYA_New_Warfate_Poligons
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -2
+		y = 1
+		relative_position_id = NYA_Investigate_Army
+		prerequisite = {
+			focus = NYA_Investigate_Army
+		}
+		completion_reward = { }
+	}
+	focus = {
 		id = NYA_Question_of_Radicals
 		icon = GFX_surrender_tiny_flag
 		cost = x

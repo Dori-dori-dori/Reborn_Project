@@ -15,9 +15,7 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = CHE 
-		
-		victory_points = { 5710 1 }
+		owner = BLI 
 		
 		buildings = { 
 			infrastructure = 1 
@@ -25,5 +23,5 @@ state = {
 			industrial_complex = 0 
 		}
 	}
-	provinces = { 5710 }
+	provinces = { 3 4 }
 }

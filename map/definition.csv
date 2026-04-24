@@ -2564,7 +2564,7 @@
 2563;214;182;1;land;false;forest;3
 2564;184;173;128;lake;false;lakes;0
 2565;228;215;1;land;false;forest;3
-2566;226;59;1;land;true;forest;3
+2566;226;59;1;land;false;forest;3
 2567;211;16;1;land;true;forest;3
 2568;211;45;1;land;true;forest;3
 2569;222;8;1;land;true;forest;3

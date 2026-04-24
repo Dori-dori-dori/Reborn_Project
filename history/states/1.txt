@@ -17,8 +17,8 @@ state = {
 	history = { 
 		owner = BUL 
 		
-		victory_points = { 2 2 }
-		victory_points = { 4 3 }
+		victory_points = { 3045 2 }
+		victory_points = { 3050 20 }
 		
 		buildings = { 
 			infrastructure = 1 
@@ -26,5 +26,5 @@ state = {
 			industrial_complex = 0 
 		}
 	}
-	provinces = { 1 2 3 4 }
+	provinces = { 3042 3045 3047 3049 3050 3052 3054 3055 }
 }
