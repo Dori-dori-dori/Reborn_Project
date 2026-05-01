@@ -3,7 +3,7 @@ state = {
 	name = "STATE_916" 
 	manpower = 357535 
 	
-	state_category = pastoral 
+	state_category = tiny_island 
 	local_supplies = 0 
 	
 	resources = { 

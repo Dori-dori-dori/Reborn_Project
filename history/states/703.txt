@@ -15,7 +15,9 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = PDS 
+		owner = PDS
+		add_core_of = PDS
+		add_claim_by = NYA  
 		
 		victory_points = { 4387 3 }
 		
