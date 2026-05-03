@@ -16,7 +16,7 @@ state = {
 	} 
 	history = { 
 		owner = PDS
-		add_core_of = PDS
+		add_core_of = PDS 
 		add_claim_by = NYA  
 		
 		victory_points = { 4387 3 }
@@ -27,8 +27,6 @@ state = {
 			industrial_complex = 1 
 		}
 		
-		add_core_of = PDS 
-		add_claim_by = NYA 
 	}
 	provinces = { 4387 4388 4389 }
 }

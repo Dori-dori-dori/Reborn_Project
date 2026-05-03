@@ -15,10 +15,9 @@ state = {
 		tungsten = 0 
 	} 
 	history = { 
-		owner = PDS
-		add_core_of = PDS
+		owner = PDS 
+		add_core_of = PDS 
 		add_claim_by = NYA 
-		
 		victory_points = { 4355 4 }
 		
 		buildings = { 
@@ -27,7 +26,6 @@ state = {
 			industrial_complex = 1 
 		}
 		
-		add_claim_by = NYA 
 	}
 	provinces = { 4354 4355 4356 }
 }
