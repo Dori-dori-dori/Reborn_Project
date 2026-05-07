@@ -16,6 +16,7 @@ state = {
 	} 
 	history = { 
 		owner = PDS 
+		add_core_of = PDS
 		
 		victory_points = { 4171 7 }
 		victory_points = { 4172 5 }

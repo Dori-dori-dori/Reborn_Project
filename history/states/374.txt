@@ -16,6 +16,7 @@ state = {
 	} 
 	history = { 
 		owner = FUT 
+		add_core_of = FUT
 		
 		victory_points = { 2299 4 }
 		victory_points = { 2300 4 }

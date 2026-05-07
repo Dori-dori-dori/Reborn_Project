@@ -16,6 +16,7 @@ state = {
 	} 
 	history = { 
 		owner = TEA 
+		add_core_of = TEA
 		
 		victory_points = { 3432 3 }
 		victory_points = { 3435 3 }

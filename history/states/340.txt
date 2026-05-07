@@ -16,6 +16,7 @@ state = {
 	} 
 	history = { 
 		owner = MET 
+		add_core_of = MET
 		
 		victory_points = { 2112 4 }
 		victory_points = { 2114 2 }

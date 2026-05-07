@@ -16,6 +16,7 @@ state = {
 	} 
 	history = { 
 		owner = BUL 
+		add_core_of = BUL
 		
 		victory_points = { 2402 8 }
 		

@@ -26,14 +26,22 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
-	id = ekna.12
-	title = ekna.12.t
-	desc = ekna.12.d
-	picture = x
+	id = NYA_citizens.3
+	title = NYA_citizens.3.t
+	desc = NYA_citizens.3.d
+	picture = GFX_report_event_german_reichstag_gathering
 	is_triggered_only = yes
-	fire_only_once = yes
+
 	option = {
-        name = ekna.12.a
-    }
+		name = NYA_citizens.3.a
+		
+				name = NYA_citizens.2.a
+				add_political_power = 100
+				custom_effect_tooltip = {
+					localization_key = NYA_Decision_Emergency_Measures
+				}
+			
+	}
 }

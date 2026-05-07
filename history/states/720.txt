@@ -16,6 +16,7 @@ state = {
 	} 
 	history = { 
 		owner = NYA 
+		add_core_of = NYA
 		
 		victory_points = { 4479 3 }
 		victory_points = { 4480 3 }

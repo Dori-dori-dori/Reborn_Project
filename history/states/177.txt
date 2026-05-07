@@ -16,6 +16,7 @@ state = {
 	} 
 	history = { 
 		owner = OKS 
+		add_core_of = OKS
 		
 		victory_points = { 1174 5 }
 		victory_points = { 1178 5 }

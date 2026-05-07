@@ -16,6 +16,26 @@ state = {
 	} 
 	history = { 
 		owner = BLI 
+		add_core_of = XYD
+		add_core_of = TOX
+		add_core_of = TEA
+		add_core_of = SSG
+		add_core_of = PDS
+		add_core_of = NYA
+		add_core_of = NIG
+		add_core_of = MET
+		add_core_of = MEM
+		add_core_of = LOB
+		add_core_of = KFC
+		add_core_of = IDK
+		add_core_of = GUL
+		add_core_of = FUT
+		add_core_of = DAC
+		add_core_of = CHE
+		add_core_of = CHC
+		add_core_of = CHA
+		add_core_of = BUL
+		add_core_of = BLI
 		
 		victory_points = { 2341 2 }
 		victory_points = { 2342 4 }

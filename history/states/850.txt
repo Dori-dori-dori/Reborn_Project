@@ -16,6 +16,17 @@ state = {
 	} 
 	history = { 
 		owner = KFC 
+		add_core_of = XYD
+		add_core_of = TOX
+		add_core_of = TEA
+		add_core_of = SSG
+		add_core_of = PDS
+		add_core_of = NYA
+		add_core_of = NIG
+		add_core_of = MET
+		add_core_of = MEM
+		add_core_of = LOB
+		add_core_of = KFC
 		
 		victory_points = { 5340 4 }
 		

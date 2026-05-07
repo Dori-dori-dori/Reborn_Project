@@ -16,6 +16,7 @@ state = {
 	} 
 	history = { 
 		owner = DAC 
+		add_core_of = DAC
 		
 		victory_points = { 578 7 }
 		victory_points = { 579 1 }

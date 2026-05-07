@@ -16,6 +16,7 @@ state = {
 	} 
 	history = { 
 		owner = MEM 
+		add_core_of = MEM
 		
 		victory_points = { 3149 4 }
 		

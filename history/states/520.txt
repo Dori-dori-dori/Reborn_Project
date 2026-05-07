@@ -12,6 +12,7 @@ state = {
 	} 
 	history = { 
 		owner = TOX 
+		add_core_of = TOX
 		
 		victory_points = { 3115 3 }
 		victory_points = { 3116 2 }

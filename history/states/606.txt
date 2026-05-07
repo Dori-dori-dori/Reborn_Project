@@ -16,6 +16,7 @@ state = {
 	} 
 	history = { 
 		owner = SSG 
+		add_core_of = SSG
 		
 		victory_points = { 3720 3 }
 		victory_points = { 3721 2 }

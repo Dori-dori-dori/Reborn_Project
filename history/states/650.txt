@@ -16,6 +16,7 @@ state = {
 	} 
 	history = { 
 		owner = LOB 
+		add_core_of = LOB
 		
 		victory_points = { 4025 1 }
 		victory_points = { 4027 2 }
