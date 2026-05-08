@@ -25,8 +25,6 @@ state = {
 			arms_factory = 2 
 			industrial_complex = 1 
 		}
-		
-		add_core_of = NIG 
-	}
+}
 	provinces = { 2628 2629 2630 2631 2632 2633 2634 2635 2636 2637 2638 2639 2640 2641 2642 2643 }
 }

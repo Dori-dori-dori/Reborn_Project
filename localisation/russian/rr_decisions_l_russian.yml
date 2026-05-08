@@ -1,6 +1,7 @@
 ﻿l_russian:
   ###ЭКНА
- NYA_Decision_Emergency_Measures: "У нас появляется возможность успокоить население!"
+  NYA_Decision_Emergency_Measures: "У нас появляется возможность успокоить население!"
+  BLI_Decision_Fall_of_Empire_Timeout: "Падение империи"
 #  develop_hellpancake_tungsten_deposits: "Разработка месторождений вольфрама в Хеллпанкейке"
 #  develop_hellpancake_tungsten_deposits_desc: "Разработка месторождений вольфрама в Хеллпанкейке"
 #  new_factory_construction: "Новый дизайн фабрик"

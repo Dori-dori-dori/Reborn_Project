@@ -49,8 +49,6 @@ on_actions = {
 					drop_cosmetic_tag = yes
 				}
 			}
-
 		}
-		
 	}
 }

@@ -14,35 +14,13 @@ state = {
 	history = { 
 		owner = TOX 
 		add_core_of = TOX
-		add_core_of = TEA
-		add_core_of = SSG
-		add_core_of = PDS
-		add_core_of = NYA
-		add_core_of = NIG
-		add_core_of = MET
-		add_core_of = MEM
-		add_core_of = LOB
-		add_core_of = KFC
-		add_core_of = IDK
-		add_core_of = GUL
-		add_core_of = FUT
-		add_core_of = DAC
-		add_core_of = CHE
-		add_core_of = CHC
-		add_core_of = CHA
-		add_core_of = BUL
-		add_core_of = BLI
-		add_core_of = ADF
-		
-		victory_points = { 2189 12 }
+victory_points = { 2189 12 }
 		
 		buildings = { 
 			infrastructure = 2 
 			arms_factory = 0 
 			industrial_complex = 1 
 		}
-		
-		add_core_of = OKS 
-	}
+}
 	provinces = { 2187 2188 2189 2190 2191 2192 2193 2194 2195 }
 }

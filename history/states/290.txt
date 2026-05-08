@@ -24,8 +24,6 @@ state = {
 			industrial_complex = 1 
 			1860 = { naval_base = 1 }
 		}
-		
-		add_core_of = NIG 
-	}
+}
 	provinces = { 1860 1861 1862 1863 1864 }
 }
