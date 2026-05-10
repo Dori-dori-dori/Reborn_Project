@@ -16,16 +16,14 @@ crisis = {
 				}
 			}
 		}
+		fire_only_once = yes
 		timeout_effect = {
-			if = {
-				limit = { 
-					ROOT = { is_subject_of = BLI} 
-				}
-				BLI = {
-					end_puppet = FROM
-				}
+			every_subject_country = {
+				limit = { is_subject_of = BLI }
+				end_puppet = PREV
+				leave_faction = yes
 				declare_war_on = {
-					target = BLI
+					target = PREV
 					type = annex_everything
 				}
 			}

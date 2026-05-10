@@ -56,9 +56,9 @@ bookmarks = {
 				OKS_Raskumar
 			}
 		}
-		"TEA"={
-			ideology = democratic
-			history = "TEA_GATHERING_STORM_DESC"
+		"BLI"={
+			ideology = despotism
+			history = "BLI_GATHERING_STORM_DESC"
 		}
 		"---"={
 			history = "OTHER_BLITZKRIEG_DESC"
