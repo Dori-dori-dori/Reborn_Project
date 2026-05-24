@@ -1,7 +1,7 @@
 continents = {
 	#Custom continents
-	Edenium
 	Reborn_Islands
+	Edenium
 	Libium
 	
 	

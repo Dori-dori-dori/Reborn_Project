@@ -386,7 +386,7 @@ focus_tree = {
 			focus = SSG_Witchers
 			focus = SSG_Nefors
 		}
-		x = 0
+		x = 8
 		y = 3
 
 	}

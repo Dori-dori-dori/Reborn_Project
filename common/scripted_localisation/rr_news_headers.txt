@@ -3,13 +3,13 @@ defined_text = {
 	
 	text = {
 		trigger = {
-			original_tag = OKS
+			has_country_flag = lomka_headline
 		}
 		localization_key = news_headline_lomka
 	}
 	text = {
 		trigger = {
-			original_tag = NYA
+			has_country_flag = bobrino_headline
 		}
 		localization_key = news_headline_bobrino
 	}

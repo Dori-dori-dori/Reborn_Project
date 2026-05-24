@@ -4,6 +4,8 @@ set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.9
 set_oob = NYA_Army
+set_country_flag = bobrino_headline
+
 add_manpower = 10000000
 add_breakthrough_points = {
 	specialization = specialization_land

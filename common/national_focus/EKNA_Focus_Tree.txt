@@ -358,8 +358,17 @@
 		icon = GFX_surrender_tiny_flag
 		cost = x
 		x = x
-		y = x
-		completion_reward = { }
+		y = 1
+		relative_position_id = NYA_Question_of_Radicals
+		prerequisite = { 
+			focus = NYA_Question_of_Radicals
+		}
+		available = {
+			has_country_flag = NYA_radicals_accepted
+		}
+		completion_reward = { 
+			add_ideas = NYA_Army_Mindclean
+		}
 	}
 	focus = {
 		id = NYA_Re-equip_Soldiers

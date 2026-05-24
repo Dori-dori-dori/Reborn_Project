@@ -36,12 +36,23 @@ country_event = {
 
 	option = {
 		name = NYA_citizens.3.a
-		
-				name = NYA_citizens.2.a
-				add_political_power = 100
-				custom_effect_tooltip = {
-					localization_key = NYA_Decision_Emergency_Measures
-				}
-			
+		name = NYA_citizens.2.b
+		add_political_power = 100
+		custom_effect_tooltip = {
+			localization_key = NYA_Decision_Emergency_Measures
+		}
+	}
+}
+country_event = {
+	id = NYA_army.1
+	title = NYA_army.1.t
+	desc = NYA_army.1.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = NYA_army.1.a
+		name = NYA_army.1.b
+		set_country_flag = NYA_radicals_accepted
 	}
 }

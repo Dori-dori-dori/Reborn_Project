@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		NYA_Ahnenerbe_start ={
+		NYA_Ahnenerbe_start = {
 			picture = ahnenerbe
 			allowed_civil_war = {
 				always = yes
@@ -11,7 +11,7 @@ ideas = {
 				non_core_manpower = -0.1
 			}
 		}
-		NYA_Passive_Resistance ={
+		NYA_Passive_Resistance = {
 			picture = passive_resistance
 			allowed_civil_war = {
 				always = yes
@@ -20,7 +20,7 @@ ideas = {
 				enemy_occupation_drift = -0.1
 			}
 		}
-		NYA_Militarized_Society_Remains ={
+		NYA_Militarized_Society_Remains = {
 			picture = militarized_society
 			allowed_civil_war = {
 				always = yes
@@ -28,6 +28,17 @@ ideas = {
 			modifier = {
 				army_experience_gain = 0.1
 				land_doctrine_speed = 0.1
+			}
+		}
+		NYA_Army_Mindclean = {
+			picture = x
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				org_loss_at_low_org_factor = -0.2
+				army_defence_factor = -0.1
+				army_attack_factor = 0.05
 			}
 		}
     }

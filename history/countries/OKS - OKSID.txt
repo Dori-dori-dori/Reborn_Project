@@ -4,6 +4,7 @@ set_research_slots = 3
 set_stability = 0.3
 set_war_support = 0.7
 set_oob = OKS_Army
+set_country_flag = lomka_headline
 
 add_ideas = {
 	OKS_Moon_Light
