@@ -1,0 +1,26 @@
+add_namespace = ADIF_political
+
+country_event = {
+	id = ADIF_political.1
+	title = ADIF_political.1.t
+	desc = ADIF_political.1.d
+	picture = GFX_country_event_psycho_adif
+	is_triggered_only = yes
+
+	option = {
+		name = ADIF_political.1.a
+		country_event = ADIF_political.2
+	}
+}
+country_event = {
+	id = ADIF_political.2
+	title = ADIF_political.2.t
+	desc = ADIF_political.2.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = ADIF_political.2.a
+		
+	}
+}

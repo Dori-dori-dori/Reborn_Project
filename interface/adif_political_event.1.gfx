@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_country_event_psycho_adif"
+		texturefile = "gfx/event_pictures/adif_political_event.1.png"
+	}
+}

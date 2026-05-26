@@ -26,7 +26,12 @@ spriteTypes = {
 		name = "GFX_news_event_02"
 		texturefile = "gfx/event_pictures/news_event_02.dds"
 	}
+	spriteType = {
+		name = "GFX_country_event_psycho_adif"
+		texturefile = "gfx/event_pictures/good_bad_ugly.dds"
+	}
 }
+
 
 
 
