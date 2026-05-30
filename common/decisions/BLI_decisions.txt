@@ -2,6 +2,14 @@ crisis = {
 	fall_of_empire = {
 		icon = generic_form_nation
 		days_mission_timeout = 10
+		visible = {
+			tag = BLI
+			if = {
+				limit = { 
+					THIS = { is_subject_of = BLI } 
+				}
+			}
+		}
 		allowed = {
 			always = yes
 		}

@@ -11,6 +11,16 @@ ideas = {
 				non_core_manpower = -0.1
 			}
 		}
+		NYA_protest_people = {
+			picture = x
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_weekly = -0.005
+				war_support_weekly = -0.001
+			}
+		}
 		NYA_Passive_Resistance = {
 			picture = passive_resistance
 			allowed_civil_war = {

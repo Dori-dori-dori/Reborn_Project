@@ -1,6 +1,9 @@
 capital = 100
 set_research_slots = 3
 load_focus_tree = generic_focus
+create_faction = faction_libium_continent
+
+
 set_politics = {
 	ruling_party = despotism
 	last_election = "1932.1.1"

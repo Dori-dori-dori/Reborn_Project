@@ -8,8 +8,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = NYA_citizens.1.a
-		add_stability = -0.01
-		country_event = { days = 10 id = NYA_citizens.2 }
 	}
 }
 country_event = {
@@ -24,6 +22,7 @@ country_event = {
 		custom_effect_tooltip = {
 			localization_key = NYA_Decision_Emergency_Measures
 		}
+		add_ideas = NYA_protest_people
 	}
 }
 

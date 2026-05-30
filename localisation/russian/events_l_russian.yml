@@ -41,6 +41,9 @@
   sp_event_Witcher_Victory: "Победа ведьмаков в Гражданской войне"
   sp_event_Witcher_Victory_QUOTE: "ВЕДЬМАКИ РАСПАЛИСЬ? НЕТ! ОНИ ЖИВЫ! РАЗВАЛИЛАСЬ СТРАНА! НО ГИЛЬДИЮ Я РАЗВАЛИТЬ НЕ ДАМ!"
   sp_event_Witcher_Victory_REMARK: "Venatores Impiorum"
+  sp_event_Civil_War: "Распад Империи"
+  sp_event_Civil_War_QUOTE: "Кто бы мог подумать, что ещё вчера, единая империя, сегодня будет лежать в руинах от рук своих же преданных сторонников короны?"
+  sp_event_Civil_War_REMARK: "Это такой конец"
 
 
  ##АДИФ##

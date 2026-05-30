@@ -15,8 +15,9 @@ state = {
 		tungsten = 1 
 	} 
 	history = { 
-		owner = LOB 
-		add_core_of = LOB
+		owner = MEM
+		add_core_of = MEM
+		remove_core_of = LOB
 		
 		victory_points = { 4444 4 }
 		

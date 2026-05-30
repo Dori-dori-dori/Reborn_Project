@@ -32,6 +32,12 @@ defined_text = {
         }
         localization_key = "sp_event_Witcher_Victory"
     }
+    text = {
+        trigger = {
+            has_global_flag = BLI_Civil_War
+        }
+        localization_key = "sp_event_Civil_War"
+    }
 }
 
 #Quotes
@@ -68,6 +74,12 @@ defined_text = {
         }
         localization_key = "sp_event_Witcher_Victory_QUOTE"
     }
+    text = {
+        trigger = {
+            has_global_flag = BLI_Civil_War
+        }
+        localization_key = "sp_event_Civil_War_QUOTE"
+    }
 }
 
 #Remarks
@@ -103,5 +115,11 @@ defined_text = {
             has_global_flag = WIT_Civil_War_Victory
         }
         localization_key = "sp_event_Witcher_Victory_REMARK"
+    }
+    text = { 
+        trigger = {
+            has_global_flag = BLI_Civil_War
+        }
+        localization_key = "sp_event_Civil_War_REMARK"
     }
 }
