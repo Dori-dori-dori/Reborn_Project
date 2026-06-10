@@ -18,6 +18,11 @@ set_popularities = {
 	despotism = 75
 }
 
+add_ideas = {
+	BLI_falling_empire
+}
+
+
 set_autonomy = {
 	target = CHA
 	autonomy_state = autonomy_personal_union

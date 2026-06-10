@@ -14,7 +14,7 @@
 
 	focus = {
 		id = NYA_The_Great_Depression
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_BRA_utilize_security_law
 		cost = x
 		x = 8
 		y = 0
@@ -24,7 +24,7 @@
 	}
 	focus = {
 		id = NYA_Emergency_Measures
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_BRA_work_with_the_integralists
 		cost = x
 		x = 0
 		y = 1
@@ -38,7 +38,7 @@
 	}
 	focus = {
 		id = NYA_Phase_One
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_CHI_arrest_the_seven_gentlemen
 		cost = x
 		x = x
 		y = 1
@@ -52,7 +52,7 @@
 	}
 	focus = {
 		id = NYA_Calm_Down_Population
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_CHI_commemorate_labour_corp
 		cost = x
 		x = -2
 		y = 1
@@ -70,7 +70,7 @@
 	}
 	focus = {
 		id = NYA_Croos_The_Streets
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_CHL_domestic_production_of_the_willys_mb
 		cost = x
 		x = x
 		y = 1
@@ -82,7 +82,7 @@
 	}
 	focus = {
 		id = NYA_Call_the_Police
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_fra_french_union
 		cost = x
 		x = x
 		y = 2
@@ -99,7 +99,7 @@
 	}
 	focus = {
 		id = NYA_Secure_Goverment_Places
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_CHL_an_imperial_capital
 		cost = x
 		x = -2
 		y = 1
@@ -112,7 +112,7 @@
 	}
 	focus = {
 		id = NYA_Citizens_On_First
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_CHI_tongzi_jun
 		cost = x
 		x = 0
 		y = 1
@@ -124,7 +124,7 @@
 	}
 	focus = {
 		id = NYA_Censorship_for_Safety
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_FIN_national_fanatism
 		cost = x
 		x = x
 		y = 1
@@ -136,7 +136,7 @@
 	}
 	focus = {
 		id = NYA_Rebuild_The_Goverment
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_CHI_empower_mtac
 		cost = x
 		x = 2
 		y = 1
@@ -149,7 +149,7 @@
 	}
 	focus = {
 		id = NYA_Question_Landtag
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_CHL_restore_the_old_kingdom
 		cost = x
 		x = x
 		y = 1
@@ -157,11 +157,13 @@
 		prerequisite = {
 			focus = NYA_Rebuild_The_Goverment
 		}
-		completion_reward = { }
+		completion_reward = { 
+			##Новая система губернаторств
+		}
 	}
 	focus = {
 		id = NYA_Rethink_Goverment_Structure
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_CONGO_societe_generale_de_belgique
 		cost = x
 		x = x
 		y = 2
@@ -174,7 +176,7 @@
 	}
 	focus = {
 		id = NYA_New_Voting_System
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_CHL_high_quality_nitrate
 		cost = x
 		x = 2
 		y = 1
@@ -190,7 +192,7 @@
 	#ВТОРАЯ ФАЗА
 	focus = {
 		id = NYA_Phase_Two
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_air_defense
 		cost = x
 		x = x
 		y = 2
@@ -204,11 +206,13 @@
 		prerequisite = {
 			focus = NYA_Call_the_Police
 		}
-		completion_reward = { }
+		completion_reward = { 
+			##Ивент где у комода ничего не получится
+		}
 	}
 	focus = {
 		id = NYA_New_Dawn
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_army_doctrines_2
 		cost = x
 		x = 1
 		y = 1
@@ -224,7 +228,7 @@
 	}
 	focus = {
 		id = NYA_End_of_Country_Sufferings
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_army_attack
 		cost = x
 		x = -1
 		y = 1
@@ -239,11 +243,209 @@
 
 		}
 	}
+	focus = {
+		id = NYA_Turn_Left
+		icon = GFX_focus_generic_court
+		cost = x
+		x = -2
+		y = 1
+		relative_position_id = NYA_End_of_Country_Sufferings
+		prerequisite = { 
+			focus = NYA_End_of_Country_Sufferings 
+		}
+		completion_reward = { 
+			##Коммунистический путь
+		}
+	}
+	focus = {
+		id = NYA_Launch_Reforms_Again
+		icon = GFX_focus_AFG_against_kabul
+		cost = x
+		x = -4
+		y = 1
+		available = {
+			NOT = {
+				is_country_leader = NYA_Komodus
+			}
+		}
+		relative_position_id = NYA_Turn_Left
+		prerequisite = { 
+			focus = NYA_Turn_Left 
+		}
+		completion_reward = { 
+			##Решение о реформах в разных сферах
+		}
+	}
+	focus = {
+		id = NYA_Prepare_Squad
+		icon = GFX_focus_attack_australia
+		cost = x
+		x = -2
+		y = 1
+		relative_position_id = NYA_Turn_Left
+		prerequisite = { 
+			focus = NYA_Turn_Left 
+		}
+		completion_reward = {
+			##Подготовка отряда для свержение правительства
+		}
+	}
+	focus = {
+		id = NYA_Send_Mail
+		icon = GFX_focus_generic_army_tanks2
+		cost = x
+		x = x
+		y = 1
+		mutually_exclusive = { focus = NYA_With_People }
+		relative_position_id = NYA_Prepare_Squad
+		prerequisite = { 
+			focus = NYA_Prepare_Squad 
+		}
+		completion_reward = { 
+			##Письмо, согласен ли он сдать власть добровольно или нет
+			set_variable = {
+				name = NYA_Komodus_Response
+				value = 1 #Если согласен, то 2, если нет, то 3
+			}
+			set_variable_to_random = {
+				var = NYA_Komodus_Response
+				min = 1
+				max = 2
+			}
+		}
+	}
+	focus = {
+		id = NYA_Start_Reorganization_of_Goverment
+		icon = GFX_focus_SOV_organization_centralization_discipline
+		cost = x
+		x = x
+		y = 1
+		available = {
+			has_civil_war = no
+		}
+		relative_position_id = NYA_Send_Mail
+		prerequisite = { 
+			focus = NYA_Send_Mail 
+			focus = NYA_With_People
+		}
+		completion_reward = { 
+			##Перестановки в правительстве
+		}
+	}
+	focus = {
+		id = NYA_Denounse_Bad_Protocols
+		icon = GFX_focus_FIN_approach_the_soviets
+		cost = x
+		x = -2
+		y = 1
+		relative_position_id = NYA_Send_Mail
+		prerequisite = { 
+			focus = NYA_Send_Mail 
+			focus = NYA_With_People
+		}
+		completion_reward = { 
+			##Расторжение несправедливых договоров
+		}
+	}
+	focus = {
+		id = NYA_Call_for_People
+		icon = GFX_focus_generic_court
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_Turn_Left
+		prerequisite = { 
+			focus = NYA_Turn_Left 
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_With_People
+		icon = GFX_focus_generic_adriatic_sea_focus
+		cost = x
+		x = x
+		y = 1
+		mutually_exclusive = { focus = NYA_Send_Mail }
+		relative_position_id = NYA_Call_for_People
+		prerequisite = { 
+			focus = NYA_Call_for_People 
+		}
+		completion_reward = { 
+			##Штурм рейхстага
+		}
+	}
+	focus = {
+		id = NYA_Stop_Army
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_With_People
+		prerequisite = { 
+			focus = NYA_Send_Mail 
+			focus = NYA_With_People
+		}
+		completion_reward = { 
+			##Остановить армию от штурма столицы
+		}
+	}
+	focus = {
+		id = NYA_Problem_With_Komod_Supporters
+		icon = GFX_focus_ARG_british_influences
+		cost = x
+		x = 2
+		y = 1
+		relative_position_id = NYA_With_People
+		prerequisite = { 
+			focus = NYA_Send_Mail 
+			focus = NYA_With_People
+		}
+		completion_reward = { 
+			##Ивент где решается судьба поддерживающих комода
+		}
+	}
+	focus = {
+		id = NYA_New_Red_Dawn
+		icon = GFX_focus_AFG_from_the_ashes
+		cost = x
+		x = -1
+		y = 1
+		relative_position_id = NYA_Stop_Army
+		prerequisite = { 
+			focus = NYA_Denounse_Bad_Protocols
+		}
+		prerequisite = { 
+			focus = NYA_Start_Reorganization_of_Goverment 
+		}
+		prerequisite = { 
+			focus = NYA_Stop_Army 
+		}
+		prerequisite = { 
+			focus = NYA_Problem_With_Komod_Supporters 
+		}
+		completion_reward = { 
+			##Путь на коммунистов
+		}
+	}
+	focus = {
+		id = NYA_Turn_Right
+		icon = GFX_focus_generic_court
+		cost = x
+		x = 2
+		y = 1
+		relative_position_id = NYA_New_Dawn
+		prerequisite = { 
+			focus = NYA_New_Dawn 
+		}
+		completion_reward = { 
+			##Путь на националистов
+		}
+	}
 
 	#Военная ветка
 	focus = {
 		id = NYA_General_Conferesion
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_court
 		cost = x
 		x = 20
 		y = x
@@ -252,7 +454,7 @@
 	}
 	focus = {
 		id = NYA_Fast_and_Furious
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_court
 		cost = x
 		x = -1
 		y = 1
@@ -267,7 +469,7 @@
 	}
 	focus = {
 		id = NYA_New_Transmission
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_court
 		cost = x
 		x = -2
 		y = 1
@@ -279,7 +481,7 @@
 	}
 	focus = {
 		id = NYA_Goddess_of_Battle
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_court
 		cost = x
 		x = 1
 		y = 1
@@ -294,7 +496,7 @@
 	}
 	focus = {
 		id = NYA_Matter_of_Size
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_court
 		cost = x
 		x = 2
 		y = 1
@@ -306,7 +508,7 @@
 	}
 	focus = {
 		id = NYA_Reforming_Army
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_court
 		cost = x
 		x = x
 		y = 2
@@ -319,7 +521,7 @@
 	}
 	focus = {
 		id = NYA_Investigate_Army
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_court
 		cost = x
 		x = x
 		y = 1
@@ -331,7 +533,7 @@
 	}
 	focus = {
 		id = NYA_New_Warfate_Poligons
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_court
 		cost = x
 		x = -2
 		y = 1
@@ -343,7 +545,7 @@
 	}
 	focus = {
 		id = NYA_Question_of_Radicals
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_court
 		cost = x
 		x = x
 		y = 1
@@ -355,7 +557,7 @@
 	}
 	focus = {
 		id = NYA_Propagand_in_Barracks
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_court
 		cost = x
 		x = x
 		y = 1
@@ -372,7 +574,7 @@
 	}
 	focus = {
 		id = NYA_Re-equip_Soldiers
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_court
 		cost = x
 		x = 2
 		y = 1
@@ -385,7 +587,7 @@
 	#Экономическая ветка
 	focus = {
 		id = NYA_Economic_Reform
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focus_generic_court
 		cost = x
 		x = 30
 		y = x

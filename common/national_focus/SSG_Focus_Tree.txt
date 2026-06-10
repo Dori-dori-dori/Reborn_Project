@@ -1535,6 +1535,8 @@ focus_tree = {
 		id = SSG_Soviet_Monarchism
 		icon = GFX_goal_unknown
 		cost = 10.00
+		x = 5
+		y = 2
 		relative_position_id = SSG_Arrest_Extremist
 		prerequisite = {
 			focus = SSG_Unify_Party
@@ -1545,9 +1547,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SSG_Never_Again
 		}
-		x = 5
-		y = 2
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = SSG_Autocraty_Way
@@ -1748,13 +1750,15 @@ focus_tree = {
 		id = SSG_New_Breakings
 		icon = GFX_goal_unknown
 		cost = 10.00
+		x = 1
+		y = 1
 		relative_position_id = SSG_Strong_Science
 		prerequisite = {
 			focus = SSG_Strong_Science
 		}
-		x = 1
-		y = 1
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = SSG_Final_Countdown

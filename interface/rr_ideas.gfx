@@ -150,4 +150,12 @@ spritetypes = {
 		name = GFX_idea_ahnenerbe
 		textureFile = "gfx/interface/ideas/NYA/NYA_Ahnenerbe.dds"
 	}
+
+
+	####ИМПЕРИЯ
+
+	spriteType = {
+		name = GFX_idea_falling_empire
+		textureFile = "gfx/interface/ideas/BLI_falling_empire.dds"
+	}
 }

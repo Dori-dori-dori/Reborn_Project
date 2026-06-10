@@ -43,6 +43,20 @@ country_event = {
 	}
 }
 country_event = {
+	id = NYA_politics.1
+	title = NYA_politics.1.t
+	desc = NYA_politics.1.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = NYA_politics.1.a
+		
+		name = NYA_politics.1.b
+		
+	}
+}
+country_event = {
 	id = NYA_army.1
 	title = NYA_army.1.t
 	desc = NYA_army.1.d

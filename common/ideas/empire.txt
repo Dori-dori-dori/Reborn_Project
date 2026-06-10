@@ -1,0 +1,11 @@
+ideas = {
+	country = {
+		BLI_falling_empire = {
+			picture = falling_empire
+			modifier = {
+				stability_factor = -0.025
+				war_support_factor = -0.025
+			}
+		}
+	}
+}

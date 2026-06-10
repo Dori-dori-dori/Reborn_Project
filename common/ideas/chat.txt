@@ -1,48 +1,20 @@
 ideas = {
-	country = {
-                CHE_For_The_Motherland = {
-                        picture = s
-                        available = {
-                                has_war_with = OKS
-                        }
-                        targeted_modifier = {
-                                tag = OKS
-                                attack_bonus_against = 0.2
-                                defense_bonus_against = 0.2
-                        }
-                }
-                CHE_Huge_Population = {
-                        picture = Generic_goods_red_bonus
-                        modifier = {
-                                monthly_population = 3.2
-                        }
-                }
-                CHE_Pluralism_of_Opinion = {
-                        picture = Generic_democratic_drift_bonus
-                        modifier = {
-                                stability_weekly = -0.08
-                                fascism_acceptance = -100
-                                communism_acceptance = -100
-                        }
-                }
-                CHE_Chat_Army_Reform = {
-                        picture = Idea_DEN_occupation_laws
-                        modifier = {
-                                offence = 1.5
-                                defence = 0.9
-                                army_defence_factor = 1.5
-                                army_defence_against_major_factor = 3.5
-                                army_defence_against_minor_factor = 1.5
-                        }
-                }
-                CHE_Sky_Shield_for_Liberty = {
-                        picture = Air_war_plans_division
-                        modifier = {
-                                air_defence_factor = 3.5
-                                air_interception_detect_factor = 2.5
-                                air_cas_efficiency = 1.7
-                                enemy_army_bonus_air_superiority_factor = 3.5
-                        }
-                }
-        }
+    country = {
+		CHE_empire_resource_dummy = {
+			picture = empire_resource_dummy
+			targeted_modifier = {
+				tag = BLI
+				cic_to_overlord_factor = 0.5
+				mic_to_overlord_factor = 0.5
+			}	
+		}
+		CHE_industrial_puppet = {
+			picture = industrial_puppet
+			modifier = {
+				cic_construction_boost = 0.15
+				consumer_goods_factor = 0.25
+				local_resources_factor = 0.25
+			}
+		}
+	}
 }
