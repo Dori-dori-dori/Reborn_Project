@@ -307,11 +307,6 @@
 				name = NYA_Komodus_Response
 				value = 1 #Если согласен, то 2, если нет, то 3
 			}
-			set_variable_to_random = {
-				var = NYA_Komodus_Response
-				min = 1
-				max = 2
-			}
 		}
 	}
 	focus = {
@@ -441,6 +436,20 @@
 			##Путь на националистов
 		}
 	}
+	focus = {
+		id = NYA_Puppet_on_Scene
+		icon = GFX_focus_por_iberian_summit
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_Turn_Right
+		prerequisite = { 
+			focus = NYA_Turn_Right 
+		}
+		completion_reward = { 
+			##Оставить лидера в качестве марионетки, а реальная власть будет у других лиц
+		}
+	}
 
 	#Военная ветка
 	focus = {
@@ -449,7 +458,13 @@
 		cost = x
 		x = 20
 		y = x
-		completion_reward = { #Ивент, где выбирается основная доктрина 
+		completion_reward = { 
+			#Ивент, где выбирается основная доктрина армии
+			##Выбор между агрессивной, оборонительной и сбалансированной доктриной
+			##Выбор между фокусом на пехоту, танки или авиацию
+			##Выбор между фокусом на качество или количество войск
+			##Выбор между фокусом на модернизацию или расширение армии
+			##Выбор между фокусом на внутреннюю безопасность или внешнюю угрозу
 		}
 	}
 	focus = {
@@ -591,6 +606,195 @@
 		cost = x
 		x = 30
 		y = x
+		completion_reward = { 
+			##Сводка о последствиях Великой депрессии и о том, что нужно делать для выхода из кризиса
+		}
+	}
+	focus = {
+		id = NYA_Steel_Digging
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 2
+		y = 1
+		relative_position_id = NYA_Economic_Reform
+		prerequisite = {
+			focus = NYA_Economic_Reform
+		}
+		completion_reward = { 
+			##Разработка стали в районе
+		}
+	}
+	focus = {
+		id = NYA_Resource_Explorer_Corps
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -2
+		y = 1
+		relative_position_id = NYA_Economic_Reform
+		prerequisite = { focus = NYA_Economic_Reform }
+		completion_reward = { 
+			##Решение о разведке ресурсов в стране
+		}
+	}
+	focus = {
+		id = NYA_Steel_Sector_Factory
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 0
+		y = 1
+		relative_position_id = NYA_Steel_Digging
+		prerequisite = { focus = NYA_Steel_Digging }
+		completion_reward = { 
+			##Решение о строительстве фабрик и разработка стали в стране
+		}
+	}
+	focus = {
+		id = NYA_Avtobans_Company
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 2
+		y = 1
+		relative_position_id = NYA_Resource_Explorer_Corps
+		prerequisite = { focus = NYA_Resource_Explorer_Corps }
+		completion_reward = { 
+			##Нац.дух который даст бонус к строительству инфраструктуры
+		}
+	}
+	focus = {
+		id = NYA_Cloth_Facility
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 0
+		y = 1
+		relative_position_id = NYA_Economic_Reform
+		prerequisite = { focus = NYA_Economic_Reform }
+		completion_reward = { 
+			##Фабрики и стабильность в стране
+		}
+	}
+	focus = {
+		id = NYA_Independence_in_Avtoprom
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -2
+		y = 1
+		relative_position_id = NYA_Avtobans_Company
+		prerequisite = { focus = NYA_Avtobans_Company }
+		completion_reward = { 
+			##Решение о независимости в автопроме
+		}
+	}
+	focus = {
+		id = NYA_Industrialize_STATE
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -3
+		y = 1
+		relative_position_id = NYA_Independence_in_Avtoprom
+		prerequisite = { focus = NYA_Independence_in_Avtoprom }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Expand_infrastructure_STATE
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_Industrialize_STATE
+		prerequisite = { focus = NYA_Industrialize_STATE }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Industrialize_Another_STATE
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -1
+		y = 1
+		relative_position_id = NYA_Independence_in_Avtoprom
+		prerequisite = { focus = NYA_Independence_in_Avtoprom }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_New_Ports_in_STATE
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_Industrialize_Another_STATE
+		prerequisite = { focus = NYA_Industrialize_Another_STATE }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Industrialize_And_STATE
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 1
+		y = 1
+		relative_position_id = NYA_Independence_in_Avtoprom
+		prerequisite = { focus = NYA_Independence_in_Avtoprom }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Civilian_Goods_in_STATE
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_Industrialize_And_STATE
+		prerequisite = { focus = NYA_Industrialize_And_STATE }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_Expand_Resource_Corps
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 0
+		y = 1
+		relative_position_id = NYA_Resource_Explorer_Corps
+		prerequisite = { focus = NYA_Resource_Explorer_Corps }
+		completion_reward = { 
+			##Решение о расширении ресурсов уже за пределы страны, дает нацдух тем, кто согласился на это
+		}
+	}
+	focus = {
+		id = NYA_Revive_Military_Factories
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 0
+		y = 2
+		relative_position_id = NYA_Steel_Sector_Factory
+		prerequisite = { 
+			focus = NYA_Steel_Sector_Factory 
+			focus = NYA_Independence_in_Avtoprom
+		}
+		completion_reward = { 
+			##Даст военные заводы
+		}
+	}
+	focus = {
+		id = NYA_New_Militarization_Tide
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_Revive_Military_Factories
+		prerequisite = { 
+			focus = NYA_Revive_Military_Factories
+		}
+		completion_reward = { 
+			##Даст нацдух, который даст бонус к производству военной техники
+		}
+	}
+	focus = {
+		id = NYA_Autarky_Attempt
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -2
+		y = 2
+		relative_position_id = NYA_New_Militarization_Tide
+		prerequisite = { focus = NYA_Independence_in_Avtoprom }
+		prerequisite = { focus = NYA_Steel_Sector_Factory }
+		prerequisite = { focus = NYA_New_Militarization_Tide }
 		completion_reward = { }
 	}
 }
