@@ -1,4 +1,6 @@
 add_namespace = NYA_citizens
+add_namespace = NYA_politics
+add_namespace = NYA_army
 
 country_event = {
 	id = NYA_citizens.1
@@ -51,7 +53,20 @@ country_event = {
 
 	option = {
 		name = NYA_politics.1.a
-		
+		random_list = {
+			50 = {
+				add_political_power = 100
+				custom_effect_tooltip = {
+					localization_key = NYA_Decision_Emergency_Measures
+				}
+			}
+			50 = {
+				add_political_power = -100
+				custom_effect_tooltip = {
+					localization_key = NYA_Decision_Emergency_Measures
+				}
+			}
+		}
 		name = NYA_politics.1.b
 		
 	}
