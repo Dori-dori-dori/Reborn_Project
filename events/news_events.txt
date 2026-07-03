@@ -82,3 +82,16 @@ news_event = {
 		}
 	}
 }
+##Распад Империи
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_report_event_generic_army
+	is_triggered_only = yes
+
+	option = {
+		name = news.6.a
+		
+	}
+}

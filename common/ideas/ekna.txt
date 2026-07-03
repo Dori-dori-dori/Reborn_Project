@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		NYA_Ahnenerbe_start = {
+		NYA_ahnenerbe_start = {
 			picture = ahnenerbe
 			allowed_civil_war = {
 				always = yes
@@ -8,6 +8,8 @@ ideas = {
 			modifier = {
 				despotism_drift = 0.01
 				research_speed_factor = 0.05
+				army_attack_factor = 0.1
+				army_org_factor = -0.15
 				non_core_manpower = -0.1
 			}
 		}
@@ -21,7 +23,7 @@ ideas = {
 				war_support_weekly = -0.001
 			}
 		}
-		NYA_Passive_Resistance = {
+		NYA_passive_resistance = {
 			picture = passive_resistance
 			allowed_civil_war = {
 				always = yes
@@ -30,17 +32,18 @@ ideas = {
 				enemy_occupation_drift = -0.1
 			}
 		}
-		NYA_Militarized_Society_Remains = {
-			picture = militarized_society
+		NYA_militarized_society_remains = {
+			picture = BEL_rexist_legion
 			allowed_civil_war = {
 				always = yes
 			}
 			modifier = {
-				army_experience_gain = 0.1
-				land_doctrine_speed = 0.1
+				experience_gain_army = 0.05	
+				land_doctrine_cost_factor = 0.4
+				production_speed_arms_factory_factor = 0.1
 			}
 		}
-		NYA_Army_Mindclean = {
+		NYA_army_mindclean = {
 			picture = x
 			allowed_civil_war = {
 				always = yes
@@ -49,6 +52,26 @@ ideas = {
 				org_loss_at_low_org_factor = -0.2
 				army_defence_factor = -0.1
 				army_attack_factor = 0.05
+			}
+		}
+		NYA_crisis_of_trust1 = {
+			picture = x
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -1.2
+				political_power_factor = -0.1
+			}
+		}
+		NYA_crisis_of_trust2 = {
+			picture = x
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -0.7
+				political_power_factor = -0.05
 			}
 		}
     }

@@ -35,6 +35,12 @@ crisis = {
 					type = annex_everything
 				}
 			}
+			hidden_effect = {
+				news_event = {
+					id = news.6
+					days = 5
+				}
+			}
 		}
 	}
 }

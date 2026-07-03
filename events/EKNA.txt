@@ -10,6 +10,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = NYA_citizens.1.a
+		add_political_power = 100
 	}
 }
 country_event = {
@@ -25,6 +26,10 @@ country_event = {
 			localization_key = NYA_Decision_Emergency_Measures
 		}
 		add_ideas = NYA_protest_people
+		swap_ideas = {
+			remove_idea = NYA_crisis_of_trust1
+			add_idea = NYA_crisis_of_trust2
+		}
 	}
 }
 
@@ -48,7 +53,7 @@ country_event = {
 	id = NYA_politics.1
 	title = NYA_politics.1.t
 	desc = NYA_politics.1.d
-	picture = GFX_report_event_generic
+	picture = GFX_report_event_german_troops
 	is_triggered_only = yes
 
 	option = {
@@ -75,7 +80,7 @@ country_event = {
 	id = NYA_army.1
 	title = NYA_army.1.t
 	desc = NYA_army.1.d
-	picture = GFX_report_event_generic
+	picture = GFX_report_event_generic_bombers
 	is_triggered_only = yes
 
 	option = {

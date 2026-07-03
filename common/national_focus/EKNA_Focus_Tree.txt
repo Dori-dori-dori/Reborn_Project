@@ -458,6 +458,18 @@
 		cost = x
 		x = 20
 		y = x
+		available = {
+			NOT = {
+				custom_trigger_tooltip = {
+					tooltip = NYA_access_denied
+					OR = {
+						has_idea = NYA_crisis_of_trust1
+						has_idea = NYA_crisis_of_trust2
+						has_idea = NYA_protest_people
+					}
+				}
+			}
+		}
 		completion_reward = { 
 			#Ивент, где выбирается основная доктрина армии
 			##Выбор между агрессивной, оборонительной и сбалансированной доктриной
