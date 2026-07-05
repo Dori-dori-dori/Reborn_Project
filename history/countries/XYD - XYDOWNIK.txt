@@ -2,6 +2,7 @@ capital = 184
 set_research_slots = 3
 set_stability = 0.3
 set_war_support = 0.7
+set_country_flag = lomka_headline
 load_focus_tree = generic_focus
 set_politics = {
 	ruling_party = despotism
