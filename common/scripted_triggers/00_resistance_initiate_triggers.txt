@@ -42,6 +42,7 @@ should_initiate_resistance = {
 		AND = {
 			has_state_flag = SPR_original_core
 			FROM = {
+				always = no
 			}
 			has_global_flag = scw_over
 		}

@@ -3,7 +3,7 @@ technologies = {
 	basic_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
-
+		equipment_conversion_speed = 0.2
 		
 		path = {
 			leads_to_tech = improved_machine_tools 
@@ -41,6 +41,7 @@ technologies = {
 	improved_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.2
 
 		path = {
 			leads_to_tech = advanced_machine_tools 
@@ -78,6 +79,7 @@ technologies = {
 	advanced_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.2
 		
 		path = {
 			leads_to_tech = assembly_line_production 
@@ -110,11 +112,7 @@ technologies = {
 	assembly_line_production = {
 	
 		production_factory_max_efficiency_factor = 0.1
-		
-		#path = {
-		#	leads_to_tech = improved_machine_tools 
-		#	research_cost_coeff = 1
-		#}
+		equipment_conversion_speed = 0.2
 		
 		path = {
 			leads_to_tech = flexible_line
@@ -215,14 +213,10 @@ technologies = {
 		}
 	}
 
-	#Conversion branch - Enabled in DoD
+	#Conversion branch - Enabled in DoD - Repurposed for Coal Energy Gain in NCNS - To be replaced in future
 	improved_equipment_conversion = {
-	
-		equipment_conversion_speed = 0.40
-
-		allow_branch = {
-			has_dlc = "Death or Dishonor"
-		}
+		energy_gain_factor = 0.15
+		#equipment_conversion_speed = 0.40
 
 		path = {
 			leads_to_tech = advanced_equipment_conversion
@@ -239,27 +233,34 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
+			
 			modifier = {
-				factor = 2
-				date > "1937.1.1"
+				factor = 10
+			
+				has_resources_in_country = {
+					resource = coal
+					amount > 0
+					only_imported = yes
+				}
 			}
 
 			modifier = {
-				factor = 0
-				NOT = { has_government = fascism }
+				factor = 5
+				energy_ratio < 0.9
 			}
 		}
 		
 		categories = {
 			industry
 			cat_production
+			construction_tech
+			excavation_tech		
 		}
 	}
 	
 	advanced_equipment_conversion = {
-		
-		equipment_conversion_speed = 0.40
+		energy_gain_factor = 0.15
+		#equipment_conversion_speed = 0.40
 
 		research_cost = 2
 		start_year = 1939
@@ -271,21 +272,28 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-
+			
 			modifier = {
-				factor = 2
-				date > "1937.1.1"
+				factor = 5
+			
+				has_resources_in_country = {
+					resource = coal
+					amount > 0
+					only_imported = yes
+				}
 			}
-
+			
 			modifier = {
-				factor = 0
-				NOT = { has_government = fascism }
+				factor = 5
+				energy_ratio < 0.9
 			}
 		}
 		
 		categories = {
 			industry
 			cat_production
+			construction_tech
+			excavation_tech	
 		}
 	}
 
@@ -294,6 +302,8 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory_powered = 0.075 
+		#industrial_capacity_dockyard_powered = 0.05 
 		global_building_slots_factor = 0.20
 		
 		path = {
@@ -314,6 +324,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 25
+
+
+			
+
+			
+
+			
+
 
 			modifier = {
 				factor = 0
@@ -345,6 +363,8 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory_powered = 0.1 
+		#industrial_capacity_dockyard_powered = 0.075 
 		global_building_slots_factor = 0.20
 		
 		path = {
@@ -384,6 +404,8 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory_powered = 0.125 
+		#industrial_capacity_dockyard_powered = 0.1 
 		global_building_slots_factor = 0.20
 		
 		path = {
@@ -422,6 +444,8 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory_powered = 0.15 
+		#industrial_capacity_dockyard_powered = 0.1 
 		global_building_slots_factor = 0.20
 		
 		path = {
@@ -460,6 +484,8 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory_powered = 0.15 
+		#industrial_capacity_dockyard_powered = 0.1 
 		global_building_slots_factor = 0.20
 		
 		research_cost = 2
@@ -498,6 +524,8 @@ technologies = {
 
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory_powered = 0.05 
+		#industrial_capacity_dockyard_powered = 0.05 
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
 		industry_air_damage_factor = -0.15
@@ -521,6 +549,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 25
+
+
+			
+
+			
+
+			
+
 
 			modifier = {
 				factor = 0
@@ -552,6 +588,8 @@ technologies = {
 
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory_powered = 0.075 
+		#industrial_capacity_dockyard_powered = 0.075 
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
 		industry_air_damage_factor = -0.10
@@ -593,6 +631,8 @@ technologies = {
 
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory_powered = 0.075 #TODO SEA set value
+		#industrial_capacity_dockyard_powered = 0.075 #TODO SEA set value
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
 		industry_air_damage_factor = -0.10
@@ -634,6 +674,8 @@ technologies = {
 
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory_powered = 0.1 
+		#industrial_capacity_dockyard_powered = 0.1 
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
 		industry_air_damage_factor = -0.10
@@ -675,6 +717,8 @@ technologies = {
 
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory_powered = 0.1 
+		#industrial_capacity_dockyard_powered = 0.1 
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
 		industry_air_damage_factor = -0.10
@@ -829,9 +873,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 5
-			modifier = {
-				factor = 0.5
-			}
+
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -893,9 +935,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 5
-			modifier = {
-				factor = 0.5
-			}	
+	
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -948,9 +988,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 5
-			modifier = {
-				factor = 0.5
-			}	
+	
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -994,9 +1032,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 5
-			modifier = {
-				factor = 0.5
-			}	
+	
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -1036,9 +1072,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 5
-			modifier = {
-				factor = 0.5
-			}
+
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -1087,13 +1121,22 @@ technologies = {
 			synth_resources
 			cat_synth_oil
 		}
+
+		on_research_complete = {
+			# FIN effect from focus Tire Factory at Nokia
+			if = {
+				limit = {
+					always = no
+					always = no
+					controls_state = 927
+				}
+				FIN_nokia_tires_after_tech_effect = yes
+			}
+		}
 		
 		ai_will_do = {
 			factor = 5
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
+
 			modifier = {
 				factor = 0.5
 				oil > 10
@@ -1139,10 +1182,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 25
-			}
+
 			modifier = {
 				factor = 0.5
 				oil > 10
@@ -1155,10 +1195,7 @@ technologies = {
 				factor = 0.5
 				oil > 30
 			}			
-			modifier = {
-				factor = 25
-				date > "1937.1.1"	
-			}
+
 		}
 		
 		ai_research_weights = {
@@ -1193,10 +1230,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 25
-			}
+
 			modifier = {
 				factor = 0.5
 				oil > 10
@@ -1209,10 +1243,7 @@ technologies = {
 				factor = 0.5
 				oil > 30
 			}	
-			modifier = {		
-				has_war = yes
-				factor = 3
-			}		
+		
 		}
 		
 		ai_research_weights = {
@@ -1247,10 +1278,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 25
-			}
+
 			modifier = {
 				factor = 0.5
 				rubber > 10
@@ -1345,10 +1373,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 15
-			}
+
 			modifier = {
 				factor = 0.5
 				rubber > 10
@@ -1361,10 +1386,7 @@ technologies = {
 				factor = 0.5
 				rubber > 30
 			}			
-			modifier = {
-				factor = 25
-				date > "1938.1.1"	
-			}
+
 		}
 		
 		ai_research_weights = {
@@ -1405,10 +1427,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 15
-			}
+
 			modifier = {
 				factor = 0.5
 				rubber > 10
@@ -1461,6 +1480,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+
 			modifier = {
 				factor = 0.5
 				rubber > 10
@@ -1532,7 +1552,8 @@ technologies = {
 	
 	construction1 = {
 		
-		production_speed_buildings_factor = 0.10
+		production_speed_buildings_factor = 0.1
+		#production_speed_buildings_powered_factor = 0.05 
 		industry_repair_factor = 0.10
 
 		path = {
@@ -1569,6 +1590,7 @@ technologies = {
 	excavation1 = {
 		
 		local_resources_factor = 0.10
+		local_resources_coal_factor = 0.05
 		
 		path = {
 			research_cost_coeff = 1
@@ -1599,6 +1621,7 @@ technologies = {
 					tungsten > 0
 					steel > 0
 					chromium > 0
+					coal > 0
 				}
 			}
 			
@@ -1611,6 +1634,7 @@ technologies = {
 					tungsten > 8
 					steel > 8
 					chromium > 8
+					coal > 8
 				}
 			}
 		}
@@ -1618,7 +1642,8 @@ technologies = {
 	
 	construction2 = {
 
-		production_speed_buildings_factor = 0.10
+		production_speed_buildings_factor = 0.1
+		#production_speed_buildings_powered_factor = 0.075 
 		industry_repair_factor = 0.10
 		
 		path = {
@@ -1656,7 +1681,8 @@ technologies = {
 	excavation2 = {
 		
 		local_resources_factor = 0.10
-		
+		local_resources_coal_factor = 0.05
+
 		path = {
 			research_cost_coeff = 1
 		}
@@ -1688,6 +1714,7 @@ technologies = {
 					tungsten > 0
 					steel > 0
 					chromium > 0
+					coal > 0 
 				}
 			}
 			
@@ -1700,6 +1727,7 @@ technologies = {
 					tungsten > 8
 					steel > 8
 					chromium > 8
+					coal > 8
 				}
 			}
 		}
@@ -1707,7 +1735,8 @@ technologies = {
 	
 	construction3 = {
 
-		production_speed_buildings_factor = 0.10
+		production_speed_buildings_factor = 0.1
+		#production_speed_buildings_powered_factor = 0.075
 		industry_repair_factor = 0.10
 		path = {
 			leads_to_tech = construction4 
@@ -1756,7 +1785,8 @@ technologies = {
 	excavation3 = {
 		
 		local_resources_factor = 0.10
-		
+		local_resources_coal_factor = 0.05
+
 		path = {
 			research_cost_coeff = 1
 		}
@@ -1787,6 +1817,7 @@ technologies = {
 					tungsten > 0
 					steel > 0
 					chromium > 0
+					coal > 0
 				}
 			}
 			
@@ -1799,6 +1830,7 @@ technologies = {
 					tungsten > 8
 					steel > 8
 					chromium > 8
+					coal > 8
 				}
 			}
 		}
@@ -1806,7 +1838,8 @@ technologies = {
 	
 	construction4 = {
 
-		production_speed_buildings_factor = 0.10
+		production_speed_buildings_factor = 0.1
+		#production_speed_buildings_powered_factor = 0.1 
 		industry_repair_factor = 0.10
 
 		on_research_complete = {
@@ -1851,7 +1884,8 @@ technologies = {
 	excavation4 = {
 		
 		local_resources_factor = 0.10
-		
+		local_resources_coal_factor = 0.05
+
 		path = {
 			research_cost_coeff = 1
 		}
@@ -1882,6 +1916,7 @@ technologies = {
 					tungsten > 0
 					steel > 0
 					chromium > 0
+					coal > 0
 				}
 			}
 			
@@ -1894,6 +1929,7 @@ technologies = {
 					tungsten > 8
 					steel > 8
 					chromium > 8
+					coal > 8
 				}
 			}
 		}
@@ -1901,7 +1937,8 @@ technologies = {
 	
 	construction5 = {
 
-		production_speed_buildings_factor = 0.10
+		production_speed_buildings_factor = 0.1
+		#production_speed_buildings_powered_factor = 0.1
 		industry_repair_factor = 0.10
 		
 		path = {
@@ -1937,7 +1974,8 @@ technologies = {
 	excavation5 = {
 		
 		local_resources_factor = 0.10
-		
+		local_resources_coal_factor = 0.05
+
 		path = {
 			research_cost_coeff = 1
 		}
@@ -1968,6 +2006,7 @@ technologies = {
 					tungsten > 0
 					steel > 0
 					chromium > 0
+					coal > 0
 				}
 			}
 			
@@ -1980,8 +2019,9 @@ technologies = {
 					tungsten > 8
 					steel > 8
 					chromium > 8
+					coal > 8
 				}
 			}
 		}
-	}			
+	}	
 }

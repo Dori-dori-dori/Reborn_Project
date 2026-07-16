@@ -23,9 +23,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-			}
+
 		}
 		
 		categories = {
@@ -61,9 +59,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-			}
+
 		}
 		
 		categories = {
@@ -98,9 +94,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-			}
+
 		}
 		
 		categories = {
@@ -130,9 +124,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-			}
+
 		}
 		
 		categories = {
@@ -180,13 +172,9 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-			}
+
 			
-			modifier = {
-				factor = 2
-			}
+
 		}
 		
 		categories = {
@@ -227,13 +215,9 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-			}
+
 			
-			modifier = {
-				factor = 2
-			}
+
 		}
 		
 		categories = {
@@ -273,13 +257,9 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-			}
+
 			
-			modifier = {
-				factor = 2
-			}
+
 		}
 		
 		categories = {
@@ -315,13 +295,9 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-			}
+
 			
-			modifier = {
-				factor = 2
-			}
+
 		}
 		
 		categories = {
@@ -784,7 +760,10 @@ technologies = {
 	transport = {
 
 		transport_capacity = -0.33
-		naval_invasion_capacity = 10
+		naval_invasion_capacity = 100 #TODO: Temporary Solution until we will no longer have dependancy on this stat
+		naval_invasion_prep_days = -30
+		naval_invasion_division_cap = 2 
+		naval_invasion_plan_cap = 2
 		
 		path = {
 			leads_to_tech = landing_craft 
@@ -811,17 +790,11 @@ technologies = {
 				NOT = { has_war = yes }
 			}
 			
-			modifier = {
-				factor = 2
-			}
+
 			
-			modifier = {
-				factor = 2
-			}
+
 			
-			modifier = {
-				factor = 2
-			}
+
 		}
 		
 		categories = {
@@ -833,9 +806,12 @@ technologies = {
 	
 	landing_craft = {
 
-		invasion_preparation = -0.25
+		#invasion_preparation = -0.25
 		amphibious_invasion_defence = 0.15
-		naval_invasion_capacity = 20
+		naval_invasion_prep_days = -30
+		naval_invasion_division_cap = 2 
+		naval_invasion_plan_cap = 2	
+		#naval_invasion_capacity = 20
 
 		path = {
 			leads_to_tech = tank_landing_craft 
@@ -864,6 +840,16 @@ technologies = {
 				factor = 0.5
 				NOT = { has_war = yes }
 			}
+			
+
+			
+
+
+
+			
+
+
+
 		}
 		
 		categories = {
@@ -877,7 +863,10 @@ technologies = {
 
 		amphibious_invasion = 0.25
 		amphibious_invasion_defence = 0.5
-		naval_invasion_capacity = 100
+		naval_invasion_prep_days = -15
+		naval_invasion_division_cap = 8 
+		naval_invasion_plan_cap = 4			
+		#naval_invasion_capacity = 100
 
 		research_cost = 2
 		start_year = 1944
@@ -894,17 +883,11 @@ technologies = {
 				NOT = { has_war = yes }
 			}
 			
-			modifier = {
-				factor = 2
-			}
+
 			
-			modifier = {
-				factor = 2
-			}
+
 			
-			modifier = {
-				factor = 2
-			}
+
 		}
 		
 		categories = {
@@ -937,13 +920,9 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 5
-			}
+
 			
-			modifier = {
-				factor = 5
-			}
+
 		}
 		
 		categories = {
@@ -976,13 +955,9 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 5
-			}
+
 			
-			modifier = {
-				factor = 5
-			}
+
 		}
 		
 		categories = {
@@ -998,6 +973,18 @@ technologies = {
 		enable_equipments = { 
 			carrier_3
 		}
+		on_research_complete = {
+			if = {
+				limit = {
+					is_ai = no
+					has_dlc = "No Compromise, No Surrender"
+					has_dlc = "Gotterdammerung"
+					always = no
+				}
+				set_country_flag = PHI_did_carrier_tech
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
 		
 		path = {
 			leads_to_tech = advanced_carrier 
@@ -1006,6 +993,16 @@ technologies = {
 		
 		research_cost = 2
 		start_year = 1940
+
+		on_research_complete = {
+			if = { 
+				limit = { has_dlc = "Gotterdammerung"}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_naval_ice_carrier	
+				}
+			}
+		}
 		
 		folder = {
 			name = naval_folder
@@ -1015,13 +1012,9 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 5
-			}
+
 			
-			modifier = {
-				factor = 5
-			}
+
 		}
 		
 		categories = {
@@ -1061,13 +1054,9 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 5
-			}
+
 			
-			modifier = {
-				factor = 5
-			}
+
 		}
 		
 		categories = {
@@ -1111,6 +1100,8 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+
 		}
 		
 		categories = {
@@ -1155,6 +1146,8 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+
 		}
 		
 		categories = {
@@ -1187,6 +1180,8 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+
 		}
 		
 		categories = {
@@ -1214,6 +1209,8 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+
 		}
 		
 		categories = {

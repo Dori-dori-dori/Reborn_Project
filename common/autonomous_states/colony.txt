@@ -24,8 +24,12 @@ autonomy_state = {
 		overlord_trade_cost_factor = -0.5
 		can_master_build_for_us = 1
 		peace_score_ratio_transferred_to_overlord = 0.1
+		lend_lease_tension_with_overlord = -0.30
 
 		research_sharing_per_country_bonus_factor = -0.5
+
+		faction_subject_contribution_gain = -0.75
+		faction_influence_contribution_factor = -0.75
 	}
 	
 	ai_subject_wants_higher = {
@@ -45,11 +49,43 @@ autonomy_state = {
 
 		if = {
 			limit = { has_dlc = "Death or Dishonor" }
-			NOT = { has_government = fascism }
+			OVERLORD = { NOT = { has_government = fascism } }
+		}
+
+		if = {
+			limit = {
+				has_dlc = "Waking the Tiger"
+			}
+
+			NOT = {
+				AND = {
+					OVERLORD = { has_government = fascism } 
+					OVERLORD = { always = no } 
+				}
+				AND = {
+					OVERLORD = { has_government = neutrality } 
+					OVERLORD = { always = no } 
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				has_dlc = "No Compromise, No Surrender"
+				OVERLORD = { always = no }
+			}
+			is_chinese_warlord = no
 		}
 	}
 	
 	can_take_level = {
+		if = {
+			limit = {
+				always = no
+				NOT = { always = no	}			
+			}
+			always = no
+		}
 		#trigger here
 	}
 

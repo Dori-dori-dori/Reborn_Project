@@ -73,7 +73,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1948
+		start_year = 1945
 		folder = {
 			name = air_techs_folder
 			position = { x = 1 y = 12 } 
@@ -263,6 +263,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+
+			
+
 
 			modifier = {
 				factor = 0
@@ -329,6 +333,8 @@ technologies = {
 				is_major = yes
 			}
 
+
+
 			modifier = {
 				factor = 1.2
 				date > "1941.1.1"
@@ -369,6 +375,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+
+			
+
+
 
 			modifier = {
 				factor = 1.5
@@ -474,6 +485,9 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+
+			
 
 			modifier = {
 				factor = 1.5
@@ -540,6 +554,7 @@ technologies = {
 				is_major = yes
 				factor = 2
 			}
+
 		}
 	}
 	
@@ -640,6 +655,12 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+
+			
+
+
+
 		}
 	}
 	
@@ -669,6 +690,8 @@ technologies = {
 					is_researching_technology = CAS2
 				}
 			}
+
+
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -715,6 +738,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
+
 			modifier = {
 				has_deployed_air_force_size = {
 					size > 400
@@ -722,6 +746,10 @@ technologies = {
 				}
 				factor = 3
 			}
+
+
+			
+
 		}
 	}
 	
@@ -751,6 +779,8 @@ technologies = {
 					is_researching_technology = CAS3
 				}
 			}
+
+
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -796,6 +826,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
+
 			modifier = {
 				has_deployed_air_force_size = {
 					size > 500
@@ -803,6 +834,8 @@ technologies = {
 				}
 				factor = 3
 			}
+
+
 		}
 	}
 	
@@ -825,6 +858,8 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+
+
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -869,6 +904,10 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+
+			
+
 		}
 	}
 	
@@ -898,6 +937,8 @@ technologies = {
 					is_researching_technology = naval_bomber2
 				}
 			}
+
+
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -942,6 +983,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1.5
+
 			modifier = {
 				has_deployed_air_force_size = {
 					size > 500
@@ -949,6 +991,9 @@ technologies = {
 				}
 				factor = 1.5
 			}
+
+			
+
 		}
 	}
 	
@@ -978,6 +1023,8 @@ technologies = {
 					is_researching_technology = naval_bomber3
 				}
 			}
+
+
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -1023,6 +1070,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1.5
+
 			modifier = {
 				has_deployed_air_force_size = {
 					size > 500
@@ -1030,6 +1078,9 @@ technologies = {
 				}
 				factor = 1.5
 			}
+
+			
+
 		}
 	}
 	
@@ -1051,6 +1102,8 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+
+
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -1236,6 +1289,7 @@ technologies = {
 				has_tech = CAS1
 				factor = 3
 			}
+
 		}
 	}
 	
@@ -1563,6 +1617,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+
+			
+
 		}
 	}
 	
@@ -1621,6 +1679,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+
+			
+
 		}
 	}
 	
@@ -1653,6 +1715,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+
+			
+
 		}
 	}
 	

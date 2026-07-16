@@ -26,6 +26,8 @@ autonomy_state = {
 		cic_to_overlord_factor = 0.1
 		mic_to_overlord_factor = 0.25
 		peace_score_ratio_transferred_to_overlord = 0.1
+		lend_lease_tension_with_overlord = -0.3
+		faction_influence_contribution_factor = -0.1
 	}
 	
 	ai_subject_wants_higher = {
@@ -42,6 +44,20 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Waking the Tiger"
+
+		always = no
+		OR = {
+			has_country_flag = MAN_assertiveness
+			always = no
+			always = no
+		}
+			
+		
+		OR = {
+			OVERLORD = { has_government = fascism }
+			OVERLORD = { has_government = neutrality }
+		}
+		OVERLORD = { always = no }
 	}
 	
 	can_take_level = {

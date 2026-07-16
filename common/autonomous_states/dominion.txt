@@ -9,7 +9,7 @@ autonomy_state = {
 		desc = "RULE_DESC_IS_A_SUBJECT"
 	
 		can_not_declare_war = yes
-		can_decline_call_to_war = no
+		can_decline_call_to_war = yes
 		can_be_spymaster = yes
 	}
 	
@@ -18,10 +18,18 @@ autonomy_state = {
 		extra_trade_to_overlord_factor = 0.25
 		overlord_trade_cost_factor = -0.25
 		peace_score_ratio_transferred_to_overlord = 0.05
+		lend_lease_tension_with_overlord = -0.1
+		faction_influence_contribution_factor = -0.1
 	}
 	
 	ai_subject_wants_higher = {
 		factor = 0.0
+		modifier = {
+			has_dlc = "Graveyard of Empires"
+			always = no
+			always = no
+			add = 10
+		}
 	}
 	
 	ai_overlord_wants_lower = {
@@ -37,17 +45,123 @@ autonomy_state = {
 
 		if = {
 			limit = { has_dlc = "Death or Dishonor" }
-			NOT = { has_government = fascism }
+			OVERLORD = { NOT = { has_government = fascism } }
+		}
+
+		if = {
+			limit = {
+				has_dlc = "Waking the Tiger"
+			}
+
+			NOT = {
+				AND = {
+					OVERLORD = { has_government = fascism } 
+					OVERLORD = { always = no } 
+				}
+				AND = {
+					OVERLORD = { has_government = neutrality } 
+					OVERLORD = { always = no } 
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				has_dlc = "No Compromise, No Surrender"
+			}
+
+			NOT = {
+				AND = {
+					OVERLORD = { has_government = fascism } 
+					OVERLORD = { always = no } 
+				}
+				AND = {
+					OVERLORD = { has_government = neutrality } 
+					OVERLORD = { always = no } 
+				}
+			}
 		}
 	}
 	
 	can_take_level = {
+		if = {
+			limit = {
+				always = no
+			}
+			IF = {
+				limit = {
+					has_dlc = "Thunder at Our Gates"
+				}
+				OR = {
+					always = no
+					always = no
+				}
+			}
+			ELSE = {
+				OR = {
+					always = no
+					always = no
+					always = no
+				}
+			}
+		}
+		if = {
+			limit = {
+				always = no
+			}
+			always = no
+		}
+		IF = {
+			limit = {
+				always = no
+				has_dlc = "Gotterdammerung"			
+			}
+			always = no
+			NOT = {
+				always = no
+			}
+		}
+		if = {
+			limit = {
+				always = no
+				has_dlc = "Graveyard of Empires"
+				NOT = { always = no }
+			}
+			OR = {
+				always = no
+				always = no
+				always = no
+			}
+		}
+		if = {
+			limit = {
+				always = no
+				has_dlc = "Graveyard of Empires"
+				always = no
+			}
+			always = no
+			always = no
+			always = no
+		}
+		if = {
+			limit = {
+				always = no
+			}
+			NOT = {
+				has_idea = idea_INS_netherlands_most_precious_jewel
+			}
+		}
 	}
 
 	can_lose_level = {
-		if = {
+		IF = {
 			limit = {
-
+				OVERLORD = { always = no } 
+				always = no
+				has_dlc = "Gotterdammerung"			
+			}
+			NOT = {
+				always = no
 			}
 		}
 	}

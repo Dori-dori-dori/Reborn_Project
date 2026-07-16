@@ -1,0 +1,26 @@
+# No-op country hooks referenced by otherwise generic 1.19.2 content.
+
+bathe_in_hellfire_nuclear = { }
+bathe_in_hellfire_thermonuclear = { }
+FIN_nokia_tires_after_tech_effect = { }
+PHI_cobalt_sea_achievement = { }
+SIA_decrease_civilian_approval = { }
+SIA_decrease_military_approval = { }
+SIA_increase_civilian_approval = { }
+SIA_increase_military_approval = { }
+SIA_refresh_nsb_spirit = { }
+SMB_get_dreadnoughts_from_country = { }
+
+# Country-tree hooks referenced by generic technology, idea, and event databases.
+ETH_get_ships_from_country = { }
+play_warning_to_japan_effect = { }
+USA_congress_large_opposition = { }
+ITA_add_basic_light_flamethrower_template = { }
+ITA_add_improved_light_tank_templates = { }
+ITA_add_improved_medium_tank_templates = { }
+ITA_add_advanced_medium_tank_templates = { }
+ITA_add_improved_heavy_tank_templates = { }
+ITA_add_advanced_heavy_tank_templates = { }
+ITA_add_il_duce_sh_tank_template_and_production = { }
+ITA_add_modern_musculus_sh_tank_template_and_production = { }
+ITA_add_hand_of_god_sh_tank_template_and_production = { }

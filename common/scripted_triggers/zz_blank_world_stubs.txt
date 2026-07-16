@@ -1,0 +1,30 @@
+# Compatibility shims for generic 1.19.2 databases in the TST-only world.
+# Country-specific hooks are kept false; generic academy gates remain usable.
+
+has_military_academy = { always = yes }
+has_air_academy = { always = yes }
+has_naval_academy = { always = yes }
+has_air_force_command = { always = yes }
+
+AST_conscription_level_all_adults_serve = { always = no }
+AST_conscription_level_extensive_conscription = { always = no }
+AST_conscription_level_limited_conscription = { always = no }
+AST_conscription_level_scraping_the_barrel = { always = no }
+AST_conscription_level_service_by_requirement = { always = no }
+AST_taog = { always = no }
+congress_high_support_trigger = { always = no }
+DEN_aat = { always = no }
+DEN_aat_is_subject = { always = no }
+FIN_is_historical_ai = { always = no }
+is_chinese_warlord = { always = no }
+is_literally_china = { always = no }
+is_raj_or_raj_inheritor = { always = no }
+ITA_is_christian_democracy_ai = { always = no }
+ITA_is_monarchist_ai = { always = no }
+NOR_AAT = { always = no }
+PHI_SEA = { always = no }
+SIA_should_add_national_savings_bond = { always = no }
+SOV_is_left_opposition = { always = no }
+SOV_is_right_opposition = { always = no }
+SOV_is_soviet_republic_tag_strict = { always = no }
+SWE_rapid_mob_manpower_law_trigger = { always = no }

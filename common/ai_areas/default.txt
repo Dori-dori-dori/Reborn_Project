@@ -1,0 +1,2 @@
+# The blank map has no vanilla strategic-region topology.
+areas = { }
