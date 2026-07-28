@@ -122,6 +122,10 @@ spriteTypes = {
 		name = "GFX_portrait_NYA_Barmen_Engineer"
 		textureFile = "gfx/leaders/NYA/portrait_NYA_barmen_engineer.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_NYA_Comrade"
+		textureFile = "gfx/leaders/NYA/portrait_NYA_comrade.dds"
+	}
 
 
 	#Агенты

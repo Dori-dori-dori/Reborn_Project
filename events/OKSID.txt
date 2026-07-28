@@ -37,3 +37,14 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = oksid.4
+	title = oksid.4.t
+	desc = oksid.4.d
+	picture = GFX_event_duche
+	is_triggered_only = yes
+
+	option = {
+		name = oksid.4.a	
+	}
+}

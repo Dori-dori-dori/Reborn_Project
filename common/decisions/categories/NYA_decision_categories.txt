@@ -1,0 +1,7 @@
+NYA_decisions_crisis = {
+    icon = generic_research
+    visible = {
+        tag = NYA
+    }
+    picture = GFX_decision_cat_picture_generic_border_conflicts
+}

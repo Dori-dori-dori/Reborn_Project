@@ -61,17 +61,14 @@ country_event = {
 		random_list = {
 			50 = {
 				add_political_power = 100
-				custom_effect_tooltip = {
-					localization_key = NYA_Decision_Emergency_Measures
-				}
 			}
 			50 = {
 				add_political_power = -100
-				custom_effect_tooltip = {
-					localization_key = NYA_Decision_Emergency_Measures
-				}
 			}
 		}
+		custom_effect_tooltip = {
+					localization_key = NYA_Decision_Emergency_Measures
+				}
 		name = NYA_politics.1.b
 		
 	}

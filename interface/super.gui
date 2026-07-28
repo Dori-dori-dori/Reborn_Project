@@ -50,6 +50,12 @@ guiTypes = {
 			spriteType = "GFX_sp_event_Civil_War"
 			position = {x = 0 y = 0}
 		}
+		
+		iconType = {
+			name = "Super_Event_Image_Frimmur_Monarchy"
+			spriteType = "GFX_sp_event_Frimmur_Monarchy"
+			position = {x = 0 y = 0}
+		}
 
 		###############
 		###INTERFACE###
@@ -69,7 +75,7 @@ guiTypes = {
 			text = "[get_super_event_quote]"
 			maxWidth = 348
 			maxHeight = 110
-			fixedsize = yes	
+			fixedsize = yes
 			format = right
 		}
 		

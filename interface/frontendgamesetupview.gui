@@ -998,7 +998,7 @@ guiTypes = {
 
 		Background={
 			name ="important_message_bg"
-			spriteType = "SandboxFloaterBackground"
+			quadTextureSprite = "SandboxFloaterBackground"
 			position = { x=0 y = 0}
 		}
 

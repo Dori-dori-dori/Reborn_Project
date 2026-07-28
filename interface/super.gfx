@@ -8,7 +8,7 @@ spriteTypes = {
 		name = "GFX_sp_event_close_button"
 		textureFile = "gfx/Super_Event_Close_Button.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_sp_event_underlay"
 		textureFile = "gfx/Super_Event_Underlay.dds"
@@ -42,5 +42,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_sp_event_Civil_War"
 		textureFile = "gfx/sp_events/Super_Event_Civil_War.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_event_Frimmur_Monarchy"
+		textureFile = "gfx/sp_events/Super_Event_Frimmur_Monarchy.dds"
 	}
 }

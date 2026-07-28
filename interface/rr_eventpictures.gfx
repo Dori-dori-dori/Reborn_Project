@@ -38,7 +38,16 @@ spriteTypes = {
 		name = "GFX_country_event_psycho_adif"
 		texturefile = "gfx/event_pictures/adif_political_event.1.png"
 	}
+	spriteType = {
+		name = "GFX_event_documentary"
+		texturefile = "gfx/event_pictures/event_documentary.dds"
+	}
+	spriteType = {
+		name = "GFX_event_duche"
+		texturefile = "gfx/event_pictures/event_duche.dds"
+	}
 }
+
 
 
 

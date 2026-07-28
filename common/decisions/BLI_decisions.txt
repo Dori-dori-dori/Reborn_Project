@@ -3,7 +3,7 @@ crisis = {
 		icon = generic_form_nation
 		days_mission_timeout = 10
 		visible = {
-			tag = BLI
+			original_tag = BLI
 			if = {
 				limit = { 
 					THIS = { is_subject_of = BLI } 
@@ -11,18 +11,15 @@ crisis = {
 			}
 		}
 		allowed = {
-			always = yes
-		}
-		available = {
-			has_country_flag = BLI_crisis_fall_of_empire
-		}
-		visible = {
-			tag = BLI
+			original_tag = BLI
 			if = {
 				limit = { 
 					THIS = { is_subject_of = BLI } 
 				}
 			}
+		}
+		available = {
+			has_country_flag = BLI_crisis_fall_of_empire
 		}
 		fire_only_once = yes
 		timeout_effect = {

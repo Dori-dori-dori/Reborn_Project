@@ -74,6 +74,10 @@ ideologies = {
 
 			feeblism = {
 			}
+
+			socialistic_avangardism = {
+			}
+			
 		}
 
 		dynamic_faction_names = {
