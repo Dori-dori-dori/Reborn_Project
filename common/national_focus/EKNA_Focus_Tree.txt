@@ -818,11 +818,11 @@
 	##Коммунистическая ветка
 
 	focus = {
-		id = NYA_Communist_Consolidation
-		icon = x
+		id = NYA_COM_Communist_Consolidation
+		icon = GFX_focus_generic_court
 		cost = 5
-		x = 40
-		y = 0
+		x = 8
+		y = 15
 		allow_branch = {
 			has_completed_focus = NYA_New_Red_Dawn
 		}
@@ -834,6 +834,113 @@
 					ideology = socialistic_avangardism
 				}
 			}
+			##Ивент про лидера и тд
 		}
+	}
+	focus = {
+		id = NYA_COM_First_Step
+		icon = GFX_focus_generic_court
+		cost = x
+		x = 0
+		y = 1
+		relative_position_id = NYA_COM_Communist_Consolidation
+		prerequisite = { focus = NYA_COM_Communist_Consolidation }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_COM_Compromise_with_Enemy
+		icon = GFX_focus_generic_court
+		cost = x
+		x = -1
+		y = 1
+		relative_position_id = NYA_COM_First_Step
+		prerequisite = { focus = NYA_COM_First_Step }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_COM_Holidays_from_Victory
+		icon = GFX_focus_generic_court
+		cost = x
+		x = 1
+		y = 1
+		relative_position_id = NYA_COM_First_Step
+		prerequisite = { focus = NYA_COM_First_Step }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_COM_Look_Inside
+		icon = GFX_focus_generic_court
+		cost = x
+		x = 1
+		y = 1
+		relative_position_id = NYA_COM_Holidays_from_Victory
+		prerequisite = { focus = NYA_COM_Holidays_from_Victory }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_COM_First_Intergation_Policy
+		icon = GFX_focus_generic_court
+		cost = x
+		x = x
+		y = 1
+		relative_position_id = NYA_COM_Look_Inside
+		prerequisite = { focus = NYA_COM_Look_Inside }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_COM_Program_Yesman
+		icon = GFX_focus_generic_court
+		cost = x
+		x = -1
+		y = 1
+		relative_position_id = NYA_COM_First_Intergation_Policy
+		prerequisite = { focus = NYA_COM_First_Intergation_Policy }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_COM_TV_Friendship
+		icon = GFX_focus_generic_court
+		cost = x
+		x = 1
+		y = 1
+		relative_position_id = NYA_COM_First_Intergation_Policy
+		prerequisite = { focus = NYA_COM_First_Intergation_Policy }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_COM_Education_Reforms
+		icon = GFX_focus_generic_court
+		cost = x
+		x = 3
+		y = 1
+		relative_position_id = NYA_COM_First_Intergation_Policy
+		prerequisite = { focus = NYA_COM_First_Intergation_Policy }
+		completion_reward = { 
+			##Решение на реформу образования от ненависти к дружелюбию
+		}
+	}
+	focus = {
+		id = NYA_COM_Roots_of_Evil
+		icon = GFX_focus_generic_court
+		cost = x
+		x = -1
+		y = 1
+		relative_position_id = NYA_COM_TV_Friendship
+		prerequisite = { focus = NYA_COM_TV_Friendship }
+		prerequisite = { focus = NYA_COM_Education_Reforms }
+		prerequisite = { focus = NYA_COM_Program_Yesman }
+		completion_reward = { }
+	}
+	focus = {
+		id = NYA_COM_Final_Attempt
+		icon = GFX_focus_generic_court
+		cost = x
+		x = 1
+		y = 1
+		relative_position_id = NYA_COM_TV_Friendship
+		prerequisite = { focus = NYA_COM_TV_Friendship }
+		prerequisite = { focus = NYA_COM_Education_Reforms }
+		prerequisite = { focus = NYA_COM_Program_Yesman }
+		completion_reward = { }
 	}
 }
