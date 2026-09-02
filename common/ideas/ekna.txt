@@ -55,7 +55,7 @@ ideas = {
 			}
 		}
 		NYA_crisis_of_trust1 = {
-			picture = x
+			picture = JAP_collapsing_government
 			allowed_civil_war = {
 				always = yes
 			}
@@ -72,6 +72,16 @@ ideas = {
 			modifier = {
 				political_power_gain = -1.5
 				political_power_factor = -0.2
+			}
+		}
+		NYA_neco_church = {
+			picture = JAP_amaterasus_weapons_idea
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_weekly = 0.005
+				war_support_weekly = 0.001
 			}
 		}
     }
