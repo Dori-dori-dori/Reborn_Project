@@ -183,3 +183,18 @@ music = {
 	file = "Blood On The Cobblestones.ogg"
 	volume = 1
 }
+music = {
+	name = "Empty"
+	file = "R_Empty.ogg"
+	volume = 1
+}
+music = {
+	name = "Escapism"
+	file = "R_Escapism.ogg"
+	volume = 1
+}
+music = {
+	name = "Memories"
+	file = "R_Memories.ogg"
+	volume = 1
+}
