@@ -46,7 +46,12 @@ spriteTypes = {
 		name = "GFX_event_duche"
 		texturefile = "gfx/event_pictures/event_duche.dds"
 	}
+	spriteType = {
+		name = "GFX_event_school_ecna"
+		texturefile = "gfx/event_pictures/event_school_ecna.dds"
+	}
 }
+
 
 
 

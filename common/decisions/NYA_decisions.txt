@@ -32,7 +32,28 @@ citizen_problem = {
 		}
 	}
 }
+com_education_reform = {
+	kind_lessons = {
 
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			always = yes
+		}
+
+		cost = 10
+		days_remove = 40
+		complete_effect = {
+			country_event = NYA_COM_citizens.1
+		}
+	}
+}
 
 
 # special_projects = {
