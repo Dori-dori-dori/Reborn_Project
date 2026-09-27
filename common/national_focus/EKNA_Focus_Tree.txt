@@ -840,7 +840,7 @@
 	focus = {
 		id = NYA_COM_First_Step
 		icon = GFX_focus_generic_court
-		cost = x
+		cost = 5
 		x = 0
 		y = 1
 		relative_position_id = NYA_COM_Communist_Consolidation
@@ -850,7 +850,7 @@
 	focus = {
 		id = NYA_COM_Compromise_with_Enemy
 		icon = GFX_focus_generic_court
-		cost = x
+		cost = 5
 		x = -1
 		y = 1
 		relative_position_id = NYA_COM_First_Step
@@ -860,7 +860,7 @@
 	focus = {
 		id = NYA_COM_Holidays_from_Victory
 		icon = GFX_focus_generic_court
-		cost = x
+		cost = 5
 		x = 1
 		y = 1
 		relative_position_id = NYA_COM_First_Step
@@ -870,7 +870,7 @@
 	focus = {
 		id = NYA_COM_Look_Inside
 		icon = GFX_focus_generic_court
-		cost = x
+		cost = 5
 		x = 1
 		y = 1
 		relative_position_id = NYA_COM_Holidays_from_Victory
@@ -880,7 +880,7 @@
 	focus = {
 		id = NYA_COM_First_Intergation_Policy
 		icon = GFX_focus_generic_court
-		cost = x
+		cost = 5
 		x = x
 		y = 1
 		relative_position_id = NYA_COM_Look_Inside
@@ -890,7 +890,7 @@
 	focus = {
 		id = NYA_COM_Program_Yesman
 		icon = GFX_focus_generic_court
-		cost = x
+		cost = 5
 		x = -1
 		y = 1
 		relative_position_id = NYA_COM_First_Intergation_Policy
@@ -900,7 +900,7 @@
 	focus = {
 		id = NYA_COM_TV_Friendship
 		icon = GFX_focus_generic_court
-		cost = x
+		cost = 5
 		x = 1
 		y = 1
 		relative_position_id = NYA_COM_First_Intergation_Policy
@@ -910,7 +910,7 @@
 	focus = {
 		id = NYA_COM_Education_Reforms
 		icon = GFX_focus_generic_court
-		cost = x
+		cost = 5
 		x = 3
 		y = 1
 		relative_position_id = NYA_COM_First_Intergation_Policy
@@ -922,7 +922,7 @@
 	focus = {
 		id = NYA_COM_Roots_of_Evil
 		icon = GFX_focus_generic_court
-		cost = x
+		cost = 5
 		x = -1
 		y = 1
 		relative_position_id = NYA_COM_TV_Friendship
@@ -934,7 +934,7 @@
 	focus = {
 		id = NYA_COM_Final_Attempt
 		icon = GFX_focus_generic_court
-		cost = x
+		cost = 5
 		x = 1
 		y = 1
 		relative_position_id = NYA_COM_TV_Friendship
