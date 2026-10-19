@@ -1,0 +1,22 @@
+state = {
+	id = 582
+	name = "STATE_WT_582"
+	manpower = 3026856
+	state_category = town
+
+	history = {
+		owner = KFC
+		add_core_of = KFC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 3617 8 }
+	}
+
+	provinces = {
+		3617 3618 3619 3620 3621 3622
+	}
+}

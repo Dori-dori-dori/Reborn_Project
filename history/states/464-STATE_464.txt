@@ -1,0 +1,24 @@
+state = {
+	id = 464
+	name = "STATE_WT_464"
+	manpower = 1668968
+	state_category = rural
+
+	history = {
+		owner = NIG
+		add_core_of = NIG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			2829 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 2829 4 }
+	}
+
+	provinces = {
+		2829 2830 2831
+	}
+}

@@ -1,0 +1,21 @@
+state = {
+	id = 516
+	name = "STATE_WT_516"
+	manpower = 1040616
+	state_category = rural
+
+	history = {
+		owner = DAC
+		add_core_of = DAC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 3106 1 }
+		victory_points = { 3107 1 }
+	}
+
+	provinces = {
+		3106 3107
+	}
+}

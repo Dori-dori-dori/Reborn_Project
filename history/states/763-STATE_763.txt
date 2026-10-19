@@ -1,0 +1,28 @@
+state = {
+	id = 763
+	name = "STATE_WT_763"
+	manpower = 5859198
+	state_category = large_city
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = NYA
+		add_core_of = NYA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 2
+		}
+		victory_points = { 4854 2 }
+		victory_points = { 4858 2 }
+		victory_points = { 4859 2 }
+		victory_points = { 4862 11 }
+	}
+
+	provinces = {
+		4851 4852 4853 4854 4855 4856 4857 4858 4859 4860 4861 4862
+	}
+}

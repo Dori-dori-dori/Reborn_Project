@@ -1,0 +1,26 @@
+state = {
+	id = 672
+	name = "STATE_WT_672"
+	manpower = 4782312
+	state_category = city
+
+	history = {
+		owner = KFC
+		add_core_of = KFC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 2
+			4250 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 4255 14 }
+	}
+
+	provinces = {
+		4249 4250 4251 4252 4253 4254 4255 4256 4257 4258
+	}
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 420
+	name = "STATE_WT_420"
+	manpower = 1939826
+	state_category = rural
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = NIG
+		add_core_of = NIG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2544 1 }
+		victory_points = { 2545 4 }
+	}
+
+	provinces = {
+		2544 2545 2546
+	}
+}

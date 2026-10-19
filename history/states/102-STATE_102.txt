@@ -1,0 +1,22 @@
+state = {
+	id = 102
+	name = "STATE_WT_102"
+	manpower = 4023172
+	state_category = city
+
+	history = {
+		owner = FUT
+		add_core_of = FUT
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
+		}
+		victory_points = { 682 12 }
+	}
+
+	provinces = {
+		678 679 680 681 682 683 684
+	}
+}

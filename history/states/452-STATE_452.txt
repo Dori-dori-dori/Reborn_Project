@@ -1,0 +1,28 @@
+state = {
+	id = 452
+	name = "STATE_WT_452"
+	manpower = 4431215
+	state_category = city
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = FUT
+		add_core_of = FUT
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
+		}
+		victory_points = { 2757 4 }
+		victory_points = { 2762 4 }
+		victory_points = { 2763 4 }
+		victory_points = { 5710 1 }
+	}
+
+	provinces = {
+		2756 2757 2758 2759 2760 2761 2762 2763 2764 5710
+	}
+}

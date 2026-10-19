@@ -1,0 +1,28 @@
+state = {
+	id = 888
+	name = "STATE_WT_888"
+	manpower = 8938189
+	state_category = megalopolis
+	resources = {
+		tungsten = 3
+	}
+
+	history = {
+		owner = IDK
+		add_core_of = IDK
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 7
+			air_base = 3
+		}
+		victory_points = { 5646 1 }
+		victory_points = { 5648 8 }
+		victory_points = { 5656 12 }
+		victory_points = { 5657 4 }
+	}
+
+	provinces = {
+		5646 5647 5648 5649 5650 5651 5652 5653 5654 5655 5656 5657 5658 5659 5660 5661 5662 5663 5664
+	}
+}

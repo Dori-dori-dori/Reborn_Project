@@ -1,0 +1,25 @@
+state = {
+	id = 511
+	name = "STATE_WT_511"
+	manpower = 1505383
+	state_category = rural
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			3082 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 3082 1 }
+		victory_points = { 3083 3 }
+	}
+
+	provinces = {
+		3082 3083 3084
+	}
+}

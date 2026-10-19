@@ -1,0 +1,20 @@
+state = {
+	id = 853
+	name = "STATE_WT_853"
+	manpower = 1046925
+	state_category = pastoral
+
+	history = {
+		owner = SSG
+		add_core_of = SSG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 5443 3 }
+	}
+
+	provinces = {
+		5443 5444
+	}
+}

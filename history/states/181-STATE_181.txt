@@ -1,0 +1,23 @@
+state = {
+	id = 181
+	name = "STATE_WT_181"
+	manpower = 2285914
+	state_category = town
+
+	history = {
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 1202 3 }
+		victory_points = { 1204 2 }
+	}
+
+	provinces = {
+		1201 1202 1203 1204
+	}
+}

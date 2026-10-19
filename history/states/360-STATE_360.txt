@@ -1,0 +1,24 @@
+state = {
+	id = 360
+	name = "STATE_WT_360"
+	manpower = 3541724
+	state_category = large_town
+
+	history = {
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 2225 4 }
+		victory_points = { 2226 5 }
+		victory_points = { 2228 1 }
+	}
+
+	provinces = {
+		2223 2224 2225 2226 2227 2228 2229
+	}
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 306
+	name = "STATE_WT_306"
+	manpower = 6828462
+	state_category = megalopolis
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 7
+			air_base = 3
+		}
+		victory_points = { 1944 2 }
+		victory_points = { 1946 19 }
+	}
+
+	provinces = {
+		1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 1949 1950
+	}
+}

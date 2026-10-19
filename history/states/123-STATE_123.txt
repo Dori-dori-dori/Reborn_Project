@@ -1,0 +1,29 @@
+state = {
+	id = 123
+	name = "STATE_WT_123"
+	manpower = 6879361
+	state_category = megalopolis
+
+	history = {
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 7
+			dockyard = 4
+			air_base = 3
+			819 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 816 1 }
+		victory_points = { 819 15 }
+		victory_points = { 821 4 }
+		victory_points = { 822 1 }
+	}
+
+	provinces = {
+		816 817 818 819 820 821 822 823 824 825 826 827 828 829
+	}
+}

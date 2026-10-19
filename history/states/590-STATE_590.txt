@@ -1,0 +1,24 @@
+state = {
+	id = 590
+	name = "STATE_WT_590"
+	manpower = 3706658
+	state_category = large_town
+
+	history = {
+		owner = ADF
+		add_core_of = ADF
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 3670 1 }
+		victory_points = { 3671 1 }
+		victory_points = { 3676 7 }
+	}
+
+	provinces = {
+		3670 3671 3672 3673 3674 3675 3676
+	}
+}

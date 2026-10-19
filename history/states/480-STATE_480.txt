@@ -1,0 +1,27 @@
+state = {
+	id = 480
+	name = "STATE_WT_480"
+	manpower = 2653770
+	state_category = town
+	resources = {
+		tungsten = 4
+	}
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 2915 1 }
+		victory_points = { 2917 1 }
+		victory_points = { 2918 6 }
+	}
+
+	provinces = {
+		2915 2916 2917 2918 2919
+	}
+}

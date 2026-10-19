@@ -1,0 +1,28 @@
+state = {
+	id = 81
+	name = "STATE_WT_81"
+	manpower = 4974778
+	state_category = city
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
+		}
+		victory_points = { 524 4 }
+		victory_points = { 525 1 }
+		victory_points = { 529 2 }
+		victory_points = { 533 7 }
+	}
+
+	provinces = {
+		524 525 526 527 528 529 530 531 532 533
+	}
+}

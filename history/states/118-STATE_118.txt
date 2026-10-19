@@ -1,0 +1,24 @@
+state = {
+	id = 118
+	name = "STATE_WT_118"
+	manpower = 3176113
+	state_category = large_town
+
+	history = {
+		owner = FUT
+		add_core_of = FUT
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 788 1 }
+		victory_points = { 790 7 }
+		victory_points = { 791 1 }
+	}
+
+	provinces = {
+		786 787 788 789 790 791
+	}
+}

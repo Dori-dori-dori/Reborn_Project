@@ -1,0 +1,27 @@
+state = {
+	id = 630
+	name = "STATE_WT_630"
+	manpower = 4469906
+	state_category = city
+
+	history = {
+		owner = MEM
+		add_core_of = MEM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 2
+			3943 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 3945 5 }
+		victory_points = { 3951 8 }
+	}
+
+	provinces = {
+		3943 3944 3945 3946 3947 3948 3950 3951
+	}
+}

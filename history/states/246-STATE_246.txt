@@ -1,0 +1,23 @@
+state = {
+	id = 246
+	name = "STATE_WT_246"
+	manpower = 1209820
+	state_category = rural
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = CHA
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 1620 3 }
+	}
+
+	provinces = {
+		1620 1621
+	}
+}

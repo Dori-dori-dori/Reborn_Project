@@ -1,0 +1,26 @@
+state = {
+	id = 880
+	name = "STATE_WT_880"
+	manpower = 2489485
+	state_category = town
+	resources = {
+		tungsten = 4
+	}
+
+	history = {
+		owner = MEM
+		add_core_of = MEM
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 5608 3 }
+		victory_points = { 5612 3 }
+	}
+
+	provinces = {
+		5608 5609 5610 5611 5612
+	}
+}

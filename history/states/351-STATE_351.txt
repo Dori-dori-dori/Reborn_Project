@@ -1,0 +1,27 @@
+state = {
+	id = 351
+	name = "STATE_WT_351"
+	manpower = 3363645
+	state_category = large_town
+	resources = {
+		tungsten = 6
+	}
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 2168 4 }
+		victory_points = { 2170 1 }
+		victory_points = { 2171 4 }
+	}
+
+	provinces = {
+		2168 2169 2170 2171 2172 2173 2174
+	}
+}

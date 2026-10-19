@@ -1,0 +1,24 @@
+state = {
+	id = 210
+	name = "STATE_WT_210"
+	manpower = 2329613
+	state_category = town
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 1400 3 }
+		victory_points = { 1401 3 }
+		victory_points = { 1403 1 }
+	}
+
+	provinces = {
+		1400 1401 1402 1403
+	}
+}

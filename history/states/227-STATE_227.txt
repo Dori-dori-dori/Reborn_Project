@@ -1,0 +1,26 @@
+state = {
+	id = 227
+	name = "STATE_WT_227"
+	manpower = 4875257
+	state_category = large_city
+	resources = {
+		tungsten = 7
+	}
+
+	history = {
+		owner = NIG
+		add_core_of = NIG
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 2
+		}
+		victory_points = { 1507 12 }
+		victory_points = { 1509 3 }
+	}
+
+	provinces = {
+		1507 1508 1509 1510 1511 1512 1513 1514 1515 1516
+	}
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 625
+	name = "STATE_WT_625"
+	manpower = 3986231
+	state_category = large_town
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = ADF
+		add_core_of = ADF
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 3508 4 }
+		victory_points = { 3894 2 }
+		victory_points = { 3895 4 }
+		victory_points = { 3898 2 }
+		victory_points = { 3900 2 }
+	}
+
+	provinces = {
+		3508 3509 3893 3894 3895 3896 3897 3898 3899 3900
+	}
+}

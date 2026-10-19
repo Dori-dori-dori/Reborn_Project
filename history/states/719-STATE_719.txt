@@ -1,0 +1,27 @@
+state = {
+	id = 719
+	name = "STATE_WT_719"
+	manpower = 3945202
+	state_category = large_town
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = PDS
+		add_core_of = PDS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 4548 3 }
+		victory_points = { 4550 4 }
+		victory_points = { 4553 4 }
+	}
+
+	provinces = {
+		4546 4547 4548 4549 4550 4551 4552 4553
+	}
+}

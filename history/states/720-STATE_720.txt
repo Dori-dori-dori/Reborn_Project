@@ -1,0 +1,27 @@
+state = {
+	id = 720
+	name = "STATE_WT_720"
+	manpower = 4645851
+	state_category = large_town
+	resources = {
+		tungsten = 4
+	}
+
+	history = {
+		owner = NYA
+		add_core_of = NYA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 4558 1 }
+		victory_points = { 4560 4 }
+		victory_points = { 4562 7 }
+	}
+
+	provinces = {
+		4554 4555 4556 4557 4558 4559 4560 4561 4562
+	}
+}

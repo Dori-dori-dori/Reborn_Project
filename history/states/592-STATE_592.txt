@@ -1,0 +1,25 @@
+state = {
+	id = 592
+	name = "STATE_WT_592"
+	manpower = 1963544
+	state_category = rural
+	resources = {
+		tungsten = 7
+	}
+
+	history = {
+		owner = NYA
+		add_core_of = NYA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 3685 2 }
+		victory_points = { 3686 2 }
+		victory_points = { 3687 1 }
+	}
+
+	provinces = {
+		3685 3686 3687 3688
+	}
+}

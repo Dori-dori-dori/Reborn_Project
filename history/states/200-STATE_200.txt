@@ -1,0 +1,25 @@
+state = {
+	id = 200
+	name = "STATE_WT_200"
+	manpower = 3188007
+	state_category = large_town
+
+	history = {
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 1317 1 }
+		victory_points = { 1318 4 }
+		victory_points = { 1319 4 }
+		victory_points = { 1321 1 }
+	}
+
+	provinces = {
+		1316 1317 1318 1319 1320 1321
+	}
+}

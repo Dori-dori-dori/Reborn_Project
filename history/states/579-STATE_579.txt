@@ -1,0 +1,33 @@
+state = {
+	id = 579
+	name = "STATE_WT_579"
+	manpower = 8514364
+	state_category = megalopolis
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = SSG
+		add_core_of = SSG
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 7
+			dockyard = 4
+			air_base = 3
+			3590 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 3588 2 }
+		victory_points = { 3590 3 }
+		victory_points = { 3595 15 }
+		victory_points = { 3597 2 }
+		victory_points = { 3600 3 }
+	}
+
+	provinces = {
+		3587 3588 3589 3590 3591 3592 3593 3594 3595 3596 3597 3598 3599 3600 3601 3602 3603
+	}
+}

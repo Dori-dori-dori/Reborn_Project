@@ -1,0 +1,24 @@
+state = {
+	id = 873
+	name = "STATE_WT_873"
+	manpower = 1875769
+	state_category = rural
+	resources = {
+		tungsten = 4
+	}
+
+	history = {
+		owner = SSG
+		add_core_of = SSG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 5567 3 }
+		victory_points = { 5568 1 }
+	}
+
+	provinces = {
+		5567 5568 5569 5570
+	}
+}

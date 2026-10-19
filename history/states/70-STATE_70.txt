@@ -1,0 +1,28 @@
+state = {
+	id = 70
+	name = "STATE_WT_70"
+	manpower = 3400637
+	state_category = large_town
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 452 1 }
+		victory_points = { 454 5 }
+		victory_points = { 456 2 }
+		victory_points = { 458 1 }
+	}
+
+	provinces = {
+		452 453 454 455 456 457 458
+	}
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 414
+	name = "STATE_WT_414"
+	manpower = 1596299
+	state_category = rural
+
+	history = {
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			2511 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 2511 3 }
+		victory_points = { 2513 1 }
+	}
+
+	provinces = {
+		2511 2512 2513
+	}
+}

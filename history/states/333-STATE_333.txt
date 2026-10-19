@@ -1,0 +1,30 @@
+state = {
+	id = 333
+	name = "STATE_WT_333"
+	manpower = 3120414
+	state_category = large_town
+	resources = {
+		tungsten = 6
+	}
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 1
+			2082 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 2083 4 }
+		victory_points = { 2084 4 }
+	}
+
+	provinces = {
+		2082 2083 2084 2085 2087
+	}
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 6
+	name = "STATE_WT_6"
+	manpower = 5031665
+	state_category = large_city
+	resources = {
+		tungsten = 7
+	}
+
+	history = {
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 4
+			dockyard = 3
+			air_base = 2
+			26 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 27 8 }
+		victory_points = { 28 5 }
+		victory_points = { 33 1 }
+	}
+
+	provinces = {
+		26 27 28 29 30 31 32 33 34 35
+	}
+}

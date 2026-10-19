@@ -1,0 +1,20 @@
+state = {
+	id = 193
+	name = "STATE_WT_193"
+	manpower = 1640060
+	state_category = rural
+
+	history = {
+		owner = BLI
+		add_core_of = BLI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 1280 4 }
+	}
+
+	provinces = {
+		1280 1281 1282
+	}
+}

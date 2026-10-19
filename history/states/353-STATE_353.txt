@@ -1,0 +1,23 @@
+state = {
+	id = 353
+	name = "STATE_WT_353"
+	manpower = 2983148
+	state_category = town
+
+	history = {
+		owner = GUL
+		add_core_of = GUL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 2182 6 }
+		victory_points = { 2186 1 }
+	}
+
+	provinces = {
+		2181 2182 2183 2184 2185 2186
+	}
+}

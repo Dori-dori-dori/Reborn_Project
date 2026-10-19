@@ -1,0 +1,30 @@
+state = {
+	id = 73
+	name = "STATE_WT_73"
+	manpower = 4366253
+	state_category = city
+	resources = {
+		tungsten = 7
+	}
+
+	history = {
+		owner = GUL
+		add_core_of = GUL
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 2
+			467 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 469 10 }
+		victory_points = { 473 3 }
+	}
+
+	provinces = {
+		466 467 468 469 470 471 472 473 474
+	}
+}

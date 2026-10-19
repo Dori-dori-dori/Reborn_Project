@@ -1,0 +1,30 @@
+state = {
+	id = 87
+	name = "STATE_WT_87"
+	manpower = 3172875
+	state_category = large_town
+	resources = {
+		tungsten = 3
+	}
+
+	history = {
+		owner = XYD
+		add_core_of = XYD
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 1
+			573 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 570 4 }
+		victory_points = { 572 4 }
+	}
+
+	provinces = {
+		570 571 572 573 574
+	}
+}

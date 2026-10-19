@@ -1,0 +1,25 @@
+state = {
+	id = 365
+	name = "STATE_WT_365"
+	manpower = 5481416
+	state_category = metropolis
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 6
+			air_base = 3
+		}
+		victory_points = { 2257 17 }
+	}
+
+	provinces = {
+		2251 2252 2253 2254 2255 2256 2257 2258 2259 2260 2261
+	}
+}

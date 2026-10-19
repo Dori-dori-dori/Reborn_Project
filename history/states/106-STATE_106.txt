@@ -1,0 +1,25 @@
+state = {
+	id = 106
+	name = "STATE_WT_106"
+	manpower = 2531373
+	state_category = town
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = NIG
+		add_core_of = NIG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 706 6 }
+	}
+
+	provinces = {
+		705 706 707 708 709
+	}
+}

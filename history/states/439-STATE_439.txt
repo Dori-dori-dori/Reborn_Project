@@ -1,0 +1,27 @@
+state = {
+	id = 439
+	name = "STATE_WT_439"
+	manpower = 8230031
+	state_category = megalopolis
+	resources = {
+		tungsten = 6
+	}
+
+	history = {
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 7
+			air_base = 3
+		}
+		victory_points = { 2668 10 }
+		victory_points = { 2678 13 }
+		victory_points = { 2679 3 }
+	}
+
+	provinces = {
+		2664 2665 2666 2667 2668 2669 2670 2671 2672 2673 2674 2675 2676 2677 2678 2679 2680
+	}
+}

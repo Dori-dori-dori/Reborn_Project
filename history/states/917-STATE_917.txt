@@ -1,0 +1,28 @@
+state = {
+	id = 917
+	name = "STATE_WT_917"
+	manpower = 2410668
+	state_category = small_island
+	resources = {
+		tungsten = 7
+	}
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			5838 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5844 1 }
+		victory_points = { 5845 3 }
+		victory_points = { 5847 2 }
+	}
+
+	provinces = {
+		5838 5841 5842 5844 5845 5846 5847 5848
+	}
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 498
+	name = "STATE_WT_498"
+	manpower = 3075557
+	state_category = large_town
+
+	history = {
+		owner = CHA
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 1
+			3014 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 3015 1 }
+		victory_points = { 3016 7 }
+	}
+
+	provinces = {
+		3014 3015 3016 3017 3018
+	}
+}

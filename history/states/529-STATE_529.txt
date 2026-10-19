@@ -1,0 +1,27 @@
+state = {
+	id = 529
+	name = "STATE_WT_529"
+	manpower = 2726385
+	state_category = large_town
+
+	history = {
+		owner = TEA
+		add_core_of = TEA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 1
+			3471 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 3190 6 }
+		victory_points = { 3191 2 }
+	}
+
+	provinces = {
+		3188 3189 3190 3191 3192 3471 3470 3472 3469
+	}
+}

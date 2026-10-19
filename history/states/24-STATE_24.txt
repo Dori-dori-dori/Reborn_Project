@@ -1,0 +1,28 @@
+state = {
+	id = 24
+	name = "STATE_WT_24"
+	manpower = 2847458
+	state_category = town
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			156 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 157 1 }
+		victory_points = { 158 1 }
+		victory_points = { 159 6 }
+	}
+
+	provinces = {
+		156 157 158 159 160
+	}
+}

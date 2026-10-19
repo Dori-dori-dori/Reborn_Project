@@ -1,0 +1,24 @@
+state = {
+	id = 311
+	name = "STATE_WT_311"
+	manpower = 1761450
+	state_category = rural
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 1965 2 }
+		victory_points = { 1966 2 }
+	}
+
+	provinces = {
+		1965 1966 1967
+	}
+}

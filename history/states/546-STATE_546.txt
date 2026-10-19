@@ -1,0 +1,32 @@
+state = {
+	id = 546
+	name = "STATE_WT_546"
+	manpower = 5585585
+	state_category = metropolis
+	resources = {
+		tungsten = 3
+	}
+
+	history = {
+		owner = TEA
+		add_core_of = TEA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 6
+			dockyard = 3
+			air_base = 3
+			3328 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 3327 3 }
+		victory_points = { 3328 2 }
+		victory_points = { 3333 11 }
+		victory_points = { 3336 1 }
+	}
+
+	provinces = {
+		3327 3328 3329 3330 3331 3332 3333 3334 3335 3336 3337
+	}
+}

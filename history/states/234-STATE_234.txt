@@ -1,0 +1,23 @@
+state = {
+	id = 234
+	name = "STATE_WT_234"
+	manpower = 3248340
+	state_category = large_town
+
+	history = {
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 1549 8 }
+		victory_points = { 1554 2 }
+	}
+
+	provinces = {
+		1549 1550 1551 1552 1553 1554
+	}
+}

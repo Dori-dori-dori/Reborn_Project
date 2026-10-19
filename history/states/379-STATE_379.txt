@@ -1,0 +1,23 @@
+state = {
+	id = 379
+	name = "STATE_WT_379"
+	manpower = 865574
+	state_category = pastoral
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2329 2 }
+	}
+
+	provinces = {
+		2329
+	}
+}

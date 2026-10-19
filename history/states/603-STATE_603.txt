@@ -1,0 +1,27 @@
+state = {
+	id = 603
+	name = "STATE_WT_603"
+	manpower = 3814561
+	state_category = large_town
+	resources = {
+		tungsten = 3
+	}
+
+	history = {
+		owner = KFC
+		add_core_of = KFC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 3750 2 }
+		victory_points = { 3751 2 }
+		victory_points = { 3755 7 }
+	}
+
+	provinces = {
+		3749 3750 3751 3752 3753 3754 3755 3756
+	}
+}

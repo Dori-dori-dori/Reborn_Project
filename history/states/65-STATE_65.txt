@@ -1,0 +1,20 @@
+state = {
+	id = 65
+	name = "STATE_WT_65"
+	manpower = 849301
+	state_category = pastoral
+
+	history = {
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 413 3 }
+	}
+
+	provinces = {
+		413
+	}
+}

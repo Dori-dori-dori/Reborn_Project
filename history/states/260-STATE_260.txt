@@ -1,0 +1,23 @@
+state = {
+	id = 260
+	name = "STATE_WT_260"
+	manpower = 4412874
+	state_category = city
+
+	history = {
+		owner = FUT
+		add_core_of = FUT
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
+		}
+		victory_points = { 1712 9 }
+		victory_points = { 1715 4 }
+	}
+
+	provinces = {
+		1712 1713 1714 1715 1716 1717 1718 1719 1720
+	}
+}

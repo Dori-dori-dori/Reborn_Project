@@ -1,0 +1,28 @@
+state = {
+	id = 565
+	name = "STATE_WT_565"
+	manpower = 1599868
+	state_category = rural
+	resources = {
+		tungsten = 4
+	}
+
+	history = {
+		owner = MEM
+		add_core_of = MEM
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			3473 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 3473 1 }
+		victory_points = { 3474 2 }
+	}
+
+	provinces = {
+		3473 3474 3475 3478
+	}
+}

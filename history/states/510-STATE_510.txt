@@ -1,0 +1,27 @@
+state = {
+	id = 510
+	name = "STATE_WT_510"
+	manpower = 1355515
+	state_category = rural
+	resources = {
+		tungsten = 6
+	}
+
+	history = {
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			3080 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 3081 3 }
+	}
+
+	provinces = {
+		3080 3081
+	}
+}

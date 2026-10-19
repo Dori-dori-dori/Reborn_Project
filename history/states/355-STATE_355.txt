@@ -1,0 +1,21 @@
+state = {
+	id = 355
+	name = "STATE_WT_355"
+	manpower = 1626516
+	state_category = rural
+
+	history = {
+		owner = XYD
+		add_core_of = XYD
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2196 2 }
+		victory_points = { 2197 2 }
+	}
+
+	provinces = {
+		2196 2197 2198
+	}
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 886
+	name = "STATE_WT_886"
+	manpower = 1942242
+	state_category = rural
+
+	history = {
+		owner = ADF
+		add_core_of = ADF
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			5639 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5640 3 }
+		victory_points = { 5641 1 }
+	}
+
+	provinces = {
+		5639 5640 5641 5642
+	}
+}

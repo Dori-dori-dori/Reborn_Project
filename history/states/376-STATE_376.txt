@@ -1,0 +1,23 @@
+state = {
+	id = 376
+	name = "STATE_WT_376"
+	manpower = 2984049
+	state_category = town
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 2311 1 }
+		victory_points = { 2312 7 }
+	}
+
+	provinces = {
+		2311 2312 2313 2314 2315 2316
+	}
+}

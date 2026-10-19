@@ -1,0 +1,27 @@
+state = {
+	id = 393
+	name = "STATE_WT_393"
+	manpower = 2114416
+	state_category = town
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			2392 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 2390 1 }
+		victory_points = { 2393 3 }
+	}
+
+	provinces = {
+		2390 2391 2392 2393
+	}
+}

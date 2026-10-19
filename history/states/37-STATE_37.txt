@@ -1,0 +1,24 @@
+state = {
+	id = 37
+	name = "STATE_WT_37"
+	manpower = 3594647
+	state_category = large_town
+
+	history = {
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 224 3 }
+		victory_points = { 225 3 }
+		victory_points = { 227 3 }
+	}
+
+	provinces = {
+		224 225 226 227 228 230
+	}
+}

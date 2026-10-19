@@ -1,0 +1,23 @@
+state = {
+	id = 348
+	name = "STATE_WT_348"
+	manpower = 4679768
+	state_category = city
+
+	history = {
+		owner = NIG
+		add_core_of = NIG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
+		}
+		victory_points = { 2152 9 }
+		victory_points = { 2154 4 }
+	}
+
+	provinces = {
+		2150 2151 2152 2153 2154 2155 2156 2157 2158
+	}
+}

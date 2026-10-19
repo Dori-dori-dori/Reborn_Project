@@ -1,0 +1,23 @@
+state = {
+	id = 80
+	name = "STATE_WT_80"
+	manpower = 613020
+	state_category = pastoral
+	resources = {
+		tungsten = 4
+	}
+
+	history = {
+		owner = DAC
+		add_core_of = DAC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 523 2 }
+	}
+
+	provinces = {
+		523
+	}
+}

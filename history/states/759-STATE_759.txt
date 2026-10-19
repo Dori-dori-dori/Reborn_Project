@@ -1,0 +1,23 @@
+state = {
+	id = 759
+	name = "STATE_WT_759"
+	manpower = 1066305
+	state_category = pastoral
+	resources = {
+		tungsten = 3
+	}
+
+	history = {
+		owner = NYA
+		add_core_of = NYA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 4826 2 }
+	}
+
+	provinces = {
+		4825 4826
+	}
+}

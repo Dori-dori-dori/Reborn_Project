@@ -1,0 +1,24 @@
+state = {
+	id = 369
+	name = "STATE_WT_369"
+	manpower = 1776235
+	state_category = rural
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2276 2 }
+		victory_points = { 2277 3 }
+	}
+
+	provinces = {
+		2275 2276 2277
+	}
+}

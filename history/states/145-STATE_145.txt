@@ -1,0 +1,23 @@
+state = {
+	id = 145
+	name = "STATE_WT_145"
+	manpower = 3348807
+	state_category = large_town
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 972 6 }
+		victory_points = { 973 3 }
+	}
+
+	provinces = {
+		969 970 971 972 973 974 975
+	}
+}

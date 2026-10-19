@@ -1,0 +1,23 @@
+state = {
+	id = 702
+	name = "STATE_WT_702"
+	manpower = 1856189
+	state_category = rural
+	resources = {
+		tungsten = 7
+	}
+
+	history = {
+		owner = MEM
+		add_core_of = MEM
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 4444 4 }
+	}
+
+	provinces = {
+		4443 4444 4445
+	}
+}

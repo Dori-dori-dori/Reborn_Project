@@ -1,0 +1,23 @@
+state = {
+	id = 270
+	name = "STATE_WT_270"
+	manpower = 2959430
+	state_category = large_town
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 1778 4 }
+		victory_points = { 1779 4 }
+	}
+
+	provinces = {
+		1775 1776 1777 1778 1779 1780
+	}
+}

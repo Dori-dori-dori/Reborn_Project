@@ -1,0 +1,27 @@
+state = {
+	id = 776
+	name = "STATE_WT_776"
+	manpower = 7181713
+	state_category = metropolis
+	resources = {
+		tungsten = 6
+	}
+
+	history = {
+		owner = IDK
+		add_core_of = IDK
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 6
+			air_base = 3
+		}
+		victory_points = { 4927 3 }
+		victory_points = { 4931 2 }
+		victory_points = { 4935 16 }
+	}
+
+	provinces = {
+		4926 4927 4928 4929 4930 4931 4932 4933 4934 4935 4936 4937 4938 4939 4940
+	}
+}

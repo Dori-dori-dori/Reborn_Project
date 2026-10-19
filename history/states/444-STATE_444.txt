@@ -1,0 +1,30 @@
+state = {
+	id = 444
+	name = "STATE_WT_444"
+	manpower = 4846006
+	state_category = large_city
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 5
+			dockyard = 3
+			air_base = 2
+			2713 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 2709 3 }
+		victory_points = { 2710 1 }
+		victory_points = { 2713 7 }
+		victory_points = { 2715 1 }
+		victory_points = { 2716 1 }
+	}
+
+	provinces = {
+		2709 2710 2711 2712 2713 2714 2715 2716 2717 2718
+	}
+}

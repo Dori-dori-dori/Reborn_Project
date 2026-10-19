@@ -1,0 +1,20 @@
+state = {
+	id = 320
+	name = "STATE_WT_320"
+	manpower = 914283
+	state_category = rural
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2013 3 }
+	}
+
+	provinces = {
+		2013
+	}
+}

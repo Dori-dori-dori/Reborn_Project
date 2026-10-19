@@ -1,0 +1,33 @@
+state = {
+	id = 52
+	name = "STATE_WT_52"
+	manpower = 5825641
+	state_category = metropolis
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = CHC
+		add_core_of = CHC
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 6
+			dockyard = 3
+			air_base = 3
+			313 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 309 1 }
+		victory_points = { 314 1 }
+		victory_points = { 316 2 }
+		victory_points = { 318 4 }
+		victory_points = { 319 10 }
+	}
+
+	provinces = {
+		309 310 311 312 313 314 315 316 317 318 319 320
+	}
+}

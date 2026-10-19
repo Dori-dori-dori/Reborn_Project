@@ -1,0 +1,23 @@
+state = {
+	id = 361
+	name = "STATE_WT_361"
+	manpower = 1637547
+	state_category = rural
+	resources = {
+		tungsten = 4
+	}
+
+	history = {
+		owner = FUT
+		add_core_of = FUT
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2230 4 }
+	}
+
+	provinces = {
+		2230 2232
+	}
+}

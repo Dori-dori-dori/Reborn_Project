@@ -1,0 +1,20 @@
+state = {
+	id = 217
+	name = "STATE_WT_217"
+	manpower = 819809
+	state_category = pastoral
+
+	history = {
+		owner = FUT
+		add_core_of = FUT
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 1441 2 }
+	}
+
+	provinces = {
+		1441
+	}
+}

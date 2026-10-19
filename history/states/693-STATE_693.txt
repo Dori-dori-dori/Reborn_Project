@@ -1,0 +1,20 @@
+state = {
+	id = 693
+	name = "STATE_WT_693"
+	manpower = 1497040
+	state_category = rural
+
+	history = {
+		owner = PDS
+		add_core_of = PDS
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 4387 3 }
+	}
+
+	provinces = {
+		4387 4388 4389
+	}
+}

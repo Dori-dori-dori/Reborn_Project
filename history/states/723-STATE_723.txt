@@ -1,0 +1,27 @@
+state = {
+	id = 723
+	name = "STATE_WT_723"
+	manpower = 5600227
+	state_category = large_city
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = MEM
+		add_core_of = MEM
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 2
+		}
+		victory_points = { 4581 12 }
+		victory_points = { 4585 2 }
+		victory_points = { 4589 2 }
+	}
+
+	provinces = {
+		4580 4581 4582 4583 4584 4585 4586 4587 4588 4589 4590
+	}
+}

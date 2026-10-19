@@ -1,0 +1,27 @@
+state = {
+	id = 612
+	name = "STATE_WT_612"
+	manpower = 2746187
+	state_category = town
+	resources = {
+		tungsten = 6
+	}
+
+	history = {
+		owner = SSG
+		add_core_of = SSG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 3819 1 }
+		victory_points = { 3820 3 }
+		victory_points = { 3821 1 }
+	}
+
+	provinces = {
+		3818 3819 3820 3821 3822
+	}
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 741
+	name = "STATE_WT_741"
+	manpower = 2448422
+	state_category = town
+
+	history = {
+		owner = SSG
+		add_core_of = SSG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			4273 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 4273 2 }
+		victory_points = { 4692 1 }
+		victory_points = { 4693 4 }
+		victory_points = { 4695 1 }
+	}
+
+	provinces = {
+		4273 4691 4692 4693 4694 4695
+	}
+}

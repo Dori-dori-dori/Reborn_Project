@@ -1,0 +1,24 @@
+state = {
+	id = 921
+	name = "STATE_WT_921"
+	manpower = 957635
+	state_category = pastoral
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			5859 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5860 2 }
+	}
+
+	provinces = {
+		5859 5860
+	}
+}

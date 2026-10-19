@@ -1,0 +1,27 @@
+state = {
+	id = 337
+	name = "STATE_WT_337"
+	manpower = 4243908
+	state_category = city
+	resources = {
+		tungsten = 6
+	}
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
+		}
+		victory_points = { 2099 2 }
+		victory_points = { 2101 1 }
+		victory_points = { 2106 9 }
+	}
+
+	provinces = {
+		2099 2100 2101 2102 2103 2104 2105 2106
+	}
+}

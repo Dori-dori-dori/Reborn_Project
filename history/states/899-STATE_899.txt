@@ -1,0 +1,23 @@
+state = {
+	id = 899
+	name = "STATE_WT_899"
+	manpower = 101361
+	state_category = pastoral
+	resources = {
+		tungsten = 7
+	}
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 3 1 }
+	}
+
+	provinces = {
+		3 4
+	}
+}

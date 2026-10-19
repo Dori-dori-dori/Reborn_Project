@@ -1,0 +1,20 @@
+state = {
+	id = 283
+	name = "STATE_WT_283"
+	manpower = 1543473
+	state_category = rural
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 1830 3 }
+	}
+
+	provinces = {
+		1829 1830 1831
+	}
+}

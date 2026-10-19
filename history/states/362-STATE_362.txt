@@ -1,0 +1,25 @@
+state = {
+	id = 362
+	name = "STATE_WT_362"
+	manpower = 5631831
+	state_category = metropolis
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = CHA
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 6
+			air_base = 3
+		}
+		victory_points = { 2240 18 }
+	}
+
+	provinces = {
+		2233 2234 2235 2236 2237 2238 2239 2240 2241 2242 2243
+	}
+}

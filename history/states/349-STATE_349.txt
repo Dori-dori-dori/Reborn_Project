@@ -1,0 +1,23 @@
+state = {
+	id = 349
+	name = "STATE_WT_349"
+	manpower = 3287950
+	state_category = large_town
+
+	history = {
+		owner = CHC
+		add_core_of = CHC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 2159 5 }
+		victory_points = { 2164 5 }
+	}
+
+	provinces = {
+		2159 2160 2161 2162 2163 2164
+	}
+}

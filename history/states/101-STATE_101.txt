@@ -1,0 +1,20 @@
+state = {
+	id = 101
+	name = "STATE_WT_101"
+	manpower = 1747008
+	state_category = rural
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 675 4 }
+	}
+
+	provinces = {
+		675 676 677
+	}
+}

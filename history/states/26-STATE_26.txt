@@ -1,0 +1,28 @@
+state = {
+	id = 26
+	name = "STATE_WT_26"
+	manpower = 1477871
+	state_category = rural
+	resources = {
+		tungsten = 7
+	}
+
+	history = {
+		owner = CHA
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			164 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 164 2 }
+		victory_points = { 166 1 }
+	}
+
+	provinces = {
+		164 165 166
+	}
+}

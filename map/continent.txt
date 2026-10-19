@@ -1,11 +1,4 @@
 continents = {
-	#Custom continents
-	Reborn_Islands
-	Edenium
-	Libium
-	
-	
-	#Vanilla continents kept in for compatibility. Removing them breaks a lot of references to them
 	europe
 	north_america
 	south_america
@@ -13,4 +6,5 @@ continents = {
 	africa
 	asia
 	middle_east
+	default_continent
 }

@@ -1,0 +1,26 @@
+state = {
+	id = 321
+	name = "STATE_WT_321"
+	manpower = 2374708
+	state_category = town
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = FUT
+		add_core_of = FUT
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 2014 1 }
+		victory_points = { 2017 6 }
+	}
+
+	provinces = {
+		2014 2015 2016 2017
+	}
+}

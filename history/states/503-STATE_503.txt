@@ -1,0 +1,22 @@
+state = {
+	id = 503
+	name = "STATE_WT_503"
+	manpower = 6986638
+	state_category = megalopolis
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 7
+			air_base = 3
+		}
+		victory_points = { 3043 1 }
+	}
+
+	provinces = {
+		3043 3044 3046 3048 3051 3053
+	}
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 567
+	name = "STATE_WT_567"
+	manpower = 3344718
+	state_category = town
+
+	history = {
+		owner = PDS
+		add_core_of = PDS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 3481 1 }
+		victory_points = { 3482 6 }
+		victory_points = { 3484 2 }
+	}
+
+	provinces = {
+		3480 3481 3482 3483 3484 3485 3486
+	}
+}

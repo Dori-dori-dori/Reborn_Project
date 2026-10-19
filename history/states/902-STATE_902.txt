@@ -1,0 +1,30 @@
+state = {
+	id = 902
+	name = "STATE_WT_902"
+	manpower = 3385046
+	state_category = large_town
+	resources = {
+		tungsten = 4
+	}
+
+	history = {
+		owner = NIG
+		add_core_of = NIG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 1
+			5828 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5718 2 }
+		victory_points = { 5719 7 }
+	}
+
+	provinces = {
+		5715 5716 5717 5718 5719 5720 5721 5828 5825
+	}
+}

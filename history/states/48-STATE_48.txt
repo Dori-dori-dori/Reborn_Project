@@ -1,0 +1,27 @@
+state = {
+	id = 48
+	name = "STATE_WT_48"
+	manpower = 248712
+	state_category = pastoral
+	resources = {
+		tungsten = 3
+	}
+
+	history = {
+		owner = XYD
+		add_core_of = XYD
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			297 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 297 1 }
+	}
+
+	provinces = {
+		297
+	}
+}

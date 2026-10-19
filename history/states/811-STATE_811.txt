@@ -1,0 +1,23 @@
+state = {
+	id = 811
+	name = "STATE_WT_811"
+	manpower = 6472399
+	state_category = metropolis
+
+	history = {
+		owner = ADF
+		add_core_of = ADF
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 6
+			air_base = 3
+		}
+		victory_points = { 5191 16 }
+		victory_points = { 5197 3 }
+	}
+
+	provinces = {
+		5191 5192 5193 5194 5195 5196 5197 5198 5200 5201 5202 5203
+	}
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 484
+	name = "STATE_WT_484"
+	manpower = 2356538
+	state_category = town
+
+	history = {
+		owner = FUT
+		add_core_of = FUT
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 2939 3 }
+		victory_points = { 2941 4 }
+	}
+
+	provinces = {
+		2939 2940 2941 2942
+	}
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 437
+	name = "STATE_WT_437"
+	manpower = 4707084
+	state_category = city
+
+	history = {
+		owner = GUL
+		add_core_of = GUL
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
+		}
+		victory_points = { 2649 10 }
+		victory_points = { 2650 2 }
+		victory_points = { 2656 2 }
+	}
+
+	provinces = {
+		2649 2650 2651 2652 2653 2654 2655 2656 2657
+	}
+}

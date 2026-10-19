@@ -1,0 +1,28 @@
+state = {
+	id = 59
+	name = "STATE_WT_59"
+	manpower = 6473660
+	state_category = megalopolis
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 7
+			dockyard = 4
+			air_base = 3
+			365 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 365 9 }
+		victory_points = { 366 2 }
+		victory_points = { 367 9 }
+	}
+
+	provinces = {
+		359 360 361 362 363 365 366 367 368 369 370 371
+	}
+}

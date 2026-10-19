@@ -1,0 +1,21 @@
+state = {
+	id = 491
+	name = "STATE_WT_491"
+	manpower = 1219361
+	state_category = rural
+
+	history = {
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2977 1 }
+		victory_points = { 2978 2 }
+	}
+
+	provinces = {
+		2977 2978
+	}
+}

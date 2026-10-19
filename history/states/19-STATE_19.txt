@@ -1,0 +1,25 @@
+state = {
+	id = 19
+	name = "STATE_WT_19"
+	manpower = 1995393
+	state_category = town
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = DAC
+		add_core_of = DAC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 131 5 }
+	}
+
+	provinces = {
+		128 129 130 131
+	}
+}

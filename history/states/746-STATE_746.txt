@@ -1,0 +1,23 @@
+state = {
+	id = 746
+	name = "STATE_WT_746"
+	manpower = 2888720
+	state_category = town
+
+	history = {
+		owner = NYA
+		add_core_of = NYA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 4729 2 }
+		victory_points = { 4731 4 }
+	}
+
+	provinces = {
+		4726 4727 4728 4729 4730 4731
+	}
+}

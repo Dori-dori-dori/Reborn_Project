@@ -1,0 +1,23 @@
+state = {
+	id = 448
+	name = "STATE_WT_448"
+	manpower = 1645598
+	state_category = rural
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2738 4 }
+	}
+
+	provinces = {
+		2736 2737 2738
+	}
+}

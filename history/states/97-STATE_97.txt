@@ -1,0 +1,27 @@
+state = {
+	id = 97
+	name = "STATE_WT_97"
+	manpower = 3401655
+	state_category = large_town
+
+	history = {
+		owner = CHC
+		add_core_of = CHC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 1
+			647 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 647 9 }
+		victory_points = { 653 1 }
+	}
+
+	provinces = {
+		647 648 649 650 651 652 653
+	}
+}

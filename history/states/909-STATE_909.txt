@@ -1,0 +1,27 @@
+state = {
+	id = 909
+	name = "STATE_WT_909"
+	manpower = 2526313
+	state_category = town
+
+	history = {
+		owner = NIG
+		add_core_of = NIG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			5769 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5770 3 }
+		victory_points = { 5772 4 }
+	}
+
+	provinces = {
+		5769 5770 5771 5772 5773
+	}
+}

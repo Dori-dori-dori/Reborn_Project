@@ -1,0 +1,31 @@
+state = {
+	id = 852
+	name = "STATE_WT_852"
+	manpower = 2690770
+	state_category = town
+	resources = {
+		tungsten = 4
+	}
+
+	history = {
+		owner = NYA
+		add_core_of = NYA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			5439 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5438 3 }
+		victory_points = { 5439 2 }
+		victory_points = { 5440 2 }
+	}
+
+	provinces = {
+		5438 5439 5440 5441 5442
+	}
+}

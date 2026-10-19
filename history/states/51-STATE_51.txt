@@ -1,0 +1,20 @@
+state = {
+	id = 51
+	name = "STATE_WT_51"
+	manpower = 626525
+	state_category = pastoral
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 308 2 }
+	}
+
+	provinces = {
+		308
+	}
+}

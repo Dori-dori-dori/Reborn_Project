@@ -1,0 +1,25 @@
+state = {
+	id = 185
+	name = "STATE_WT_185"
+	manpower = 4857156
+	state_category = large_city
+
+	history = {
+		owner = BLI
+		add_core_of = BLI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 2
+		}
+		victory_points = { 1227 1 }
+		victory_points = { 1232 7 }
+		victory_points = { 1233 1 }
+		victory_points = { 1234 7 }
+	}
+
+	provinces = {
+		1227 1228 1229 1230 1231 1232 1233 1234 1235 1236
+	}
+}

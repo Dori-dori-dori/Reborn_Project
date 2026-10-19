@@ -1,0 +1,23 @@
+state = {
+	id = 736
+	name = "STATE_WT_736"
+	manpower = 1066225
+	state_category = pastoral
+	resources = {
+		tungsten = 6
+	}
+
+	history = {
+		owner = SSG
+		add_core_of = SSG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 4663 3 }
+	}
+
+	provinces = {
+		4663
+	}
+}

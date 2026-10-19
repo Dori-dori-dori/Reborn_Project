@@ -1,0 +1,21 @@
+state = {
+	id = 730
+	name = "STATE_WT_730"
+	manpower = 1340218
+	state_category = rural
+
+	history = {
+		owner = ADF
+		add_core_of = ADF
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 4624 2 }
+		victory_points = { 4625 2 }
+	}
+
+	provinces = {
+		4624 4625
+	}
+}

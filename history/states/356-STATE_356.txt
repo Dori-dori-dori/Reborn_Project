@@ -1,0 +1,24 @@
+state = {
+	id = 356
+	name = "STATE_WT_356"
+	manpower = 2186634
+	state_category = rural
+	resources = {
+		tungsten = 3
+	}
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2200 2 }
+		victory_points = { 2202 2 }
+	}
+
+	provinces = {
+		2199 2200 2201 2202
+	}
+}

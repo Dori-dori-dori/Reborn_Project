@@ -1,0 +1,26 @@
+state = {
+	id = 126
+	name = "STATE_WT_126"
+	manpower = 3294588
+	state_category = large_town
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = BLI
+		add_core_of = BLI
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 848 5 }
+		victory_points = { 849 5 }
+	}
+
+	provinces = {
+		847 848 849 850 851 852
+	}
+}

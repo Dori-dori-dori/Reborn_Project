@@ -1,0 +1,23 @@
+state = {
+	id = 302
+	name = "STATE_WT_302"
+	manpower = 3986518
+	state_category = city
+
+	history = {
+		owner = CHA
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
+		}
+		victory_points = { 1917 6 }
+		victory_points = { 1918 5 }
+	}
+
+	provinces = {
+		1915 1916 1917 1918 1919 1921 1922
+	}
+}

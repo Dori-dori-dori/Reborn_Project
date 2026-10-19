@@ -1,0 +1,24 @@
+state = {
+	id = 366
+	name = "STATE_WT_366"
+	manpower = 3130190
+	state_category = large_town
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 2262 2 }
+		victory_points = { 2265 4 }
+		victory_points = { 2266 2 }
+	}
+
+	provinces = {
+		2262 2263 2264 2265 2266 2267
+	}
+}

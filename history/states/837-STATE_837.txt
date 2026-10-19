@@ -1,0 +1,25 @@
+state = {
+	id = 837
+	name = "STATE_WT_837"
+	manpower = 1704476
+	state_category = rural
+
+	history = {
+		owner = SSG
+		add_core_of = SSG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			5341 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5342 1 }
+		victory_points = { 5343 3 }
+	}
+
+	provinces = {
+		5341 5342 5343
+	}
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 747
+	name = "STATE_WT_747"
+	manpower = 1331513
+	state_category = rural
+	resources = {
+		tungsten = 4
+	}
+
+	history = {
+		owner = ADF
+		add_core_of = ADF
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			4732 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 4732 3 }
+	}
+
+	provinces = {
+		4732 4733
+	}
+}

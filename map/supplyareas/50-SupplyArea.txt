@@ -1,0 +1,8 @@
+supply_area={
+	id=50
+	name="SUPPLYAREA_WT_50"
+	value=10
+	states={
+		736 737 738 739 740 741 742 743 744 745 746 747 748 749 750
+	}
+}

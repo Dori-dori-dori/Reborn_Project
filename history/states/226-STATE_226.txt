@@ -1,0 +1,27 @@
+state = {
+	id = 226
+	name = "STATE_WT_226"
+	manpower = 2081986
+	state_category = town
+
+	history = {
+		owner = CHC
+		add_core_of = CHC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			1503 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 1504 2 }
+		victory_points = { 1505 4 }
+	}
+
+	provinces = {
+		1503 1504 1505 1506
+	}
+}

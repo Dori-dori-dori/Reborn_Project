@@ -1,0 +1,24 @@
+state = {
+	id = 180
+	name = "STATE_WT_180"
+	manpower = 3703142
+	state_category = large_town
+
+	history = {
+		owner = BLI
+		add_core_of = BLI
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 1196 4 }
+		victory_points = { 1197 4 }
+		victory_points = { 1199 2 }
+	}
+
+	provinces = {
+		1194 1195 1196 1197 1198 1199 1200
+	}
+}

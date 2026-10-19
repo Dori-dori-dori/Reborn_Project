@@ -1,0 +1,20 @@
+state = {
+	id = 309
+	name = "STATE_WT_309"
+	manpower = 1039100
+	state_category = rural
+
+	history = {
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 1959 2 }
+	}
+
+	provinces = {
+		1959 1960
+	}
+}

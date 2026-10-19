@@ -1,0 +1,24 @@
+state = {
+	id = 15
+	name = "STATE_WT_15"
+	manpower = 5658864
+	state_category = large_city
+
+	history = {
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 2
+		}
+		victory_points = { 90 2 }
+		victory_points = { 92 3 }
+		victory_points = { 93 12 }
+	}
+
+	provinces = {
+		90 91 92 93 94 95 96 97 98 99 100 101
+	}
+}

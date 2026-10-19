@@ -1,0 +1,23 @@
+state = {
+	id = 729
+	name = "STATE_WT_729"
+	manpower = 2864886
+	state_category = town
+
+	history = {
+		owner = ADF
+		add_core_of = ADF
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 4620 1 }
+		victory_points = { 4621 6 }
+	}
+
+	provinces = {
+		4618 4619 4620 4621 4622 4623
+	}
+}

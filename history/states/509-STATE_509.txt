@@ -1,0 +1,23 @@
+state = {
+	id = 509
+	name = "STATE_WT_509"
+	manpower = 2689458
+	state_category = town
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 3075 3 }
+		victory_points = { 3076 4 }
+	}
+
+	provinces = {
+		3075 3076 3077 3078 3079
+	}
+}

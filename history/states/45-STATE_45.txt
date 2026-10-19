@@ -1,0 +1,20 @@
+state = {
+	id = 45
+	name = "STATE_WT_45"
+	manpower = 1410013
+	state_category = rural
+
+	history = {
+		owner = FUT
+		add_core_of = FUT
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 274 3 }
+	}
+
+	provinces = {
+		273 274
+	}
+}

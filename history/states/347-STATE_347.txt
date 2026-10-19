@@ -1,0 +1,22 @@
+state = {
+	id = 347
+	name = "STATE_WT_347"
+	manpower = 2019360
+	state_category = rural
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2146 1 }
+		victory_points = { 2147 1 }
+		victory_points = { 2148 3 }
+	}
+
+	provinces = {
+		2146 2147 2148 2149
+	}
+}

@@ -1,0 +1,31 @@
+state = {
+	id = 22
+	name = "STATE_WT_22"
+	manpower = 5927946
+	state_category = metropolis
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 6
+			dockyard = 3
+			air_base = 3
+			147 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 140 2 }
+		victory_points = { 142 9 }
+		victory_points = { 148 9 }
+	}
+
+	provinces = {
+		140 141 142 143 144 145 147 148 149 150 151
+	}
+}

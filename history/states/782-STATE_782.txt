@@ -1,0 +1,30 @@
+state = {
+	id = 782
+	name = "STATE_WT_782"
+	manpower = 6869276
+	state_category = metropolis
+	resources = {
+		tungsten = 3
+	}
+
+	history = {
+		owner = IDK
+		add_core_of = IDK
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 6
+			dockyard = 3
+			air_base = 3
+			4979 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 4981 9 }
+		victory_points = { 4987 9 }
+	}
+
+	provinces = {
+		4978 4979 4980 4981 4982 4983 4984 4985 4986 4987 4988 4989 4990 4991
+	}
+}

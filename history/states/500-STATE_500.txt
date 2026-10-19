@@ -1,0 +1,27 @@
+state = {
+	id = 500
+	name = "STATE_WT_500"
+	manpower = 3721270
+	state_category = city
+	resources = {
+		tungsten = 3
+	}
+
+	history = {
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
+		}
+		victory_points = { 3025 1 }
+		victory_points = { 3026 3 }
+		victory_points = { 3028 8 }
+	}
+
+	provinces = {
+		3023 3024 3025 3026 3027 3028 3029
+	}
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 508
+	name = "STATE_WT_508"
+	manpower = 2655796
+	state_category = town
+
+	history = {
+		owner = XYD
+		add_core_of = XYD
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 3070 3 }
+		victory_points = { 3073 3 }
+	}
+
+	provinces = {
+		3070 3071 3072 3073 3074
+	}
+}

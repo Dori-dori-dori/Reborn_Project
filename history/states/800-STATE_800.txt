@@ -1,0 +1,32 @@
+state = {
+	id = 800
+	name = "STATE_WT_800"
+	manpower = 9008217
+	state_category = megalopolis
+	resources = {
+		tungsten = 6
+	}
+
+	history = {
+		owner = KFC
+		add_core_of = KFC
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 7
+			dockyard = 4
+			air_base = 3
+			5101 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 5108 3 }
+		victory_points = { 5110 4 }
+		victory_points = { 5113 4 }
+		victory_points = { 5117 15 }
+	}
+
+	provinces = {
+		5100 5101 5102 5103 5104 5105 5106 5108 5109 5110 5111 5112 5113 5114 5115 5116 5117 5118
+	}
+}

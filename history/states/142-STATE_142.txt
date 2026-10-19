@@ -1,0 +1,31 @@
+state = {
+	id = 142
+	name = "STATE_WT_142"
+	manpower = 5722148
+	state_category = metropolis
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 6
+			dockyard = 3
+			air_base = 3
+			940 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 940 13 }
+		victory_points = { 942 1 }
+		victory_points = { 944 3 }
+	}
+
+	provinces = {
+		939 940 941 942 944 945 946 947 948
+	}
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 881
+	name = "STATE_WT_881"
+	manpower = 1665675
+	state_category = rural
+	resources = {
+		tungsten = 3
+	}
+
+	history = {
+		owner = ADF
+		add_core_of = ADF
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 5613 2 }
+		victory_points = { 5615 2 }
+	}
+
+	provinces = {
+		5613 5614 5615
+	}
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 318
+	name = "STATE_WT_318"
+	manpower = 2910920
+	state_category = large_town
+	resources = {
+		tungsten = 6
+	}
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 2001 5 }
+		victory_points = { 2004 3 }
+	}
+
+	provinces = {
+		2000 2001 2002 2003 2004 2005
+	}
+}

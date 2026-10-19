@@ -1,0 +1,8 @@
+supply_area={
+	id=41
+	name="SUPPLYAREA_WT_41"
+	value=10
+	states={
+		601 602 603 604 605 606 607 608 609 610 611 612 613 614 615
+	}
+}

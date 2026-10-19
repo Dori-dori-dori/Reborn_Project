@@ -1,0 +1,25 @@
+state = {
+	id = 642
+	name = "STATE_WT_642"
+	manpower = 4510781
+	state_category = large_town
+
+	history = {
+		owner = IDK
+		add_core_of = IDK
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 4030 1 }
+		victory_points = { 4031 8 }
+		victory_points = { 4032 1 }
+		victory_points = { 4038 1 }
+	}
+
+	provinces = {
+		4030 4031 4032 4033 4034 4035 4036 4037 4038
+	}
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 247
+	name = "STATE_WT_247"
+	manpower = 1620880
+	state_category = rural
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = GUL
+		add_core_of = GUL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			1623 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 1622 2 }
+		victory_points = { 1623 2 }
+	}
+
+	provinces = {
+		1622 1623 1624
+	}
+}

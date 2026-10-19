@@ -1,0 +1,25 @@
+state = {
+	id = 563
+	name = "STATE_WT_563"
+	manpower = 1518811
+	state_category = rural
+
+	history = {
+		owner = TEA
+		add_core_of = TEA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			3457 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 3458 2 }
+		victory_points = { 3459 2 }
+	}
+
+	provinces = {
+		3457 3458 3459
+	}
+}

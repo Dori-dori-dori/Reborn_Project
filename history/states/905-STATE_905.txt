@@ -1,0 +1,30 @@
+state = {
+	id = 905
+	name = "STATE_WT_905"
+	manpower = 4737805
+	state_category = megalopolis
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = NIG
+		add_core_of = NIG
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 7
+			dockyard = 4
+			air_base = 3
+			5745 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 5744 6 }
+		victory_points = { 5745 8 }
+	}
+
+	provinces = {
+		5737 5738 5739 5740 5741 5742 5743 5744 5745 5805
+	}
+}

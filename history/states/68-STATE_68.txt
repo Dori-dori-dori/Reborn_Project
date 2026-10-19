@@ -1,0 +1,31 @@
+state = {
+	id = 68
+	name = "STATE_WT_68"
+	manpower = 7830738
+	state_category = megalopolis
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 7
+			dockyard = 4
+			air_base = 3
+			431 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 430 6 }
+		victory_points = { 438 10 }
+		victory_points = { 439 10 }
+	}
+
+	provinces = {
+		430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445
+	}
+}

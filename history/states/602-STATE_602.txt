@@ -1,0 +1,24 @@
+state = {
+	id = 602
+	name = "STATE_WT_602"
+	manpower = 1554503
+	state_category = rural
+
+	history = {
+		owner = IDK
+		add_core_of = IDK
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			3746 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 3748 3 }
+	}
+
+	provinces = {
+		3746 3747 3748
+	}
+}

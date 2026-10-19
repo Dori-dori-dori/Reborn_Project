@@ -1,0 +1,25 @@
+state = {
+	id = 292
+	name = "STATE_WT_292"
+	manpower = 1621725
+	state_category = rural
+
+	history = {
+		owner = CHA
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			1875 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 1875 2 }
+		victory_points = { 1876 1 }
+	}
+
+	provinces = {
+		1875 1876 1877
+	}
+}

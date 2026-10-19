@@ -1,0 +1,8 @@
+supply_area={
+	id=55
+	name="SUPPLYAREA_WT_55"
+	value=10
+	states={
+		811 812 813 814 815 816 817 818 819 820 821 822 823 824 825
+	}
+}

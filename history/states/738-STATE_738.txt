@@ -1,0 +1,25 @@
+state = {
+	id = 738
+	name = "STATE_WT_738"
+	manpower = 1871862
+	state_category = rural
+
+	history = {
+		owner = ADF
+		add_core_of = ADF
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			4680 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 4680 3 }
+		victory_points = { 4682 1 }
+	}
+
+	provinces = {
+		4680 4681 4682
+	}
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 280
+	name = "STATE_WT_280"
+	manpower = 3637255
+	state_category = large_town
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 1
+			1817 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 1815 4 }
+		victory_points = { 1816 4 }
+		victory_points = { 1818 2 }
+	}
+
+	provinces = {
+		1814 1815 1816 1817 1818 1819 1820
+	}
+}

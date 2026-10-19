@@ -1,0 +1,24 @@
+state = {
+	id = 317
+	name = "STATE_WT_317"
+	manpower = 1406440
+	state_category = rural
+	resources = {
+		tungsten = 6
+	}
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 1998 1 }
+		victory_points = { 1999 2 }
+	}
+
+	provinces = {
+		1998 1999
+	}
+}

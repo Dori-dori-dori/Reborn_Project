@@ -1,0 +1,26 @@
+state = {
+	id = 269
+	name = "STATE_WT_269"
+	manpower = 2346964
+	state_category = town
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 1771 1 }
+		victory_points = { 1773 6 }
+	}
+
+	provinces = {
+		1771 1772 1773 1774
+	}
+}

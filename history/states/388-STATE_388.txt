@@ -1,0 +1,27 @@
+state = {
+	id = 388
+	name = "STATE_WT_388"
+	manpower = 5760929
+	state_category = metropolis
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 6
+			dockyard = 3
+			air_base = 3
+			2366 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 2364 15 }
+		victory_points = { 2368 3 }
+	}
+
+	provinces = {
+		2361 2362 2363 2364 2365 2366 2367 2368 2369 2370 2371 2372
+	}
+}

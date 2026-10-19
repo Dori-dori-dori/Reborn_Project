@@ -1,0 +1,24 @@
+state = {
+	id = 134
+	name = "STATE_WT_134"
+	manpower = 3153293
+	state_category = large_town
+
+	history = {
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		victory_points = { 885 4 }
+		victory_points = { 886 1 }
+		victory_points = { 890 4 }
+	}
+
+	provinces = {
+		885 886 887 888 889 890
+	}
+}

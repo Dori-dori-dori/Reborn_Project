@@ -1,0 +1,24 @@
+state = {
+	id = 299
+	name = "STATE_WT_299"
+	manpower = 1374754
+	state_category = rural
+
+	history = {
+		owner = GUL
+		add_core_of = GUL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			1906 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 1907 3 }
+	}
+
+	provinces = {
+		1906 1907
+	}
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 429
+	name = "STATE_WT_429"
+	manpower = 1698085
+	state_category = rural
+	resources = {
+		tungsten = 3
+	}
+
+	history = {
+		owner = DAC
+		add_core_of = DAC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2594 3 }
+		victory_points = { 2595 1 }
+	}
+
+	provinces = {
+		2593 2594 2595
+	}
+}

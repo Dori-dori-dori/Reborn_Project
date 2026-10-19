@@ -1,0 +1,23 @@
+state = {
+	id = 421
+	name = "STATE_WT_421"
+	manpower = 2626913
+	state_category = town
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 2549 1 }
+		victory_points = { 2552 5 }
+	}
+
+	provinces = {
+		2548 2549 2550 2551 2552
+	}
+}

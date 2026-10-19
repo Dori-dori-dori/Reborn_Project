@@ -1,0 +1,23 @@
+state = {
+	id = 456
+	name = "STATE_WT_456"
+	manpower = 2646137
+	state_category = town
+
+	history = {
+		owner = BLI
+		add_core_of = BLI
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 2787 5 }
+		victory_points = { 2789 3 }
+	}
+
+	provinces = {
+		2787 2788 2789 2790 2791
+	}
+}

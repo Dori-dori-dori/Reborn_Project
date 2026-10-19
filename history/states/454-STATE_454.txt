@@ -1,0 +1,20 @@
+state = {
+	id = 454
+	name = "STATE_WT_454"
+	manpower = 1281389
+	state_category = rural
+
+	history = {
+		owner = TOX
+		add_core_of = TOX
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2775 4 }
+	}
+
+	provinces = {
+		2775 2776
+	}
+}

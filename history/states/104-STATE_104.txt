@@ -1,0 +1,23 @@
+state = {
+	id = 104
+	name = "STATE_WT_104"
+	manpower = 6030999
+	state_category = metropolis
+
+	history = {
+		owner = MET
+		add_core_of = MET
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 6
+			air_base = 3
+		}
+		victory_points = { 697 15 }
+		victory_points = { 701 3 }
+	}
+
+	provinces = {
+		692 693 694 695 696 697 698 699 700 701 702 703
+	}
+}

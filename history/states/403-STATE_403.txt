@@ -1,0 +1,23 @@
+state = {
+	id = 403
+	name = "STATE_WT_403"
+	manpower = 962759
+	state_category = rural
+	resources = {
+		tungsten = 7
+	}
+
+	history = {
+		owner = GUL
+		add_core_of = GUL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2453 2 }
+	}
+
+	provinces = {
+		2452 2453
+	}
+}

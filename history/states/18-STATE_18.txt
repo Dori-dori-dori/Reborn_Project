@@ -1,0 +1,24 @@
+state = {
+	id = 18
+	name = "STATE_WT_18"
+	manpower = 4183577
+	state_category = city
+
+	history = {
+		owner = OKS
+		add_core_of = OKS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
+		}
+		victory_points = { 121 2 }
+		victory_points = { 123 8 }
+		victory_points = { 124 2 }
+	}
+
+	provinces = {
+		120 121 122 123 124 125 126 127
+	}
+}

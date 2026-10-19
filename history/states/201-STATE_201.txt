@@ -1,0 +1,24 @@
+state = {
+	id = 201
+	name = "STATE_WT_201"
+	manpower = 2683421
+	state_category = town
+
+	history = {
+		owner = GUL
+		add_core_of = GUL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 1322 4 }
+		victory_points = { 1323 2 }
+		victory_points = { 1324 2 }
+	}
+
+	provinces = {
+		1322 1323 1324 1325 1326
+	}
+}

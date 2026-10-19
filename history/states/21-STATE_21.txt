@@ -1,0 +1,20 @@
+state = {
+	id = 21
+	name = "STATE_WT_21"
+	manpower = 1084688
+	state_category = rural
+
+	history = {
+		owner = GUL
+		add_core_of = GUL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 138 3 }
+	}
+
+	provinces = {
+		138 139
+	}
+}

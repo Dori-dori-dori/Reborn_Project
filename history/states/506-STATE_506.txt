@@ -1,0 +1,26 @@
+state = {
+	id = 506
+	name = "STATE_WT_506"
+	manpower = 2228220
+	state_category = town
+
+	history = {
+		owner = DAC
+		add_core_of = DAC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			3065 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 3065 6 }
+	}
+
+	provinces = {
+		3063 3065
+	}
+}

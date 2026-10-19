@@ -1,0 +1,23 @@
+state = {
+	id = 857
+	name = "STATE_WT_857"
+	manpower = 2166581
+	state_category = rural
+	resources = {
+		tungsten = 4
+	}
+
+	history = {
+		owner = IDK
+		add_core_of = IDK
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 5467 4 }
+	}
+
+	provinces = {
+		4866 5464 5465 5466 5467
+	}
+}
