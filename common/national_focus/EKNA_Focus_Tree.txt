@@ -881,7 +881,7 @@
 		id = NYA_COM_First_Intergation_Policy
 		icon = GFX_focus_generic_court
 		cost = 5
-		x = x
+		x = 0
 		y = 1
 		relative_position_id = NYA_COM_Look_Inside
 		prerequisite = { focus = NYA_COM_Look_Inside }

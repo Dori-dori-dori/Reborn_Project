@@ -1,2 +1,82 @@
-add_namespace = BULEMP
+add_namespace = BLI_crisis
+
+# 1. Стартовый ивент: Активация восстания сразу в начале игры (Только для BLI)
+country_event = {
+	id = BLI_crisis.1
+	title = BLI_crisis.1.t
+	desc = BLI_crisis.1.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = BLI
+	}
+
+	option = {
+		name = BLI_crisis.1.a
+		set_country_flag = rebellion_crisis_active
+		custom_effect_tooltip = rebellion_crisis_activated_tt
+	}
+}
+
+# 2. Таймер истёк: Вооружённый мятеж вспыхнул! (Civil War)
+country_event = {
+	id = BLI_crisis.2
+	title = BLI_crisis.2.t
+	desc = BLI_crisis.2.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = BLI
+	}
+
+	option = {
+		name = BLI_crisis.2.a
+		clr_country_flag = rebellion_crisis_active
+		start_civil_war = {
+			ruling_party = neutrality
+			ideology = communism
+			size = 0.45
+		}
+	}
+}
+
+# 3. Успешная ликвидация восстания
+country_event = {
+	id = BLI_crisis.3
+	title = BLI_crisis.3.t
+	desc = BLI_crisis.3.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = BLI
+	}
+
+	option = {
+		name = rBLI_crisis.3.a
+		clr_country_flag = rebellion_crisis_active
+		add_political_power = 100
+		add_stability = 0.15
+	}
+}
+country_event = {
+	id = BLI_crisis.4
+	title = BLI_crisis.4.t
+	desc = BLI_crisis.4.d
+    picture = GFX_report_event_german_reichstag_gathering
+
+	is_triggered_only = yes
+
+	option = {
+		name = BLI_crisis.4.a
+			add_political_power = 50
+			add_stability = -0.05
+	}
+}
+
 

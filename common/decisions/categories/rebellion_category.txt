@@ -1,0 +1,16 @@
+# Decision Category for Rebellion / Crisis
+# STRICTLY EXCLUSIVE TO COUNTRY BLI ONLY
+rebellion_crisis_category = {
+	icon = GFX_decision_category_rebellion
+	picture = GFX_decision_cat_picture_rebellion
+	priority = 100
+
+	allowed = {
+		tag = BLI
+	}
+
+	visible = {
+		tag = BLI
+		has_country_flag = rebellion_crisis_active
+	}
+}

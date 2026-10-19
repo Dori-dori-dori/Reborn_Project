@@ -1,0 +1,157 @@
+rebellion_crisis_category = {
+	# Mission Countdown Timer in this category (Exclusively for BLI)
+	rebellion_countdown_mission = {
+		icon = GFX_decision_rebellion_danger
+		allowed = { tag = BLI }
+		available = { has_country_flag = rebellion_crisis_off }
+		visible = {
+			tag = BLI
+			has_country_flag = rebellion_crisis_active
+		}
+		days_mission_timeout = 60
+		is_good = no
+		fire_only_once = no
+
+		timeout_effect = {
+			country_event = { id = rebellion_crisis.2 }
+		}
+	}
+
+	# Decision: Вооружённое подавление: направить армию (Only for BLI)
+	suppress_with_weapons = {
+		icon = GFX_decision_rifle
+		allowed = { tag = BLI }
+		visible = {
+			tag = BLI
+			has_country_flag = rebellion_crisis_active
+		}
+		available = {
+		has_equipment = { infantry_equipment > 1000 }
+		has_manpower > 5000
+		}
+		cost = 25
+		fire_only_once = no
+		days_re_enable = 20
+
+		complete_effect = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -1000
+		}
+		add_manpower = -5000
+		add_days_mission_timeout = {
+			mission = rebellion_countdown_mission
+			days = 45
+		}
+		add_stability = -0.05
+		add_war_support = 0.05
+		custom_effect_tooltip = suppress_with_weapons_effect_tt
+		}
+	}
+
+	# Decision: Потратить политическую власть: переговоры и компромисс (Only for BLI)
+	spend_political_power = {
+		icon = GFX_decision_political_power
+		allowed = { tag = BLI }
+		visible = {
+			tag = BLI
+			has_country_flag = rebellion_crisis_active
+		}
+		available = {
+			always = yes
+		}
+		cost = 75
+		fire_only_once = no
+		days_re_enable = 14
+
+		complete_effect = {
+		add_days_mission_timeout = {
+			mission = rebellion_countdown_mission
+			days = 30
+		}
+		add_stability = 0.05
+		custom_effect_tooltip = spend_political_power_effect_tt
+		}
+	}
+
+	# Decision: Ввести комендантский час и арестовать зачинщиков (Only for BLI)
+	martial_law_and_arrests = {
+		icon = GFX_decision_police
+		allowed = { tag = BLI }
+		visible = {
+			tag = BLI
+			has_country_flag = rebellion_crisis_active
+		}
+		available = {
+		has_equipment = { infantry_equipment > 300 }
+		has_manpower > 2000
+		}
+		cost = 40
+		fire_only_once = no
+		days_re_enable = 15
+
+		complete_effect = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -300
+		}
+		add_manpower = -2000
+		add_days_mission_timeout = {
+			mission = rebellion_countdown_mission
+			days = 25
+		}
+		add_stability = -0.02
+		custom_effect_tooltip = martial_law_and_arrests_effect_tt
+		}
+	}
+
+	# Decision: Экстренная продовольственная помощь и субсидии (Only for BLI)
+	economic_relief_concessions = {
+		icon = GFX_decision_money
+		allowed = { tag = BLI }
+		visible = {
+			tag = BLI
+			has_country_flag = rebellion_crisis_active
+		}
+		available = {
+			always = yes
+		}
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 25
+
+		complete_effect = {
+		add_days_mission_timeout = {
+			mission = rebellion_countdown_mission
+			days = 35
+		}
+		add_stability = 0.08
+		custom_effect_tooltip = economic_relief_concessions_effect_tt
+		}
+	}
+
+	# Decision: Рейд на тайные арсеналы повстанцев (Only for BLI)
+	raid_secret_armories = {
+		icon = GFX_decision_investigation
+		allowed = { tag = BLI }
+		visible = {
+			tag = BLI
+			has_country_flag = rebellion_crisis_active
+		}
+		available = {
+			always = yes
+		}
+		cost = 30
+		fire_only_once = no
+		days_re_enable = 18
+
+		complete_effect = {
+		add_days_mission_timeout = {
+			mission = rebellion_countdown_mission
+			days = 20
+		}
+		add_stability = 0.02
+		custom_effect_tooltip = raid_secret_armories_effect_tt
+		}
+	}
+}
